@@ -77,9 +77,31 @@
 
 ### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
 
-*Sem limite de palavras – usar template do curso*
+### Ameaças
 
-*Registre na matriz os riscos identificados no projeto.*
+| ID  | Ameaça | Descrição | Probabilidade | Impacto | Justificativa da Pontuação | Ação de Mitigação |
+|-----|--------|----------|---------------|---------|-----------------------------|-------------------|
+| A01 | Interface pouco intuitiva | Compreensão difícil da View do site | Média | Alta | Probabilidade média pois depende de experiência do cliente com tecnologia, impacto alto pois afeta diretamente a experiência e tempo gasto | Ajustar duração com testes de usuário |
+| A02 | Confusão com tela inicial | Usuário não compreende dinâmica, interface da tela inicial | Média | Alta | Muitos sites falham nisso, impacto alto pois define o usuário pode ficar insatisfeito com a perda de tempo | Testes de usabilidade e simplificação |
+| A03 | Queda do servidor | Limitações de infraestrutura | Baixa | Alta | Baixa probabilidade por ser incomum a queda de um servidor estável, impacto alto pois é crítico o funcionamento | Ter um servidor estável |
+| A04 | Falta de acessibilidade | Exclusão de parte dos usuários | Média | Média | Necessidade importante de inclusão, impacto relevante em inclusão | Aplicar princípios básicos de UX |
+| A05 | Baixa satisfação com o Design | Visual, Áudio, Animação desagrádavel | Alta | Média | Alta probabilidade devido à subjetividade , Média importância com a satisfação do usuário | Adicionar visuais, sons, animações agrádaveis |
+| A06 | Falha de segurança | Baixa proteção dos dados, processo de verificação | Média | Alta | Probabilidade média de acordo com as medidas estabelecidas, impacto alto por quebra de confiança com o usuário e empresa | Estabelecer diversas medidas de proteção de dados, segurança |
+| A07 | Atraso no projeto | Entrega fora do prazo | Média | Alta | Comum em projetos de software, impacto alto para avaliação e cliente | Planejamento e acompanhamento |
+| A08 | Interpretação incorreta | Usuário entende errado as possíveis interações | Alta | Alta | Alta probabilidade em sites B2B devido ao gasto de tempo, impacto direto no uso do site | Reforçar feedback interativo |
+| A09 | Bugs críticos | Quebra da experiência do site | Alta | Alta | Muito comum em desenvolvimento, impacto direto na usabilidade | Testes frequentes |
+| A10 | Problemas com assets | Questões visuais e de desempenho | Média | Média | Pode ocorrer mas é controlável, impacto moderado | Otimização e padronização |
+| A11 | Desalinhamento com Defesa Cívil | Produto não atende expectativas | Média | Alta | Probabilidade média sem validação contínua, impacto alto no sucesso do projeto | Reuniões frequentes |
+| A12 | Baixa adesão do público | Usuários não se interessam pelo jogo | Média | Alta | Público pode não buscar reutilizar o site, impacto alto na utilidade | Testes com usuários |
+| A13 | Conteúdo pouco confiável | Informações superficiais ou inválidas | Baixa | Alta | Pode ser evitado, mas impacto alto na credibilidade | Revisão com fontes providas pela Defesa Cívil |
+| A14 | Falta de integração | Dificuldade com canais da Cobasi | Média | Média | Integração não é trivial, impacto moderado | Planejar integrações |
+| A15 | Valor pouco claro | Usuário não entende o benefício | Média | Média | Comum em produtos novos, impacto médio | Melhorar comunicação |
+| A16 | Escopo descontrolado | Crescimento excessivo do projeto | Alta | Média | Muito comum em jogos, impacto médio pois afeta prazo | Definir escopo claro |
+| A17 | Dependência da equipe | Poucas pessoas concentram conhecimento | Média | Média | Probabilidade média, impacto moderado | Documentação e divisão de tarefas |
+
+---
+
+### Critério de Priorização
 
 ## 2.2. Personas (sprint 1)
 
