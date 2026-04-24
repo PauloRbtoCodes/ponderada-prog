@@ -96,7 +96,7 @@
 | A13 | Conteúdo pouco confiável | Informações superficiais ou inválidas | Baixa | Alta | Pode ser evitado, mas impacto alto na credibilidade | Revisão com fontes providas pela Defesa Cívil |
 | A14 | Falta de integração | Dificuldade com canais da Cobasi | Média | Média | Integração não é trivial, impacto moderado | Planejar integrações |
 | A15 | Valor pouco claro | Usuário não entende o benefício | Média | Média | Comum em produtos novos, impacto médio | Melhorar comunicação |
-| A16 | Escopo descontrolado | Crescimento excessivo do projeto | Alta | Média | Muito comum em jogos, impacto médio pois afeta prazo | Definir escopo claro |
+| A16 | Desalinhamento de objetivo | Crescimento desordenado do projeto | Alta | Média | Muito comum em desenvolvimento, impacto médio pois afeta prazo | Definir escopo, objetivo claro |
 | A17 | Dependência da equipe | Poucas pessoas concentram conhecimento | Média | Média | Probabilidade média, impacto moderado | Documentação e divisão de tarefas |
 
 ---

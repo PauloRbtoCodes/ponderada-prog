@@ -10,27 +10,29 @@
 
 ## :student: Integrantes
 
-- <a href="https://www.linkedin.com/">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/">Nome do integrante 3</a>
-- <a href="https://www.linkedin.com/">Nome do integrante 4</a>
-- <a href="https://www.linkedin.com/">Nome do integrante 5</a>
-- <a href="https://www.linkedin.com/">Nome do integrante 6</a>
-- <a href="https://www.linkedin.com/">Nome do integrante 7</a>
+- <a href="https://www.linkedin.com/in/ricardo-nelken-77153a3a9/">Ricardo Nelken</a>
+- <a href="https://www.linkedin.com/in/paulo-roberto-amorim/">Paulo Roberto Amorim de Sousa</a>
+- <a href="https://www.linkedin.com/in/rodriguesgabrieleng/?locale=pt">Gabriel Rodrigues</a>
+- <a href="https://www.linkedin.com/in/guilherme-d-elia-251855272/">Guilherme D'Elia</a>
+- <a href="https://www.linkedin.com/in/isaac-nicolas-alves-da-silva-9787592a4/">Isaac Nicolas Alves da Silva</a>
+- <a href="https://www.linkedin.com/in/lucaslevivaz/">Lucas Levi Vaz</a>
+- <a href="https://www.linkedin.com/in/anita-fratelli-258398314/">Anita Fratelli</a>
+- <a href="https://www.linkedin.com/in/gabrielly-mendes-bb94683b9/">Gabrielly Mendes</a>
+
 
 ## :teacher: Professores
 
 ### Orientador(a)
 
-- <a href="https://www.linkedin.com/">Nome do professor 1</a>
+- <a href="https://www.linkedin.com/in/camilanarantes/">Camila Naves Arantes</a>
 
 ### Instrutores
 
-- <a href="https://www.linkedin.com/">Nome do professor 2</a>
-- <a href="https://www.linkedin.com/">Nome do professor 3</a>
-- <a href="https://www.linkedin.com/">Nome do professor 4</a>
-- <a href="https://www.linkedin.com/">Nome do professor 5</a>
-- <a href="https://www.linkedin.com/">Nome do professor 6</a>
+- <a href="https://www.linkedin.com/in/bruna-mayer/">Bruna Mayer Costa</a>
+- <a href="https://www.linkedin.com/in/profclaudioandre/">Claudio Fernando Ándre</a>
+- <a href="https://www.linkedin.com/in/crishna-irion-phd-7b5aa311/">Crishna Irion</a>
+- <a href="https://www.linkedin.com/in/fabiocassiosouza/">Fabio Cassio Souza</a>
+- <a href="https://www.linkedin.com/in/henrique-mohallem-paiva-6854b460/">Henrique Mohallem Paiva</a>
 
 ## 📝 Descrição
 
