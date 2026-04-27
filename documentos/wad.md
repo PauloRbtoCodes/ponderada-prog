@@ -160,8 +160,21 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 
 | ID    | Descrição | Prioridade | Status       |
 |-------|-----------|------------|--------------|
-| RF001 | ...       | Alta       | Implementado |
-| RF002 | ...       | Média      | Planejado    |
+| RF001 | Cadastro de Indivíduos: Permitir o registro de pessoas com campos biográficos e socioeconômicos. | Alta | Planejado |
+| RF002 | Verificação de Duplicidade: Impedir registros duplicados via back-end comparando chaves únicas (ex: CPF ou NIS). | Alta | Planejado |
+| RF003 | Atualização de Dados: Permitir a edição de informações de um cadastro já existente via ID único. | Alta | Planejado |
+| RF004 | Visualização Detalhada: Retornar todos os dados e metadados vinculados a um registro selecionado. | Alta | Planejado |
+| RF005 | Busca e Filtros: Localizar registros por meio de filtros como nome, documento ou status de vulnerabilidade. | Alta | Planejado |
+| RF006 | Inativação (Soft Delete): Desativar um cadastro (flag active: false) sem removê-lo fisicamente do banco de dados. | Média | Planejado |
+| RF007 | Exclusão Definitiva (Hard Delete): Remoção física e permanente de registros para conformidade estrita com a LGPD. | Média | Planejado |
+| RF008 | Auditoria (Logs): Registrar quem criou, editou ou visualizou cada dado, com timestamp e ID do operador. | Alta | Planejado |
+| RF009 | Anonimização de Dados: Gerar bases de dados sem identificação nominal para criação de dashboards e estatísticas. | Média | Planejado |
+| RF010 | Controle de Acesso (RBAC): Restringir o acesso a endpoints e campos sensíveis com base no perfil do usuário logado. | Alta | Planejado |
+| RF011 | Sanitização/Padronização: Normalizar inputs (remover máscaras de telefone, CPF, etc.) antes da persistência no banco. | Média | Planejado |
+| RF012 | Gestão de Completude: Permitir salvar cadastros parciais, sinalizando registros com campos obrigatórios pendentes. | Média | Planejado |
+| RF013 | Vínculo Familiar: Agrupar diferentes registros de indivíduos sob um mesmo código ou UUID de núcleo familiar. | Alta | Planejado |
+| RF014 | Gestão de Documentos: Permitir o upload e vinculação de arquivos (fotos/PDFs/comprovantes) ao registro do indivíduo. | Média | Planejado |
+| RF015 | Busca por Semelhança (Fuzzy): Tratar acentuação e caracteres especiais nas buscas para garantir o retorno de nomes similares. | Baixa | Planejado |
 
 ### 3.1.2. Regras de Negócio (sprint 1, refinar até sprint 5)
 
