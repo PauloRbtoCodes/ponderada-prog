@@ -156,34 +156,48 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 
 ### 3.1.1. Requisitos Funcionais (sprint 1, refinar até sprint 5)
 
-*Liste os RF numerados de forma objetiva e verificável. Cada RF deve poder ser convertido em caso de teste.*
-
 | ID    | Descrição | Prioridade | Status       |
 |-------|-----------|------------|--------------|
-| RF001 | Cadastro de Indivíduos: Permitir o registro de pessoas com campos biográficos e socioeconômicos. | Alta | Planejado |
-| RF002 | Verificação de Duplicidade: Impedir registros duplicados via back-end comparando chaves únicas (ex: CPF ou NIS). | Alta | Planejado |
-| RF003 | Atualização de Dados: Permitir a edição de informações de um cadastro já existente via ID único. | Alta | Planejado |
-| RF004 | Visualização Detalhada: Retornar todos os dados e metadados vinculados a um registro selecionado. | Alta | Planejado |
-| RF005 | Busca e Filtros: Localizar registros por meio de filtros como nome, documento ou status de vulnerabilidade. | Alta | Planejado |
-| RF006 | Inativação (Soft Delete): Desativar um cadastro (flag active: false) sem removê-lo fisicamente do banco de dados. | Média | Planejado |
-| RF007 | Exclusão Definitiva (Hard Delete): Remoção física e permanente de registros para conformidade estrita com a LGPD. | Média | Planejado |
-| RF008 | Auditoria (Logs): Registrar quem criou, editou ou visualizou cada dado, com timestamp e ID do operador. | Alta | Planejado |
-| RF009 | Anonimização de Dados: Gerar bases de dados sem identificação nominal para criação de dashboards e estatísticas. | Média | Planejado |
-| RF010 | Controle de Acesso (RBAC): Restringir o acesso a endpoints e campos sensíveis com base no perfil do usuário logado. | Alta | Planejado |
-| RF011 | Sanitização/Padronização: Normalizar inputs (remover máscaras de telefone, CPF, etc.) antes da persistência no banco. | Média | Planejado |
-| RF012 | Gestão de Completude: Permitir salvar cadastros parciais, sinalizando registros com campos obrigatórios pendentes. | Média | Planejado |
-| RF013 | Vínculo Familiar: Agrupar diferentes registros de indivíduos sob um mesmo código ou UUID de núcleo familiar. | Alta | Planejado |
-| RF014 | Gestão de Documentos: Permitir o upload e vinculação de arquivos (fotos/PDFs/comprovantes) ao registro do indivíduo. | Média | Planejado |
-| RF015 | Busca por Semelhança (Fuzzy): Tratar acentuação e caracteres especiais nas buscas para garantir o retorno de nomes similares. | Baixa | Planejado |
+| RF001 | **Cadastro de Indivíduos:** Permitir o registro de pessoas com campos biográficos e socioeconômicos. | Alta | Planejado |
+| RF002 | **Verificação de Duplicidade:** Impedir registros duplicados via back-end comparando chaves únicas (ex: CPF ou NIS). | Alta | Planejado |
+| RF003 | **Atualização de Dados:** Permitir a edição de informações de um cadastro já existente via ID único. | Alta | Planejado |
+| RF004 | **Visualização Detalhada:** Retornar todos os dados e metadados vinculados a um registro selecionado. | Alta | Planejado |
+| RF005 | **Busca e Filtros:** Localizar registros por meio de filtros como nome, documento ou status de vulnerabilidade. | Alta | Planejado |
+| RF006 | **Inativação (Soft Delete):** Desativar um cadastro (flag active: false) sem removê-lo fisicamente do banco de dados. | Média | Planejado |
+| RF007 | **Exclusão Definitiva (Hard Delete):** Remoção física e permanente de registros para conformidade estrita com a LGPD. | Média | Planejado |
+| RF008 | **Auditoria (Logs):** Registrar quem criou, editou ou visualizou cada dado, com timestamp e ID do operador | Alta | Planejado |
+| RF009 | **Anonimização de Dados:** Gerar bases de dados sem identificação nominal para criação de dashboards e estatísticas. | Média | Planejado |
+| RF010 | **Controle de Acesso (RBAC):** Restringir o acesso a endpoints e campos sensíveis com base no perfil do usuário logado. | Alta | Planejado |
+| RF011 | **Sanitização/Padronização:** Normalizar inputs (remover máscaras de telefone, CPF, etc.) antes da persistência no banco. | Média | Planejado |
+| RF012 | **Gestão de Completude:** Permitir salvar cadastros parciais, sinalizando registros com campos obrigatórios pendentes. | Média | Planejado |
+| RF013 | **Vínculo Familiar:** Agrupar diferentes registros de indivíduos sob um mesmo código ou UUID de núcleo familiar. | Alta | Planejado |
+| RF014 | **Gestão de Documentos:** Permitir o upload e vinculação de arquivos (fotos/PDFs/comprovantes) ao registro do indivíduo. | Média | Planejado |
+| RF015 | **Busca por Semelhança (Fuzzy):** Tratar acentuação e caracteres especiais nas buscas para garantir o retorno de nomes similares. | Baixa | Planejado |
 
 ### 3.1.2. Regras de Negócio (sprint 1, refinar até sprint 5)
 
-*Numere e redija as RN de forma implementável e testável. Toda RN deve ter pelo menos um teste automatizado associado a partir da sprint 3.*
-
-| ID   | Descrição | RF associado |
-|------|-----------|--------------|
-| RN01 | ...       | RF001        |
-| RN02 | ...       | RF001        |
+| ID | Descrição da Regra de Negócio | Prioridade | RF Associado |
+|:---|:---|:---:|:---|
+| RN001 | **Unicidade de Identificação:** Não será permitido o cadastro de dois indivíduos com o mesmo número de CPF ou NIS ativos. | Alta | RF002 |
+| RN002 | **Maioridade para Responsável:** Apenas indivíduos com idade igual ou superior a 18 anos podem ser vinculados como "Responsável Familiar". | Alta | RF013 |
+| RN003 | **Imutabilidade de Logs:** Registros de auditoria não podem ser editados ou excluídos sob nenhuma circunstância. | Alta | RF008 |
+| RN004 | **Formato de Documentos:** O sistema deve aceitar apenas arquivos nos formatos PDF, JPG e PNG para uploads. | Média | RF014 |
+| RN005 | **Privacidade de Dados Sensíveis:** Campos de renda e saúde só devem ser visíveis para perfis autorizados (ex: Assistente Social). | Alta | RF010 |
+| RN006 | **Limite de Tamanho de Arquivo:** Cada documento anexado ao cadastro não pode exceder o tamanho máximo de 5MB. | Média | RF014 |
+| RN007 | **Inativação por Óbito:** Ao registrar óbito, o sistema deve encerrar automaticamente o vínculo do indivíduo no núcleo familiar. | Alta | RF006, RF013 |
+| RN008 | **Padronização de Strings:** Nomes de indivíduos devem ser salvos em CAIXA ALTA e sem acentuação para facilitar buscas. | Média | RF011 |
+| RN009 | **Persistência Limpa:** Números de documentos devem ser gravados apenas como dígitos numéricos (sem pontos ou traços). | Média | RF011 |
+| RN010 | **Justificativa de Exclusão:** Toda exclusão definitiva (Hard Delete) exige uma justificativa textual e senha de supervisor. | Alta | RF007 |
+| RN011 | **Status de Cadastro Pendente:** Registros sem documento de identificação ou endereço devem ter o status "Incompleto". | Média | RF012 |
+| RN012 | **Vínculo Familiar Único:** Um indivíduo não pode pertencer a dois núcleos familiares distintos simultaneamente. | Alta | RF013 |
+| RN013 | **Retenção de Logs:** Logs de visualização de dados sensíveis devem ser mantidos por no mínimo 5 anos. | Média | RF008 |
+| RN014 | **Anonimização Irreversível:** Dados nominais em bases estatísticas devem ser substituídos por hashes irreversíveis. | Alta | RF009 |
+| RN015 | **Bloqueio em Auditoria:** Registros sob processo de auditoria ficam bloqueados para edição até a liberação do revisor. | Baixa | RF003, RF008 |
+| RN016 | **Cálculo de Vulnerabilidade:** O status de vulnerabilidade deve considerar renda per capita familiar inferior ao limite legal. | Alta | RF005 |
+| RN017 | **Validação de CPF:** O sistema deve validar matematicamente o dígito verificador do CPF antes de salvar. | Alta | RF001, RF002 |
+| RN018 | **Busca Fonética:** A busca por semelhança deve retornar resultados foneticamente próximos (ex: Luiz e Luís). | Baixa | RF015 |
+| RN019 | **Alerta de Acesso:** Gerar log de alerta sempre que um usuário comum visualizar dados socioeconômicos restritos. | Média | RF004, RF008 |
+| RN020 | **Validação Cronológica:** O sistema deve impedir o registro de datas de nascimento futuras em relação à data atual. | Alta | RF001 |
 
 ### 3.1.3. Requisitos Não Funcionais — 8 Eixos ISO/IEC 25010 (sprints 1 a 5)
 
