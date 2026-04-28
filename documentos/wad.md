@@ -45,11 +45,25 @@ Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade 
 
 ## 2.1. Escopo do Projeto (sprints 1 e 4)
 
-### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
+### 2.1.1. Modelo de 5 Forças de Porter 
 
-*Preencha com até 400 palavras*
+#### Análise da Ameaça de Novos Entrantes
+ A ameaça de novos entrantes no contexto de soluções tecnológicas para a gestão pública de riscos é considerada moderada, devido às barreiras institucionais e técnicas envolvidas (Competitive Strategy, 2008). O desenvolvimento de sistemas como o GeoRisco exige conhecimento especializado em georreferenciamento, integração de dados e adequação a políticas públicas, como as diretrizes da Defesa Civil e do SUAS. Além disso, a entrada nesse setor envolve processos burocráticos e necessidade de validação institucional, dificultando a atuação de novos players.
+ Por outro lado, o crescimento de soluções GovTech e plataformas digitais voltadas ao setor público pode reduzir essas barreiras ao longo do tempo (Porter, 2008).
 
-*Posicione aqui o modelo de 5 Forças de Porter para sustentar o contexto da indústria.*
+ #### Análise da Ameaça de Produtos ou Serviços Substitutos
+ A ameaça de substitutos é considerada alta, pois a gestão de dados da Defesa Civil ainda pode ser realizada por meios alternativos, como planilhas, formulários físicos e sistemas não integrados (Porter, 2008). Esses métodos apresentam baixo custo e ampla adoção, especialmente em contextos com limitações tecnológicas.
+ Entretanto, tais substitutos possuem limitações significativas, como falta de integração, dificuldade de atualização em tempo real e baixa confiabilidade na consolidação das informações, o que compromete a tomada de decisão em situações emergenciais (Prefeitura de Santo André, 2026; Porter, 2008).
+
+ #### Análise da Rivalidade entre Concorrentes
+ A rivalidade entre concorrentes é baixa a moderada, pois não há competição direta no formato de mercado tradicional, mas sim a existência de soluções alternativas no setor público e tecnológico (Porter, 2008). A concorrência ocorre entre sistemas desenvolvidos por outras prefeituras, ferramentas genéricas de gestão de dados ou soluções privadas adaptáveis.
+ No entanto, essa rivalidade é limitada pela necessidade de customização e pela especificidade das demandas locais. Além disso, a ausência de uma plataforma integrada evidencia uma lacuna existente, reduzindo a pressão competitiva direta e reforçando a relevância do GeoRisco como solução inovadora (Prefeitura de Santo André, 2026).
+
+
+
+
+
+
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
