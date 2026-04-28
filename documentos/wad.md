@@ -34,25 +34,36 @@
 <br>
 
 
-# <a name="c1"></a>1. Introdução (sprints 1 a 5)
+# <a name="c1"></a>1. Introdução 
+A gestão de riscos e desastres em áreas urbanas é um desafio crescente, especialmente diante do aumento de eventos climáticos extremos e da presença de populações em áreas de vulnerabilidade. Nesse contexto, a Defesa Civil de Santo André enfrenta dificuldades relacionadas à descentralização das informações, uma vez que dados sobre cadastro de famílias, gestão de abrigos e logística humanitária estão distribuídos em sistemas não integrados ou até mesmo em registros físicos, comprometendo a eficiência das ações emergenciais.
+Diante desse cenário, surge a necessidade de uma solução capaz de centralizar e integrar essas informações. O projeto GeoRisco Santo André propõe o desenvolvimento de uma aplicação web georreferenciada que reúne, em uma única plataforma, o mapeamento socioestrutural de áreas de risco, a gestão de acolhimento em abrigos emergenciais e o controle da logística de assistência humanitária.
+A solução busca utilizar a tecnologia como ferramenta estratégica para apoiar a tomada de decisão, permitindo a identificação de perfis de vulnerabilidade, a priorização de atendimentos e a melhor alocação de recursos em situações de crise. Além disso, promove a integração entre diferentes setores da administração pública, contribuindo para uma atuação mais coordenada e eficiente.
+Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade de resposta do município, gerando valor público por meio da proteção de vidas e do aumento da resiliência urbana.
 
-*Preencha com até 300 palavras – sem necessidade de fonte*
-
-*Contextualize aqui a problemática trazida pelo parceiro de projeto.*
-
-*Descreva brevemente a solução desenvolvida para o parceiro de negócios. Descreva os aspectos essenciais para a criação de valor do produto, com o objetivo de ajudar a entender melhor a realidade do cliente e entregar uma solução que está alinhado com o que ele espera.*
-
-*Observe a seção 2 e verifique que ali é possível trazer mais detalhes, portanto seja objetivo aqui. Atualize esta descrição até a entrega final, conforme desenvolvimento.*
 
 # <a name="c2"></a>2. Visão Geral da Aplicação Web (sprint 1)
 
 ## 2.1. Escopo do Projeto (sprints 1 e 4)
 
-### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
+### 2.1.1. Modelo de 5 Forças de Porter 
 
-*Preencha com até 400 palavras*
+#### Análise da Ameaça de Novos Entrantes
+ A ameaça de novos entrantes no contexto de soluções tecnológicas para a gestão pública de riscos é considerada moderada, devido às barreiras institucionais e técnicas envolvidas (Competitive Strategy, 2008). O desenvolvimento de sistemas como o GeoRisco exige conhecimento especializado em georreferenciamento, integração de dados e adequação a políticas públicas, como as diretrizes da Defesa Civil e do SUAS. Além disso, a entrada nesse setor envolve processos burocráticos e necessidade de validação institucional, dificultando a atuação de novos players.
+ Por outro lado, o crescimento de soluções GovTech e plataformas digitais voltadas ao setor público pode reduzir essas barreiras ao longo do tempo (Porter, 2008).
 
-*Posicione aqui o modelo de 5 Forças de Porter para sustentar o contexto da indústria.*
+ #### Análise da Ameaça de Produtos ou Serviços Substitutos
+ A ameaça de substitutos é considerada alta, pois a gestão de dados da Defesa Civil ainda pode ser realizada por meios alternativos, como planilhas, formulários físicos e sistemas não integrados (Porter, 2008). Esses métodos apresentam baixo custo e ampla adoção, especialmente em contextos com limitações tecnológicas.
+ Entretanto, tais substitutos possuem limitações significativas, como falta de integração, dificuldade de atualização em tempo real e baixa confiabilidade na consolidação das informações, o que compromete a tomada de decisão em situações emergenciais (Prefeitura de Santo André, 2026; Porter, 2008).
+
+ #### Análise da Rivalidade entre Concorrentes
+ A rivalidade entre concorrentes é baixa a moderada, pois não há competição direta no formato de mercado tradicional, mas sim a existência de soluções alternativas no setor público e tecnológico (Porter, 2008). A concorrência ocorre entre sistemas desenvolvidos por outras prefeituras, ferramentas genéricas de gestão de dados ou soluções privadas adaptáveis.
+ No entanto, essa rivalidade é limitada pela necessidade de customização e pela especificidade das demandas locais. Além disso, a ausência de uma plataforma integrada evidencia uma lacuna existente, reduzindo a pressão competitiva direta e reforçando a relevância do GeoRisco como solução inovadora (Prefeitura de Santo André, 2026).
+
+
+
+
+
+
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
