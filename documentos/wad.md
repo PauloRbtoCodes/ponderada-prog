@@ -67,9 +67,14 @@ Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade 
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
-*Preencha com até 100 palavras – sem necessidade de fonte*
+<div align="center">
+  <p>Figura 1: Análise Swot</p>
+  <img src="outros/analise_swot.png" width="800">
+  <p>Feito pela própria equipe (2026)</p>
+</div>
 
-*Apresente uma visão geral da situação do parceiro com base na matriz SWOT (forças, fraquezas, oportunidades e ameaças). Foque na relação com os concorrentes e o posicionamento da instituição.*
+
+&ensp;A Defesa Civil de Santo André ocupa uma posição do único órgão municipal com mandato legal sobre gestão de riscos, não enfrenta concorrência direta, mas compete indiretamente com soluções privadas e plataformas de outros municípios na corrida pela digitalização emergencial. Suas forças, autoridade institucional, dados exclusivos e parceria com o Inteli, sustentam um posicionamento de vanguarda. Contudo, processos manuais, gargalos logísticos e resistência interna à digitalização fragilizam esse diferencial. As ameaças externas, como dependência de fornecedores e instabilidade orçamentária, podem erosar a liderança conquistada caso não sejam mitigadas estrategicamente. 
 
 ### 2.1.3. Solução (sprints 1 a 5)
 
