@@ -99,7 +99,7 @@ Abaixo, está apresentado o Canvas desenvolvido para o Departamento de Proteçã
 
 <div align="center">
 <sub>Figura 03 - Value Proposition Canvas</sub>
-<img src="./assets-wad/figura3-Canvas-proposta-valor.png" width="100%">
+<img src="../assets/figura3-Canvas-proposta-valor.png" width="100%">
 <sup>Fonte: Material produzido pelos autores (2026)</sup>
 </div>
 
