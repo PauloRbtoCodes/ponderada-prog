@@ -45,7 +45,10 @@ Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade 
 
 ## 2.1. Escopo do Projeto (sprints 1 e 4)
 
-### 2.1.1. Modelo de 5 Forças de Porter 
+### 2.1.1. Modelo de 5 Forças de Porter
+O Modelo das 5 Forças de Porter é uma ferramenta estratégica utilizada para analisar a estrutura competitiva de um setor, permitindo compreender os fatores que influenciam a competitividade e a criação de valor de uma solução (Porter, 2008). No contexto do projeto GeoRisco Santo André, a aplicação desse modelo possibilita avaliar não apenas a concorrência direta, mas também a influência de substitutos, fornecedores, clientes e possíveis novos entrantes no desenvolvimento e adoção da solução.
+
+Dessa forma, a análise das cinco forças contribui para identificar oportunidades e desafios no cenário da gestão pública de riscos, evidenciando como o projeto se posiciona estrategicamente diante das limitações atuais e das possibilidades de inovação no setor.
 
 #### Análise da Ameaça de Novos Entrantes
  A ameaça de novos entrantes no contexto de soluções tecnológicas para a gestão pública de riscos é considerada moderada, devido às barreiras institucionais e técnicas envolvidas (Competitive Strategy, 2008). O desenvolvimento de sistemas como o GeoRisco exige conhecimento especializado em georreferenciamento, integração de dados e adequação a políticas públicas, como as diretrizes da Defesa Civil e do SUAS. Além disso, a entrada nesse setor envolve processos burocráticos e necessidade de validação institucional, dificultando a atuação de novos players.
@@ -59,9 +62,12 @@ Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade 
  A rivalidade entre concorrentes é baixa a moderada, pois não há competição direta no formato de mercado tradicional, mas sim a existência de soluções alternativas no setor público e tecnológico (Porter, 2008). A concorrência ocorre entre sistemas desenvolvidos por outras prefeituras, ferramentas genéricas de gestão de dados ou soluções privadas adaptáveis.
  No entanto, essa rivalidade é limitada pela necessidade de customização e pela especificidade das demandas locais. Além disso, a ausência de uma plataforma integrada evidencia uma lacuna existente, reduzindo a pressão competitiva direta e reforçando a relevância do GeoRisco como solução inovadora (Prefeitura de Santo André, 2026).
 
+#### Análise do Poder de Barganha dos Clientes
+O poder de barganha do cliente é alto, pois a Defesa Civil será a única usuária da plataforma e terá influência direta sobre as funcionalidades do sistema. Como o projeto é desenvolvido especificamente para atender às demandas do órgão, a equipe pode exigir ajustes, melhorias e personalizações de acordo com sua operação.
 
-
-
+#### Análise do Poder de Barganha dos Fornecedores
+O poder de barganha dos fornecedores é moderado. Os principais fornecedores do projeto seriam serviços de hospedagem em nuvem, banco de dados, APIs e ferramentas de desenvolvimento, como Amazon Web Services, Google Cloud e Microsoft Azure.
+O projeto possui várias opções disponíveis no mercado, reduzindo a dependência de um único fornecedor. Por outro lado, caso o sistema utilize tecnologias muito específicas ou integrações mais complexas conforme o desenvolvimento, pode haver maior dependência técnica de determinados fornecedores, aumentando seu poder de negociação.
 
 
 
@@ -69,7 +75,7 @@ Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade 
 
 <div align="center">
   <p>Figura 1: Análise Swot</p>
-  <img src="outros/analise_swot.png" width="800">
+  <img src="../assets/analise_swot.png" width="800">
   <p>Feito pela própria equipe (2026)</p>
 </div>
 
@@ -85,10 +91,72 @@ A análise evidenciou que a Defesa Civil de Santo André detém monopólio legal
 5. Benefícios esperados
 6. Critério de sucesso e como será avaliado
 
-### 2.1.4. Value Proposition Canvas (sprint 1): 
-*Sem limite de palavras – usar template do curso*
+### 2.1.4. Value Proposition Canvas: 
 
-*Elaborar o Value Proposition Canvas com base na proposta de solução definida.*
+O Canvas de Proposta de Valor é um modelo amplamente utilizado para conectar as necessidades reais dos clientes à solução oferecida. Ele é dividido em dois quadrantes: à esquerda, a proposta de valor da solução; à direita, o perfil do cliente suas dores, tarefas e ganhos esperados.
+
+Abaixo, está apresentado o Canvas desenvolvido para o Departamento de Proteção e Defesa Civil de Santo André, representando como o GeoRisco Santo André se propõe a resolver os desafios de gestão de risco, acolhimento emergencial e logística humanitária. Em seguida, cada componente é descrito em detalhes.
+
+<div align="center">
+<sub>Figura 03 - Value Proposition Canvas</sub>
+<img src="./assets-wad/figura3-Canvas-proposta-valor.png" width="100%">
+<sup>Fonte: Material produzido pelos autores (2026)</sup>
+</div>
+
+#### PERFIL DO CLIENTE
+
+##### Trabalhos do Cliente
+
+Gerir emergências: Coordenar toda a resposta a desastres naturais e tecnológicos no município de Santo André, acionando protocolos de evacuação, abrigo e assistência humanitária de forma ágil e organizada.
+
+Cadastrar famílias: Registrar moradores de áreas de risco com dados socioestruturais completos, composição familiar, perfil de vulnerabilidade, doenças crônicas, animais de estimação e localização exata do imóvel.
+
+Coordenar abrigos: Controlar a entrada, permanência e saída de desabrigados nos centros de acolhimento emergencial, garantindo triagem de saúde, preenchimento do prontuário SUAS e gestão de vagas em tempo real.
+
+##### Dores
+
+Dados fragmentados: As informações de cadastro, abrigo e logística existem em papéis, planilhas e sistemas separados, sem integração. Isso torna impossível cruzar dados de geolocalização com perfis de vulnerabilidade no momento crítico da evacuação.
+
+Gargalo no acolhimento: Não há ferramenta unificada para realizar a triagem de saúde, registrar a composição familiar e identificar necessidades de assistência social no momento da chegada ao abrigo, gerando filas e perda de informação.
+
+Sem visão em tempo real: A ausência de uma interface única impede que gestores vejam o cenário de crise consolidado, dificultando o planejamento preventivo e a tomada de decisão durante eventos extremos.
+
+##### Ganhos
+
+Priorização de evacuação: Com dados cruzados de geolocalização e perfil de vulnerabilidade, a Defesa Civil consegue identificar imediatamente quais famílias: Idosos, crianças, gestantes, PCDs devem ser atendidas primeiro nos protocolos de evacuação.
+
+Visão consolidada: Todos os dados de campo, abrigo e logística acessíveis em uma única interface, permitindo que gestores acompanhem o cenário de crise em tempo real e ajustem recursos conforme a demanda evolui.
+
+Resiliência urbana: A capacidade de resposta mais eficiente a desastres fortalece a cidade como um todo, reduzindo impactos humanos e patrimoniais e contribuindo diretamente com os objetivos da Agenda 2030 da ONU.
+
+
+### PROPOSTA DE VALOR
+
+#### Produtos e Serviços
+
+ Módulo de campo: Aplicação otimizada para tablets e celulares usada pelos agentes em campo. Permite o cadastro completo de famílias com captura obrigatória de GPS, registro fotográfico do imóvel, identificação de vulnerabilidades e logística de emergência (animais, veículo, destino de evacuação).
+
+Módulo de abrigo: Ferramenta operacional para os centros de acolhimento. Realiza o check-in vinculado ao cadastro socioestrutural, preenche o prontuário SUAS, faz triagem multidisciplinar e controla as vagas disponíveis em tempo real.
+
+Módulo de logística: Painel administrativo para gestão de donativos (alimentos, higiene, medicamentos), controle de bens patrimoniais sob custódia da Defesa Civil e registro de animais resgatados, como pets e aves domésticas, com fichas de saúde e guarda responsável.
+
+Dashboard / Painel: Interface desktop com mapas de calor, pontos georreferenciados, filtros dinâmicos por setor de risco, bairro, idade e perfil de vulnerabilidade, além de exportação de dados em PDF e CSV para suporte ao Plano de Contingência municipal.
+
+#### Aliviadores de Dor
+
+Interface unificada: Substitui papéis, planilhas e sistemas isolados por uma única plataforma digital, eliminando a retrabalho e a perda de informação entre as etapas de campo, acolhimento e logística.
+
+Cadastro integrado: O registro feito em campo alimenta automaticamente o módulo de abrigo e o painel de visualização, garantindo que todos os setores da Defesa Civil e secretarias parceiras trabalhem com os mesmos dados atualizados.
+
+Rastreabilidade de ativos e donativos: Cada bem patrimonial, item de doação e animal resgatado possui registro próprio com histórico, permitindo controle de entrada, distribuição e devolução sem perdas ou duplicidades.
+
+#### Criadores de Ganho
+
+Decisão em tempo real: Com todos os dados centralizados e atualizados continuamente, gestores conseguem alocar equipes, redirecionar recursos e acionar protocolos com base em informações confiáveis e não em estimativas ou dados desatualizados.
+
+Dados georreferenciados: A captura obrigatória de coordenadas GPS no momento do cadastro transforma cada família em um ponto no mapa, permitindo análise espacial de densidade de vulnerabilidade, planejamento de rotas de evacuação e identificação de áreas críticas por região.
+
+Interoperabilidade entre secretarias: A plataforma serve como ponto de convergência entre a Defesa Civil, a Secretaria de Habitação, a Saúde e a Assistência Social, eliminando a necessidade de repassar dados manualmente entre órgãos e garantindo que todas as partes atuem com a mesma visão do cenário.
 
 ### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
 
@@ -238,11 +306,25 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 
 ### 3.1.4. Matriz RF → RN → Endpoint (sprints 3 a 5)
 
-*Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.*
+Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 
-| RF    | RN associadas | Endpoint    | Método |
-|-------|---------------|-------------|--------|
-| RF001 | RN01, RN02    | `/usuarios` | POST   |
+| RF | RN Associadas | Endpoint | Método |
+|---|---|---|---|
+| RF001 | RN017, RN020 | `/cadastros` | POST |
+| RF002 | RN001, RN017 | `/cadastros/verificar-duplicidade` | POST |
+| RF003 | RN015, RN008, RN009 | `/cadastros/:id` | PUT |
+| RF004 | RN005, RN019 | `/cadastros/:id` | GET |
+| RF005 | RN016, RN018 | `/cadastros/busca` | GET |
+| RF006 | RN007 | `/cadastros/:id/inativar` | PATCH |
+| RF007 | RN010 | `/cadastros/:id` | DELETE |
+| RF008 | RN003, RN013, RN019 | `/logs` | GET |
+| RF009 | RN014 | `/cadastros/exportar/anonimizado` | GET |
+| RF010 | RN005 | `/auth/perfil` | GET |
+| RF011 | RN008, RN009 | `/cadastros/sanitizar` | POST |
+| RF012 | RN011 | `/cadastros/:id/rascunho` | PATCH |
+| RF013 | RN002, RN012, RN007 | `/nucleos-familiares` | POST |
+| RF014 | RN004, RN006 | `/cadastros/:id/documentos` | POST |
+| RF015 | RN018 | `/cadastros/busca/fuzzy` | GET |
 
 ## 3.2. Arquitetura (sprints 1 a 5)
 
