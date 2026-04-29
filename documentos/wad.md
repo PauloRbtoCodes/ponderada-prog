@@ -50,6 +50,12 @@ O Modelo das 5 Forças de Porter é uma ferramenta estratégica utilizada para a
 
 Dessa forma, a análise das cinco forças contribui para identificar oportunidades e desafios no cenário da gestão pública de riscos, evidenciando como o projeto se posiciona estrategicamente diante das limitações atuais e das possibilidades de inovação no setor.
 
+<div align="center">
+<sub>Figura 01 - 5  Forças de Porter</sub>
+<img src="./assets-wad/figura1-5-Forças-de-porter.png" width="100%">
+<sup>Fonte: Material produzido pelos autores (2026)</sup>
+</div>
+
 #### Análise da Ameaça de Novos Entrantes
  A ameaça de novos entrantes no contexto de soluções tecnológicas para a gestão pública de riscos é considerada moderada, devido às barreiras institucionais e técnicas envolvidas (Competitive Strategy, 2008). O desenvolvimento de sistemas como o GeoRisco exige conhecimento especializado em georreferenciamento, integração de dados e adequação a políticas públicas, como as diretrizes da Defesa Civil e do SUAS. Além disso, a entrada nesse setor envolve processos burocráticos e necessidade de validação institucional, dificultando a atuação de novos players.
  Por outro lado, o crescimento de soluções GovTech e plataformas digitais voltadas ao setor público pode reduzir essas barreiras ao longo do tempo (Porter, 2008).
