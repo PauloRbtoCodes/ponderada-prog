@@ -76,14 +76,19 @@ Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade 
 A análise evidenciou que a Defesa Civil de Santo André detém monopólio legal e vanguarda setorial, sem concorrentes diretos, embora dispute espaço indiretamente com plataformas privadas de geolocalização e monitoramento climático. Verificou-se que sua autoridade é sustentada por dados exclusivos e pela integração ao Consórcio Intermunicipal Grande ABC. Entretanto, constatou-se que a manutenção de processos manuais e a resistência à digitalização fragilizam a operação. Para assegurar a liderança estratégica frente aos eventos climáticos extremos, conclui-se que a modernização, impulsionada por projetos acadêmicos e alinhada aos ODS, é necessária na mitigação das vulnerabilidades estruturais.
 
 ### 2.1.3. Solução (sprints 1 a 5)
+#### Problema a ser resolvido
+A Defesa Civil de Santo André enfrenta dificuldades na organização e centralização dos registros de ocorrências e informações operacionais. Muitos dados ficam dispersos, dificultando consultas, acompanhamento histórico e a gestão eficiente das informações utilizadas pela equipe no dia a dia.
+#### Dados disponíveis
+As informações e dados serão fornecidas diretamente pela própria Defesa Civil de Santo André para utilização e organização dentro da plataforma.
+#### Solução proposta
+Desenvolvimento de uma aplicação web para centralizar, registrar e organizar os dados e ocorrências da Defesa Civil. O sistema permitirá armazenar informações de forma organizada, facilitando consultas e atualizações.
+#### Forma de utilização da solução
+Os agentes da Defesa Civil utilizarão a plataforma pelo navegador para cadastrar ocorrências, atualizar informações e consultar registros anteriores. O sistema funcionará como um ambiente centralizado de gestão de dados, acessível de forma prática e organizada, além de uma visualização de mapa.
+#### Benefícios esperados
+A solução deve melhorar a organização das informações, facilitar consultas e otimizar o acompanhamento das ocorrências, permitindo maior eficiência operacional e mais agilidade no acesso às informações necessárias para o trabalho da Defesa Civil.
+#### Critério de sucesso e como será avaliado
+O sucesso será avaliado pela facilidade de uso da plataforma, organização dos registros,     melhoria na gestão das informações, por meio de feedback dos funcionários.
 
-*Explique detalhadamente os seguintes aspectos (até 60 palavras por item):*
-1. Problema a ser resolvido
-2. Dados disponíveis (mencionar fonte e conteúdo; se não houver, indicar “não se aplica”)
-3. Solução proposta
-4. Forma de utilização da solução
-5. Benefícios esperados
-6. Critério de sucesso e como será avaliado
 
 ### 2.1.4. Value Proposition Canvas (sprint 1): 
 *Sem limite de palavras – usar template do curso*
