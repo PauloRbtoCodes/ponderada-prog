@@ -149,19 +149,45 @@ No caso das oportunidades, aquelas com alta probabilidade e alto impacto são pr
 
 ## 2.3. User Stories (sprints 1 a 5)
 
-*Posicione aqui a lista de User Stories levantadas para o projeto. Siga o template de User Stories e utilize a mesma referência USXX no roadmap de seu quadro Kanban. Indique todas as User Stories mapeadas, mesmo aquelas que não forem implementadas ao longo do projeto. Não se esqueça de explicar o INVEST das 5 User Stories prioritárias*
-
-*ATUALIZE ESTA SEÇÃO SEMPRE QUE ALGUMA DEMANDA MUDAR EM SEU PROJETO*
-
-*Template de User Story*
-Identificação | USXX (troque XX por numeração ordenada das User Stories)
---- | ---
-Persona | nome da Persona
-User Story | "como (papel/perfil), posso (ação/meta), para (benefício/razão)"
-Critério de aceite 1 | CR1: descrever cenário + testes de aceite
-Critério de aceite 2 | CR2: descrever cenário + testes de aceite
-Critério de aceite ... | CR...
-Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que é Valorosa? Por que é Estimável? Por que é Pequena? Por que é Testável?)*
+| Identificação | US01 |
+|---|---|
+| Persona | Josias, Agente de Campo |
+| User Story | Como agente de campo, quero cadastrar indivíduos rapidamente mesmo com conexão instável, para garantir a coleta de dados em campo sem perdas. |
+| Critério de aceite 1 | CR1: Dado que o agente está sem conexão, quando preencher o formulário, então os dados devem ser salvos localmente e sincronizados automaticamente ao restabelecer a internet. |
+| Critério de aceite 2 | CR2: Dado que o agente está preenchendo o cadastro, quando houver erro de validação, então o sistema deve exibir feedback visual em até 500ms indicando o campo incorreto. |
+| Critérios INVEST | Independente: A história foi estruturada de forma desacoplada de outras funcionalidades. <br>Negociável: A implementação técnica pode ser ajustada conforme restrições de arquitetura. <br>Valorosa: Foi identificado alto valor ao garantir continuidade do cadastro em campo. <br>Estimável: A complexidade foi considerada mensurável com base em funcionalidades offline conhecidas. <br>Pequena: O escopo foi delimitado ao cadastro e persistência local. <br>Testável: Foram definidos critérios claros de validação e sincronização. |
+---
+| Identificação | US02 |
+|---|---|
+| Persona | Mariela, Assistente Administrativa |
+| User Story | Como assistente administrativa, quero evitar cadastros duplicados automaticamente, para manter a base de dados organizada e confiável. |
+| Critério de aceite 1 | CR1: Dado que um CPF já está cadastrado, quando um novo cadastro for submetido com o mesmo CPF, então o sistema deve impedir a criação e exibir mensagem de duplicidade. |
+| Critério de aceite 2 | CR2: Dado que um cadastro duplicado é identificado, quando a tentativa ocorre, então o sistema deve sugerir a visualização do registro existente. |
+| Critérios INVEST | Independente: A funcionalidade foi definida sem dependência direta de outras histórias. <br>Negociável: As regras de comparação podem ser refinadas conforme necessidade. <br>Valorosa: Foi identificado valor na integridade da base de dados. Estimável: A lógica de verificação foi considerada previsível. <br>Pequena: O escopo foi limitado à validação de duplicidade. <br>Testável: Foram definidos cenários claros de bloqueio e feedback. |
+---
+| Identificação | US03 |
+|---|---|
+| Persona | Reinaldo, Assistente Social |
+| User Story | Como assistente social, quero buscar indivíduos com filtros avançados e com tolerância a erros, para encontrar pessoas mesmo com dados inconsistentes. |
+| Critério de aceite 1 | CR1: Dado que o nome foi digitado com erro ou sem acentuação, quando a busca for realizada, então o sistema deve retornar resultados similares (busca fuzzy/fonética). |
+| Critério de aceite 2 | CR2: Dado que filtros como nome, documento e vulnerabilidade são aplicados, quando a busca é executada, então os resultados devem refletir corretamente os critérios combinados. |
+| Critérios INVEST | Independente: A história foi definida de forma isolada da criação de dados. <br>Negociável: Os algoritmos de busca podem ser ajustados. <br>Valorosa: Foi identificado valor na melhoria da triagem e análise. <br>Estimável: A implementação foi considerada conhecida em sistemas de busca. <br>Pequena: O escopo foi restrito à funcionalidade de busca. Testável: Os resultados podem ser validados com diferentes entradas. |
+---
+| Identificação | US04 |
+|---|---|
+| Persona | Mariela, Assistente Administrativa |
+| User Story | Como assistente administrativa, quero editar cadastros existentes, para manter os dados atualizados e corretos. |
+| Critério de aceite 1 | CR1: Dado que um cadastro existe, quando for acessado pelo ID, então deve ser possível editar seus dados e salvá-los com sucesso. |
+| Critério de aceite 2 | CR2: Dado que o cadastro está em auditoria, quando uma tentativa de edição for realizada, então o sistema deve bloquear a ação e informar o motivo. |
+| Critérios INVEST | Independente: A funcionalidade foi definida sem dependência de criação inicial. <br>Negociável: Os campos editáveis podem ser ajustados. <br>Valorosa: Foi identificado valor na manutenção da qualidade dos dados. <br>Estimável: A complexidade foi considerada padrão para CRUD. <br>Pequena: O escopo foi limitado à edição de registros. <br>Testável: Foram definidos cenários de sucesso e bloqueio. |
+---
+| Identificação | US05 |
+|---|---|
+| Persona | Reinaldo, Assistente Social |
+| User Story | Como assistente social, quero visualizar dados completos e sensíveis com controle de acesso, para tomar decisões assertivas com segurança. |
+| Critério de aceite 1 | CR1: Dado que o usuário possui permissão adequada, quando acessar um cadastro, então todos os dados sensíveis devem ser exibidos corretamente. |
+| Critério de aceite 2 | CR2: Dado que o usuário não possui permissão, quando tentar visualizar dados sensíveis, então o sistema deve restringir o acesso e registrar um log de tentativa. |
+| Critérios INVEST | Independente: A história foi estruturada separadamente de outras funcionalidades. <br>Negociável: As regras de permissão podem ser refinadas. <br>Valorosa: Foi identificado valor na segurança e privacidade dos dados. <br>Estimável: A implementação foi considerada previsível com RBAC. <br>Pequena: O escopo foi delimitado à visualização com controle de acesso. <br>Testável: Os cenários de permissão e restrição foram claramente definidos. |
 
 # <a name="c3"></a>3. Projeto da Aplicação Web (sprints 1 a 5)
 
