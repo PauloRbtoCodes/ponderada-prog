@@ -73,8 +73,7 @@ Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade 
   <p>Feito pela própria equipe (2026)</p>
 </div>
 
-
-&ensp;A Defesa Civil de Santo André ocupa uma posição do único órgão municipal com mandato legal sobre gestão de riscos, não enfrenta concorrência direta, mas compete indiretamente com soluções privadas e plataformas de outros municípios na corrida pela digitalização emergencial. Suas forças, autoridade institucional, dados exclusivos e parceria com o Inteli, sustentam um posicionamento de vanguarda. Contudo, processos manuais, gargalos logísticos e resistência interna à digitalização fragilizam esse diferencial. As ameaças externas, como dependência de fornecedores e instabilidade orçamentária, podem erosar a liderança conquistada caso não sejam mitigadas estrategicamente. 
+A análise evidenciou que a Defesa Civil de Santo André detém monopólio legal e vanguarda setorial, sem concorrentes diretos, embora dispute espaço indiretamente com plataformas privadas de geolocalização e monitoramento climático. Verificou-se que sua autoridade é sustentada por dados exclusivos e pela integração ao Consórcio Intermunicipal Grande ABC. Entretanto, constatou-se que a manutenção de processos manuais e a resistência à digitalização fragilizam a operação. Para assegurar a liderança estratégica frente aos eventos climáticos extremos, conclui-se que a modernização, impulsionada por projetos acadêmicos e alinhada aos ODS, é necessária  na mitigação das vulnerabilidades estruturais.
 
 ### 2.1.3. Solução (sprints 1 a 5)
 
