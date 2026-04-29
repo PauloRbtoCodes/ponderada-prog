@@ -296,11 +296,25 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 
 ### 3.1.4. Matriz RF → RN → Endpoint (sprints 3 a 5)
 
-*Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.*
+Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 
-| RF    | RN associadas | Endpoint    | Método |
-|-------|---------------|-------------|--------|
-| RF001 | RN01, RN02    | `/usuarios` | POST   |
+| RF | RN Associadas | Endpoint | Método |
+|---|---|---|---|
+| RF001 | RN017, RN020 | `/cadastros` | POST |
+| RF002 | RN001, RN017 | `/cadastros/verificar-duplicidade` | POST |
+| RF003 | RN015, RN008, RN009 | `/cadastros/:id` | PUT |
+| RF004 | RN005, RN019 | `/cadastros/:id` | GET |
+| RF005 | RN016, RN018 | `/cadastros/busca` | GET |
+| RF006 | RN007 | `/cadastros/:id/inativar` | PATCH |
+| RF007 | RN010 | `/cadastros/:id` | DELETE |
+| RF008 | RN003, RN013, RN019 | `/logs` | GET |
+| RF009 | RN014 | `/cadastros/exportar/anonimizado` | GET |
+| RF010 | RN005 | `/auth/perfil` | GET |
+| RF011 | RN008, RN009 | `/cadastros/sanitizar` | POST |
+| RF012 | RN011 | `/cadastros/:id/rascunho` | PATCH |
+| RF013 | RN002, RN012, RN007 | `/nucleos-familiares` | POST |
+| RF014 | RN004, RN006 | `/cadastros/:id/documentos` | POST |
+| RF015 | RN018 | `/cadastros/busca/fuzzy` | GET |
 
 ## 3.2. Arquitetura (sprints 1 a 5)
 
