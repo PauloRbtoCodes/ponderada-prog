@@ -147,47 +147,74 @@ No caso das oportunidades, aquelas com alta probabilidade e alto impacto são pr
 
 *Posicione aqui suas Personas em forma de texto markdown com imagens, ou como imagem de template preenchido. Atualize esta seção ao longo do módulo se necessário.*
 
-## 2.3. User Stories (sprints 1 a 5)
+## 2.3. User Stories
+
+### US01
 
 | Identificação | US01 |
 |---|---|
-| Persona | Josias, Agente de Campo |
-| User Story | Como agente de campo, quero cadastrar indivíduos rapidamente mesmo com conexão instável, para garantir a coleta de dados em campo sem perdas. |
-| Critério de aceite 1 | CR1: Dado que o agente está sem conexão, quando preencher o formulário, então os dados devem ser salvos localmente e sincronizados automaticamente ao restabelecer a internet. |
-| Critério de aceite 2 | CR2: Dado que o agente está preenchendo o cadastro, quando houver erro de validação, então o sistema deve exibir feedback visual em até 500ms indicando o campo incorreto. |
-| Critérios INVEST | Independente: A história foi estruturada de forma desacoplada de outras funcionalidades. <br>Negociável: A implementação técnica pode ser ajustada conforme restrições de arquitetura. <br>Valorosa: Foi identificado alto valor ao garantir continuidade do cadastro em campo. <br>Estimável: A complexidade foi considerada mensurável com base em funcionalidades offline conhecidas. <br>Pequena: O escopo foi delimitado ao cadastro e persistência local. <br>Testável: Foram definidos critérios claros de validação e sincronização. |
+| Persona | Josias (Agente de Campo) |
+| User Story | Como agente de campo, quero cadastrar indivíduos com seus dados biográficos e socioeconômicos, para garantir que as informações sejam coletadas diretamente na fonte de forma estruturada |
+| Critério de aceite 1 | CR1: Dado que o agente acessa o formulário de cadastro, quando preencher todos os campos obrigatórios válidos e submeter, então o sistema deve persistir o registro com ID único e retornar confirmação de sucesso |
+| Critério de aceite 2 | CR2: Dado que o agente insere uma data de nascimento futura, quando tentar salvar o cadastro, então o sistema deve bloquear a ação e exibir mensagem de erro em até 500ms |
+| Critério de aceite 3 | CR3: Dado que o agente insere um CPF inválido, quando submeter o formulário, então o sistema deve validar o dígito verificador e impedir o salvamento |
+| Critério de aceite 4 | CR4: Dado que o agente preenche o nome com acentuação, quando salvar, então o sistema deve armazenar o nome em caixa alta e sem acentos |
+| Critérios INVEST | Independente: A história foi estruturada de forma desacoplada de outras funcionalidades centrais. <br>Negociável: A forma de persistência e validação poderá ser ajustada conforme arquitetura. <br>Valorosa: Foi identificado alto valor na coleta estruturada de dados na origem. <br>Estimável: A complexidade foi considerada mensurável com base em formulários e validações padrão. <br>Pequena: O escopo foi limitado ao cadastro inicial de indivíduos. <br>Testável: Os critérios foram definidos com cenários claros de validação e erro. |
+
 ---
+
+### US02
+
 | Identificação | US02 |
 |---|---|
-| Persona | Mariela, Assistente Administrativa |
-| User Story | Como assistente administrativa, quero evitar cadastros duplicados automaticamente, para manter a base de dados organizada e confiável. |
-| Critério de aceite 1 | CR1: Dado que um CPF já está cadastrado, quando um novo cadastro for submetido com o mesmo CPF, então o sistema deve impedir a criação e exibir mensagem de duplicidade. |
-| Critério de aceite 2 | CR2: Dado que um cadastro duplicado é identificado, quando a tentativa ocorre, então o sistema deve sugerir a visualização do registro existente. |
-| Critérios INVEST | Independente: A funcionalidade foi definida sem dependência direta de outras histórias. <br>Negociável: As regras de comparação podem ser refinadas conforme necessidade. <br>Valorosa: Foi identificado valor na integridade da base de dados. Estimável: A lógica de verificação foi considerada previsível. <br>Pequena: O escopo foi limitado à validação de duplicidade. <br>Testável: Foram definidos cenários claros de bloqueio e feedback. |
+| Persona | Josias (Agente de Campo) |
+| User Story | Como agente de campo, quero que o sistema impeça cadastros duplicados por CPF ou NIS, para evitar inconsistência nos dados coletados |
+| Critério de aceite 1 | CR1: Dado que um CPF já está cadastrado como ativo, quando tentar registrar um novo indivíduo com o mesmo CPF, então o sistema deve bloquear o cadastro e informar duplicidade |
+| Critério de aceite 2 | CR2: Dado que um cadastro foi inativado, quando um novo cadastro com o mesmo CPF for realizado, então o sistema deve permitir a criação |
+| Critério de aceite 3 | CR3: Dado que o agente insere CPF ou NIS com formatação (pontos ou traços), quando o sistema processar o cadastro, então deve normalizar os dados e validar considerando apenas os dígitos |
+| Critérios INVEST | Independente: A funcionalidade foi definida sem dependência direta de outras histórias. <br>Negociável: A lógica de comparação poderá ser ajustada para diferentes chaves únicas. <br>Valorosa: Foi identificado valor crítico na integridade e unicidade dos dados. <br>Estimável: A implementação foi considerada clara com validações conhecidas. <br>Pequena: O escopo foi restrito à verificação de duplicidade. <br>Testável: Os cenários de bloqueio e permissão foram explicitamente definidos. |
+
 ---
+
+### US03
+
 | Identificação | US03 |
 |---|---|
-| Persona | Reinaldo, Assistente Social |
-| User Story | Como assistente social, quero buscar indivíduos com filtros avançados e com tolerância a erros, para encontrar pessoas mesmo com dados inconsistentes. |
-| Critério de aceite 1 | CR1: Dado que o nome foi digitado com erro ou sem acentuação, quando a busca for realizada, então o sistema deve retornar resultados similares (busca fuzzy/fonética). |
-| Critério de aceite 2 | CR2: Dado que filtros como nome, documento e vulnerabilidade são aplicados, quando a busca é executada, então os resultados devem refletir corretamente os critérios combinados. |
-| Critérios INVEST | Independente: A história foi definida de forma isolada da criação de dados. <br>Negociável: Os algoritmos de busca podem ser ajustados. <br>Valorosa: Foi identificado valor na melhoria da triagem e análise. <br>Estimável: A implementação foi considerada conhecida em sistemas de busca. <br>Pequena: O escopo foi restrito à funcionalidade de busca. Testável: Os resultados podem ser validados com diferentes entradas. |
+| Persona | Josias (Agente de Campo) |
+| User Story | Como agente de campo, quero salvar cadastros parciais automaticamente, para não perder dados em caso de falha de conexão ou interrupção |
+| Critério de aceite 1 | CR1: Dado que o agente está preenchendo o formulário, quando houver intervalo de 30 segundos, então o sistema deve salvar automaticamente o rascunho |
+| Critério de aceite 2 | CR2: Dado que a conexão é perdida durante o cadastro, quando o agente retornar ao sistema, então os dados previamente inseridos devem ser recuperados |
+| Critério de aceite 3 | CR3: Dado que o cadastro está incompleto, quando salvo, então o sistema deve marcar o status como "Incompleto" |
+| Critério de aceite 4 | CR4: Dado que o usuário fecha o navegador inesperadamente, quando reabrir o sistema, então o rascunho deve estar disponível para continuidade |
+| Critério de aceite 5 | CR5: Dado que a conexão é restabelecida, quando houver dados pendentes, então o sistema deve sincronizar automaticamente com o servidor |
+| Critérios INVEST | Independente: A funcionalidade foi isolada da persistência definitiva. <br>Negociável: A estratégia de armazenamento local poderá ser alterada. <br>Valorosa: Foi identificado valor na confiabilidade e continuidade do trabalho em campo. <br>Estimável: A complexidade foi considerada moderada e mensurável. <br>Pequena: O escopo foi focado em autosave e recuperação. <br>Testável: Os cenários de perda e recuperação foram claramente definidos. |
+
 ---
+
+### US04
+
 | Identificação | US04 |
 |---|---|
-| Persona | Mariela, Assistente Administrativa |
-| User Story | Como assistente administrativa, quero editar cadastros existentes, para manter os dados atualizados e corretos. |
-| Critério de aceite 1 | CR1: Dado que um cadastro existe, quando for acessado pelo ID, então deve ser possível editar seus dados e salvá-los com sucesso. |
-| Critério de aceite 2 | CR2: Dado que o cadastro está em auditoria, quando uma tentativa de edição for realizada, então o sistema deve bloquear a ação e informar o motivo. |
-| Critérios INVEST | Independente: A funcionalidade foi definida sem dependência de criação inicial. <br>Negociável: Os campos editáveis podem ser ajustados. <br>Valorosa: Foi identificado valor na manutenção da qualidade dos dados. <br>Estimável: A complexidade foi considerada padrão para CRUD. <br>Pequena: O escopo foi limitado à edição de registros. <br>Testável: Foram definidos cenários de sucesso e bloqueio. |
+| Persona | Cláudia (Gestora Administrativa) |
+| User Story | Como gestora administrativa, quero buscar e filtrar cadastros por múltiplos critérios, para obter informações rapidamente e tomar decisões baseadas em dados |
+| Critério de aceite 1 | CR1: Dado que a gestora acessa a base de dados, quando aplicar filtros por nome, CPF ou bairro, então o sistema deve retornar os registros correspondentes em até 5 segundos |
+| Critério de aceite 2 | CR2: Dado que a gestora realiza busca com variação de acentuação, quando pesquisar um nome, então o sistema deve retornar resultados foneticamente similares |
+| Critério de aceite 3 | CR3: Dado que a gestora filtra por vulnerabilidade, quando aplicar o critério, então o sistema deve considerar renda per capita conforme regra definida |
+| Critério de aceite 4 | CR4: Dado que múltiplos filtros são aplicados simultaneamente, quando executada a busca, então o sistema deve combinar corretamente os critérios |
+| Critérios INVEST | Independente: A funcionalidade foi projetada sem dependência de outras consultas específicas. <br>Negociável: Os critérios de filtro poderão ser expandidos ou refinados. <br>Valorosa: Foi identificado valor direto na tomada de decisão operacional. <br>Estimável: A implementação foi considerada previsível com uso de índices e queries. <br>Pequena: O escopo foi limitado à busca e filtragem. <br>Testável: Os critérios foram definidos com métricas de desempenho e precisão. |
+
 ---
+
+### US05
+
 | Identificação | US05 |
 |---|---|
-| Persona | Reinaldo, Assistente Social |
-| User Story | Como assistente social, quero visualizar dados completos e sensíveis com controle de acesso, para tomar decisões assertivas com segurança. |
-| Critério de aceite 1 | CR1: Dado que o usuário possui permissão adequada, quando acessar um cadastro, então todos os dados sensíveis devem ser exibidos corretamente. |
-| Critério de aceite 2 | CR2: Dado que o usuário não possui permissão, quando tentar visualizar dados sensíveis, então o sistema deve restringir o acesso e registrar um log de tentativa. |
-| Critérios INVEST | Independente: A história foi estruturada separadamente de outras funcionalidades. <br>Negociável: As regras de permissão podem ser refinadas. <br>Valorosa: Foi identificado valor na segurança e privacidade dos dados. <br>Estimável: A implementação foi considerada previsível com RBAC. <br>Pequena: O escopo foi delimitado à visualização com controle de acesso. <br>Testável: Os cenários de permissão e restrição foram claramente definidos. |
+| Persona | Cláudia (Gestora Administrativa) |
+| User Story | Como gestora administrativa, quero visualizar os dados completos de um cadastro com segurança de acesso, para garantir análise detalhada sem violar a privacidade |
+| Critério de aceite 1 | CR1: Dado que a gestora acessa um registro, quando possuir permissão adequada, então todos os dados devem ser exibidos corretamente |
+| Critério de aceite 2 | CR2: Dado que um usuário sem permissão tenta acessar dados sensíveis, quando visualizar o cadastro, então os campos restritos devem ser ocultados |
+| Critério de aceite 3 | CR3: Dado que um dado sensível é acessado, quando a visualização ocorre, então o sistema deve registrar log com ID do usuário e timestamp |
+| Critérios INVEST | Independente: A história foi definida de forma isolada da edição de dados. <br>Negociável: As regras de acesso poderão ser refinadas conforme perfis. <br>Valorosa: Foi identificado valor na segurança e governança dos dados. <br>Estimável: A complexidade foi considerada controlável com RBAC. <br>Pequena: O escopo foi restrito à visualização segura. <br>Testável: Os critérios foram definidos com cenários de acesso permitido e negado. |
 
 # <a name="c3"></a>3. Projeto da Aplicação Web (sprints 1 a 5)
 
