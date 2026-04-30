@@ -339,7 +339,65 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 
 ### 3.2.2. Diagrama de Casos de Uso (sprint 1)
 
-*Apresente o diagrama de casos de uso com atores (boneco), casos (elipse) e as relações `<<include>>` / `<<extend>>` com semântica correta. Consulte a notação de referência em `in02/suporte/use-case_3.0_v1.0.pdf`.*
+### Descrição
+
+### UC01: Cadastrar Família em Área de Vulnerabilidade
+#### Este caso de uso é o alicerce do mapeamento socioestrutural.
+
+- Atores: Agente da Defesa Civil.
+
+- Atores Secundários: API de Geolocalização (ex: Google Maps/Mapbox).
+
+- Pré-requisitos: O Agente deve estar autenticado no sistema e em campo (ou com dados de campo coletados).
+
+- Pós-requisitos: Registro da família vinculado a uma coordenada geográfica e perfil de vulnerabilidade gerado.
+
+- Relações: <<include>> -> Validar Localização Geográfica.
+
+
+<div align="center">
+<sub>Diagrama do Caso de Uso 1</sub>
+<img src="../assets/diagrama_casosdeuso1.png" width="100%">
+<sup>Fonte: Material produzido pelos autores (2026)</sup>
+</div>
+
+### UC02: Gerenciar Acolhimento em Abrigos
+#### Essencial para a coordenação durante eventos extremos.
+
+- Atores: Gestor de Abrigo, Agente da Defesa Civil.
+
+- Atores Secundários: Ninguém.
+
+- Pré-requisitos: Existência de abrigos previamente cadastrados no sistema.
+
+- Pós-requisitos: Atualização em tempo real da ocupação do abrigo e lista de desabrigados atualizada.
+
+- Relações: <<extend>> -> Alocar Vaga Especial (estendido quando a família possui membros com deficiência ou idosos).
+
+<div align="center">
+<sub>Diagrama do Caso de Uso 2</sub>
+<img src="../assets/diagrama_casosdeuso2.png" width="100%">
+<sup>Fonte: Material produzido pelos autores (2026)</sup>
+</div>
+
+### UC03: Controlar Logística de Assistência Humanitária
+#### Garante que os recursos cheguem onde são necessários.
+
+- Atores: Gestor de Logística.
+
+- Atores Secundários: Sistema de Inventário Municipal (opcional).
+
+- Pré-requisitos: Insumos (cestas básicas, kits de higiene) devidamente catalogados.
+
+- Pós-requisitos: Baixa no estoque e registro de entrega vinculado ao CPF do responsável familiar.
+
+- Relações: <<include>> -> Verificar Disponibilidade de Estoque.
+
+<div align="center">
+<sub>Diagrama do Caso de Uso 3</sub>
+<img src="../assets/diagrama_casosdeuso3.png" width="100%">
+<sup>Fonte: Material produzido pelos autores (2026)</sup>
+</div>
 
 ### 3.2.3. Diagrama de Classes do Domínio (sprint 2)
 
