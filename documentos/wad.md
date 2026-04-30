@@ -43,17 +43,15 @@ Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade 
 
 # <a name="c2"></a>2. Visão Geral da Aplicação Web (sprint 1)
 
-## 2.1. Escopo do Projeto (sprints 1 e 4)
-
 ### 2.1.1. Modelo de 5 Forças de Porter 
 O Modelo das 5 Forças de Porter é uma ferramenta estratégica utilizada para analisar a estrutura competitiva de um setor, permitindo compreender os fatores que influenciam a competitividade e a criação de valor de uma solução (Porter, 2008). No contexto do projeto GeoRisco Santo André, a aplicação desse modelo possibilita avaliar não apenas a concorrência direta, mas também a influência de substitutos, fornecedores, clientes e possíveis novos entrantes no desenvolvimento e adoção da solução.
 
 Dessa forma, a análise das cinco forças contribui para identificar oportunidades e desafios no cenário da gestão pública de riscos, evidenciando como o projeto se posiciona estrategicamente diante das limitações atuais e das possibilidades de inovação no setor.
 
 <div align="center">
-  <p>Figura 01: 5 Forças de Porter</p>
-  <img src="../assets/figura1-5-Forças-de-porter.png" width="800">
-  <p>Fonte: Material produzido pelos autores (2026)</p>
+<sub>Figura 01 - 5  Forças de Porter</sub>
+<img src="./assets-wad/figura1-5-Forças-de-porter.png" width="100%">
+<sup>Fonte: Material produzido pelos autores (2026)</sup>
 </div>
 
 #### Análise da Ameaça de Novos Entrantes
@@ -70,17 +68,10 @@ Dessa forma, a análise das cinco forças contribui para identificar oportunidad
 
 #### Análise do Poder de Barganha dos Clientes
 O poder de barganha do cliente é alto, pois a Defesa Civil será a única usuária da plataforma e terá influência direta sobre as funcionalidades do sistema. Como o projeto é desenvolvido especificamente para atender às demandas do órgão, a equipe pode exigir ajustes, melhorias e personalizações de acordo com sua operação.
-#### Análise do Poder de Barganha dos Clientes
-O poder de barganha do cliente é alto, pois a Defesa Civil será a única usuária da plataforma e terá influência direta sobre as funcionalidades do sistema. Como o projeto é desenvolvido especificamente para atender às demandas do órgão, a equipe pode exigir ajustes, melhorias e personalizações de acordo com sua operação.
 
 #### Análise do Poder de Barganha dos Fornecedores
 O poder de barganha dos fornecedores é moderado. Os principais fornecedores do projeto seriam serviços de hospedagem em nuvem, banco de dados, APIs e ferramentas de desenvolvimento, como Amazon Web Services, Google Cloud e Microsoft Azure.
 O projeto possui várias opções disponíveis no mercado, reduzindo a dependência de um único fornecedor. Por outro lado, caso o sistema utilize tecnologias muito específicas ou integrações mais complexas conforme o desenvolvimento, pode haver maior dependência técnica de determinados fornecedores, aumentando seu poder de negociação.
-#### Análise do Poder de Barganha dos Fornecedores
-O poder de barganha dos fornecedores é moderado. Os principais fornecedores do projeto seriam serviços de hospedagem em nuvem, banco de dados, APIs e ferramentas de desenvolvimento, como Amazon Web Services, Google Cloud e Microsoft Azure.
-O projeto possui várias opções disponíveis no mercado, reduzindo a dependência de um único fornecedor. Por outro lado, caso o sistema utilize tecnologias muito específicas ou integrações mais complexas conforme o desenvolvimento, pode haver maior dependência técnica de determinados fornecedores, aumentando seu poder de negociação.
-
-
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
@@ -94,20 +85,30 @@ A análise evidenciou que a Defesa Civil de Santo André detém monopólio legal
 
 ### 2.1.3. Solução (sprints 1 a 5)
 
-*Explique detalhadamente os seguintes aspectos (até 60 palavras por item):*
-1. Problema a ser resolvido
-2. Dados disponíveis (mencionar fonte e conteúdo; se não houver, indicar “não se aplica”)
-3. Solução proposta
-4. Forma de utilização da solução
-5. Benefícios esperados
-6. Critério de sucesso e como será avaliado
+#### Problema a ser resolvido
+A Defesa Civil de Santo André enfrenta dificuldades na organização e centralização dos registros de ocorrências e informações operacionais. Muitos dados ficam dispersos, dificultando consultas, acompanhamento histórico e a gestão eficiente das informações utilizadas pela equipe no dia a dia.
+
+#### Dados disponíveis
+As informações e dados serão fornecidas diretamente pela própria Defesa Civil de Santo André para utilização e organização dentro da plataforma.
+
+#### Solução proposta
+Desenvolvimento de uma aplicação web para centralizar, registrar e organizar os dados e ocorrências da Defesa Civil. O sistema permitirá armazenar informações de forma organizada, facilitando consultas e atualizações.
+
+#### Forma de utilização da solução
+Os agentes da Defesa Civil utilizarão a plataforma pelo navegador para cadastrar ocorrências, atualizar informações e consultar registros anteriores. O sistema funcionará como um ambiente centralizado de gestão de dados, acessível de forma prática e organizada, além de uma visualização de mapa.
+
+#### Benefícios esperados
+A solução deve melhorar a organização das informações, facilitar consultas e otimizar o acompanhamento das ocorrências, permitindo maior eficiência operacional e mais agilidade no acesso às informações necessárias para o trabalho da Defesa Civil.
+
+#### Critério de sucesso e como será avaliado
+O sucesso será avaliado pela facilidade de uso da plataforma, organização dos registros,     melhoria na gestão das informações, por meio de feedback dos funcionários.
+
 
 ### 2.1.4. Value Proposition Canvas: 
 
 O Canvas de Proposta de Valor é um modelo amplamente utilizado para conectar as necessidades reais dos clientes à solução oferecida. Ele é dividido em dois quadrantes: à esquerda, a proposta de valor da solução; à direita, o perfil do cliente suas dores, tarefas e ganhos esperados.
 
 Abaixo, está apresentado o Canvas desenvolvido para o Departamento de Proteção e Defesa Civil de Santo André, representando como o GeoRisco Santo André se propõe a resolver os desafios de gestão de risco, acolhimento emergencial e logística humanitária. Em seguida, cada componente é descrito em detalhes.
-
 
 <div align="center">
   <p>Figura 03: Value Proposition Canvas</p>
@@ -181,9 +182,9 @@ Essa abordagem permite priorizar ações de mitigação e potencialização, con
 | A09 | **Bugs críticos** | Quebra da experiência do site | Alta | Alta | Muito comum em desenvolvimento, impacto direto na usabilidade | Testes frequentes |
 | A10 | **Problemas com assets** | Questões visuais e de desempenho | Média | Média | Pode ocorrer mas é controlável, impacto moderado | Otimização e padronização |
 | A11 | **Desalinhamento com Defesa Cívil** | Produto não atende expectativas | Média | Alta | Probabilidade média sem validação contínua, impacto alto no sucesso do projeto | Reuniões frequentes |
-| A12 | **Baixa adesão do público** | Usuários não se interessam pelo jogo | Média | Alta | Público pode não buscar reutilizar o site, impacto alto na utilidade | Testes com usuários |
+| A12 | **Baixa adesão do público** | Usuários não visualizam o uso do produto como ágradavel | Média | Alta | Público pode não buscar reutilizar o site, impacto alto na utilidade | Testes com usuários |
 | A13 | **Conteúdo pouco confiável** | Informações superficiais ou inválidas | Baixa | Alta | Pode ser evitado, mas impacto alto na credibilidade | Revisão com fontes providas pela Defesa Cívil |
-| A14 | **Falta de integração** | Dificuldade com canais da Cobasi | Média | Média | Integração não é trivial, impacto moderado | Planejar integrações |
+| A14 | **Falta de integração** | Dificuldade com canais da Defesa Cívil | Média | Média | Integração não é trivial, impacto moderado | Planejar integrações |
 | A15 | **Valor pouco claro** | Usuário não entende o benefício | Média | Média | Comum em produtos novos, impacto médio | Melhorar comunicação |
 | A16 | **Desalinhamento de objetivo** | Crescimento desordenado do projeto | Alta | Média | Muito comum em desenvolvimento, impacto médio pois afeta prazo | Definir escopo, objetivo claro |
 | A17 | **Dependência da equipe** | Poucas pessoas concentram conhecimento | Média | Média | Probabilidade média, impacto moderado | Documentação e divisão de tarefas |
@@ -390,7 +391,7 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 ### Descrição
 
 ### UC01: Cadastrar Família em Área de Vulnerabilidade
-#### Este caso de uso é o alicerce do mapeamento socioestrutural.
+Este caso de uso é o alicerce do mapeamento socioestrutural.
 
 - Atores: Agente da Defesa Civil.
 
@@ -411,11 +412,11 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 
 
 ### UC02: Gerenciar Acolhimento em Abrigos
-#### Essencial para a coordenação durante eventos extremos.
+Essencial para a coordenação durante eventos extremos.
 
 - Atores: Gestor de Abrigo, Agente da Defesa Civil.
 
-- Atores Secundários: Ninguém.
+- Atores Secundários: Não se aplica.
 
 - Pré-requisitos: Existência de abrigos previamente cadastrados no sistema.
 
@@ -430,7 +431,7 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 </div>
 
 ### UC03: Controlar Logística de Assistência Humanitária
-#### Garante que os recursos cheguem onde são necessários.
+Garante que os recursos cheguem onde são necessários.
 
 - Atores: Gestor de Logística.
 
