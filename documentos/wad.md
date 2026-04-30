@@ -122,13 +122,9 @@ Gerir emergências: Coordenar toda a resposta a desastres naturais e tecnológic
 
 Cadastrar famílias: Registrar moradores de áreas de risco com dados socioestruturais completos, composição familiar, perfil de vulnerabilidade, doenças crônicas, animais de estimação e localização exata do imóvel.
 
-Coordenar abrigos: Controlar a entrada, permanência e saída de desabrigados nos centros de acolhimento emergencial, garantindo triagem de saúde, preenchimento do prontuário SUAS e gestão de vagas em tempo real.
-
 #### Dores
 
 Dados fragmentados: As informações de cadastro, abrigo e logística existem em papéis, planilhas e sistemas separados, sem integração. Isso torna impossível cruzar dados de geolocalização com perfis de vulnerabilidade no momento crítico da evacuação.
-
-Gargalo no acolhimento: Não há ferramenta unificada para realizar a triagem de saúde, registrar a composição familiar e identificar necessidades de assistência social no momento da chegada ao abrigo, gerando filas e perda de informação.
 
 Sem visão em tempo real: A ausência de uma interface única impede que gestores vejam o cenário de crise consolidado, dificultando o planejamento preventivo e a tomada de decisão durante eventos extremos.
 
@@ -147,11 +143,7 @@ Resiliência urbana: A capacidade de resposta mais eficiente a desastres fortale
 
  Módulo de campo: Aplicação otimizada para tablets e celulares usada pelos agentes em campo. Permite o cadastro completo de famílias com captura obrigatória de GPS, registro fotográfico do imóvel, identificação de vulnerabilidades e logística de emergência (animais, veículo, destino de evacuação).
 
-Módulo de abrigo: Ferramenta operacional para os centros de acolhimento. Realiza o check-in vinculado ao cadastro socioestrutural, preenche o prontuário SUAS, faz triagem multidisciplinar e controla as vagas disponíveis em tempo real.
-
-Módulo de logística: Painel administrativo para gestão de donativos (alimentos, higiene, medicamentos), controle de bens patrimoniais sob custódia da Defesa Civil e registro de animais resgatados, como pets e aves domésticas, com fichas de saúde e guarda responsável.
-
-Dashboard / Painel: Interface desktop com mapas de calor, pontos georreferenciados, filtros dinâmicos por setor de risco, bairro, idade e perfil de vulnerabilidade, além de exportação de dados em PDF e CSV para suporte ao Plano de Contingência municipal.
+ Painel: Interface desktop com mapas de calor, pontos georreferenciados, filtros dinâmicos por setor de risco, bairro, idade e perfil de vulnerabilidade.
 
 #### Aliviadores de Dor
 
@@ -159,15 +151,11 @@ Interface unificada: Substitui papéis, planilhas e sistemas isolados por uma ú
 
 Cadastro integrado: O registro feito em campo alimenta automaticamente o módulo de abrigo e o painel de visualização, garantindo que todos os setores da Defesa Civil e secretarias parceiras trabalhem com os mesmos dados atualizados.
 
-Rastreabilidade de ativos e donativos: Cada bem patrimonial, item de doação e animal resgatado possui registro próprio com histórico, permitindo controle de entrada, distribuição e devolução sem perdas ou duplicidades.
-
 #### Criadores de Ganho
 
 Decisão em tempo real: Com todos os dados centralizados e atualizados continuamente, gestores conseguem alocar equipes, redirecionar recursos e acionar protocolos com base em informações confiáveis e não em estimativas ou dados desatualizados.
 
 Dados georreferenciados: A captura obrigatória de coordenadas GPS no momento do cadastro transforma cada família em um ponto no mapa, permitindo análise espacial de densidade de vulnerabilidade, planejamento de rotas de evacuação e identificação de áreas críticas por região.
-
-Interoperabilidade entre secretarias: A plataforma serve como ponto de convergência entre a Defesa Civil, a Secretaria de Habitação, a Saúde e a Assistência Social, eliminando a necessidade de repassar dados manualmente entre órgãos e garantindo que todas as partes atuem com a mesma visão do cenário.
 
 ### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
 
