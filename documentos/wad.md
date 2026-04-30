@@ -76,7 +76,7 @@ O projeto possui várias opções disponíveis no mercado, reduzindo a dependên
 <div align="center">
   <p>Figura 1: Análise Swot</p>
   <img src="../assets/analise_swot.png" width="800">
-  <p>Feito pela própria equipe (2026)</p>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
 A análise evidenciou que a Defesa Civil de Santo André detém monopólio legal e vanguarda setorial, sem concorrentes diretos, embora dispute espaço indiretamente com plataformas privadas de geolocalização e monitoramento climático. Verificou-se que sua autoridade é sustentada por dados exclusivos e pela integração ao Consórcio Intermunicipal Grande ABC. Entretanto, constatou-se que a manutenção de processos manuais e a resistência à digitalização fragilizam a operação. Para assegurar a liderança estratégica frente aos eventos climáticos extremos, conclui-se que a modernização, impulsionada por projetos acadêmicos e alinhada aos ODS, é necessária na mitigação das vulnerabilidades estruturais.
@@ -102,11 +102,13 @@ O Canvas de Proposta de Valor é um modelo amplamente utilizado para conectar as
 
 Abaixo, está apresentado o Canvas desenvolvido para o Departamento de Proteção e Defesa Civil de Santo André, representando como o GeoRisco Santo André se propõe a resolver os desafios de gestão de risco, acolhimento emergencial e logística humanitária. Em seguida, cada componente é descrito em detalhes.
 
+
 <div align="center">
-<sub>Figura 03 - Value Proposition Canvas</sub>
-<img src="../assets/figura3-Canvas-proposta-valor.png" width="100%">
-<sup>Fonte: Material produzido pelos autores (2026)</sup>
+  <p>Figura 2 - Value Proposition Canvas</p>
+  <img src="../assets/figura3-Canvas-proposta-valor.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
+
 
 #### PERFIL DO CLIENTE
 
@@ -352,14 +354,15 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 
 - Pós-requisitos: Registro da família vinculado a uma coordenada geográfica e perfil de vulnerabilidade gerado.
 
-- Relações: <<include>> -> Validar Localização Geográfica.
+- Relações: << include >> -> Validar Localização Geográfica.
 
 
 <div align="center">
-<sub>Diagrama do Caso de Uso 1</sub>
-<img src="../assets/diagrama_casosdeuso1.png" width="100%">
-<sup>Fonte: Material produzido pelos autores (2026)</sup>
+  <p>Figura 3 - Diagrama do Caso de Uso 1</p>
+  <img src="../assets/diagrama_casosdeuso1.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
+
 
 ### UC02: Gerenciar Acolhimento em Abrigos
 #### Essencial para a coordenação durante eventos extremos.
@@ -372,12 +375,12 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 
 - Pós-requisitos: Atualização em tempo real da ocupação do abrigo e lista de desabrigados atualizada.
 
-- Relações: <<extend>> -> Alocar Vaga Especial (estendido quando a família possui membros com deficiência ou idosos).
+- Relações: << extend >> -> Alocar Vaga Especial ( estendido quando a família possui membros com deficiência ou idosos ).
 
 <div align="center">
-<sub>Diagrama do Caso de Uso 2</sub>
-<img src="../assets/diagrama_casosdeuso2.png" width="100%">
-<sup>Fonte: Material produzido pelos autores (2026)</sup>
+  <p>Figura 4 - Diagrama do Caso de Uso 2</p>
+  <img src="../assets/diagrama_casosdeuso2.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
 ### UC03: Controlar Logística de Assistência Humanitária
@@ -391,12 +394,12 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 
 - Pós-requisitos: Baixa no estoque e registro de entrega vinculado ao CPF do responsável familiar.
 
-- Relações: <<include>> -> Verificar Disponibilidade de Estoque.
+- Relações: << include >> -> Verificar Disponibilidade de Estoque.
 
 <div align="center">
-<sub>Diagrama do Caso de Uso 3</sub>
-<img src="../assets/diagrama_casosdeuso3.png" width="100%">
-<sup>Fonte: Material produzido pelos autores (2026)</sup>
+  <p>Figura 6 - Diagrama do Caso de Uso 3</p>
+  <img src="../assets/diagrama_casosdeuso3.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
 ### 3.2.3. Diagrama de Classes do Domínio (sprint 2)
