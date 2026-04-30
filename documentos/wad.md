@@ -45,10 +45,16 @@ Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade 
 
 ## 2.1. Escopo do Projeto (sprints 1 e 4)
 
-### 2.1.1. Modelo de 5 Forças de Porter
+### 2.1.1. Modelo de 5 Forças de Porter 
 O Modelo das 5 Forças de Porter é uma ferramenta estratégica utilizada para analisar a estrutura competitiva de um setor, permitindo compreender os fatores que influenciam a competitividade e a criação de valor de uma solução (Porter, 2008). No contexto do projeto GeoRisco Santo André, a aplicação desse modelo possibilita avaliar não apenas a concorrência direta, mas também a influência de substitutos, fornecedores, clientes e possíveis novos entrantes no desenvolvimento e adoção da solução.
 
 Dessa forma, a análise das cinco forças contribui para identificar oportunidades e desafios no cenário da gestão pública de riscos, evidenciando como o projeto se posiciona estrategicamente diante das limitações atuais e das possibilidades de inovação no setor.
+
+<div align="center">
+  <p>Figura 01: 5 Forças de Porter</p>
+  <img src="../assets/figura1-5-Forças-de-porter.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
 
 #### Análise da Ameaça de Novos Entrantes
  A ameaça de novos entrantes no contexto de soluções tecnológicas para a gestão pública de riscos é considerada moderada, devido às barreiras institucionais e técnicas envolvidas (Competitive Strategy, 2008). O desenvolvimento de sistemas como o GeoRisco exige conhecimento especializado em georreferenciamento, integração de dados e adequação a políticas públicas, como as diretrizes da Defesa Civil e do SUAS. Além disso, a entrada nesse setor envolve processos burocráticos e necessidade de validação institucional, dificultando a atuação de novos players.
@@ -64,7 +70,12 @@ Dessa forma, a análise das cinco forças contribui para identificar oportunidad
 
 #### Análise do Poder de Barganha dos Clientes
 O poder de barganha do cliente é alto, pois a Defesa Civil será a única usuária da plataforma e terá influência direta sobre as funcionalidades do sistema. Como o projeto é desenvolvido especificamente para atender às demandas do órgão, a equipe pode exigir ajustes, melhorias e personalizações de acordo com sua operação.
+#### Análise do Poder de Barganha dos Clientes
+O poder de barganha do cliente é alto, pois a Defesa Civil será a única usuária da plataforma e terá influência direta sobre as funcionalidades do sistema. Como o projeto é desenvolvido especificamente para atender às demandas do órgão, a equipe pode exigir ajustes, melhorias e personalizações de acordo com sua operação.
 
+#### Análise do Poder de Barganha dos Fornecedores
+O poder de barganha dos fornecedores é moderado. Os principais fornecedores do projeto seriam serviços de hospedagem em nuvem, banco de dados, APIs e ferramentas de desenvolvimento, como Amazon Web Services, Google Cloud e Microsoft Azure.
+O projeto possui várias opções disponíveis no mercado, reduzindo a dependência de um único fornecedor. Por outro lado, caso o sistema utilize tecnologias muito específicas ou integrações mais complexas conforme o desenvolvimento, pode haver maior dependência técnica de determinados fornecedores, aumentando seu poder de negociação.
 #### Análise do Poder de Barganha dos Fornecedores
 O poder de barganha dos fornecedores é moderado. Os principais fornecedores do projeto seriam serviços de hospedagem em nuvem, banco de dados, APIs e ferramentas de desenvolvimento, como Amazon Web Services, Google Cloud e Microsoft Azure.
 O projeto possui várias opções disponíveis no mercado, reduzindo a dependência de um único fornecedor. Por outro lado, caso o sistema utilize tecnologias muito específicas ou integrações mais complexas conforme o desenvolvimento, pode haver maior dependência técnica de determinados fornecedores, aumentando seu poder de negociação.
@@ -74,27 +85,22 @@ O projeto possui várias opções disponíveis no mercado, reduzindo a dependên
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
 <div align="center">
-  <p>Figura 1: Análise Swot</p>
-  <img src="../assets/analise_swot.png" width="800">
+  <p>Figura 02: Análise Swot</p>
+  <img src="../assets/figura2-Analise-swot.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
 A análise evidenciou que a Defesa Civil de Santo André detém monopólio legal e vanguarda setorial, sem concorrentes diretos, embora dispute espaço indiretamente com plataformas privadas de geolocalização e monitoramento climático. Verificou-se que sua autoridade é sustentada por dados exclusivos e pela integração ao Consórcio Intermunicipal Grande ABC. Entretanto, constatou-se que a manutenção de processos manuais e a resistência à digitalização fragilizam a operação. Para assegurar a liderança estratégica frente aos eventos climáticos extremos, conclui-se que a modernização, impulsionada por projetos acadêmicos e alinhada aos ODS, é necessária na mitigação das vulnerabilidades estruturais.
 
 ### 2.1.3. Solução (sprints 1 a 5)
-#### Problema a ser resolvido
-A Defesa Civil de Santo André enfrenta dificuldades na organização e centralização dos registros de ocorrências e informações operacionais. Muitos dados ficam dispersos, dificultando consultas, acompanhamento histórico e a gestão eficiente das informações utilizadas pela equipe no dia a dia.
-#### Dados disponíveis
-As informações e dados serão fornecidas diretamente pela própria Defesa Civil de Santo André para utilização e organização dentro da plataforma.
-#### Solução proposta
-Desenvolvimento de uma aplicação web para centralizar, registrar e organizar os dados e ocorrências da Defesa Civil. O sistema permitirá armazenar informações de forma organizada, facilitando consultas e atualizações.
-#### Forma de utilização da solução
-Os agentes da Defesa Civil utilizarão a plataforma pelo navegador para cadastrar ocorrências, atualizar informações e consultar registros anteriores. O sistema funcionará como um ambiente centralizado de gestão de dados, acessível de forma prática e organizada, além de uma visualização de mapa.
-#### Benefícios esperados
-A solução deve melhorar a organização das informações, facilitar consultas e otimizar o acompanhamento das ocorrências, permitindo maior eficiência operacional e mais agilidade no acesso às informações necessárias para o trabalho da Defesa Civil.
-#### Critério de sucesso e como será avaliado
-O sucesso será avaliado pela facilidade de uso da plataforma, organização dos registros,     melhoria na gestão das informações, por meio de feedback dos funcionários.
 
+*Explique detalhadamente os seguintes aspectos (até 60 palavras por item):*
+1. Problema a ser resolvido
+2. Dados disponíveis (mencionar fonte e conteúdo; se não houver, indicar “não se aplica”)
+3. Solução proposta
+4. Forma de utilização da solução
+5. Benefícios esperados
+6. Critério de sucesso e como será avaliado
 
 ### 2.1.4. Value Proposition Canvas: 
 
@@ -104,31 +110,26 @@ Abaixo, está apresentado o Canvas desenvolvido para o Departamento de Proteçã
 
 
 <div align="center">
-  <p>Figura 2 - Value Proposition Canvas</p>
+  <p>Figura 03: Value Proposition Canvas</p>
   <img src="../assets/figura3-Canvas-proposta-valor.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
+### PERFIL DO CLIENTE
 
-#### PERFIL DO CLIENTE
-
-##### Trabalhos do Cliente
+#### Trabalhos do Cliente
 
 Gerir emergências: Coordenar toda a resposta a desastres naturais e tecnológicos no município de Santo André, acionando protocolos de evacuação, abrigo e assistência humanitária de forma ágil e organizada.
 
 Cadastrar famílias: Registrar moradores de áreas de risco com dados socioestruturais completos, composição familiar, perfil de vulnerabilidade, doenças crônicas, animais de estimação e localização exata do imóvel.
 
-Coordenar abrigos: Controlar a entrada, permanência e saída de desabrigados nos centros de acolhimento emergencial, garantindo triagem de saúde, preenchimento do prontuário SUAS e gestão de vagas em tempo real.
-
-##### Dores
+#### Dores
 
 Dados fragmentados: As informações de cadastro, abrigo e logística existem em papéis, planilhas e sistemas separados, sem integração. Isso torna impossível cruzar dados de geolocalização com perfis de vulnerabilidade no momento crítico da evacuação.
 
-Gargalo no acolhimento: Não há ferramenta unificada para realizar a triagem de saúde, registrar a composição familiar e identificar necessidades de assistência social no momento da chegada ao abrigo, gerando filas e perda de informação.
-
 Sem visão em tempo real: A ausência de uma interface única impede que gestores vejam o cenário de crise consolidado, dificultando o planejamento preventivo e a tomada de decisão durante eventos extremos.
 
-##### Ganhos
+#### Ganhos
 
 Priorização de evacuação: Com dados cruzados de geolocalização e perfil de vulnerabilidade, a Defesa Civil consegue identificar imediatamente quais famílias: Idosos, crianças, gestantes, PCDs devem ser atendidas primeiro nos protocolos de evacuação.
 
@@ -143,11 +144,7 @@ Resiliência urbana: A capacidade de resposta mais eficiente a desastres fortale
 
  Módulo de campo: Aplicação otimizada para tablets e celulares usada pelos agentes em campo. Permite o cadastro completo de famílias com captura obrigatória de GPS, registro fotográfico do imóvel, identificação de vulnerabilidades e logística de emergência (animais, veículo, destino de evacuação).
 
-Módulo de abrigo: Ferramenta operacional para os centros de acolhimento. Realiza o check-in vinculado ao cadastro socioestrutural, preenche o prontuário SUAS, faz triagem multidisciplinar e controla as vagas disponíveis em tempo real.
-
-Módulo de logística: Painel administrativo para gestão de donativos (alimentos, higiene, medicamentos), controle de bens patrimoniais sob custódia da Defesa Civil e registro de animais resgatados, como pets e aves domésticas, com fichas de saúde e guarda responsável.
-
-Dashboard / Painel: Interface desktop com mapas de calor, pontos georreferenciados, filtros dinâmicos por setor de risco, bairro, idade e perfil de vulnerabilidade, além de exportação de dados em PDF e CSV para suporte ao Plano de Contingência municipal.
+ Painel: Interface desktop com mapas de calor, pontos georreferenciados, filtros dinâmicos por setor de risco, bairro, idade e perfil de vulnerabilidade.
 
 #### Aliviadores de Dor
 
@@ -155,15 +152,11 @@ Interface unificada: Substitui papéis, planilhas e sistemas isolados por uma ú
 
 Cadastro integrado: O registro feito em campo alimenta automaticamente o módulo de abrigo e o painel de visualização, garantindo que todos os setores da Defesa Civil e secretarias parceiras trabalhem com os mesmos dados atualizados.
 
-Rastreabilidade de ativos e donativos: Cada bem patrimonial, item de doação e animal resgatado possui registro próprio com histórico, permitindo controle de entrada, distribuição e devolução sem perdas ou duplicidades.
-
 #### Criadores de Ganho
 
 Decisão em tempo real: Com todos os dados centralizados e atualizados continuamente, gestores conseguem alocar equipes, redirecionar recursos e acionar protocolos com base em informações confiáveis e não em estimativas ou dados desatualizados.
 
 Dados georreferenciados: A captura obrigatória de coordenadas GPS no momento do cadastro transforma cada família em um ponto no mapa, permitindo análise espacial de densidade de vulnerabilidade, planejamento de rotas de evacuação e identificação de áreas críticas por região.
-
-Interoperabilidade entre secretarias: A plataforma serve como ponto de convergência entre a Defesa Civil, a Secretaria de Habitação, a Saúde e a Assistência Social, eliminando a necessidade de repassar dados manualmente entre órgãos e garantindo que todas as partes atuem com a mesma visão do cenário.
 
 ### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
 
@@ -358,8 +351,8 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 
 
 <div align="center">
-  <p>Figura 3 - Diagrama do Caso de Uso 1</p>
-  <img src="../assets/diagrama_casosdeuso1.png" width="800">
+  <p>Figura 04: Diagrama do Caso de Uso 1</p>
+  <img src="../assets/figura4-Diagrama-casosdeuso1.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
@@ -378,8 +371,8 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 - Relações: << extend >> -> Alocar Vaga Especial ( estendido quando a família possui membros com deficiência ou idosos ).
 
 <div align="center">
-  <p>Figura 4 - Diagrama do Caso de Uso 2</p>
-  <img src="../assets/diagrama_casosdeuso2.png" width="800">
+  <p>Figura 05: Diagrama do Caso de Uso 2</p>
+  <img src="../assets/figura5-Diagrama-casosdeuso2.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
@@ -397,8 +390,8 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 - Relações: << include >> -> Verificar Disponibilidade de Estoque.
 
 <div align="center">
-  <p>Figura 6 - Diagrama do Caso de Uso 3</p>
-  <img src="../assets/diagrama_casosdeuso3.png" width="800">
+  <p>Figura 06: Diagrama do Caso de Uso 3</p>
+  <img src="../assets/figura6-Diagrama-casosdeuso3.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
