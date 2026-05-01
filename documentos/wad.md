@@ -216,9 +216,13 @@ No caso das oportunidades, aquelas com alta probabilidade e alto impacto são pr
 
 ### Persona 2: A Gestora Administrativa
 
-**Nome:** Cláudia
+**Info Demográfica:** Cláudia, 41 anos
 
-**Idade:** 41 anos
+<div align="center">
+  <p>Figura 04: Persona - Cláudia</p>
+  <img src="../assets/claudia_gestora_adm.png" width="200">
+  <p>Fonte: Imagem criada via IA (2026)</p>
+</div>
 
 **Contexto:** Trabalha na sede da Defesa Civil de Santo André, coordenando o fluxo de informações entre os agentes de campo, as secretarias e a diretoria. Não vai a campo, sua atuação é inteiramente baseada nos dados que chegam até ela, e é responsável por gerar relatórios, tomar decisões operacionais e responder a demandas da gestão municipal.
 
@@ -432,7 +436,7 @@ Este caso de uso é o alicerce do mapeamento socioestrutural.
 
 
 <div align="center">
-  <p>Figura 04: Diagrama do Caso de Uso 1</p>
+  <p>Figura 05: Diagrama do Caso de Uso 1</p>
   <img src="../assets/figura4-Diagrama-casosdeuso1.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -452,7 +456,7 @@ Essencial para a coordenação durante eventos extremos.
 - Relações: << extend >> -> Alocar Vaga Especial ( estendido quando a família possui membros com deficiência ou idosos ).
 
 <div align="center">
-  <p>Figura 05: Diagrama do Caso de Uso 2</p>
+  <p>Figura 06: Diagrama do Caso de Uso 2</p>
   <img src="../assets/figura5-Diagrama-casosdeuso2.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -471,7 +475,7 @@ Garante que os recursos cheguem onde são necessários.
 - Relações: << include >> -> Verificar Disponibilidade de Estoque.
 
 <div align="center">
-  <p>Figura 06: Diagrama do Caso de Uso 3</p>
+  <p>Figura 07: Diagrama do Caso de Uso 3</p>
   <img src="../assets/figura6-Diagrama-casosdeuso3.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
