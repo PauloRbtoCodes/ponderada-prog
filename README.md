@@ -19,7 +19,6 @@
 - <a href="https://www.linkedin.com/in/anita-fratelli-258398314/">Anita Fratelli</a>
 - <a href="https://www.linkedin.com/in/gabrielly-mendes-bb94683b9/">Gabrielly Mendes</a>
 
-
 ## :teacher: Professores
 
 ### Orientador(a)
