@@ -214,7 +214,38 @@ No caso das oportunidades, aquelas com alta probabilidade e alto impacto são pr
 
 ## 2.2. Personas (sprint 1)
 
-*Posicione aqui suas Personas em forma de texto markdown com imagens, ou como imagem de template preenchido. Atualize esta seção ao longo do módulo se necessário.*
+### Persona 2: A Gestora Administrativa
+
+**Info Demográfica:** Cláudia, 41 anos
+
+<div align="center">
+  <p>Figura 04: Persona - Cláudia</p>
+  <img src="../assets/claudia_gestora_adm.png" width="200">
+  <p>Fonte: Imagem criada via IA (2026)</p>
+</div>
+
+**Contexto:** Trabalha na sede da Defesa Civil de Santo André, coordenando o fluxo de informações entre os agentes de campo, as secretarias e a diretoria. Não vai a campo, sua atuação é inteiramente baseada nos dados que chegam até ela, e é responsável por gerar relatórios, tomar decisões operacionais e responder a demandas da gestão municipal.
+
+#### Dores
+
+1. As informações chegam fragmentadas trazidas pelos agentes em papel, parte em planilhas.
+2. Quando uma autoridade ou secretaria pede um número ("quantas famílias em risco alto têm idosos no setor B?"), Cláudia precisa garimpar manualmente em múltiplas fontes para responder, o que pode levar horas ou dias.
+3. Sem dados organizados, as decisões de alocação de recursos (onde mandar agentes, quais abrigos acionar, quais donativos priorizar) são tomadas com base na experiência e intuição, não em evidências.
+4. É impossível saber em tempo real quantas pessoas já foram cadastradas, quais regiões ainda não foram visitadas ou quais famílias estão com cadastro incompleto.
+5. A cada nova emergência, o histórico de cadastros anteriores se perde ou fica inacessível, obrigando o time a recomeçar do zero.
+6. De forma geral, não há uma visão clara e confiável do que está acontecendo em campo.
+
+#### Necessidades
+
+1. Todos os dados cadastrados pelos agentes de campo centralizados em um único lugar, atualizados em tempo real, sem depender de repasse manual.
+2. Filtros que permitam segmentar os cadastros por setor de risco, bairro, perfil de vulnerabilidade (idosos, PCDs, gestantes) e status do cadastro, de forma rápida e sem precisar de apoio técnico.
+3. Uma ferramenta visual que transforme os dados em informação acionável: quantas famílias, onde estão, qual o nível de risco, quem tem prioridade de evacuação.
+4. Poder exportar relatórios prontos para apresentar à diretoria ou às secretarias parceiras, sem precisar montar planilhas manualmente.
+5. Rastrear a completude dos cadastros, saber quais famílias têm dados faltando para acionar os agentes certos.
+
+#### Solução
+
+Um banco de dados centralizado que reúne todos os cadastros feitos pelos agentes de campo em um único lugar, estruturado de forma que Cláudia consiga buscar, filtrar e consultar qualquer informação em segundos (por nome, CPF, setor de risco, bairro ou perfil de vulnerabilidade) sem precisar garimpar planilhas ou esperar repasse manual. A base de dados garante que nenhuma informação se perca e que todos os cadastros sigam um padrão único, confiável e consultável a qualquer momento. Futuramente, essa mesma base poderá alimentar dashboards visuais, gráficos de distribuição de risco, tabelas de prioridade de evacuação e relatórios automáticos para a diretoria e as secretarias parceiras.
 
 ## 2.3. User Stories
 
@@ -405,7 +436,7 @@ Este caso de uso é o alicerce do mapeamento socioestrutural.
 
 
 <div align="center">
-  <p>Figura 04: Diagrama do Caso de Uso 1</p>
+  <p>Figura 05: Diagrama do Caso de Uso 1</p>
   <img src="../assets/figura4-Diagrama-casosdeuso1.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -425,7 +456,7 @@ Essencial para a coordenação durante eventos extremos.
 - Relações: << extend >> -> Alocar Vaga Especial ( estendido quando a família possui membros com deficiência ou idosos ).
 
 <div align="center">
-  <p>Figura 05: Diagrama do Caso de Uso 2</p>
+  <p>Figura 06: Diagrama do Caso de Uso 2</p>
   <img src="../assets/figura5-Diagrama-casosdeuso2.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -444,7 +475,7 @@ Garante que os recursos cheguem onde são necessários.
 - Relações: << include >> -> Verificar Disponibilidade de Estoque.
 
 <div align="center">
-  <p>Figura 06: Diagrama do Caso de Uso 3</p>
+  <p>Figura 07: Diagrama do Caso de Uso 3</p>
   <img src="../assets/figura6-Diagrama-casosdeuso3.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
