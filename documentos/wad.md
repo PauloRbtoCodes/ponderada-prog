@@ -230,13 +230,38 @@ No caso das oportunidades, aquelas com alta probabilidade e alto impacto são pr
 
 ## 2.2. Personas (sprint 1)
 
+### Persona 1: O Agente de Campo
+**Info Demográfica:** Josias, 34 anos
+
+<div align="center">
+  <p>Figura 04: Persona - Josias</p>
+  <img src="../assets/personas/josias_agente_campo.png" width="200">
+  <p>Fonte: Imagem criada via IA (2026)</p>
+</div>
+
+**Contexto:** Atua presencialmente na linha de frente das áreas de risco de Santo André (encostas, áreas de alagamento e ocupações). Atualmente, faz o cadastro das populações vulneráveis utilizando papel e prancheta, muitas vezes enfrentando condições climáticas adversas, terrenos irregulares e conexão de internet móvel intermitente.
+
+### Dores
+1. Fazer o cadastro no papel é ineficaz e arriscado; os documentos físicos estão sujeitos a danos (chuva, umidade, perda) e a busca manual por essas fichas posteriormente é extremamente demorada.
+2. O preenchimento manual de formulários extensos gera fadiga e lentidão, impactando diretamente na quantidade de famílias que ele consegue atender e mapear por dia.
+3. Em ocupações irregulares, muitas moradias não possuem nome de rua oficial, número ou CEP, o que impossibilita o registro exato de onde a família reside através dos métodos tradicionais.
+4. O medo de perder o trabalho feito caso a internet móvel oscile ou caia no meio de um atendimento digital.
+
+### Necessidades
+1. Uma ferramenta digital para realizar os cadastros com um fluxo simples, direto e com botões de fácil acesso, minimizando a digitação excessiva em campo.
+2. Uma forma de registrar com precisão a localização da moradia da família em tempo real, sem depender de um endereço formal, rua ou CEP.
+3. Garantia de que o sistema funcionará e guardará as informações coletadas mesmo quando ele estiver em um "ponto cego" de sinal de internet.
+
+### Solução
+Uma interface web focada na usabilidade móvel que possibilita que os cadastros sejam realizados de maneira ágil, substituindo o papel por formulários digitais de preenchimento rápido. Para contornar a falta de endereços formais, a interface utiliza o georreferenciamento nativo do dispositivo para capturar automaticamente as coordenadas exatas (latitude e longitude) do local no momento do cadastro. Além disso, a aplicação conta com resiliência offline, utilizando o armazenamento local do navegador para guardar os dados temporariamente caso a conexão caia, sincronizando tudo com o banco de dados centralizado assim que o sinal de internet for restabelecido. Isso garante a segurança do dado coletado e facilita a localização rápida de qualquer pessoa atingida.
+
 ### Persona 2: A Gestora Administrativa
 
 **Info Demográfica:** Cláudia, 41 anos
 
 <div align="center">
   <p>Figura 04: Persona - Cláudia</p>
-  <img src="../assets/claudia_gestora_adm.png" width="200">
+  <img src="../assets/personas/claudia_gestora_adm.png" width="200">
   <p>Fonte: Imagem criada via IA (2026)</p>
 </div>
 
