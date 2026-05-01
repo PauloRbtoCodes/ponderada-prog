@@ -19,6 +19,7 @@
 - <a href="https://www.linkedin.com/in/gabrielly-mendes-bb94683b9/">Gabrielly Mendes</a>
 
 
+
 ## Sumário
 
 [1. Introdução](#c1)
@@ -64,24 +65,15 @@ Dessa forma, a análise das cinco forças contribui para identificar oportunidad
 </div>
 
 #### Análise da Ameaça de Novos Entrantes
- A ameaça de novos entrantes no contexto de soluções tecnológicas para a gestão pública de riscos é considerada moderada, devido às barreiras institucionais e técnicas envolvidas (Competitive Strategy, 2008). O desenvolvimento de sistemas como o GeoRisco exige conhecimento especializado em georreferenciamento, integração de dados e adequação a políticas públicas, como as diretrizes da Defesa Civil e do SUAS. Além disso, a entrada nesse setor envolve processos burocráticos e necessidade de validação institucional, dificultando a atuação de novos players.
- Por outro lado, o crescimento de soluções GovTech e plataformas digitais voltadas ao setor público pode reduzir essas barreiras ao longo do tempo (Porter, 2008).
-
+ A ameaça de novos entrantes no contexto de soluções tecnológicas para a gestão pública de riscos é considerada moderada, devido às barreiras institucionais e técnicas envolvidas (PORTER, 2008). O desenvolvimento de sistemas como o GeoRisco exige conhecimento especializado em georreferenciamento, integração de dados e adequação a políticas públicas, como as diretrizes da Defesa Civil e do SUAS. Além disso, a entrada nesse setor envolve processos burocráticos e necessidade de validação institucional, dificultando a atuação de novos players. Por outro lado, o crescimento de soluções GovTech e plataformas digitais externas ao setor público pode reduzir essas barreiras ao longo do tempo (PORTER, 2008).
  #### Análise da Ameaça de Produtos ou Serviços Substitutos
- A ameaça de substitutos é considerada alta, pois a gestão de dados da Defesa Civil ainda pode ser realizada por meios alternativos, como planilhas, formulários físicos e sistemas não integrados (Porter, 2008). Esses métodos apresentam baixo custo e ampla adoção, especialmente em contextos com limitações tecnológicas.
- Entretanto, tais substitutos possuem limitações significativas, como falta de integração, dificuldade de atualização em tempo real e baixa confiabilidade na consolidação das informações, o que compromete a tomada de decisão em situações emergenciais (Prefeitura de Santo André, 2026; Porter, 2008).
-
+ A ameaça de substitutos é considerada alta, pois a gestão de dados da Defesa Civil ainda pode ser realizada por meios alternativos, como planilhas, formulários físicos e sistemas não integrados (PORTER, 2008). Esses métodos apresentam baixo custo e ampla adoção, especialmente em contextos com limitações tecnológicas. Entretanto, tais substitutos possuem limitações específicas, como falta de integração, dificuldade de atualização em tempo real e baixa confiabilidade na consolidação das informações, o que compromete a tomada de decisão em situações emergenciais (Prefeitura de Santo André, 2026; PORTER, 2008).
  #### Análise da Rivalidade entre Concorrentes
- A rivalidade entre concorrentes é baixa a moderada, pois não há competição direta no formato de mercado tradicional, mas sim a existência de soluções alternativas no setor público e tecnológico (Porter, 2008). A concorrência ocorre entre sistemas desenvolvidos por outras prefeituras, ferramentas genéricas de gestão de dados ou soluções privadas adaptáveis.
- No entanto, essa rivalidade é limitada pela necessidade de customização e pela especificidade das demandas locais. Além disso, a ausência de uma plataforma integrada evidencia uma lacuna existente, reduzindo a pressão competitiva direta e reforçando a relevância do GeoRisco como solução inovadora (Prefeitura de Santo André, 2026).
-
+ A rivalidade entre concorrentes é baixa a moderada, pois não há competição direta no formato do mercado tradicional, mas sim a existência de soluções alternativas no setor público e tecnológico (PORTER, 2008). A concorrência ocorre entre sistemas desenvolvidos por outras prefeituras, ferramentas genéricas de gestão de dados ou soluções privadas adaptáveis. No entanto, essa rivalidade é limitada pela necessidade de customização e pela especificidade das demandas locais. Além disso, a ausência de uma plataforma integrada evidencia uma lacuna existente, reduzindo a pressão competitiva direta e reforçando a relevância do GeoRisco como solução inovadora (Prefeitura de Santo André, 2026).
 #### Análise do Poder de Barganha dos Clientes
-O poder de barganha do cliente é alto, pois a Defesa Civil será a única usuária da plataforma e terá influência direta sobre as funcionalidades do sistema. Como o projeto é desenvolvido especificamente para atender às demandas do órgão, a equipe pode exigir ajustes, melhorias e personalizações de acordo com sua operação.
-
+O poder de barganha do cliente é alto, pois a Defesa Civil será o único usuário da plataforma e terá influência direta sobre as funcionalidades do sistema. Como o projeto é desenvolvido especificamente para atender às demandas do órgão, a equipe pode exigir ajustes, melhorias e personalizações de acordo com sua operação (PORTER, 2008).
 #### Análise do Poder de Barganha dos Fornecedores
-O poder de barganha dos fornecedores é moderado. Os principais fornecedores do projeto seriam serviços de hospedagem em nuvem, banco de dados, APIs e ferramentas de desenvolvimento, como Amazon Web Services, Google Cloud e Microsoft Azure.
-O projeto possui várias opções disponíveis no mercado, reduzindo a dependência de um único fornecedor. Por outro lado, caso o sistema utilize tecnologias muito específicas ou integrações mais complexas conforme o desenvolvimento, pode haver maior dependência técnica de determinados fornecedores, aumentando seu poder de negociação.
-
+O poder de negociação dos fornecedores é moderado. Os principais fornecedores do projeto são serviços de hospedagem em nuvem, banco de dados, APIs e ferramentas de desenvolvimento, como Amazon Web Services, Google Cloud e Microsoft Azure. O projeto possui diversas opções disponíveis no mercado, reduzindo a dependência de um único fornecedor. Por outro lado, caso o sistema utilize tecnologias muito específicas ou integrações mais complexas ao longo do desenvolvimento, pode haver maior dependência técnica de determinados fornecedores, aumentando seu poder de negociação (PORTER, 2008).
 ### 2.1.2. Análise SWOT da Instituição Parceira
 
 <div align="center">
