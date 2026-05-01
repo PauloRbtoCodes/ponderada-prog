@@ -98,10 +98,18 @@ A Defesa Civil de Santo André enfrenta dificuldades na organização e centrali
 As informações e dados serão fornecidas diretamente pela própria Defesa Civil de Santo André para utilização e organização dentro da plataforma.
 
 #### Solução proposta
-Desenvolvimento de uma aplicação web para centralizar, registrar e organizar os dados e ocorrências da Defesa Civil. O sistema permitirá armazenar informações de forma organizada, facilitando consultas e atualizações.
+Desenvolvimento de uma plataforma integrada composta por três componentes principais:
+
+1. **Banco de Dados Centralizado**: Sistema que armazena e organiza todos os cadastros de ocorrências e dados da Defesa Civil em um único repositório, garantindo integridade, confiabilidade e acesso em tempo real às informações.
+
+2. **Formulário Digital**: Interface utilizada pelos agentes de campo para cadastrar ocorrências, informações de famílias, dados de vulnerabilidade e coordenadas GPS. Os dados preenchidos no formulário são automaticamente integrados e persistidos no banco de dados centralizado.
+
+3. **Site Integrado**: Plataforma web para gestão e consulta dos dados, permitindo busca por nome, CPF ou setor de risco, filtros por perfil de vulnerabilidade, visualização clara de todos os cadastros e acesso de forma organizada e prática.
+
+A integração entre esses componentes garante que os dados coletados em campo fluam automaticamente para o banco de dados centralizado e fiquem imediatamente disponíveis no site para consulta e gestão.
 
 #### Forma de utilização da solução
-Os agentes da Defesa Civil utilizarão a plataforma pelo navegador para cadastrar ocorrências, atualizar informações e consultar registros anteriores. O sistema funcionará como um ambiente centralizado de gestão de dados, acessível de forma prática e organizada, além de uma visualização de mapa.
+Os agentes da Defesa Civil utilizarão o formulário digital em campo para cadastrar ocorrências, informações familiares e dados operacionais. Esses dados são automaticamente armazenados no banco de dados centralizado. Em seguida, na sede, gestores e administradores acessarão o site integrado para consultar, filtrar, atualizar informações e gerar relatórios, tendo uma visão consolidada e em tempo real de todas as ocorrências e cadastros registrados.
 
 #### Benefícios esperados
 A solução deve melhorar a organização das informações, facilitar consultas e otimizar o acompanhamento das ocorrências, permitindo maior eficiência operacional e mais agilidade no acesso às informações necessárias para o trabalho da Defesa Civil.
