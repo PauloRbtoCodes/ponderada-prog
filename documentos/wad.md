@@ -543,7 +543,7 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 ### UC01: Cadastrar Família em Área de Vulnerabilidade
 Este caso de uso é o alicerce do mapeamento socioestrutural.
 
-- Atores: Agente da Defesa Civil.
+- Atores: Agentes da Defesa Civil.
 
 - Atores Secundários: API de Geolocalização (ex: Google Maps/Mapbox).
 
@@ -551,7 +551,9 @@ Este caso de uso é o alicerce do mapeamento socioestrutural.
 
 - Pós-requisitos: Registro da família vinculado a uma coordenada geográfica e perfil de vulnerabilidade gerado.
 
-- Relações: << include >> -> Validar Localização Geográfica.
+- Relações: 
+
+  - << include >>: Validar Localização Geográfica.
 
 
 <div align="center">
@@ -561,18 +563,22 @@ Este caso de uso é o alicerce do mapeamento socioestrutural.
 </div>
 
 
-### UC02: Gerenciar Acolhimento em Abrigos
-Essencial para a coordenação durante eventos extremos.
+### UC02: Cadastrar Área de Risco Socioestrutural
+Este caso de uso é o coração do sistema, permitindo que a Defesa Civil alimente a base de dados com as informações coletadas em campo.
 
-- Atores: Gestor de Abrigo, Agente da Defesa Civil.
+- Atores: Agentes da Defesa Civil.
 
-- Atores Secundários: Não se aplica.
+- Atores Secundários: API de Geolocalização (para conversão de endereço/coordenada).
 
-- Pré-requisitos: Existência de abrigos previamente cadastrados no sistema.
+- Pré-requisitos: Agente autenticado e com permissões de edição de mapa.
 
-- Pós-requisitos: Atualização em tempo real da ocupação do abrigo e lista de desabrigados atualizada.
+- Pós-requisitos: Ponto de risco registrado no banco de dados e visível no mapa de calor da plataforma.
 
-- Relações: << extend >> -> Alocar Vaga Especial ( estendido quando a família possui membros com deficiência ou idosos ).
+- Relações: 
+
+  - << include >>: Validar Coordenadas GPS (obrigatório para georreferenciamento).
+
+  - << extend >>: Anexar Fotos da Ocorrência (opcional, ocorre conforme a disponibilidade de mídia).
 
 <div align="center">
   <p>Figura 06: Diagrama do Caso de Uso 2</p>
@@ -580,18 +586,22 @@ Essencial para a coordenação durante eventos extremos.
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
-### UC03: Controlar Logística de Assistência Humanitária
-Garante que os recursos cheguem onde são necessários.
+### UC03: Gerar Relatório de Vulnerabilidade e Logística
+Este caso de uso transforma os dados brutos em inteligência estratégica para a tomada de decisão da gestão municipal.
 
-- Atores: Gestor de Logística.
+- Atores: Gestores administrativos da Defesa Civil.
 
-- Atores Secundários: Sistema de Inventário Municipal (opcional).
+- Atores Secundários: Não se aplica.
 
-- Pré-requisitos: Insumos (cestas básicas, kits de higiene) devidamente catalogados.
+- Pré-requisitos: Existência de dados populacionais e de risco previamente cadastrados.
 
-- Pós-requisitos: Baixa no estoque e registro de entrega vinculado ao CPF do responsável familiar.
+- Pós-requisitos: Relatório gerado em tela ou arquivo para subsídio de políticas públicas.
 
-- Relações: << include >> -> Verificar Disponibilidade de Estoque.
+- Relações:
+
+  - << include >>: Filtrar por Critérios (Obrigatório selecionar período, região ou tipo de risco para o processamento).
+
+  - << extend >>: Exportar para PDF/Excel (Opcional, caso o gestor precise do documento fora do sistema).
 
 <div align="center">
   <p>Figura 07: Diagrama do Caso de Uso 3</p>
