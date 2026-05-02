@@ -595,7 +595,7 @@ Este caso de uso é o coração do sistema, permitindo que a Defesa Civil alimen
 
 - Pré-requisitos: Agente autenticado e com permissões de edição de mapa.
 
-- Pós-requisitos: Ponto de risco registrado no banco de dados e visível no mapa de calor da plataforma.
+- Pós-requisitos: Ponto de risco registrado no banco de dados.
 
 - Relações: 
 
@@ -618,13 +618,13 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 - Pré-requisitos: Existência de dados populacionais e de risco previamente cadastrados.
 
-- Pós-requisitos: Relatório gerado em tela ou arquivo para subsídio de políticas públicas.
+- Pós-requisitos: Relatório gerado em tela ou arquivo para subsídio de tomada de decisões.
 
 - Relações:
 
-  - << include >>: Filtrar por Critérios (Obrigatório selecionar período, região ou tipo de risco para o processamento).
+  - << include >>: Filtrar por Critérios (obrigatório selecionar período, região ou tipo de risco para o processamento).
 
-  - << extend >>: Exportar para PDF/Excel (Opcional, caso o gestor precise do documento fora do sistema).
+  - << extend >>: Exportar para PDF/Excel (opcional, caso o gestor precise do documento fora do sistema).
 
 <div align="center">
   <p>Figura 07: Diagrama do Caso de Uso 3</p>
