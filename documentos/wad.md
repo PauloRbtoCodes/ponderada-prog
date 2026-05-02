@@ -153,7 +153,7 @@ Resiliência urbana: A capacidade de resposta mais eficiente a desastres fortale
 
  Módulo de campo: Aplicação otimizada para tablets e celulares usada pelos agentes em campo. Permite o cadastro completo de famílias com captura obrigatória de GPS, registro fotográfico do imóvel, identificação de vulnerabilidades e logística de emergência (animais, veículo, destino de evacuação).
 
- Painel: Interface desktop com mapas de calor, pontos georreferenciados, filtros dinâmicos por setor de risco, bairro, idade e perfil de vulnerabilidade.
+ Painel: Interface desktop com pontos georreferenciados, filtros dinâmicos por setor de risco, bairro, idade e perfil de vulnerabilidade.
 
 #### Aliviadores de Dor
 
