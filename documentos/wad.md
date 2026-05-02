@@ -44,13 +44,11 @@
 <br>
 
 # <a name="c1"></a>1. Introdução 
-A gestão de riscos e desastres em áreas urbanas é um desafio crescente, especialmente diante do aumento de eventos climáticos extremos e da presença de populações em áreas de vulnerabilidade. Nesse contexto, a Defesa Civil de Santo André enfrenta dificuldades relacionadas à descentralização das informações, uma vez que dados sobre cadastro de famílias, gestão de abrigos e logística humanitária estão distribuídos em sistemas não integrados ou até mesmo em registros físicos, comprometendo a eficiência das ações emergenciais.
+A gestão de riscos e desastres em áreas urbanas constitui um desafio crescente, especialmente em função do aumento de eventos climáticos extremos e da presença de populações em situação de vulnerabilidade. Nesse contexto, a Defesa Civil de Santo André enfrenta dificuldades relacionadas à descentralização das informações, uma vez que dados sobre cadastro de famílias, acolhimento emergencial e logística humanitária encontram-se distribuídos em sistemas não integrados ou, em alguns casos, em registros físicos, comprometendo a eficiência das ações em situações de emergência.
 
-Diante desse cenário, surge a necessidade de uma solução capaz de centralizar e integrar essas informações. O projeto GeoRisco Santo André propõe o desenvolvimento de uma aplicação web georreferenciada que reúne, em uma única plataforma, o mapeamento socioestrutural de áreas de risco, a gestão de acolhimento em abrigos emergenciais e o controle da logística de assistência humanitária.
+Diante desse cenário, evidencia-se a necessidade de uma solução capaz de centralizar e integrar essas informações, contribuindo para a melhoria dos processos de gestão. O projeto GeoRisco Santo André propõe o desenvolvimento de uma aplicação web com recursos de georreferenciamento, voltada à consolidação de dados socioestruturais de áreas de risco, ao apoio à gestão do acolhimento emergencial e ao controle da logística de assistência humanitária.
 
-A solução busca utilizar a tecnologia como ferramenta estratégica para apoiar a tomada de decisão, permitindo a identificação de perfis de vulnerabilidade, a priorização de atendimentos e a melhor alocação de recursos em situações de crise. Além disso, promove a integração entre diferentes setores da administração pública, contribuindo para uma atuação mais coordenada e eficiente.
-Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade de resposta do município, gerando valor público por meio da proteção de vidas e do aumento da resiliência urbana.
-
+A solução utiliza a tecnologia como ferramenta estratégica de apoio à tomada de decisão, permitindo a identificação de perfis de vulnerabilidade, a priorização de atendimentos e a otimização da alocação de recursos em contextos críticos. Além disso, busca promover a integração entre diferentes setores da administração pública, contribuindo para uma atuação mais coordenada e eficiente. Dessa forma, o projeto visa otimizar processos operacionais e fortalecer a capacidade de resposta do município, gerando valor público por meio da proteção de vidas e do aumento da resiliência urbana.
 
 # <a name="c2"></a>2. Visão Geral da Aplicação Web
 
