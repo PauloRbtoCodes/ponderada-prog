@@ -44,13 +44,11 @@
 <br>
 
 # <a name="c1"></a>1. Introdução 
-A gestão de riscos e desastres em áreas urbanas é um desafio crescente, especialmente diante do aumento de eventos climáticos extremos e da presença de populações em áreas de vulnerabilidade. Nesse contexto, a Defesa Civil de Santo André enfrenta dificuldades relacionadas à descentralização das informações, uma vez que dados sobre cadastro de famílias, gestão de abrigos e logística humanitária estão distribuídos em sistemas não integrados ou até mesmo em registros físicos, comprometendo a eficiência das ações emergenciais.
+A gestão de riscos e desastres em áreas urbanas constitui um desafio crescente, especialmente em função do aumento de eventos climáticos extremos e da presença de populações em situação de vulnerabilidade. Nesse contexto, a Defesa Civil de Santo André enfrenta dificuldades relacionadas à descentralização das informações, uma vez que dados sobre cadastro de famílias, acolhimento emergencial e logística humanitária encontram-se distribuídos em sistemas não integrados ou, em alguns casos, em registros físicos, comprometendo a eficiência das ações em situações de emergência.
 
-Diante desse cenário, surge a necessidade de uma solução capaz de centralizar e integrar essas informações. O projeto GeoRisco Santo André propõe o desenvolvimento de uma aplicação web georreferenciada que reúne, em uma única plataforma, o mapeamento socioestrutural de áreas de risco, a gestão de acolhimento em abrigos emergenciais e o controle da logística de assistência humanitária.
+Diante desse cenário, evidencia-se a necessidade de uma solução capaz de centralizar e integrar essas informações, contribuindo para a melhoria dos processos de gestão. O projeto GeoRisco Santo André propõe o desenvolvimento de uma aplicação web com recursos de georreferenciamento, voltada à consolidação de dados socioestruturais de áreas de risco, ao apoio à gestão do acolhimento emergencial e ao controle da logística de assistência humanitária.
 
-A solução busca utilizar a tecnologia como ferramenta estratégica para apoiar a tomada de decisão, permitindo a identificação de perfis de vulnerabilidade, a priorização de atendimentos e a melhor alocação de recursos em situações de crise. Além disso, promove a integração entre diferentes setores da administração pública, contribuindo para uma atuação mais coordenada e eficiente.
-Assim, o projeto visa otimizar processos operacionais e fortalecer a capacidade de resposta do município, gerando valor público por meio da proteção de vidas e do aumento da resiliência urbana.
-
+A solução utiliza a tecnologia como ferramenta estratégica de apoio à tomada de decisão, permitindo a identificação de perfis de vulnerabilidade, a priorização de atendimentos e a otimização da alocação de recursos em contextos críticos. Além disso, busca promover a integração entre diferentes setores da administração pública, contribuindo para uma atuação mais coordenada e eficiente. Dessa forma, o projeto visa otimizar processos operacionais e fortalecer a capacidade de resposta do município, gerando valor público por meio da proteção de vidas e do aumento da resiliência urbana.
 
 # <a name="c2"></a>2. Visão Geral da Aplicação Web
 
@@ -67,8 +65,11 @@ Dessa forma, a análise das cinco forças contribui para identificar oportunidad
 
 #### Análise da Ameaça de Novos Entrantes
  A ameaça de novos entrantes no contexto da atuação da Defesa Civil é considerada baixa, uma vez que se trata de uma atividade institucional regulamentada e de responsabilidade exclusiva do poder público (PORTER, 2008). A atuação em gestão de riscos e desastres é definida por legislações específicas, como a Política Nacional de Proteção e Defesa Civil, o que limita a entrada de novos agentes com a mesma função e autoridade. Além disso, a necessidade de articulação com diferentes órgãos governamentais e acesso a dados oficiais reforça essas barreiras. Dessa forma, embora possam surgir iniciativas privadas ou tecnológicas de apoio, estas não substituem o papel institucional da Defesa Civil, mantendo baixa a ameaça de novos entrantes (Prefeitura de Santo André, 2026; PORTER, 2008).
+ 
  #### Análise da Ameaça de Produtos ou Serviços Substitutos
+
  A ameaça de produtos ou serviços substitutos é considerada moderada, pois, embora não existam substitutos diretos para a atuação da Defesa Civil, algumas ferramentas e práticas podem desempenhar funções complementares ou parciais (PORTER, 2008). Entre elas, destacam-se sistemas privados de monitoramento climático, plataformas de geolocalização e ferramentas digitais de gestão de dados. No entanto, tais soluções não possuem a capacidade institucional, legal e operacional para coordenar ações emergenciais, acolhimento de famílias e articulação intersetorial. Assim, apesar de contribuírem para a gestão de riscos, esses substitutos não eliminam a necessidade da atuação da Defesa Civil, mantendo a ameaça em nível moderado (Prefeitura de Santo André, 2026; PORTER, 2008).
+
  #### Análise da Rivalidade entre Concorrentes
  A rivalidade entre concorrentes é considerada baixa, uma vez que a Defesa Civil não atua em um mercado competitivo tradicional, mas sim como órgão público com atribuição legal específica (PORTER, 2008). Não há concorrentes diretos que disputem sua função institucional, pois sua atuação é exclusiva no âmbito municipal. Entretanto, pode-se observar uma forma indireta de rivalidade com soluções tecnológicas privadas ou sistemas desenvolvidos por outros municípios, que oferecem abordagens alternativas para a gestão de riscos. Ainda assim, essa concorrência é limitada, pois tais soluções não substituem a autoridade e a responsabilidade da Defesa Civil. Dessa forma, a baixa rivalidade reforça a necessidade de inovação interna e modernização dos processos, em vez de competição direta (Prefeitura de Santo André, 2026; PORTER, 2008).
  #### Análise do Poder de Barganha dos Clientes
@@ -156,7 +157,7 @@ Resiliência urbana: A capacidade de resposta mais eficiente a desastres fortale
 
  Módulo de campo: Aplicação otimizada para tablets e celulares usada pelos agentes em campo. Permite o cadastro completo de famílias com captura obrigatória de GPS, registro fotográfico do imóvel, identificação de vulnerabilidades e logística de emergência (animais, veículo, destino de evacuação).
 
- Painel: Interface desktop com mapas de calor, pontos georreferenciados, filtros dinâmicos por setor de risco, bairro, idade e perfil de vulnerabilidade.
+ Painel: Interface desktop com pontos georreferenciados, filtros dinâmicos por setor de risco, bairro, idade e perfil de vulnerabilidade.
 
 #### Aliviadores de Dor
 
@@ -546,7 +547,7 @@ Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
 ### UC01: Cadastrar Família em Área de Vulnerabilidade
 Este caso de uso é o alicerce do mapeamento socioestrutural.
 
-- Atores: Agente da Defesa Civil.
+- Atores: Agentes da Defesa Civil.
 
 - Atores Secundários: API de Geolocalização (ex: Google Maps/Mapbox).
 
@@ -554,7 +555,9 @@ Este caso de uso é o alicerce do mapeamento socioestrutural.
 
 - Pós-requisitos: Registro da família vinculado a uma coordenada geográfica e perfil de vulnerabilidade gerado.
 
-- Relações: << include >> -> Validar Localização Geográfica.
+- Relações: 
+
+  - << include >>: Validar Localização Geográfica.
 
 
 <div align="center">
@@ -564,18 +567,22 @@ Este caso de uso é o alicerce do mapeamento socioestrutural.
 </div>
 
 
-### UC02: Gerenciar Acolhimento em Abrigos
-Essencial para a coordenação durante eventos extremos.
+### UC02: Cadastrar Área de Risco Socioestrutural
+Este caso de uso é o coração do sistema, permitindo que a Defesa Civil alimente a base de dados com as informações coletadas em campo.
 
-- Atores: Gestor de Abrigo, Agente da Defesa Civil.
+- Atores: Agentes da Defesa Civil.
 
-- Atores Secundários: Não se aplica.
+- Atores Secundários: API de Geolocalização (para conversão de endereço/coordenada).
 
-- Pré-requisitos: Existência de abrigos previamente cadastrados no sistema.
+- Pré-requisitos: Agente autenticado e com permissões de edição de mapa.
 
-- Pós-requisitos: Atualização em tempo real da ocupação do abrigo e lista de desabrigados atualizada.
+- Pós-requisitos: Ponto de risco registrado no banco de dados.
 
-- Relações: << extend >> -> Alocar Vaga Especial ( estendido quando a família possui membros com deficiência ou idosos ).
+- Relações: 
+
+  - << include >>: Validar Coordenadas GPS (obrigatório para georreferenciamento).
+
+  - << extend >>: Anexar Fotos da Ocorrência (opcional, ocorre conforme a disponibilidade de mídia).
 
 <div align="center">
   <p>Figura 06: Diagrama do Caso de Uso 2</p>
@@ -583,18 +590,22 @@ Essencial para a coordenação durante eventos extremos.
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
-### UC03: Controlar Logística de Assistência Humanitária
-Garante que os recursos cheguem onde são necessários.
+### UC03: Gerar Relatório de Vulnerabilidade e Logística
+Este caso de uso transforma os dados brutos em inteligência estratégica para a tomada de decisão da gestão municipal.
 
-- Atores: Gestor de Logística.
+- Atores: Gestores administrativos da Defesa Civil.
 
-- Atores Secundários: Sistema de Inventário Municipal (opcional).
+- Atores Secundários: Não se aplica.
 
-- Pré-requisitos: Insumos (cestas básicas, kits de higiene) devidamente catalogados.
+- Pré-requisitos: Existência de dados populacionais e de risco previamente cadastrados.
 
-- Pós-requisitos: Baixa no estoque e registro de entrega vinculado ao CPF do responsável familiar.
+- Pós-requisitos: Relatório gerado em tela ou arquivo para subsídio de tomada de decisões.
 
-- Relações: << include >> -> Verificar Disponibilidade de Estoque.
+- Relações:
+
+  - << include >>: Filtrar por Critérios (obrigatório selecionar período, região ou tipo de risco para o processamento).
+
+  - << extend >>: Exportar para PDF/Excel (opcional, caso o gestor precise do documento fora do sistema).
 
 <div align="center">
   <p>Figura 07: Diagrama do Caso de Uso 3</p>
