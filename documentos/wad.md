@@ -619,7 +619,11 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 ### 3.2.4. Diagrama de Sequência UML (sprint 3)
 
-*Ao menos um fluxo prioritário, mostrando a interação entre as camadas Controller → Service → Repository → Banco. Linhas de vida verticais, ativação correta, mensagens síncronas e assíncronas diferenciadas, retornos tracejados.*
+<div align="center">
+  <p>Figura 07: Diagrama de Sequências</p>
+  <img src="../assets/figura7-Diagrama-de-sequencia-US1.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
 
 ### 3.2.5. Diagrama de Atividades ou Estados (sprint 3)
 
