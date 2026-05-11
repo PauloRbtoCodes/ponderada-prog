@@ -691,6 +691,7 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
   <img src="../assets/figura7-DiagramaEntidadeRelacionamento.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
+
 ### 3.6.3. Modelo Relacional e Modelo Físico (sprints 2 e 4)
 
 *Posicione aqui os diagramas de modelos relacionais do banco de dados, apresentando todos os esquemas de tabelas e suas relações. Inclua as migrations DDL numeradas e reproduzíveis (`CREATE TABLE`, `CREATE INDEX`, constraints `NOT NULL`, `UNIQUE`, `FOREIGN KEY`, `CHECK`). Utilize texto para complementar suas explicações quando necessário.*
