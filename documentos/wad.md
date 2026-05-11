@@ -690,12 +690,127 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 ### 3.6.3. Modelo Relacional e Modelo Físico (sprints 2 e 4)
 
-*Posicione aqui os diagramas de modelos relacionais do banco de dados, apresentando todos os esquemas de tabelas e suas relações. Inclua as migrations DDL numeradas e reproduzíveis (`CREATE TABLE`, `CREATE INDEX`, constraints `NOT NULL`, `UNIQUE`, `FOREIGN KEY`, `CHECK`). Utilize texto para complementar suas explicações quando necessário.*
+#### Visão Geral do Modelo Relacional
+
+O modelo relacional da solução é composto por três entidades principais que formam o núcleo do sistema de cadastro socioestrutural:
+
+- **pessoa_civil**: Armazena dados biográficos e socioeconômicos de indivíduos, incluindo identificação (CPF, NIS, RG), dados pessoais e contexto familiar.
+- **familia**: Representa o núcleo familiar como agrupador de indivíduos, vinculado a um responsável (chefe de família) e a uma residência.
+- **residencia**: Armazena informações geográficas e de endereço, incluindo coordenadas GPS para mapeamento de áreas de risco.
+
+Os relacionamentos estabelecem que:
+- Uma **residência** pode ter **múltiplas famílias** (1:N)
+- Uma **família** pode ter **múltiplas pessoas** (1:N)
+- Uma **pessoa** pertence a **uma família** e **uma residência** (N:1)
+
+#### Migrations DDL Numeradas e Reproduzíveis
+
+##### Migration 001: Criar tabela `residencia`
+
+```sql
+CREATE TABLE IF NOT EXISTS residencia (
+  id_residencia INT4 PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  endereco VARCHAR NOT NULL,
+  complemento VARCHAR,
+  bairro VARCHAR NOT NULL,
+  cep VARCHAR(9) NOT NULL,
+  cidade VARCHAR NOT NULL,
+  estado VARCHAR(2) NOT NULL CHECK (estado ~ '^[A-Z]{2}$'),
+  telefone VARCHAR(15),
+  tipo_construcao VARCHAR,
+  data_entrevista DATE,
+  entrevistador_nome VARCHAR,
+  entrevistador_assinatura TEXT,
+  longitude NUMERIC(10, 8),
+  latitude NUMERIC(10, 8),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  CHECK (latitude IS NULL OR (latitude >= -90 AND latitude <= 90)),
+  CHECK (longitude IS NULL OR (longitude >= -180 AND longitude <= 180))
+);
+
+CREATE INDEX idx_residencia_bairro ON residencia(bairro);
+CREATE INDEX idx_residencia_cidade ON residencia(cidade);
+CREATE INDEX idx_residencia_coordenadas ON residencia(latitude, longitude);
+```
+
+##### Migration 002: Criar tabela `familia`
+
+```sql
+CREATE TABLE IF NOT EXISTS familia (
+  id_familia INT4 PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  id_residencia INT4 NOT NULL REFERENCES residencia(id_residencia) ON DELETE RESTRICT,
+  nome_chefe VARCHAR NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_familia_residencia ON familia(id_residencia);
+CREATE INDEX idx_familia_nome_chefe ON familia(nome_chefe);
+```
+
+##### Migration 003: Criar tabela `pessoa_civil`
+
+```sql
+CREATE TABLE IF NOT EXISTS pessoa_civil (
+  id_pessoa INT4 PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  id_familia INT4 NOT NULL REFERENCES familia(id_familia) ON DELETE RESTRICT,
+  id_residencia INT4 NOT NULL REFERENCES residencia(id_residencia) ON DELETE RESTRICT,
+  nome VARCHAR NOT NULL,
+  rg VARCHAR(15) UNIQUE,
+  uf_rg VARCHAR(2) CHECK (uf_rg ~ '^[A-Z]{2}$'),
+  data_nascimento DATE NOT NULL CHECK (data_nascimento <= CURRENT_DATE),
+  local_nascimento VARCHAR,
+  cor_raca VARCHAR,
+  genero VARCHAR CHECK (genero IN ('M', 'F', 'O', 'N')),
+  cpf VARCHAR(14) UNIQUE,
+  nis VARCHAR(15) UNIQUE,
+  estado_civil VARCHAR,
+  profissao VARCHAR,
+  nome_mae VARCHAR,
+  nome_pai VARCHAR,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  CHECK (cpf IS NULL OR cpf ~ '^[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}$'),
+  CHECK (rg IS NULL OR rg ~ '^[0-9]{1,15}$')
+);
+
+CREATE INDEX idx_pessoa_familia ON pessoa_civil(id_familia);
+CREATE INDEX idx_pessoa_residencia ON pessoa_civil(id_residencia);
+CREATE INDEX idx_pessoa_cpf ON pessoa_civil(cpf);
+CREATE INDEX idx_pessoa_nis ON pessoa_civil(nis);
+CREATE INDEX idx_pessoa_nome ON pessoa_civil(nome);
+CREATE INDEX idx_pessoa_data_nascimento ON pessoa_civil(data_nascimento);
+```
+
+##### Migration 004: Criar tabela `auditoria` (para rastreamento de acesso e modificações)
+
+```sql
+CREATE TABLE IF NOT EXISTS auditoria (
+  id_auditoria INT8 PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  tabela VARCHAR NOT NULL,
+  id_registro INT4 NOT NULL,
+  operacao VARCHAR(10) NOT NULL CHECK (operacao IN ('INSERT', 'UPDATE', 'SELECT', 'DELETE')),
+  id_usuario INT4,
+  usuario_nome VARCHAR,
+  dados_anteriores JSONB,
+  dados_novos JSONB,
+  timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  endereco_ip VARCHAR(45),
+  motivo VARCHAR
+);
+
+CREATE INDEX idx_auditoria_timestamp ON auditoria(timestamp DESC);
+CREATE INDEX idx_auditoria_tabela_id ON auditoria(tabela, id_registro);
+CREATE INDEX idx_auditoria_usuario ON auditoria(id_usuario);
+```
+
+
 
 <div align="center">
   <p>Figura 07: Modelo Relacional</p>
   <img src="../assets/modelo_relacional.png" width="800">
-  <p>Fonte: Material produzido pelos autores pelo supabase (2026)</p>
+  <p>Fonte: Material produzido pelos autores com Supabase (2026)</p>
 </div>
 
 
