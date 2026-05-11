@@ -805,7 +805,23 @@ CREATE INDEX idx_auditoria_tabela_id ON auditoria(tabela, id_registro);
 CREATE INDEX idx_auditoria_usuario ON auditoria(id_usuario);
 ```
 
+#### Constraints e Regras de Integridade Aplicadas
 
+| Constraint | Tabela | Descrição |
+|---|---|---|
+| **PRIMARY KEY** | Todas | Identificação única de cada registro |
+| **FOREIGN KEY** | pessoa_civil → familia | Garante que toda pessoa pertence a uma família válida |
+| **FOREIGN KEY** | pessoa_civil → residencia | Garante que toda pessoa mora em uma residência válida |
+| **FOREIGN KEY** | familia → residencia | Garante que toda família mora em uma residência válida |
+| **UNIQUE** | pessoa_civil | CPF, NIS e RG não podem se repetir (RN001) |
+| **NOT NULL** | pessoa_civil | Nome, data de nascimento são obrigatórios (RN011, RN020) |
+| **NOT NULL** | residencia | Endereço, bairro, cidade são obrigatórios |
+| **CHECK** | pessoa_civil | data_nascimento não pode ser futura (RN020) |
+| **CHECK** | pessoa_civil | CPF deve estar em formato válido (RN017) |
+| **CHECK** | residencia | Latitude e longitude devem estar em intervalos válidos |
+| **CHECK** | residencia | Estado deve ser sigla de 2 letras |
+
+#### Relacionamentos e Multiplicidade
 
 <div align="center">
   <p>Figura 07: Modelo Relacional</p>
@@ -813,6 +829,13 @@ CREATE INDEX idx_auditoria_usuario ON auditoria(id_usuario);
   <p>Fonte: Material produzido pelos autores com Supabase (2026)</p>
 </div>
 
+**Observações sobre o modelo:**
+
+1. **Integridade Referencial**: As constraints `ON DELETE RESTRICT` impedem a exclusão acidental de residências ou famílias que possuem pessoas vinculadas.
+2. **Índices de Busca**: Criados nas colunas mais consultadas (CPF, NIS, nome) para otimizar o desempenho conforme RNF de capacidade.
+3. **Auditoria Imutável**: A tabela `auditoria` registra todas as operações sensíveis, atendendo a RN003 (Imutabilidade de Logs) e RN013 (Retenção de Logs).
+4. **Campos de Timestamp**: `created_at` e `updated_at` rastreiam o histórico de modificações, facilitando a auditoria.
+5. **Soft Delete**: Recomenda-se adicionar campo `is_active BOOLEAN DEFAULT TRUE` em futuras iterações para implementar inativação (RF006) sem remover dados.
 
 
 ### 3.6.4. Consultas SQL e lógica proposicional (sprint 2)
