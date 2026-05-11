@@ -901,6 +901,217 @@ classDiagram
     Equipe ..> StatusEquipeEnum
 ```
  
+---## Dicionário de Dados
+ 
+### Individuo
+ 
+> Pessoa física cadastrada — responsável ou membro de núcleo familiar
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `id` | UUID | Sim | Gerado automaticamente | Chave primária |
+| `nome` | String | Sim | Texto livre, max 200 | Campo mínimo para cadastro parcial (RF012) |
+| `cpf` | String | Não | 11 dígitos numéricos | `{unique}` principal diferenciador quando presente (RN001) — LGPD |
+| `nis` | String | Não | 11 dígitos numéricos | `{unique}` quando presente (RN001) |
+| `rg` | String | Não | Texto livre + UF emissora | — |
+| `dataNascimento` | Date | Sim | ISO 8601 | Campo mínimo; base para flags automáticos de vulnerabilidade (RF012) |
+| `localNascimento` | String | Não | Texto livre | — |
+| `genero` | String | Não | Texto livre | `{restrito}` — LGPD |
+| `corRaca` | CorRacaEnum | Não | BRANCA, PRETA, PARDA, AMARELA, INDIGENA | `{restrito}` dado sensível art. 5º II LGPD — categorias IBGE — **review** |
+| `estadoCivil` | EstadoCivilEnum | Não | SOLTEIRO, CASADO, UNIAO_ESTAVEL, DIVORCIADO, VIUVO | — |
+| `profissao` | String | Não | Texto livre | — |
+| `nomeMae` | String | Não | Texto livre, max 200 | `{restrito}` finalidade exclusiva: antiduplicidade quando CPF ausente — LGPD |
+| `nomePai` | String | Não | Texto livre, max 200 | `{restrito}` finalidade exclusiva: antiduplicidade quando CPF ausente — LGPD |
+| `telefone` | String | Não | Formato livre, max 20 | Exibido em destaque na ocorrência |
+| `tokenIdentidade` | String | Não | Hash não reversível gerado pelo sistema | `{restrito}` gerado apenas quando CPF ausente; derivado de nome + dataNascimento + nomeMae — deve constar na política de privacidade (LGPD) |
+| `fotoUrl` | String | Não | URL interna | `{restrito}` opcional; agente informado no momento da captura (LGPD) |
+| `status` | StatusEnum | Sim | ATIVO, INATIVO, OBITO | Default: ATIVO — exibido em destaque na ocorrência |
+| `dataRegistro` | DateTime | Sim | Gerado automaticamente | — |
+ 
+> **Campos mínimos para cadastro parcial (RF012, RN011):** `nome` + `dataNascimento`
+>
+> **Antiduplicidade:** CPF resolve sozinho quando presente. Quando CPF ausente: `tokenIdentidade` (sempre) + alerta de similaridade (quando há conectividade) + foto sugerida mas não obrigatória.
+>
+> **Campos em destaque na ocorrência:** nome, idade calculada, telefone, status.
+ 
+---
+ 
+### Vulnerabilidade
+ 
+> Composição de `Individuo` — não existe sem ele (RN003)
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `idoso` | Boolean | Sim | true / false | `{auto}` true quando idade ≥ 60 anos — exibido em destaque na ocorrência |
+| `crianca` | Boolean | Sim | true / false | `{auto}` true quando idade ≤ 12 anos — exibido em destaque na ocorrência |
+| `pcd` | Boolean | Sim | true / false | Preenchido pelo agente — exibido em destaque na ocorrência |
+| `tipoDeficiencia` | String | Não | Texto livre | `{restrito}` LGPD — obrigatório quando `pcd = true` |
+| `gestante` | Boolean | Sim | true / false | `{restrito}` LGPD dado sensível — preenchido pelo agente — exibido em destaque |
+| `lactante` | Boolean | Sim | true / false | `{restrito}` LGPD dado sensível — preenchido pelo agente — exibido em destaque |
+| `acamado` | Boolean | Sim | true / false | Preenchido pelo agente — exibido em destaque na ocorrência |
+| `doencasCronicas` | String | Não | Texto livre | `{restrito}` LGPD dado de saúde |
+ 
+> **Campos em destaque na ocorrência:** todos os flags `true` exibidos como alertas visuais na ficha de atendimento — prioridade de triagem.
+ 
+---
+ 
+### NucleoFamiliar
+ 
+> Domicílio e grupo familiar — unidade de cadastro de campo
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `id` | UUID | Sim | Gerado automaticamente | Chave primária |
+| `numeroFicha` | String | Sim | Gerado pelo sistema | Referência para ficha SDUH física |
+| `responsavel` | Individuo | Sim | Referência a `Individuo` | Deve ser maior de 18 anos (RN002) |
+| `responsavelSecundario` | Individuo | Não | Referência a `Individuo` | Opcional — mesmo núcleo familiar |
+| `tipoConstrucao` | TipoConstrEnum | Não | MADEIRA, ALVENARIA, MISTO | — |
+| `tempoResidencia` | TempoResEnum | Não | NO_DOMICILIO, NA_AREA, NO_MUNICIPIO | — |
+| `usoImovel` | UsoImovelEnum | Não | RESIDENCIAL, COMERCIAL, MISTO | — |
+| `rendaFamiliar` | Decimal | Não | Valor em R$ | `{restrito}` LGPD |
+| `cadastroCompleto` | Boolean | Sim | true / false | `false` quando campos opcionais ausentes (RN011) |
+| `dataRegistro` | DateTime | Sim | Gerado automaticamente | — |
+ 
+> **RN002:** responsável deve ser maior de 18 anos.
+>
+> **RN012:** um indivíduo não pode pertencer a dois núcleos simultaneamente — multiplicidade `1` no lado de `NucleoFamiliar`.
+ 
+---
+ 
+### MembroNucleo
+ 
+> Classe de associação entre `Individuo` e `NucleoFamiliar`
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `individuo` | Individuo | Sim | Referência a `Individuo` | — |
+| `nucleoFamiliar` | NucleoFamiliar | Sim | Referência a `NucleoFamiliar` | — |
+| `grauParentesco` | String | Não | Texto livre | Relativo ao 1º responsável — conforme ficha SDUH |
+| `escolaridade` | EscolaridadeEnum | Não | SEM_INSTRUCAO, FUND_INCOMPLETO, FUND_COMPLETO, MEDIO_INCOMPLETO, MEDIO_COMPLETO, SUPERIOR | — |
+| `situacaoOcupacional` | SitOcupEnum | Não | EMPREGADO, DESEMPREGADO, AUTONOMO, APOSENTADO, ESTUDANTE, SEM_RENDA | **pendente** validar enum com Defesa Civil |
+| `rendaIndividual` | Decimal | Não | Valor em R$ | `{restrito}` LGPD |
+ 
+---
+ 
+### Localizacao
+ 
+> Composição de `NucleoFamiliar` — ponto georreferenciado do domicílio
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `latitude` | Decimal | Sim | Graus decimais WGS84 | Captura automática via GPS do dispositivo — campo mínimo (RF012) |
+| `longitude` | Decimal | Sim | Graus decimais WGS84 | Captura automática via GPS do dispositivo — campo mínimo (RF012) |
+| `setorRisco` | SetorRisco | Não | Referência a `SetorRisco` | **pendente** lista oficial com Defesa Civil |
+| `logradouro` | String | Não | Texto livre | Endereço formal — opcional |
+| `numero` | String | Não | Texto livre | — |
+| `complemento` | String | Não | Texto livre | — |
+| `bairro` | String | Não | Texto livre | — |
+| `cep` | String | Não | 8 dígitos | — |
+| `referencia` | String | Não | Texto livre | Ponto de referência descritivo — útil em campo |
+| `fotoUrl` | String | Não | URL interna | LGPD — foto de fachada pode identificar indiretamente o morador; agente informado no momento da captura |
+ 
+> **Campos mínimos para cadastro parcial (RF012):** `latitude` + `longitude`. Todo o restante é opcional.
+ 
+---
+ 
+### SetorRisco
+ 
+> Entidade geográfica administrativa pré-cadastrada pela Defesa Civil
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `id` | UUID | Sim | Gerado automaticamente | Chave primária |
+| `codigo` | String | Sim | Texto livre | `{unique}` identificador oficial |
+| `nome` | String | Sim | Texto livre | — |
+| `nivelRisco` | NivelRiscoEnum | Sim | BAIXO, MEDIO, ALTO, MUITO_ALTO | — |
+ 
+> **Pendente (P-01):** lista oficial de setores precisa ser fornecida pela Defesa Civil antes de popular esta classe.
+ 
+---
+ 
+### Agente
+ 
+> Servidor da Defesa Civil — realiza cadastros de campo ou coordena operações administrativamente
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `id` | UUID | Sim | Gerado automaticamente | Chave primária |
+| `nome` | String | Sim | Texto livre, max 200 | — |
+| `matricula` | String | Sim | Texto livre | `{unique}` identificador institucional |
+| `perfilAcesso` | PerfilAcessoEnum | Sim | CAMPO, GESTOR | Define acesso ao sistema — CAMPO cadastra, GESTOR visualiza dashboard |
+| `status` | StatusAgenteEnum | Sim | ATIVO, INATIVO | Default: ATIVO |
+| `dataRegistro` | DateTime | Sim | Gerado automaticamente | — |
+ 
+> **Nota de escopo:** autenticação (login) está fora do escopo do TAPI — o vínculo `Agente → NucleoFamiliar` é modelado para rastreabilidade de auditoria (RF008), não para controle de sessão.
+>
+> **Nota de MVP:** `tipoVinculo` removido — todos os agentes são servidores no MVP. Distinção voluntário/servidor documentada como evolução futura (P-04).
+>
+> **Rastreabilidade (RF008):** associação `Agente → NucleoFamiliar` registra quem realizou o cadastro. Somente criação é rastreada — histórico de edições fora do MVP.
+ 
+---
+ 
+### Equipe
+ 
+> Grupo operacional de agentes — existe durante operações ativas
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `id` | UUID | Sim | Gerado automaticamente | Chave primária |
+| `nome` | String | Sim | Texto livre, max 200 | — |
+| `turno` | TurnoEnum | Sim | MANHA, TARDE, NOITE | — |
+| `status` | StatusEquipeEnum | Sim | ATIVA, INATIVA | Ao encerrar operação, equipe passa a INATIVA — vínculos preservados |
+| `lider` | Agente | Não | Referência a `Agente` | Deve ter `perfilAcesso = GESTOR` — coordenação administrativa |
+| `dataRegistro` | DateTime | Sim | Gerado automaticamente | — |
+ 
+> **Nota de escopo:** equipes existem no contexto de operações ativas. Uma equipe pode existir sem agentes vinculados (criação antecipada).
+>
+> **Regra:** um agente não pode estar em mais de uma equipe ativa simultaneamente — multiplicidade `0..*` no lado de `Equipe`, com restrição de unicidade de equipe ativa por agente.
+ 
+---
+ 
+## Regras de Negócio Referenciadas
+ 
+| Regra | Descrição | Classes afetadas |
+|-------|-----------|-----------------|
+| RN001 | CPF e NIS são únicos no banco — duplicidade documentada | `Individuo` |
+| RN002 | Responsável pelo núcleo deve ser maior de 18 anos | `NucleoFamiliar` |
+| RN005 | Campos de saúde e renda restritos a perfis autorizados | `Individuo`, `Vulnerabilidade`, `NucleoFamiliar`, `MembroNucleo` |
+| RN011 | Cadastro parcial permitido — campos mínimos: nome + dataNascimento + latitude + longitude | `Individuo`, `Localizacao` |
+| RN012 | Um indivíduo não pode pertencer a dois núcleos simultaneamente | `Individuo`, `NucleoFamiliar` |
+| RF008 | Sistema rastreia qual agente realizou cada cadastro (somente criação) | `Agente`, `NucleoFamiliar` |
+| RF012 | Sistema deve aceitar cadastros incompletos | `Individuo`, `NucleoFamiliar`, `Localizacao` |
+| —     | Um agente não pode estar em mais de uma equipe ativa simultaneamente | `Agente`, `Equipe` |
+ 
+---
+ 
+## Campos em Destaque na Ocorrência
+ 
+Campos exibidos com prioridade visual na tela de atendimento de ocorrência:
+ 
+| Campo | Classe | Motivo |
+|-------|--------|--------|
+| `nome` | Individuo | Identificação imediata |
+| Idade calculada de `dataNascimento` | Individuo | Triagem de vulnerabilidade |
+| `telefone` | Individuo | Contato de emergência |
+| `status` | Individuo | Situação atual |
+| `idoso`, `crianca`, `pcd`, `gestante`, `lactante`, `acamado` | Vulnerabilidade | Prioridade de atendimento |
+| `latitude` + `longitude` | Localizacao | Localização para deslocamento |
+ 
+---
+ 
+## Notas LGPD
+ 
+> **Base legal:** execução de política pública pela Defesa Civil (art. 7º, III e VI da LGPD).
+ 
+| Risco | Campo(s) | Mitigação |
+|-------|----------|-----------|
+| Alto — dado sensível (art. 5º II) | `corRaca`, `tipoDeficiencia`, `gestante`, `lactante` | Base legal reforçada ou consentimento explícito — **review** |
+| Alto — reidentificação | `tokenIdentidade` | Deve constar na política de privacidade do sistema |
+| Alto — identificação indireta | `fotoUrl` (`Individuo` e `Localizacao`) | Captura opcional; agente informado no ato |
+| Médio — finalidade dupla | `nomeMae`, `nomePai` | Finalidade documentada: antiduplicidade exclusivamente |
+| Médio — controle de acesso | Todos os campos `{restrito}` | Perfil CAMPO: acessa dados operacionais. Perfil GESTOR: acessa campos restritos e dashboard. Detalhamento em T-02 |
+| Baixo — retenção | Todos os dados | Prazo de retenção não modelado — incluir em task futura |
+ 
 ---
 
 ### 3.2.4. Diagrama de Sequência UML (sprint 3)
