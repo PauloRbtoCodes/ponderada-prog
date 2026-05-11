@@ -692,6 +692,12 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 *Posicione aqui os diagramas de modelos relacionais do banco de dados, apresentando todos os esquemas de tabelas e suas relações. Inclua as migrations DDL numeradas e reproduzíveis (`CREATE TABLE`, `CREATE INDEX`, constraints `NOT NULL`, `UNIQUE`, `FOREIGN KEY`, `CHECK`). Utilize texto para complementar suas explicações quando necessário.*
 
+<div align="center">
+  <p>Figura 07: Modelo Relacional</p>
+  <img src="../assets/modelo_relacional.png" width="800">
+  <p>Fonte: Material produzido pelos autores pelo supabase (2026)</p>
+</div>
+
 ### 3.6.4. Consultas SQL e lógica proposicional (sprint 2)
 
 *posicione aqui uma lista de consultas SQL compostas, realizadas pelo back-end da aplicação web, com sua respectiva lógica proposicional, descrita conforme template abaixo. Lembre-se que para usar LaTeX em markdown, basta você colocar as expressões entre $ ou $$*
