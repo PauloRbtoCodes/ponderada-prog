@@ -698,6 +698,8 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
   <p>Fonte: Material produzido pelos autores pelo supabase (2026)</p>
 </div>
 
+
+
 ### 3.6.4. Consultas SQL e lógica proposicional (sprint 2)
 
 *posicione aqui uma lista de consultas SQL compostas, realizadas pelo back-end da aplicação web, com sua respectiva lógica proposicional, descrita conforme template abaixo. Lembre-se que para usar LaTeX em markdown, basta você colocar as expressões entre $ ou $$*
