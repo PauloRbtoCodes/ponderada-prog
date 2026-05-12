@@ -821,7 +821,9 @@ CREATE INDEX idx_auditoria_usuario ON auditoria(id_usuario);
 | **CHECK** | residencia | Latitude e longitude devem estar em intervalos válidos |
 | **CHECK** | residencia | Estado deve ser sigla de 2 letras |
 
-#### Relacionamentos e Multiplicidade
+#### Modelo Relacional
+
+A imagem a seguir mostra as entidades `pessoa_civil`, `familia`e `residencia`, seus atributos e como elas se relacionam. A tabela `familia` é a ponte de ligação entre o indivíduo e sua moradia.
 
 <div align="center">
   <p>Figura 07: Modelo Relacional</p>
