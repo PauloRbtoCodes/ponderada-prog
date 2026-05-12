@@ -275,7 +275,7 @@ Uma interface web focada na usabilidade móvel que possibilita que os cadastros 
 **Info Demográfica:** Cláudia, 41 anos
 
 <div align="center">
-  <p>Figura 04: Persona - Cláudia</p>
+  <p>Figura 05: Persona - Cláudia</p>
   <img src="../assets/personas/claudia_gestora_adm.png" width="200">
   <p>Fonte: Imagem criada via IA (2026)</p>
 </div>
@@ -580,7 +580,7 @@ Este caso de uso é o alicerce do mapeamento socioestrutural.
 
 
 <div align="center">
-  <p>Figura 05: Diagrama do Caso de Uso 1</p>
+  <p>Figura 06: Diagrama do Caso de Uso 1</p>
   <img src="../assets/figura4-Diagrama-casosdeuso1.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -604,7 +604,7 @@ Este caso de uso é o coração do sistema, permitindo que a Defesa Civil alimen
   - << extend >>: Anexar Fotos da Ocorrência (opcional, ocorre conforme a disponibilidade de mídia).
 
 <div align="center">
-  <p>Figura 06: Diagrama do Caso de Uso 2</p>
+  <p>Figura 07: Diagrama do Caso de Uso 2</p>
   <img src="../assets/figura5-Diagrama-casosdeuso2.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -627,7 +627,7 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
   - << extend >>: Exportar para PDF/Excel (opcional, caso o gestor precise do documento fora do sistema).
 
 <div align="center">
-  <p>Figura 07: Diagrama do Caso de Uso 3</p>
+  <p>Figura 08: Diagrama do Caso de Uso 3</p>
   <img src="../assets/figura6-Diagrama-casosdeuso3.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -686,7 +686,11 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 ### 3.6.2. Diagrama Entidade-Relacionamento (DER) (sprint 2)
 
-*Posicione aqui o DER com cardinalidades explícitas em ambos os lados de cada relação e identificação de PK/FK. O DER deve ser coerente com o diagrama de classes (3.2.3).*
+<div align="center">
+  <p>Figura 09: Diagrama Entidade-Relacionamento (DER) </p>
+  <img src="../assets/figura7-DiagramaEntidadeRelacionamento.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
 
 ### 3.6.3. Modelo Relacional e Modelo Físico (sprints 2 e 4)
 
