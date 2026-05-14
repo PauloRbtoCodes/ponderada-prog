@@ -715,7 +715,7 @@ Os relacionamentos estabelecem que:
 ```sql
 CREATE TABLE chefe_da_familia (
     id UUID PRIMARY KEY,
-    nome VARCHAR(255),
+    nome VARCHAR(255) NOT NULL,
     cpf VARCHAR(14) UNIQUE,
     nis VARCHAR(20) UNIQUE,
     rg VARCHAR(20) UNIQUE,
