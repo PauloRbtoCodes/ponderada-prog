@@ -739,6 +739,27 @@ WHERE
     );
 ```
 
+---
+
+### Consulta 2 — Famílias com Cadastro Incompleto
+
+#### Objetivo
+
+Listar núcleos familiares cujo cadastro ainda não foi concluído no sistema.
+
+#### Consulta SQL
+
+```sql
+SELECT
+    nf.id,
+    cf.nome,
+    nf.data_registro
+FROM nucleo_familiar nf
+JOIN chefe_da_familia cf
+    ON cf.id = nf.chefe_familia_id
+WHERE
+    nf.cadastro_completo = FALSE;
+```
 
 
 *Template de SQL + lógica proposicional*
