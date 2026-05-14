@@ -619,23 +619,41 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 ### 3.2.4. Diagrama de Sequência UML (sprint 3)
 
+Um diagrama de sequência é um tipo de diagrama comportamental da UML (Unified Modeling Language) focado em demonstrar como e em que ordem os componentes de um sistema interagem entre si ao longo do tempo para realizar uma tarefa específica.
+
 <div align="center">
-  <p>Figura 07: Diagrama de Sequências</p>
-  <img src="../assets/figura7-Diagrama-de-sequencia-US1.png" width="800">
+  <p><strong>Figura 07: Diagrama de Sequência para o Caso de Uso 1</strong></p>
+    <a href="../assets/figura7-Diagrama-de-sequencia-UC1.png" target="_blank">
+      <img src="../assets/figura7-Diagrama-de-sequencia-UC1.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 1" width="800">
+    </a>
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
+O diagrama ilustra o fluxo técnico de Cadastro de Família via aplicativo móvel para a Defesa Civil. O processo inicia com a normalização dos dados e validações rigorosas, como o bloqueio de datas futuras e a checagem matemática do CPF/NIS. Qualquer inconsistência interrompe o fluxo imediatamente, alertando o agente. Com os dados corretos, o sistema consulta o banco para evitar duplicidade de registros. A seguir, a vulnerabilidade da família é calculada e as coordenadas de GPS são capturadas automaticamente de forma assíncrona. Por fim, o cadastro é salvo no Banco Central (online) ou no cache local (offline), garantindo total resiliência da operação.
+
+---
+
 <div align="center">
-  <p>Figura 07: Diagrama de Sequências</p>
-  <img src="../assets/figura8-Diagrama-de-sequencia-US2.png" width="800">
+  <p><strong>Figura 08: Diagrama de Sequência para o Caso de Uso 2</strong></p>
+    <a href="../assets/figura8-Diagrama-de-sequencia-UC2.png" target="_blank">
+      <img src="../assets/figura8-Diagrama-de-sequencia-UC2.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 2" width="800">
+    </a>
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
+O diagrama ilustra o fluxo técnico de Cadastro de Área de Risco Socioestrutural via aplicativo móvel para a Defesa Civil. O processo inicia com a validação das permissões do agente, interrompendo o fluxo imediatamente caso ele não tenha autorização para editar o mapa. Com o acesso liberado, o sistema aciona a captura automática e assíncrona das coordenadas via satélite (GPS). Em seguida, essas coordenadas são enviadas a uma API de geolocalização secundária para a conversão reversa, transformando latitude e longitude em dados de endereço. Após processar a anexação opcional de fotos da ocorrência, o registro da área de risco é estruturado e salvo garantindo total resiliência da operação: no Banco Central (online) ou no cache local como pendente (offline).
+
+---
+
 <div align="center">
-  <p>Figura 07: Diagrama de Sequências</p>
-  <img src="../assets/figura9-Diagrama-de-sequencia-US3.png" width="800">
+  <p><strong>Figura 09: Diagrama de Sequência para o Caso de Uso 3</strong></p>
+    <a href="../assets/figura9-Diagrama-de-sequencia-UC3.png" target="_blank">
+      <img src="../assets/figura9-Diagrama-de-sequencia-UC3.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 3" width="800">
+    </a>
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
+
+O diagrama ilustra o fluxo técnico de geração de inteligência estratégica para a Defesa Civil através do relatório de vulnerabilidade e logística. O processo inicia-se com a aplicação de filtros obrigatórios, como período e região, sendo o fluxo imediatamente interrompido caso os critérios mínimos não sejam preenchidos. Após a validação, o sistema consulta a base de dados central para extrair informações sobre população e áreas de risco, submetendo-as a um processamento lógico que transforma dados brutos em indicadores de apoio à decisão. O resultado é consolidado numa entidade de relatório e exibido num dashboard interativo para consulta imediata. Para garantir total versatilidade operacional, o fluxo prevê uma extensão opcional que permite ao gestor acionar um controlador de exportação para converter os resultados em ficheiros externos, como PDF ou Excel, assegurando a portabilidade e a utilidade da informação fora do sistema central.
 
 ### 3.2.5. Diagrama de Atividades ou Estados (sprint 3)
 
