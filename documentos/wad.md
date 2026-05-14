@@ -760,7 +760,30 @@ JOIN chefe_da_familia cf
 WHERE
     nf.cadastro_completo = FALSE;
 ```
+---
 
+### Consulta 3 — Famílias de Baixa Renda em Determinado Bairro
+
+#### Objetivo
+
+Identificar famílias localizadas em um bairro específico cuja renda familiar esteja abaixo de um determinado valor.
+
+#### Consulta SQL
+
+```sql
+SELECT
+    cf.nome,
+    nf.renda_familiar,
+    l.bairro
+FROM chefe_da_familia cf
+JOIN nucleo_familiar nf
+    ON nf.chefe_familia_id = cf.id
+JOIN localizacao l
+    ON l.nucleo_familiar_id = nf.id
+WHERE
+    l.bairro = 'Centro'
+    AND nf.renda_familiar < 2000;
+```
 
 *Template de SQL + lógica proposicional*
 #1 | ---
