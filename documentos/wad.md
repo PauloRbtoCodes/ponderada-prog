@@ -753,9 +753,9 @@ CREATE TABLE nucleo_familiar (
     video_responsavel VARCHAR(255),
     tempo_construcao INT CHECK (tempo_construcao >= 0),
     tipo_construcao VARCHAR(100),
-    tempo_terreno INT,
+    tempo_terreno INT CHECK (tempo_terreno >= 0),
     uso_imovel VARCHAR(100),
-    renda_familiar DECIMAL(10,2),
+    renda_familiar DECIMAL(10,2) CHECK (renda_familiar >= 0),
     cadastro_completo BOOLEAN DEFAULT FALSE,
     data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     chefe_familia_id UUID UNIQUE NOT NULL,
@@ -784,8 +784,8 @@ CREATE TABLE vulnerabilidade (
     restrito BOOLEAN DEFAULT FALSE,
     nucleo_familiar_id UUID UNIQUE NOT NULL,
     CONSTRAINT fk_vulnerabilidade_nucleo
-        FOREIGN KEY (nucleo_familiar_id)
-        REFERENCES nucleo_familiar(id) ON DELETE CASCADE
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
 );
 
 CREATE INDEX idx_vulnerabilidade_nucleo ON vulnerabilidade(nucleo_familiar_id);
@@ -797,7 +797,7 @@ CREATE INDEX idx_vulnerabilidade_nucleo ON vulnerabilidade(nucleo_familiar_id);
 CREATE TABLE setor_risco (
     id UUID PRIMARY KEY,
     codigo VARCHAR(50) UNIQUE NOT NULL,
-    nivel_risco VARCHAR(50) NOT NULL
+    nivel_risco VARCHAR(50) NOT NULL CHECK (nivel_risco IN ('BAIXO', 'MEDIO', 'ALTO'))
 );
 
 CREATE INDEX idx_setor_codigo ON setor_risco(codigo);
@@ -824,8 +824,8 @@ CREATE TABLE localizacao (
         FOREIGN KEY (setor_risco_id)
         REFERENCES setor_risco(id) ON DELETE SET NULL,
     CONSTRAINT fk_localizacao_nucleo
-        FOREIGN KEY (nucleo_familiar_id)
-        REFERENCES nucleo_familiar(id) ON DELETE CASCADE
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
 );
 
 CREATE INDEX idx_localizacao_nucleo ON localizacao(nucleo_familiar_id);
@@ -849,10 +849,10 @@ CREATE TABLE membro_nucleo (
     PRIMARY KEY (individuo_id, nucleo_familiar_id),
     CONSTRAINT fk_membro_individuo
         FOREIGN KEY (individuo_id)
-        REFERENCES chefe_da_familia(id) ON DELETE CASCADE,
+        REFERENCES chefe_da_familia(id) ON DELETE RESTRICT,
     CONSTRAINT fk_membro_nucleo
         FOREIGN KEY (nucleo_familiar_id)
-        REFERENCES nucleo_familiar(id) ON DELETE CASCADE
+        REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
 );
 
 CREATE INDEX idx_membro_nucleo ON membro_nucleo(nucleo_familiar_id);
@@ -880,7 +880,7 @@ CREATE INDEX idx_membro_individuo ON membro_nucleo(individuo_id);
 | **NOT NULL** | nucleo_familiar | Chefe de família obrigatório |
 | **CHECK** | localizacao | Latitude deve estar entre -90 e 90 |
 | **CHECK** | localizacao | Longitude deve estar entre -180 e 180 |
-| **ON DELETE CASCADE** | vulnerabilidade, localizacao, membro_nucleo | Exclusão em cascata para manter integridade |
+| **ON DELETE RESTRICT** | vulnerabilidade, localizacao, membro_nucleo | Impede exclusão de registros que possuem dependências vinculadas |
 | **ON DELETE RESTRICT** | nucleo_familiar | Impede exclusão de chefe sem remover núcleo |
 
 #### Modelo Relacional
@@ -896,7 +896,7 @@ A imagem a seguir mostra as entidades principais (`chefe_da_familia`, `nucleo_fa
 **Observações sobre o modelo:**
 
 1. **Identificadores UUID**: Utiliza UUIDs ao invés de inteiros para melhor escalabilidade e portabilidade de dados.
-2. **Integridade Referencial**: As constraints `ON DELETE RESTRICT` impedem a exclusão acidental de chefes de família sem remover primeiro o núcleo vinculado. Outras relações usam `ON DELETE CASCADE` para remover dados dependentes automaticamente.
+2. **Integridade Referencial**: As constraints `ON DELETE RESTRICT` impedem a exclusão acidental de chefes de família sem remover primeiro o núcleo vinculado. As relações utilizam ON DELETE RESTRICT para impedir exclusões acidentais e preservar o histórico de dados, conforme solicitado pela Defesa Civil.
 3. **Índices de Busca**: Criados nas colunas mais consultadas (CPF, NIS, nome, coordenadas geográficas) para otimizar o desempenho conforme RNF de capacidade.
 4. **Separação de Responsabilidades**: A tabela `vulnerabilidade` segrega dados sensíveis de vulnerabilidade em entidade dedicada, facilitando consultas focadas em perfis de risco.
 5. **Geolocalização**: A tabela `localizacao` armazena coordenadas com validação de intervalos (latitude -90 a 90, longitude -180 a 180) e índices compostos para buscas por proximidade.
