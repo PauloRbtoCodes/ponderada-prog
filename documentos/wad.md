@@ -719,12 +719,12 @@ CREATE TABLE chefe_da_familia (
     cpf VARCHAR(14) UNIQUE,
     nis VARCHAR(20) UNIQUE,
     rg VARCHAR(20) UNIQUE,
-    data_nascimento DATE,
+    data_nascimento DATE NOT NULL CHECK (data_nascimento <= CURRENT_DATE),
     local_nascimento VARCHAR(255),
-    genero VARCHAR(50),
+    genero VARCHAR(50) CHECK (genero IN ('MASCULINO', 'FEMININO', 'OUTRO')),
     escolaridade VARCHAR(100),
     ocupacao VARCHAR(100),
-    renda DECIMAL(10,2),
+    renda DECIMAL(10,2) CHECK (renda >= 0),
     cor_raca VARCHAR(50),
     estado_civil VARCHAR(50),
     profissao VARCHAR(100),
@@ -734,7 +734,7 @@ CREATE TABLE chefe_da_familia (
     telefone2 VARCHAR(20),
     email VARCHAR(255),
     foto_url TEXT,
-    status VARCHAR(50),
+    status VARCHAR(50) NOT NULL CHECK (status IN ('ATIVO', 'INATIVO', 'PENDENTE')),
     data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -751,7 +751,7 @@ CREATE TABLE nucleo_familiar (
     id UUID PRIMARY KEY,
     regiao_ficha VARCHAR(255),
     video_responsavel VARCHAR(255),
-    tempo_construcao INT,
+    tempo_construcao INT CHECK (tempo_construcao >= 0),
     tipo_construcao VARCHAR(100),
     tempo_terreno INT,
     uso_imovel VARCHAR(100),
