@@ -1237,12 +1237,16 @@ O diagrama ilustra o fluxo técnico de geração de inteligência estratégica p
 
 ## 3.3. Wireframes
 
+Os wireframes são representações visuais de baixa fidelidade que atuam como o "esqueleto" ou a planta baixa de um sistema de software. Eles abdicam de elementos estéticos finais (como cores e imagens ricas) para focar estritamente na arquitetura da informação, usabilidade e fluxo de navegação.
+
+### 3.3.1. Wireframes da Tela de Cadastro
+
 Este wireframe representa a tela de cadastro individual utilizada pela Defesa Civil de Santo André para registrar informações pessoais dos moradores atendidos. A interface possui campos para identificação civil, como nome, CPF, RG, NIS, data e local de nascimento, além de informações complementares como gênero, estado civil, profissão, nome dos pais e cor/raça.
 
 Os campos foram organizados de forma simples e objetiva, facilitando o preenchimento e a leitura das informações pelos agentes responsáveis. O formulário também utiliza botões de seleção para opções de gênero, tornando a interação mais rápida e intuitiva. O objetivo da tela é centralizar os dados pessoais dos indivíduos de maneira padronizada, garantindo maior organização e eficiência no processo de atendimento e registro.
 <div align="center">
   <p>Figura 09: Wireframe tela formulario</p>
-  <img src="../assets/figura7-Wireframe tela formulário individuo.png" width="800">
+  <img src="../assets/wireframes/figura7-Wireframe tela formulário individuo.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 https://www.figma.com/design/Wg7CrKpquQ0VpU4AA1cbeq/Sem-t%C3%ADtulo?node-id=0-1&t=leIgBMRUSbY59ivP-1
@@ -1256,12 +1260,12 @@ Na área de detalhes, são exibidas labels de identificação rápida, utilizada
 A estrutura da tela foi desenvolvida de forma objetiva e intuitiva, permitindo um preenchimento rápido e organizado das informações durante as visitas e análises realizadas pela equipe.
 <div align="center">
   <p>Figura 09: Wireframe tela formulario</p>
-  <img src="../assets/figura8-Wireframe tela formulário residência.png" width="800">
+  <img src="../assets/wireframes/figura8-Wireframe tela formulário residência.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 https://www.figma.com/design/XQZO9HgFYfftgw9yK0Nglk/Wireframe-Formul%C3%A1rio-Defesa-Civil-de-Santo-Andr%C3%A9---Im%C3%B3vel?t=DgiyQuYk4kA0qCt1-0
 
-
+### 3.3.2 Wireframes da Tela de Visualização de Dados
   
 
 ## 3.4. Guia de estilos (sprint 3)
