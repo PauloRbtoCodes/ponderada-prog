@@ -635,19 +635,30 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 ## 3.3. Wireframes
 
-Este wireframe representa a tela de cadastro de famílias e residências do sistema da Defesa Civil de Santo André. A interface foi projetada para permitir o registro organizado das informações das famílias atendidas e das características das moradias associadas.
-Na parte superior da tela, encontra-se a identificação do sistema, composta pelo logotipo e pelo título “Defesa Civil de Santo André”.
-A região central da interface contém uma sequência de campos de formulário destinados ao preenchimento de informações cadastrais. Esses campos podem incluir dados como nome do responsável familiar, contato, situação da moradia e outras informações relevantes para o monitoramento social e territorial realizado pela Defesa Civil.
-Logo abaixo, há um esboço da área dedicada à seleção de opções, representada por botões de escolha. Essa seção pode ser utilizada para indicar condições da residência, nível de risco da área, genêro, etc.
-Na parte inferior direita da tela, encontra-se o botão de ação principal, responsável por confirmar e salvar o cadastro realizado no sistema.
-O wireframe adota uma estrutura simples e objetiva, priorizando clareza visual de como será feito o formulário de preenchimento cadastral, facilitando alterações para o uso de agentes responsáveis pelo registro das famílias e residências atendidas.
+Este wireframe representa a tela de cadastro individual utilizada pela Defesa Civil de Santo André para registrar informações pessoais dos moradores atendidos. A interface possui campos para identificação civil, como nome, CPF, RG, NIS, data e local de nascimento, além de informações complementares como gênero, estado civil, profissão, nome dos pais e cor/raça.
 
+Os campos foram organizados de forma simples e objetiva, facilitando o preenchimento e a leitura das informações pelos agentes responsáveis. O formulário também utiliza botões de seleção para opções de gênero, tornando a interação mais rápida e intuitiva. O objetivo da tela é centralizar os dados pessoais dos indivíduos de maneira padronizada, garantindo maior organização e eficiência no processo de atendimento e registro.
 <div align="center">
   <p>Figura 09: Wireframe tela formulario</p>
-  <img src="../assets/figura7-Wireframe-telaForms.png" width="800">
+  <img src="../assets/figura7-Wireframe tela formulário individuo.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 https://www.figma.com/design/Wg7CrKpquQ0VpU4AA1cbeq/Sem-t%C3%ADtulo?node-id=0-1&t=leIgBMRUSbY59ivP-1
+
+Este wireframe representa a tela de cadastro de residências utilizada pela Defesa Civil de Santo André para registrar informações sobre imóveis atendidos. A interface contém campos relacionados ao endereço da residência, como endereço, número, complemento e CEP, além de uma área destinada ao envio da foto da fachada do imóvel.
+
+O formulário também possui seções para classificação do tipo de construção (madeira, alvenaria ou mista), finalidade do imóvel (residencial, comercial ou misto) e nível de risco da construção (R1, R2 ou R3).
+
+Na área de detalhes, são exibidas labels de identificação rápida, utilizadas para destacar características importantes da residência ou dos moradores, como presença de pessoas PCD, idosos, cadeirantes, animais, entre outros. Essas informações auxiliam a Defesa Civil na priorização e organização dos atendimentos.
+
+A estrutura da tela foi desenvolvida de forma objetiva e intuitiva, permitindo um preenchimento rápido e organizado das informações durante as visitas e análises realizadas pela equipe.
+<div align="center">
+  <p>Figura 09: Wireframe tela formulario</p>
+  <img src="../assets/figura8-Wireframe tela formulário residência.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+https://www.figma.com/design/XQZO9HgFYfftgw9yK0Nglk/Wireframe-Formul%C3%A1rio-Defesa-Civil-de-Santo-Andr%C3%A9---Im%C3%B3vel?t=DgiyQuYk4kA0qCt1-0
+
 
   
 
