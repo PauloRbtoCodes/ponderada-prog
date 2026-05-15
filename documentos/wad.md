@@ -633,8 +633,14 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 *Documente os design patterns utilizados (Repository, Strategy, Factory, DTO etc.) e quais princípios SOLID se aplicam. Justifique a adoção de cada padrão com base em uma necessidade real do projeto.*
 
-## 3.3. Wireframes (sprint 2)
+## 3.3. Wireframes
 
+Este wireframe representa a tela de cadastro de famílias e residências do sistema da Defesa Civil de Santo André. A interface foi projetada para permitir o registro organizado das informações das famílias atendidas e das características das moradias associadas.
+Na parte superior da tela, encontra-se a identificação do sistema, composta pelo logotipo e pelo título “Defesa Civil de Santo André”.
+A região central da interface contém uma sequência de campos de formulário destinados ao preenchimento de informações cadastrais. Esses campos podem incluir dados como nome do responsável familiar, contato, situação da moradia e outras informações relevantes para o monitoramento social e territorial realizado pela Defesa Civil.
+Logo abaixo, há um esboço da área dedicada à seleção de opções, representada por botões de escolha. Essa seção pode ser utilizada para indicar condições da residência, nível de risco da área, genêro, etc.
+Na parte inferior direita da tela, encontra-se o botão de ação principal, responsável por confirmar e salvar o cadastro realizado no sistema.
+O wireframe adota uma estrutura simples e objetiva, priorizando clareza visual de como será feito o formulário de preenchimento cadastral, facilitando alterações para o uso de agentes responsáveis pelo registro das famílias e residências atendidas.
 
 <div align="center">
   <p>Figura 09: Wireframe tela formulario</p>
