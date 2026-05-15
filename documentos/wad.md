@@ -71,30 +71,11 @@ Dessa forma, a análise das cinco forças contribui para identificar oportunidad
  A ameaça de produtos ou serviços substitutos é considerada moderada, pois, embora não existam substitutos diretos para a atuação da Defesa Civil, algumas ferramentas e práticas podem desempenhar funções complementares ou parciais (PORTER, 2008). Entre elas, destacam-se sistemas privados de monitoramento climático, plataformas de geolocalização e ferramentas digitais de gestão de dados. No entanto, tais soluções não possuem a capacidade institucional, legal e operacional para coordenar ações emergenciais, acolhimento de famílias e articulação intersetorial. Assim, apesar de contribuírem para a gestão de riscos, esses substitutos não eliminam a necessidade da atuação da Defesa Civil, mantendo a ameaça em nível moderado (Prefeitura de Santo André, 2026; PORTER, 2008).
 
  #### Análise da Rivalidade entre Concorrentes
-
- A rivalidade entre concorrentes é considerada baixa no contexto tradicional de Porter, uma vez que a Defesa Civil não atua em um mercado competitivo, mas sim como órgão público com atribuição legal e responsabilidade exclusiva no âmbito municipal (PORTER, 2008). Não existem entidades privadas que disputem diretamente sua função institucional de coordenação de proteção e defesa civil.
- 
- É importante ressaltar, porém, que por ser um órgão público que trabalha integrado com outros setores municipais, há uma forma indireta de rivalidade com outros órgãos governamentais que atuam em situações emergenciais, como o SAMU (Serviço de Atendimento Móvel de Urgência) que responde por emergências médicas, e a Polícia Militar que atua na segurança pública. Esses órgãos compartilham o mesmo espaço operacional durante crises e desastres, exigindo uma articulação clara de papéis e responsabilidades. Porém, essa "rivalidade" é apenas indireta e operacional, não competitiva, pois cada órgão possui funções complementares e bem definidas no protocolo de gestão de emergências.
- 
- Adicionalmente, pode-se observar competição indireta com soluções tecnológicas privadas de monitoramento climático e geolocalização, bem como com sistemas desenvolvidos por outros municípios que implementam suas próprias abordagens para gestão de riscos. Ainda assim, essa concorrência é limitada, pois nenhuma solução privada ou externa substitui a autoridade legal, a responsabilidade institucional e a legitimidade operacional que a Defesa Civil possui. Dessa forma, reconhecendo a natureza pública e essencial da instituição, a análise de rivalidade reforça a necessidade de inovação interna e modernização dos processos, em vez de competição tradicional (Prefeitura de Santo André, 2026; PORTER, 2008).
-
-#### Análise do Poder de Barganha dos Clientes
-
-O poder de barganha dos clientes é considerado **alto**, porém com características distintas daquelas encontradas em mercados competitivos tradicionais (PORTER, 2008). No contexto público, o "cliente" é a própria Prefeitura de Santo André, por meio da Defesa Civil, que financia e utiliza a solução.
-
-Essa dinâmica diferenciada decorre de alguns fatores: primeiro, não há fornecedor alternativo de um sistema de gestão integrada especificamente desenvolvido para a Defesa Civil de Santo André, concedendo ao cliente uma posição de influência direta sobre as funcionalidades, prazos e ajustes do projeto. Segundo, como representante do setor público, a instituição tem autoridade para definir mudanças de requisitos e prioridades conforme sua operação evolui. Terceiro, o projeto é desenvolvido especificamente sob demanda do cliente, resultando em alta customização e dependência de seu feedback para validação contínua.
-
-Por outro lado, essa barganha não é predatória, pois a Defesa Civil está comprometida com o sucesso da solução e reconhece a importância da qualidade técnica e da sustentabilidade do projeto. Dessa forma, o alto poder de barganha é exercido de forma colaborativa e estratégica, visando a qualidade final da plataforma que serve ao interesse público de proteção à população.
-
+ A rivalidade entre concorrentes é considerada baixa, uma vez que a Defesa Civil não atua em um mercado competitivo tradicional, mas sim como órgão público com atribuição legal específica (PORTER, 2008). Não há concorrentes diretos que disputem sua função institucional, pois sua atuação é exclusiva no âmbito municipal. Entretanto, pode-se observar uma forma indireta de rivalidade com soluções tecnológicas privadas ou sistemas desenvolvidos por outros municípios, que oferecem abordagens alternativas para a gestão de riscos. Ainda assim, essa concorrência é limitada, pois tais soluções não substituem a autoridade e a responsabilidade da Defesa Civil. Dessa forma, a baixa rivalidade reforça a necessidade de inovação interna e modernização dos processos, em vez de competição direta (Prefeitura de Santo André, 2026; PORTER, 2008).
+ #### Análise do Poder de Barganha dos Clientes
+O poder de barganha dos clientes é considerado baixo, pois as principais ações da Defesa Civil são destinadas à população e realizadas em conjunto com outros órgãos públicos, os quais não possuem influência direta sobre a prestação do serviço, uma vez que este constitui uma responsabilidade obrigatória do município (PORTER, 2008). Além disso, a atuação da Defesa Civil está vinculada à proteção da população e à gestão de riscos, não sendo baseada em relações comerciais. Embora existam demandas da sociedade por maior eficiência e rapidez, os usuários não podem substituir ou negociar o serviço prestado. Dessa forma, o poder de barganha dos clientes é reduzido, ainda que a satisfação da população seja relevante para a melhoria contínua das operações (PREFEITURA DE SANTO ANDRÉ, 2026; PORTER, 2008).
 #### Análise do Poder de Barganha dos Fornecedores
-
-O poder de barganha dos fornecedores é considerado **moderado a baixo**, com particularidades importantes decorrentes da natureza pública e tecnológica do projeto (PORTER, 2008).
-
-Os principais fornecedores do projeto são provedores de serviços tecnológicos e infraestrutura, destacando-se plataformas de computação em nuvem (Amazon Web Services, Google Cloud, Microsoft Azure), fornecedores de banco de dados, APIs de georreferenciamento e ferramentas de desenvolvimento de software. A existência de múltiplas opções no mercado em cada uma dessas categorias reduz significativamente a dependência de um único fornecedor, concedendo à equipe de desenvolvimento maior liberdade de escolha e negociação.
-
-Por outro lado, à medida que o projeto avança e adota tecnologias mais específicas ou implementa integrações complexas com sistemas municipais, a dependência técnica de determinados fornecedores pode aumentar, elevando seu poder de barganha. Além disso, há considerar que como projeto público com orçamento limitado, há restrições quanto à adoção de soluções proprietárias caras, criando preferência por tecnologias open-source e soluções de baixo custo, o que amplia as opções disponíveis e mantém o poder dos fornecedores controlado.
-
-Em resumo, a natureza modular e a disponibilidade de alternativas tecnológicas no mercado mantêm o poder dos fornecedores em nível moderado, permitindo à Defesa Civil preservar flexibilidade arquitetural e evitar lock-in tecnológico em sua solução de gestão de riscos.
+O poder de barganha dos fornecedores é considerado moderado, pois a Defesa Civil depende de fornecedores de tecnologia, equipamentos, sistemas de monitoramento, comunicação e de outros órgãos para apoiar suas operações (PORTER, 2008). Empresas responsáveis por softwares, serviços em nuvem, sensores climáticos e plataformas digitais possuem certa influência, especialmente quando oferecem soluções especializadas. Entretanto, como os órgãos públicos geralmente possuem a possibilidade de contratar diferentes fornecedores, esse poder é parcialmente limitado. Assim, embora exista dependência tecnológica em alguns recursos específicos, o poder de barganha dos fornecedores permanece em nível moderado (PREFEITURA DE SANTO ANDRÉ, 2026; PORTER, 2008).
 
 ### 2.1.2. Análise SWOT da Instituição Parceira
 
@@ -652,9 +633,23 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 *Documente os design patterns utilizados (Repository, Strategy, Factory, DTO etc.) e quais princípios SOLID se aplicam. Justifique a adoção de cada padrão com base em uma necessidade real do projeto.*
 
-## 3.3. Wireframes (sprint 2)
+## 3.3. Wireframes
 
-*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
+Este wireframe representa a tela de cadastro de famílias e residências do sistema da Defesa Civil de Santo André. A interface foi projetada para permitir o registro organizado das informações das famílias atendidas e das características das moradias associadas.
+Na parte superior da tela, encontra-se a identificação do sistema, composta pelo logotipo e pelo título “Defesa Civil de Santo André”.
+A região central da interface contém uma sequência de campos de formulário destinados ao preenchimento de informações cadastrais. Esses campos podem incluir dados como nome do responsável familiar, contato, situação da moradia e outras informações relevantes para o monitoramento social e territorial realizado pela Defesa Civil.
+Logo abaixo, há um esboço da área dedicada à seleção de opções, representada por botões de escolha. Essa seção pode ser utilizada para indicar condições da residência, nível de risco da área, genêro, etc.
+Na parte inferior direita da tela, encontra-se o botão de ação principal, responsável por confirmar e salvar o cadastro realizado no sistema.
+O wireframe adota uma estrutura simples e objetiva, priorizando clareza visual de como será feito o formulário de preenchimento cadastral, facilitando alterações para o uso de agentes responsáveis pelo registro das famílias e residências atendidas.
+
+<div align="center">
+  <p>Figura 09: Wireframe tela formulario</p>
+  <img src="../assets/figura7-Wireframe-telaForms.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+https://www.figma.com/design/Wg7CrKpquQ0VpU4AA1cbeq/Sem-t%C3%ADtulo?node-id=0-1&t=leIgBMRUSbY59ivP-1
+
+  
 
 ## 3.4. Guia de estilos (sprint 3)
 
