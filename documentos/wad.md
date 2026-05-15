@@ -694,7 +694,219 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 ### 3.6.3. Modelo Relacional e Modelo Físico (sprints 2 e 4)
 
-*Posicione aqui os diagramas de modelos relacionais do banco de dados, apresentando todos os esquemas de tabelas e suas relações. Inclua as migrations DDL numeradas e reproduzíveis (`CREATE TABLE`, `CREATE INDEX`, constraints `NOT NULL`, `UNIQUE`, `FOREIGN KEY`, `CHECK`). Utilize texto para complementar suas explicações quando necessário.*
+#### Visão Geral do Modelo Relacional
+
+O modelo relacional da solução é composto por seis entidades principais que formam o núcleo do sistema de cadastro socioestrutural e gestão de riscos:
+
+- **chefe_da_familia**: Armazena dados biográficos e socioeconômicos do chefe de família, incluindo identificação (CPF, NIS, RG), dados pessoais, contato e renda.
+- **nucleo_familiar**: Representa o núcleo familiar como agrupador de indivíduos, vinculado a um chefe de família e contendo dados estruturais da habitação.
+- **vulnerabilidade**: Armazena informações sobre vulnerabilidades específicas do núcleo familiar (doenças, gestação, PCD, etc.).
+- **setor_risco**: Define os setores de risco geográficos com classificação de nível de risco.
+- **localizacao**: Armazena informações geográficas e de endereço, incluindo coordenadas GPS e vinculação a setores de risco.
+- **membro_nucleo**: Tabela de associação que vincula indivíduos ao núcleo familiar com informações de vínculo e parentesco.
+
+Os relacionamentos estabelecem que:
+- Um **chefe_da_familia** vincula-se a **um nucleo_familiar** (1:1)
+- Um **nucleo_familiar** pode ter **múltiplos membro_nucleo** (1:N)
+- Um **nucleo_familiar** tem **uma vulnerabilidade** associada (1:1)
+- Um **nucleo_familiar** tem **uma localizacao** associada (1:1)
+- Uma **localizacao** pode estar em **um setor_risco** (N:1)
+
+#### Migrations DDL Numeradas e Reproduzíveis
+
+##### Migration 001: Criar tabela `chefe_da_familia`
+
+```sql
+CREATE TABLE chefe_da_familia (
+    id UUID PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cpf VARCHAR(14) UNIQUE,
+    nis VARCHAR(20) UNIQUE,
+    rg VARCHAR(20) UNIQUE,
+    data_nascimento DATE NOT NULL CHECK (data_nascimento <= CURRENT_DATE),
+    local_nascimento VARCHAR(255),
+    genero VARCHAR(50) CHECK (genero IN ('MASCULINO', 'FEMININO', 'OUTRO')),
+    escolaridade VARCHAR(100),
+    ocupacao VARCHAR(100),
+    renda DECIMAL(10,2) CHECK (renda >= 0),
+    cor_raca VARCHAR(50),
+    estado_civil VARCHAR(50),
+    profissao VARCHAR(100),
+    nome_mae VARCHAR(255),
+    nome_pai VARCHAR(255),
+    telefone1 VARCHAR(20),
+    telefone2 VARCHAR(20),
+    email VARCHAR(255),
+    foto_url TEXT,
+    status VARCHAR(50) NOT NULL CHECK (status IN ('ATIVO', 'INATIVO', 'PENDENTE')),
+    data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_chefe_cpf ON chefe_da_familia(cpf);
+CREATE INDEX idx_chefe_nis ON chefe_da_familia(nis);
+CREATE INDEX idx_chefe_nome ON chefe_da_familia(nome);
+CREATE INDEX idx_chefe_status ON chefe_da_familia(status);
+```
+
+##### Migration 002: Criar tabela `nucleo_familiar`
+
+```sql
+CREATE TABLE nucleo_familiar (
+    id UUID PRIMARY KEY,
+    regiao_ficha VARCHAR(255),
+    video_responsavel VARCHAR(255),
+    tempo_construcao INT CHECK (tempo_construcao >= 0),
+    tipo_construcao VARCHAR(100),
+    tempo_terreno INT CHECK (tempo_terreno >= 0),
+    uso_imovel VARCHAR(100),
+    renda_familiar DECIMAL(10,2) CHECK (renda_familiar >= 0),
+    cadastro_completo BOOLEAN DEFAULT FALSE,
+    data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    chefe_familia_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_chefe_familia
+        FOREIGN KEY (chefe_familia_id)
+        REFERENCES chefe_da_familia(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_nucleo_chefe ON nucleo_familiar(chefe_familia_id);
+CREATE INDEX idx_nucleo_regiao ON nucleo_familiar(regiao_ficha);
+CREATE INDEX idx_nucleo_data ON nucleo_familiar(data_registro);
+```
+
+##### Migration 003: Criar tabela `vulnerabilidade`
+
+```sql
+CREATE TABLE vulnerabilidade (
+    id UUID PRIMARY KEY,
+    doenca_idoso BOOLEAN DEFAULT FALSE,
+    doenca_crianca BOOLEAN DEFAULT FALSE,
+    doenca_cronica BOOLEAN DEFAULT FALSE,
+    gestante BOOLEAN DEFAULT FALSE,
+    lactante BOOLEAN DEFAULT FALSE,
+    pcd BOOLEAN DEFAULT FALSE,
+    deficiencia BOOLEAN DEFAULT FALSE,
+    restrito BOOLEAN DEFAULT FALSE,
+    nucleo_familiar_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_vulnerabilidade_nucleo
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_vulnerabilidade_nucleo ON vulnerabilidade(nucleo_familiar_id);
+```
+
+##### Migration 004: Criar tabela `setor_risco`
+
+```sql
+CREATE TABLE setor_risco (
+    id UUID PRIMARY KEY,
+    codigo VARCHAR(50) UNIQUE NOT NULL,
+    nivel_risco VARCHAR(50) NOT NULL CHECK (nivel_risco IN ('BAIXO', 'MEDIO', 'ALTO'))
+);
+
+CREATE INDEX idx_setor_codigo ON setor_risco(codigo);
+CREATE INDEX idx_setor_nivel ON setor_risco(nivel_risco);
+```
+
+##### Migration 005: Criar tabela `localizacao`
+
+```sql
+CREATE TABLE localizacao (
+    id UUID PRIMARY KEY,
+    latitude DECIMAL(10,7) NOT NULL CHECK (latitude >= -90 AND latitude <= 90),
+    longitude DECIMAL(10,7) NOT NULL CHECK (longitude >= -180 AND longitude <= 180),
+    setor_risco_id UUID,
+    logradouro VARCHAR(255) NOT NULL,
+    numero VARCHAR(20),
+    complemento VARCHAR(255),
+    bairro VARCHAR(100) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    cep VARCHAR(20),
+    referencia VARCHAR(255),
+    nucleo_familiar_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_localizacao_setor
+        FOREIGN KEY (setor_risco_id)
+        REFERENCES setor_risco(id) ON DELETE SET NULL,
+    CONSTRAINT fk_localizacao_nucleo
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_localizacao_nucleo ON localizacao(nucleo_familiar_id);
+CREATE INDEX idx_localizacao_setor ON localizacao(setor_risco_id);
+CREATE INDEX idx_localizacao_coordenadas ON localizacao(latitude, longitude);
+CREATE INDEX idx_localizacao_bairro ON localizacao(bairro);
+CREATE INDEX idx_localizacao_cidade ON localizacao(cidade);
+```
+
+##### Migration 006: Criar tabela `membro_nucleo`
+
+```sql
+CREATE TABLE membro_nucleo (
+    individuo_id UUID NOT NULL,
+    nucleo_familiar_id UUID NOT NULL,
+    vinculo_familiar VARCHAR(100),
+    grau_parentesco VARCHAR(100),
+    escolaridade VARCHAR(100),
+    ocupacao VARCHAR(100),
+    renda DECIMAL(10,2),
+    PRIMARY KEY (individuo_id, nucleo_familiar_id),
+    CONSTRAINT fk_membro_individuo
+        FOREIGN KEY (individuo_id)
+        REFERENCES chefe_da_familia(id) ON DELETE RESTRICT,
+    CONSTRAINT fk_membro_nucleo
+        FOREIGN KEY (nucleo_familiar_id)
+        REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_membro_nucleo ON membro_nucleo(nucleo_familiar_id);
+CREATE INDEX idx_membro_individuo ON membro_nucleo(individuo_id);
+```
+
+#### Constraints e Regras de Integridade Aplicadas
+
+| Constraint | Tabela | Descrição |
+|---|---|---|
+| **PRIMARY KEY (UUID)** | Todas | Identificação única universal de cada registro |
+| **FOREIGN KEY** | nucleo_familiar → chefe_da_familia | Garante vínculo obrigatório com chefe de família |
+| **FOREIGN KEY** | vulnerabilidade → nucleo_familiar | Garante que cada vulnerabilidade pertence a um núcleo |
+| **FOREIGN KEY** | localizacao → nucleo_familiar | Garante que cada localização está vinculada a um núcleo |
+| **FOREIGN KEY** | localizacao → setor_risco | Vincula localização a setor de risco (opcional) |
+| **FOREIGN KEY** | membro_nucleo → chefe_da_familia | Vincula membro ao indivíduo |
+| **FOREIGN KEY** | membro_nucleo → nucleo_familiar | Vincula membro ao núcleo familiar |
+| **UNIQUE** | chefe_da_familia | CPF, NIS e RG não podem se repetir |
+| **UNIQUE** | nucleo_familiar | Chefe de família vinculado a apenas um núcleo |
+| **UNIQUE** | vulnerabilidade | Um perfil de vulnerabilidade por núcleo |
+| **UNIQUE** | localizacao | Uma localização por núcleo |
+| **UNIQUE** | setor_risco | Código de setor não pode se repetir |
+| **NOT NULL** | chefe_da_familia | Nome é obrigatório |
+| **NOT NULL** | localizacao | Logradouro, bairro, cidade, coordenadas obrigatórios |
+| **NOT NULL** | nucleo_familiar | Chefe de família obrigatório |
+| **CHECK** | localizacao | Latitude deve estar entre -90 e 90 |
+| **CHECK** | localizacao | Longitude deve estar entre -180 e 180 |
+| **ON DELETE RESTRICT** | vulnerabilidade, localizacao, membro_nucleo | Impede exclusão de registros que possuem dependências vinculadas |
+| **ON DELETE RESTRICT** | nucleo_familiar | Impede exclusão de chefe sem remover núcleo |
+
+#### Modelo Relacional
+
+A imagem a seguir mostra as entidades principais (`chefe_da_familia`, `nucleo_familiar`, `vulnerabilidade`, `setor_risco`, `localizacao` e `membro_nucleo`), seus atributos e como elas se relacionam. A tabela `nucleo_familiar` é a entidade central que agrega informações da família, e `localizacao` é a ponte de ligação entre a família e sua posição geográfica em um setor de risco.
+
+<div align="center">
+  <p>Figura 07: Modelo Relacional</p>
+  <img src="../assets/modelo_relacional.png" width="800">
+  <p>Fonte: Material produzido pelos autores com Supabase (2026)</p>
+</div>
+
+**Observações sobre o modelo:**
+
+1. **Identificadores UUID**: Utiliza UUIDs ao invés de inteiros para melhor escalabilidade e portabilidade de dados.
+2. **Integridade Referencial**: As constraints `ON DELETE RESTRICT` impedem a exclusão acidental de chefes de família sem remover primeiro o núcleo vinculado. As relações utilizam ON DELETE RESTRICT para impedir exclusões acidentais e preservar o histórico de dados, conforme solicitado pela Defesa Civil.
+3. **Índices de Busca**: Criados nas colunas mais consultadas (CPF, NIS, nome, coordenadas geográficas) para otimizar o desempenho conforme RNF de capacidade.
+4. **Separação de Responsabilidades**: A tabela `vulnerabilidade` segrega dados sensíveis de vulnerabilidade em entidade dedicada, facilitando consultas focadas em perfis de risco.
+5. **Geolocalização**: A tabela `localizacao` armazena coordenadas com validação de intervalos (latitude -90 a 90, longitude -180 a 180) e índices compostos para buscas por proximidade.
+6. **Tabela de Associação**: `membro_nucleo` permite registrar múltiplos indivíduos em um núcleo familiar com informações de parentesco e vinculação.
+7. **Timestamps**: Campo `data_registro` em cada tabela rastreia quando o registro foi criado, facilitando auditoria e análises temporais.
+
 
 ### 3.6.4. Consultas SQL e lógica proposicional (sprint 2)
 
