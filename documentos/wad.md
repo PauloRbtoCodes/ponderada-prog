@@ -653,7 +653,7 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
-### 3.2.3. Diagrama de Classes do Domínio (sprint 2)
+### 3.2.3. Diagrama de Classes do Domínio
 
 ### Introdução
 
@@ -694,38 +694,26 @@ classDiagram
     class ChefeDaFamilia {
         +UUID id
         +String nome
-        +String cpf
-        +String nis
+        +String cpf {unique}
+        +String nis {unique}
         +String rg
         +Date dataNascimento
         +String localNascimento
         +String genero
-        +CorRacaEnum corRaca
+        +CorRacaEnum corRaca {restrito}
         +EstadoCivilEnum estadoCivil
         +String profissao
-        +String nomeMae
-        +String nomePai
+        +String nomeMae {restrito}
+        +String nomePai {restrito}
         +String telefone1
         +String telefone2
         +String email
         +EscolaridadeEnum escolaridade
         +SitOcupEnum ocupacao
-        +Decimal renda
-        +String fotoUrl
+        +Decimal renda {restrito}
+        +String fotoUrl {restrito}
         +StatusIndEnum status
         +DateTime dataRegistro
-    }
-
-    class Vulnerabilidade {
-        +Boolean doenca_idoso
-        +Boolean doenca_crianca
-        +Boolean doenca_cronica
-        +Boolean gestante
-        +Boolean lactante
-        +Boolean pcd
-        +Boolean deficiencia
-        +Boolean restrito
-        +UUID nucleo_familiar_id
     }
 
     class NucleoFamiliar {
@@ -736,26 +724,38 @@ classDiagram
         +TipoConstrEnum tipo_construcao
         +INT tempo_terreno
         +UsoImovelEnum uso_imovel
-        +Decimal renda_familiar
+        +Decimal renda_familiar {restrito}
         +Boolean cadastro_completo
         +DateTime data_registro
     }
 
     class MembroNucleo {
-        +UUID individuo_id
-        +UUID nucleo_familiar_id
+        +UUID individuo_id FK
+        +UUID nucleo_familiar_id FK
         +String vinculo_familiar
         +String grau_parentesco
         +EscolaridadeEnum escolaridade
         +SitOcupEnum ocupacao
-        +Decimal renda
+        +Decimal renda {restrito}
+    }
+
+    class Vulnerabilidade {
+        +UUID nucleo_familiar_id FK
+        +Boolean doenca_idoso
+        +Boolean doenca_crianca
+        +Boolean doenca_cronica
+        +Boolean gestante {restrito}
+        +Boolean lactante {restrito}
+        +Boolean pcd
+        +Boolean deficiencia
+        +Boolean restrito
     }
 
     class Localizacao {
         +UUID id
         +Decimal latitude
         +Decimal longitude
-        +UUID setor_risco_id
+        +UUID setor_risco_id FK
         +String logradouro
         +String numero
         +String complemento
@@ -763,164 +763,20 @@ classDiagram
         +String cidade
         +String cep
         +String referencia
-        +UUID nucleo_familiar_id
+        +UUID nucleo_familiar_id FK
     }
 
     class SetorRisco {
         +UUID id
-        +String codigo
-        +String nivel_risco
+        +String codigo {unique}
+        +NivelRiscoEnum nivel_risco
     }
 
-    class Agente {
-        +UUID id
-        +String nome
-        +String matricula
-        +PerfilAcessoEnum perfilAcesso
-        +StatusAgenteEnum status
-        +DateTime dataRegistro
-    }
-
-    class Equipe {
-        +UUID id
-        +String nome
-        +TurnoEnum turno
-        +StatusEquipeEnum status
-        +UUID lider_id
-        +DateTime dataRegistro
-    }
-
-    %% Enumerações
-
-    class StatusIndEnum {
-        <<enumeration>>
-        ATIVO
-        INATIVO
-        OBITO
-    }
-
-    class CorRacaEnum {
-        <<enumeration>>
-        BRANCA
-        PRETA
-        PARDA
-        AMARELA
-        INDIGENA
-    }
-
-    class EstadoCivilEnum {
-        <<enumeration>>
-        SOLTEIRO
-        CASADO
-        UNIAO_ESTAVEL
-        DIVORCIADO
-        VIUVO
-    }
-
-    class TipoConstrEnum {
-        <<enumeration>>
-        MADEIRA
-        ALVENARIA
-        MISTO
-    }
-
-    class UsoImovelEnum {
-        <<enumeration>>
-        RESIDENCIAL
-        COMERCIAL
-        MISTO
-    }
-
-    class EscolaridadeEnum {
-        <<enumeration>>
-        SEM_INSTRUCAO
-        FUND_INCOMPLETO
-        FUND_COMPLETO
-        MEDIO_INCOMPLETO
-        MEDIO_COMPLETO
-        SUPERIOR
-    }
-
-    class SitOcupEnum {
-        <<enumeration>>
-        EMPREGADO
-        DESEMPREGADO
-        AUTONOMO
-        APOSENTADO
-        ESTUDANTE
-        SEM_RENDA
-    }
-
-    class NivelRiscoEnum {
-        <<enumeration>>
-        BAIXO
-        MEDIO
-        ALTO
-        MUITO_ALTO
-    }
-
-    class PerfilAcessoEnum {
-        <<enumeration>>
-        CAMPO
-        GESTOR
-    }
-
-    class StatusAgenteEnum {
-        <<enumeration>>
-        ATIVO
-        INATIVO
-    }
-
-    class TurnoEnum {
-        <<enumeration>>
-        MANHA
-        TARDE
-        NOITE
-    }
-
-    class StatusEquipeEnum {
-        <<enumeration>>
-        ATIVA
-        INATIVA
-    }
-
-    %% Composição: Vulnerabilidade não existe sem NucleoFamiliar
-    NucleoFamiliar *-- "1" Vulnerabilidade : tem vulnerabilidade
-
-    %% Composição: Localizacao não existe sem NucleoFamiliar
-    NucleoFamiliar *-- "1" Localizacao : localizado em
-
-    %% Associação: ChefeDaFamilia compõe NucleoFamiliar
-    ChefeDaFamilia "1..*" --> "1" NucleoFamiliar : compõe núcleo
-
-    %% Classe de associação MembroNucleo
-    MembroNucleo .. ChefeDaFamilia
-    MembroNucleo .. NucleoFamiliar
-
-    %% Agregação: SetorRisco existe independentemente de Localizacao
-    Localizacao "0..*" o-- "0..1" SetorRisco : classifica
-
-    %% Agregação: Agente existe independentemente de Equipe
-    Equipe "0..*" o-- "0..*" Agente : composta por
-
-    %% Associação: Agente cadastrou NucleoFamiliar (rastreabilidade RF008)
-    Agente "1" --> "0..*" NucleoFamiliar : cadastrou
-
-    %% Dependências de enumeração
-    ChefeDaFamilia ..> StatusIndEnum
-    ChefeDaFamilia ..> CorRacaEnum
-    ChefeDaFamilia ..> EstadoCivilEnum
-    ChefeDaFamilia ..> EscolaridadeEnum
-    ChefeDaFamilia ..> SitOcupEnum
-    NucleoFamiliar ..> TipoConstrEnum
-    NucleoFamiliar ..> UsoImovelEnum
-    MembroNucleo ..> EscolaridadeEnum
-    MembroNucleo ..> SitOcupEnum
-    SetorRisco ..> NivelRiscoEnum
-    Agente ..> PerfilAcessoEnum
-    Agente ..> StatusAgenteEnum
-    Equipe ..> TurnoEnum
-    Equipe ..> StatusEquipeEnum
+    NucleoFamiliar "1" *-- "1" Vulnerabilidade : tem vulnerabilidades
+    NucleoFamiliar "1" -- "*" MembroNucleo : possui membros
+    ChefeDaFamilia "*" -- "*" MembroNucleo : compõe núcleo
+    NucleoFamiliar "1" *-- "1" Localizacao : localizado em
+    Localizacao "*" o-- "0..1" SetorRisco : classifica
 ```
 
 ---
@@ -1072,24 +928,27 @@ Domicílio e grupo familiar — unidade central de cadastro de campo.
 | cadastro_completo | Boolean | Sim | true / false | `false` quando campos obrigatórios ausentes (RN011) |
 | data_registro | DateTime | Sim | Gerado automaticamente | |
 
+**Observação**: O responsável do núcleo é identificado através da classe de associação MembroNucleo, não por um campo direto em NucleoFamiliar (RN002).
+
 RN002: o ChefeDaFamilia vinculado como responsável deve ser maior de 18 anos. RN012: um indivíduo não pode pertencer a dois núcleos simultaneamente.
 
 ---
 
 ### MembroNucleo
 
-Classe de associação entre ChefeDaFamilia e NucleoFamiliar. Registra os atributos específicos do vínculo de cada pessoa com o núcleo — dados que não pertencem nem à pessoa nem ao núcleo isoladamente.
+Classe de associação entre ChefeDaFamilia e NucleoFamiliar. Registra os atributos específicos do vínculo de cada pessoa com o núcleo — dados que não pertencem nem à pessoa nem ao núcleo isoladamente. **Chave primária composta**: (individuo_id, nucleo_familiar_id).
 
 | Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
 |---|---|---|---|---|
-| individuo_id | UUID | Sim | FK para ChefeDaFamilia | |
-| nucleo_familiar_id | UUID | Sim | FK para NucleoFamiliar | |
+| individuo_id | UUID | Sim | FK para ChefeDaFamilia | Parte da PK composta |
+| nucleo_familiar_id | UUID | Sim | FK para NucleoFamiliar | Parte da PK composta |
 | vinculo_familiar | String | Não | Texto livre | Tipo de vínculo (ex.: filho, cônjuge, agregado) |
 | grau_parentesco | String | Não | Texto livre | Relativo ao responsável, conforme ficha SDUH |
 | escolaridade | EscolaridadeEnum | Não | SEM_INSTRUCAO até SUPERIOR | |
 | ocupacao | SitOcupEnum | Não | EMPREGADO até SEM_RENDA | Enum a ser validado com parceiro |
 | renda | Decimal | Não | Valor em R$ | `{restrito}` LGPD |
-| individuo_id + nucleo_familiar_id | UUID composta | Sim | Chave composta `{unique}` | PK composta, garante unicidade do par (RN012) |
+
+**Restrição de unicidade**: a combinação (individuo_id, nucleo_familiar_id) é única, garantindo que um indivíduo pertence a no máximo um núcleo familiar (RN012).
 
 ---
 
@@ -1125,40 +984,6 @@ Entidade geográfica administrativa pré-cadastrada pela Defesa Civil. A lista o
 | id | UUID | Sim | Gerado automaticamente | Chave primária |
 | codigo | String | Sim | Texto livre | `{unique}` identificador oficial |
 | nivel_risco | NivelRiscoEnum | Sim | BAIXO, MEDIO, ALTO, MUITO_ALTO | |
-
----
-
-### Agente
-
-Servidor da Defesa Civil que realiza cadastros de campo ou coordena operações administrativamente.
-
-| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
-|---|---|---|---|---|
-| id | UUID | Sim | Gerado automaticamente | Chave primária |
-| nome | String | Sim | Texto livre, máx. 200 | |
-| matricula | String | Sim | Texto livre | `{unique}` identificador institucional |
-| perfilAcesso | PerfilAcessoEnum | Sim | CAMPO, GESTOR | CAMPO cadastra; GESTOR visualiza dashboard e campos restritos |
-| status | StatusAgenteEnum | Sim | ATIVO, INATIVO | Padrão ATIVO |
-| dataRegistro | DateTime | Sim | Gerado automaticamente | |
-
-Nota de escopo: autenticação está fora do escopo do TAPI. O vínculo Agente para NucleoFamiliar existe exclusivamente para rastreabilidade de auditoria (RF008). Apenas a criação é rastreada no MVP; histórico de edições é evolução futura. No MVP todos os agentes são servidores — distinção com voluntários é evolução futura.
-
----
-
-### Equipe
-
-Grupo operacional de agentes, existe durante operações ativas.
-
-| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
-|---|---|---|---|---|
-| id | UUID | Sim | Gerado automaticamente | Chave primária |
-| nome | String | Sim | Texto livre, máx. 200 | |
-| turno | TurnoEnum | Sim | MANHA, TARDE, NOITE | |
-| status | StatusEquipeEnum | Sim | ATIVA, INATIVA | Ao encerrar operação, equipe passa a INATIVA; vínculos preservados |
-| lider_id | UUID | Não | FK para Agente | Deve ter perfilAcesso igual a GESTOR |
-| dataRegistro | DateTime | Sim | Gerado automaticamente | |
-
-Regra: um agente não pode estar em mais de uma equipe ativa simultaneamente. Equipes podem existir sem agentes vinculados (criação antecipada).
 
 ---
 
