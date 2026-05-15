@@ -71,30 +71,11 @@ Dessa forma, a análise das cinco forças contribui para identificar oportunidad
  A ameaça de produtos ou serviços substitutos é considerada moderada, pois, embora não existam substitutos diretos para a atuação da Defesa Civil, algumas ferramentas e práticas podem desempenhar funções complementares ou parciais (PORTER, 2008). Entre elas, destacam-se sistemas privados de monitoramento climático, plataformas de geolocalização e ferramentas digitais de gestão de dados. No entanto, tais soluções não possuem a capacidade institucional, legal e operacional para coordenar ações emergenciais, acolhimento de famílias e articulação intersetorial. Assim, apesar de contribuírem para a gestão de riscos, esses substitutos não eliminam a necessidade da atuação da Defesa Civil, mantendo a ameaça em nível moderado (Prefeitura de Santo André, 2026; PORTER, 2008).
 
  #### Análise da Rivalidade entre Concorrentes
-
- A rivalidade entre concorrentes é considerada baixa no contexto tradicional de Porter, uma vez que a Defesa Civil não atua em um mercado competitivo, mas sim como órgão público com atribuição legal e responsabilidade exclusiva no âmbito municipal (PORTER, 2008). Não existem entidades privadas que disputem diretamente sua função institucional de coordenação de proteção e defesa civil.
- 
- É importante ressaltar, porém, que por ser um órgão público que trabalha integrado com outros setores municipais, há uma forma indireta de rivalidade com outros órgãos governamentais que atuam em situações emergenciais, como o SAMU (Serviço de Atendimento Móvel de Urgência) que responde por emergências médicas, e a Polícia Militar que atua na segurança pública. Esses órgãos compartilham o mesmo espaço operacional durante crises e desastres, exigindo uma articulação clara de papéis e responsabilidades. Porém, essa "rivalidade" é apenas indireta e operacional, não competitiva, pois cada órgão possui funções complementares e bem definidas no protocolo de gestão de emergências.
- 
- Adicionalmente, pode-se observar competição indireta com soluções tecnológicas privadas de monitoramento climático e geolocalização, bem como com sistemas desenvolvidos por outros municípios que implementam suas próprias abordagens para gestão de riscos. Ainda assim, essa concorrência é limitada, pois nenhuma solução privada ou externa substitui a autoridade legal, a responsabilidade institucional e a legitimidade operacional que a Defesa Civil possui. Dessa forma, reconhecendo a natureza pública e essencial da instituição, a análise de rivalidade reforça a necessidade de inovação interna e modernização dos processos, em vez de competição tradicional (Prefeitura de Santo André, 2026; PORTER, 2008).
-
-#### Análise do Poder de Barganha dos Clientes
-
-O poder de barganha dos clientes é considerado **alto**, porém com características distintas daquelas encontradas em mercados competitivos tradicionais (PORTER, 2008). No contexto público, o "cliente" é a própria Prefeitura de Santo André, por meio da Defesa Civil, que financia e utiliza a solução.
-
-Essa dinâmica diferenciada decorre de alguns fatores: primeiro, não há fornecedor alternativo de um sistema de gestão integrada especificamente desenvolvido para a Defesa Civil de Santo André, concedendo ao cliente uma posição de influência direta sobre as funcionalidades, prazos e ajustes do projeto. Segundo, como representante do setor público, a instituição tem autoridade para definir mudanças de requisitos e prioridades conforme sua operação evolui. Terceiro, o projeto é desenvolvido especificamente sob demanda do cliente, resultando em alta customização e dependência de seu feedback para validação contínua.
-
-Por outro lado, essa barganha não é predatória, pois a Defesa Civil está comprometida com o sucesso da solução e reconhece a importância da qualidade técnica e da sustentabilidade do projeto. Dessa forma, o alto poder de barganha é exercido de forma colaborativa e estratégica, visando a qualidade final da plataforma que serve ao interesse público de proteção à população.
-
+ A rivalidade entre concorrentes é considerada baixa, uma vez que a Defesa Civil não atua em um mercado competitivo tradicional, mas sim como órgão público com atribuição legal específica (PORTER, 2008). Não há concorrentes diretos que disputem sua função institucional, pois sua atuação é exclusiva no âmbito municipal. Entretanto, pode-se observar uma forma indireta de rivalidade com soluções tecnológicas privadas ou sistemas desenvolvidos por outros municípios, que oferecem abordagens alternativas para a gestão de riscos. Ainda assim, essa concorrência é limitada, pois tais soluções não substituem a autoridade e a responsabilidade da Defesa Civil. Dessa forma, a baixa rivalidade reforça a necessidade de inovação interna e modernização dos processos, em vez de competição direta (Prefeitura de Santo André, 2026; PORTER, 2008).
+ #### Análise do Poder de Barganha dos Clientes
+O poder de barganha dos clientes é considerado baixo, pois as principais ações da Defesa Civil são destinadas à população e realizadas em conjunto com outros órgãos públicos, os quais não possuem influência direta sobre a prestação do serviço, uma vez que este constitui uma responsabilidade obrigatória do município (PORTER, 2008). Além disso, a atuação da Defesa Civil está vinculada à proteção da população e à gestão de riscos, não sendo baseada em relações comerciais. Embora existam demandas da sociedade por maior eficiência e rapidez, os usuários não podem substituir ou negociar o serviço prestado. Dessa forma, o poder de barganha dos clientes é reduzido, ainda que a satisfação da população seja relevante para a melhoria contínua das operações (PREFEITURA DE SANTO ANDRÉ, 2026; PORTER, 2008).
 #### Análise do Poder de Barganha dos Fornecedores
-
-O poder de barganha dos fornecedores é considerado **moderado a baixo**, com particularidades importantes decorrentes da natureza pública e tecnológica do projeto (PORTER, 2008).
-
-Os principais fornecedores do projeto são provedores de serviços tecnológicos e infraestrutura, destacando-se plataformas de computação em nuvem (Amazon Web Services, Google Cloud, Microsoft Azure), fornecedores de banco de dados, APIs de georreferenciamento e ferramentas de desenvolvimento de software. A existência de múltiplas opções no mercado em cada uma dessas categorias reduz significativamente a dependência de um único fornecedor, concedendo à equipe de desenvolvimento maior liberdade de escolha e negociação.
-
-Por outro lado, à medida que o projeto avança e adota tecnologias mais específicas ou implementa integrações complexas com sistemas municipais, a dependência técnica de determinados fornecedores pode aumentar, elevando seu poder de barganha. Além disso, há considerar que como projeto público com orçamento limitado, há restrições quanto à adoção de soluções proprietárias caras, criando preferência por tecnologias open-source e soluções de baixo custo, o que amplia as opções disponíveis e mantém o poder dos fornecedores controlado.
-
-Em resumo, a natureza modular e a disponibilidade de alternativas tecnológicas no mercado mantêm o poder dos fornecedores em nível moderado, permitindo à Defesa Civil preservar flexibilidade arquitetural e evitar lock-in tecnológico em sua solução de gestão de riscos.
+O poder de barganha dos fornecedores é considerado moderado, pois a Defesa Civil depende de fornecedores de tecnologia, equipamentos, sistemas de monitoramento, comunicação e de outros órgãos para apoiar suas operações (PORTER, 2008). Empresas responsáveis por softwares, serviços em nuvem, sensores climáticos e plataformas digitais possuem certa influência, especialmente quando oferecem soluções especializadas. Entretanto, como os órgãos públicos geralmente possuem a possibilidade de contratar diferentes fornecedores, esse poder é parcialmente limitado. Assim, embora exista dependência tecnológica em alguns recursos específicos, o poder de barganha dos fornecedores permanece em nível moderado (PREFEITURA DE SANTO ANDRÉ, 2026; PORTER, 2008).
 
 ### 2.1.2. Análise SWOT da Instituição Parceira
 
@@ -634,31 +615,37 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 ### 3.2.3. Diagrama de Classes do Domínio (sprint 2)
 
-# 3.2.3 Diagrama de Classes do Domínio — T-01
-> Modelar Indivíduo + Localização + Vulnerabilidade
-> **Status:** Em andamento | **Versão:** 1.0 | **Revisão pendente**
+# 3.2.3 Diagrama de Classes do Domínio
+> T-01 Modelar Indivíduo + Localização + Vulnerabilidade
+> T-02 Modelar Agente + Equipe
+> T-03 Modelar Ocorrência + SetorRisco expandido
+> **Status:** Em andamento | **Versão:** 3.0 | **Revisão pendente**
  
 ---
  
 ## Decisões pendentes (bloqueia DoD)
  
-| # | Decisão | Responsável |
-|---|---------|-------------|
-| P-01 | Lista oficial de setores de risco da Defesa Civil — necessária para popular `SetorRisco` | Pessoa B + Defesa Civil |
-| P-02 | Validar enum `situacaoOcupacional` em `MembroNucleo` com o parceiro | Pessoa B |
-| P-03 | Definir perfis autorizados para campos `{restrito}` — necessário para T-02 | Time |
+| # | Task | Decisão | Responsável |
+|---|------|---------|-------------|
+| P-01 | T-01 | Lista oficial de setores de risco da Defesa Civil — necessária para popular `SetorRisco` | Pessoa B + Defesa Civil |
+| P-02 | T-01 | Validar enum `situacaoOcupacional` em `MembroNucleo` com o parceiro | Pessoa B |
+| P-03 | T-01/T-02 | Definir mapeamento `perfilAcesso → campos visíveis` para todos os campos `{restrito}` | Time |
+| P-04 | T-02 | Confirmar se existem outros tipos de vínculo além de servidor para versões futuras | Time + Defesa Civil |
+| P-05 | T-03 | Validar ciclo de vida de `Ocorrencia` com a Defesa Civil — estados e transições permitidas | Time + Defesa Civil |
+| P-06 | T-03 | Confirmar se um `NucleoFamiliar` pode estar em múltiplas ocorrências ativas simultaneamente (RN-NF01) | Time + Defesa Civil |
  
 ---
  
 ## Diagrama UML de Classes
  
-> **Notação:** composição `◆` (losango cheio) · agregação `◇` (losango vazio) · associação `→` · classe de associação (borda tracejada)
+> **Notação:** composição `◆` (losango cheio) · agregação `◇` (losango vazio) · associação `→` · classe de associação (borda tracejada) · herança `△` (triângulo vazio — não usada neste diagrama)
 >
 > **Legenda de restrições:**
 > - `{restrito}` — acesso por perfil autorizado (RN005)
 > - `{auto}` — derivado de `dataNascimento`
 > - `{unique}` — unicidade no banco (RN001)
 > - `[0..1]` — campo opcional (cadastro parcial RF012, RN011)
+> - `«nota»` — decisão ou restrição de escopo documentada
  
 ```mermaid
 classDiagram
@@ -681,7 +668,7 @@ classDiagram
         +String telefone [0..1]
         +String tokenIdentidade [0..1] restrito
         +String fotoUrl [0..1] restrito
-        +StatusEnum status
+        +StatusIndEnum status
         +DateTime dataRegistro
     }
  
@@ -738,7 +725,28 @@ classDiagram
         +NivelRiscoEnum nivelRisco
     }
  
-    class StatusEnum {
+    class Agente {
+        +UUID id
+        +String nome
+        +String matricula unique
+        +PerfilAcessoEnum perfilAcesso
+        +StatusAgenteEnum status
+        +DateTime dataRegistro
+        %% nota: autenticacao fora do escopo do TAPI
+        %% nota: tipoVinculo removido MVP - todos sao servidores
+    }
+ 
+    class Equipe {
+        +UUID id
+        +String nome
+        +TurnoEnum turno
+        +StatusEquipeEnum status
+        +Agente lider [0..1]
+        +DateTime dataRegistro
+        %% nota: equipes existem durante operacoes ativas
+    }
+ 
+    class StatusIndEnum {
         <<enumeration>>
         ATIVO
         INATIVO
@@ -812,6 +820,57 @@ classDiagram
         MUITO_ALTO
     }
  
+    class PerfilAcessoEnum {
+        <<enumeration>>
+        CAMPO
+        GESTOR
+    }
+ 
+    class StatusAgenteEnum {
+        <<enumeration>>
+        ATIVO
+        INATIVO
+    }
+ 
+    class TurnoEnum {
+        <<enumeration>>
+        MANHA
+        TARDE
+        NOITE
+    }
+ 
+    class StatusEquipeEnum {
+        <<enumeration>>
+        ATIVA
+        INATIVA
+    }
+ 
+    class Ocorrencia {
+        +UUID id
+        +TipoDesastreEnum tipoDesastre
+        +DateTime dataHoraRegistro
+        +DateTime dataHoraEncerramento [0..1]
+        +String descricao [0..1]
+        +StatusOcorrenciaEnum status
+        %% nota: ciclo de vida pendente validacao Defesa Civil (P-05)
+    }
+ 
+    class StatusOcorrenciaEnum {
+        <<enumeration>>
+        ABERTA
+        EM_ATENDIMENTO
+        ENCERRADA
+        %% pendente: validar estados com Defesa Civil (P-05)
+    }
+ 
+    class TipoDesastreEnum {
+        <<enumeration>>
+        ENCHENTE
+        DESLIZAMENTO
+        INCENDIO
+        %% pendente: enum completo a confirmar com Defesa Civil (CA-01)
+    }
+ 
     %% Composição: Vulnerabilidade não existe sem Individuo
     Individuo *-- "1" Vulnerabilidade : possui
  
@@ -828,8 +887,14 @@ classDiagram
     %% Agregação: SetorRisco existe independentemente de Localizacao
     Localizacao "0..*" o-- "0..1" SetorRisco : referencia
  
-    %% Dependências de enumeração
-    Individuo ..> StatusEnum
+    %% Agregação: Agente existe independentemente de Equipe
+    Equipe "0..*" o-- "0..*" Agente : composta por
+ 
+    %% Associação: Agente cadastrou NucleoFamiliar (rastreabilidade RF008)
+    Agente "1" --> "0..*" NucleoFamiliar : cadastrou
+ 
+    %% Dependências de enumeração — T-01
+    Individuo ..> StatusIndEnum
     Individuo ..> CorRacaEnum
     Individuo ..> EstadoCivilEnum
     NucleoFamiliar ..> TipoConstrEnum
@@ -838,8 +903,28 @@ classDiagram
     MembroNucleo ..> EscolaridadeEnum
     MembroNucleo ..> SitOcupEnum
     SetorRisco ..> NivelRiscoEnum
+ 
+    %% Dependências de enumeração — T-02
+    Agente ..> PerfilAcessoEnum
+    Agente ..> StatusAgenteEnum
+    Equipe ..> TurnoEnum
+    Equipe ..> StatusEquipeEnum
+ 
+    %% Associação: Ocorrencia ↔ NucleoFamiliar (muitos para muitos — RN-NF01 pendente P-06)
+    Ocorrencia "0..*" --> "1..*" NucleoFamiliar : afeta
+ 
+    %% Associação: Ocorrencia → Agente (rastreabilidade de registro — RF008, CA-03)
+    Agente "1" --> "0..*" Ocorrencia : registrou
+ 
+    %% Agregação: SetorRisco existe independentemente de Ocorrencia (RN003, CA-04)
+    Ocorrencia "0..*" o-- "0..1" SetorRisco : ocorre em
+ 
+    %% Dependências de enumeração — T-03
+    Ocorrencia ..> StatusOcorrenciaEnum
+    Ocorrencia ..> TipoDesastreEnum
 ```
- ## Dicionário de Dados
+ 
+---## Dicionário de Dados
  
 ### Individuo
  
@@ -967,7 +1052,91 @@ classDiagram
  
 ---
  
-## Regras de Negócio Referenciadas
+### Agente
+ 
+> Servidor da Defesa Civil — realiza cadastros de campo ou coordena operações administrativamente
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `id` | UUID | Sim | Gerado automaticamente | Chave primária |
+| `nome` | String | Sim | Texto livre, max 200 | — |
+| `matricula` | String | Sim | Texto livre | `{unique}` identificador institucional |
+| `perfilAcesso` | PerfilAcessoEnum | Sim | CAMPO, GESTOR | Define acesso ao sistema — CAMPO cadastra, GESTOR visualiza dashboard |
+| `status` | StatusAgenteEnum | Sim | ATIVO, INATIVO | Default: ATIVO |
+| `dataRegistro` | DateTime | Sim | Gerado automaticamente | — |
+ 
+> **Nota de escopo:** autenticação (login) está fora do escopo do TAPI — o vínculo `Agente → NucleoFamiliar` é modelado para rastreabilidade de auditoria (RF008), não para controle de sessão.
+>
+> **Nota de MVP:** `tipoVinculo` removido — todos os agentes são servidores no MVP. Distinção voluntário/servidor documentada como evolução futura (P-04).
+>
+> **Rastreabilidade (RF008):** associação `Agente → NucleoFamiliar` registra quem realizou o cadastro. Somente criação é rastreada — histórico de edições fora do MVP.
+ 
+---
+ 
+### Equipe
+ 
+> Grupo operacional de agentes — existe durante operações ativas
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `id` | UUID | Sim | Gerado automaticamente | Chave primária |
+| `nome` | String | Sim | Texto livre, max 200 | — |
+| `turno` | TurnoEnum | Sim | MANHA, TARDE, NOITE | — |
+| `status` | StatusEquipeEnum | Sim | ATIVA, INATIVA | Ao encerrar operação, equipe passa a INATIVA — vínculos preservados |
+| `lider` | Agente | Não | Referência a `Agente` | Deve ter `perfilAcesso = GESTOR` — coordenação administrativa |
+| `dataRegistro` | DateTime | Sim | Gerado automaticamente | — |
+ 
+> **Nota de escopo:** equipes existem no contexto de operações ativas. Uma equipe pode existir sem agentes vinculados (criação antecipada).
+>
+> **Regra:** um agente não pode estar em mais de uma equipe ativa simultaneamente — multiplicidade `0..*` no lado de `Equipe`, com restrição de unicidade de equipe ativa por agente.
+ 
+---
+ 
+### Ocorrencia
+ 
+> Evento de desastre registrado pela Defesa Civil — unidade central de resposta operacional
+ 
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|----------|------|--------|-------------------|-------------|
+| `id` | UUID | Sim | Gerado automaticamente | Chave primária |
+| `tipoDesastre` | TipoDesastreEnum | Sim | ENCHENTE, DESLIZAMENTO, INCENDIO | **pendente** enum completo a validar com Defesa Civil (CA-01) |
+| `dataHoraRegistro` | DateTime | Sim | Gerado automaticamente | Momento do registro no sistema |
+| `dataHoraEncerramento` | DateTime | Não | Informado pelo agente | Preenchido na transição para ENCERRADA |
+| `descricao` | String | Não | Texto livre | Detalhamento livre do evento |
+| `status` | StatusOcorrenciaEnum | Sim | ABERTA, EM_ATENDIMENTO, ENCERRADA | Default: ABERTA — ciclo de vida **pendente** validação com Defesa Civil (P-05) |
+ 
+> **Campos mínimos (CA-01):** `tipoDesastre` + `dataHoraRegistro` + `status`
+>
+> **Rastreabilidade (RF008, CA-03):** associação `Agente → Ocorrencia` registra o agente responsável pelo registro. Multiplicidade: um agente pode registrar múltiplas ocorrências; cada ocorrência tem exatamente um agente registrador.
+>
+> **Escopo MVP (CA-05):** sem abrigo, sem logística, sem triagem médica. `Ocorrencia` representa apenas o registro do evento e seu ciclo de vida operacional.
+>
+> **RN-NF01 — núcleos em múltiplas ocorrências (P-06):** decisão pendente com Defesa Civil. Multiplicidade modelada como `0..*` ↔ `1..*` até confirmação. Registrar aqui quando decidido.
+ 
+---
+ 
+### StatusOcorrenciaEnum
+ 
+| Valor | Descrição | Transições permitidas |
+|-------|-----------|-----------------------|
+| `ABERTA` | Ocorrência registrada, ainda sem atendimento em curso | → EM_ATENDIMENTO |
+| `EM_ATENDIMENTO` | Agentes deslocados ou ação em andamento | → ENCERRADA |
+| `ENCERRADA` | Ocorrência finalizada; `dataHoraEncerramento` preenchida | — (terminal) |
+ 
+> **Pendente (P-05):** ciclo de vida a ser validado com a Defesa Civil antes do DoD. Podem existir estados intermediários (ex.: AGUARDANDO_RECURSO) não mapeados nesta versão.
+ 
+---
+ 
+### TipoDesastreEnum
+ 
+| Valor | Descrição |
+|-------|-----------|
+| `ENCHENTE` | Alagamento por transbordamento de corpos d'água ou chuva intensa |
+| `DESLIZAMENTO` | Movimentação de massa de solo ou rocha em encostas |
+| `INCENDIO` | Incêndio estrutural ou em vegetação com risco à população |
+ 
+> **Pendente (CA-01):** enum parcial — lista completa a ser validada e confirmada com a Defesa Civil. Novos valores adicionados aqui somente após validação.
+ 
  
 | Regra | Descrição | Classes afetadas |
 |-------|-----------|-----------------|
@@ -976,7 +1145,10 @@ classDiagram
 | RN005 | Campos de saúde e renda restritos a perfis autorizados | `Individuo`, `Vulnerabilidade`, `NucleoFamiliar`, `MembroNucleo` |
 | RN011 | Cadastro parcial permitido — campos mínimos: nome + dataNascimento + latitude + longitude | `Individuo`, `Localizacao` |
 | RN012 | Um indivíduo não pode pertencer a dois núcleos simultaneamente | `Individuo`, `NucleoFamiliar` |
+| RF008 | Sistema rastreia qual agente realizou cada cadastro (somente criação) | `Agente`, `NucleoFamiliar`, `Ocorrencia` |
 | RF012 | Sistema deve aceitar cadastros incompletos | `Individuo`, `NucleoFamiliar`, `Localizacao` |
+| RN-NF01 | **Pendente (P-06)** — regra sobre núcleo em múltiplas ocorrências ativas ainda não decidida com a Defesa Civil | `Ocorrencia`, `NucleoFamiliar` |
+| —     | Um agente não pode estar em mais de uma equipe ativa simultaneamente | `Agente`, `Equipe` |
  
 ---
  
@@ -992,6 +1164,9 @@ Campos exibidos com prioridade visual na tela de atendimento de ocorrência:
 | `status` | Individuo | Situação atual |
 | `idoso`, `crianca`, `pcd`, `gestante`, `lactante`, `acamado` | Vulnerabilidade | Prioridade de atendimento |
 | `latitude` + `longitude` | Localizacao | Localização para deslocamento |
+| `tipoDesastre` | Ocorrencia | Contexto imediato do evento |
+| `status` | Ocorrencia | Estado operacional atual |
+| `dataHoraRegistro` | Ocorrencia | Cronologia do atendimento |
  
 ---
  
@@ -1003,16 +1178,50 @@ Campos exibidos com prioridade visual na tela de atendimento de ocorrência:
 |-------|----------|-----------|
 | Alto — dado sensível (art. 5º II) | `corRaca`, `tipoDeficiencia`, `gestante`, `lactante` | Base legal reforçada ou consentimento explícito — **review** |
 | Alto — reidentificação | `tokenIdentidade` | Deve constar na política de privacidade do sistema |
-| Alto — identificação indireta | `fotoUrl` (Individuo e Localizacao) | Captura opcional; agente informado no ato |
+| Alto — identificação indireta | `fotoUrl` (`Individuo` e `Localizacao`) | Captura opcional; agente informado no ato |
 | Médio — finalidade dupla | `nomeMae`, `nomePai` | Finalidade documentada: antiduplicidade exclusivamente |
-| Médio — controle de acesso | Todos os campos `{restrito}` | Perfis autorizados a definir em T-02 |
+| Médio — controle de acesso | Todos os campos `{restrito}` | Perfil CAMPO: acessa dados operacionais. Perfil GESTOR: acessa campos restritos e dashboard. Detalhamento em T-02 |
 | Baixo — retenção | Todos os dados | Prazo de retenção não modelado — incluir em task futura |
  
 ---
----
+
 ### 3.2.4. Diagrama de Sequência UML (sprint 3)
 
-*Ao menos um fluxo prioritário, mostrando a interação entre as camadas Controller → Service → Repository → Banco. Linhas de vida verticais, ativação correta, mensagens síncronas e assíncronas diferenciadas, retornos tracejados.*
+Um diagrama de sequência é um tipo de diagrama comportamental da UML (Unified Modeling Language) focado em demonstrar como e em que ordem os componentes de um sistema interagem entre si ao longo do tempo para realizar uma tarefa específica.
+
+<div align="center">
+  <p><strong>Figura 07: Diagrama de Sequência para o Caso de Uso 1</strong></p>
+    <a href="../assets/figura7-Diagrama-de-sequencia-UC1.png" target="_blank">
+      <img src="../assets/figura7-Diagrama-de-sequencia-UC1.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 1" width="800">
+    </a>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+O diagrama ilustra o fluxo técnico de Cadastro de Família via aplicativo móvel para a Defesa Civil. O processo inicia com a normalização dos dados e validações rigorosas, como o bloqueio de datas futuras e a checagem matemática do CPF/NIS. Qualquer inconsistência interrompe o fluxo imediatamente, alertando o agente. Com os dados corretos, o sistema consulta o banco para evitar duplicidade de registros. A seguir, a vulnerabilidade da família é calculada e as coordenadas de GPS são capturadas automaticamente de forma assíncrona. Por fim, o cadastro é salvo no Banco Central (online) ou no cache local (offline), garantindo total resiliência da operação.
+
+---
+
+<div align="center">
+  <p><strong>Figura 08: Diagrama de Sequência para o Caso de Uso 2</strong></p>
+    <a href="../assets/figura8-Diagrama-de-sequencia-UC2.png" target="_blank">
+      <img src="../assets/figura8-Diagrama-de-sequencia-UC2.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 2" width="800">
+    </a>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+O diagrama ilustra o fluxo técnico de Cadastro de Área de Risco Socioestrutural via aplicativo móvel para a Defesa Civil. O processo inicia com a validação das permissões do agente, interrompendo o fluxo imediatamente caso ele não tenha autorização para editar o mapa. Com o acesso liberado, o sistema aciona a captura automática e assíncrona das coordenadas via satélite (GPS). Em seguida, essas coordenadas são enviadas a uma API de geolocalização secundária para a conversão reversa, transformando latitude e longitude em dados de endereço. Após processar a anexação opcional de fotos da ocorrência, o registro da área de risco é estruturado e salvo garantindo total resiliência da operação: no Banco Central (online) ou no cache local como pendente (offline).
+
+---
+
+<div align="center">
+  <p><strong>Figura 09: Diagrama de Sequência para o Caso de Uso 3</strong></p>
+    <a href="../assets/figura9-Diagrama-de-sequencia-UC3.png" target="_blank">
+      <img src="../assets/figura9-Diagrama-de-sequencia-UC3.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 3" width="800">
+    </a>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+O diagrama ilustra o fluxo técnico de geração de inteligência estratégica para a Defesa Civil através do relatório de vulnerabilidade e logística. O processo inicia-se com a aplicação de filtros obrigatórios, como período e região, sendo o fluxo imediatamente interrompido caso os critérios mínimos não sejam preenchidos. Após a validação, o sistema consulta a base de dados central para extrair informações sobre população e áreas de risco, submetendo-as a um processamento lógico que transforma dados brutos em indicadores de apoio à decisão. O resultado é consolidado numa entidade de relatório e exibido num dashboard interativo para consulta imediata. Para garantir total versatilidade operacional, o fluxo prevê uma extensão opcional que permite ao gestor acionar um controlador de exportação para converter os resultados em ficheiros externos, como PDF ou Excel, assegurando a portabilidade e a utilidade da informação fora do sistema central.
 
 ### 3.2.5. Diagrama de Atividades ou Estados (sprint 3)
 
@@ -1026,9 +1235,23 @@ Campos exibidos com prioridade visual na tela de atendimento de ocorrência:
 
 *Documente os design patterns utilizados (Repository, Strategy, Factory, DTO etc.) e quais princípios SOLID se aplicam. Justifique a adoção de cada padrão com base em uma necessidade real do projeto.*
 
-## 3.3. Wireframes (sprint 2)
+## 3.3. Wireframes
 
-*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
+Este wireframe representa a tela de cadastro de famílias e residências do sistema da Defesa Civil de Santo André. A interface foi projetada para permitir o registro organizado das informações das famílias atendidas e das características das moradias associadas.
+Na parte superior da tela, encontra-se a identificação do sistema, composta pelo logotipo e pelo título “Defesa Civil de Santo André”.
+A região central da interface contém uma sequência de campos de formulário destinados ao preenchimento de informações cadastrais. Esses campos podem incluir dados como nome do responsável familiar, contato, situação da moradia e outras informações relevantes para o monitoramento social e territorial realizado pela Defesa Civil.
+Logo abaixo, há um esboço da área dedicada à seleção de opções, representada por botões de escolha. Essa seção pode ser utilizada para indicar condições da residência, nível de risco da área, genêro, etc.
+Na parte inferior direita da tela, encontra-se o botão de ação principal, responsável por confirmar e salvar o cadastro realizado no sistema.
+O wireframe adota uma estrutura simples e objetiva, priorizando clareza visual de como será feito o formulário de preenchimento cadastral, facilitando alterações para o uso de agentes responsáveis pelo registro das famílias e residências atendidas.
+
+<div align="center">
+  <p>Figura 09: Wireframe tela formulario</p>
+  <img src="../assets/figura7-Wireframe-telaForms.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+https://www.figma.com/design/Wg7CrKpquQ0VpU4AA1cbeq/Sem-t%C3%ADtulo?node-id=0-1&t=leIgBMRUSbY59ivP-1
+
+  
 
 ## 3.4. Guia de estilos (sprint 3)
 
@@ -1064,7 +1287,219 @@ Campos exibidos com prioridade visual na tela de atendimento de ocorrência:
 
 ### 3.6.3. Modelo Relacional e Modelo Físico (sprints 2 e 4)
 
-*Posicione aqui os diagramas de modelos relacionais do banco de dados, apresentando todos os esquemas de tabelas e suas relações. Inclua as migrations DDL numeradas e reproduzíveis (`CREATE TABLE`, `CREATE INDEX`, constraints `NOT NULL`, `UNIQUE`, `FOREIGN KEY`, `CHECK`). Utilize texto para complementar suas explicações quando necessário.*
+#### Visão Geral do Modelo Relacional
+
+O modelo relacional da solução é composto por seis entidades principais que formam o núcleo do sistema de cadastro socioestrutural e gestão de riscos:
+
+- **chefe_da_familia**: Armazena dados biográficos e socioeconômicos do chefe de família, incluindo identificação (CPF, NIS, RG), dados pessoais, contato e renda.
+- **nucleo_familiar**: Representa o núcleo familiar como agrupador de indivíduos, vinculado a um chefe de família e contendo dados estruturais da habitação.
+- **vulnerabilidade**: Armazena informações sobre vulnerabilidades específicas do núcleo familiar (doenças, gestação, PCD, etc.).
+- **setor_risco**: Define os setores de risco geográficos com classificação de nível de risco.
+- **localizacao**: Armazena informações geográficas e de endereço, incluindo coordenadas GPS e vinculação a setores de risco.
+- **membro_nucleo**: Tabela de associação que vincula indivíduos ao núcleo familiar com informações de vínculo e parentesco.
+
+Os relacionamentos estabelecem que:
+- Um **chefe_da_familia** vincula-se a **um nucleo_familiar** (1:1)
+- Um **nucleo_familiar** pode ter **múltiplos membro_nucleo** (1:N)
+- Um **nucleo_familiar** tem **uma vulnerabilidade** associada (1:1)
+- Um **nucleo_familiar** tem **uma localizacao** associada (1:1)
+- Uma **localizacao** pode estar em **um setor_risco** (N:1)
+
+#### Migrations DDL Numeradas e Reproduzíveis
+
+##### Migration 001: Criar tabela `chefe_da_familia`
+
+```sql
+CREATE TABLE chefe_da_familia (
+    id UUID PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cpf VARCHAR(14) UNIQUE,
+    nis VARCHAR(20) UNIQUE,
+    rg VARCHAR(20) UNIQUE,
+    data_nascimento DATE NOT NULL CHECK (data_nascimento <= CURRENT_DATE),
+    local_nascimento VARCHAR(255),
+    genero VARCHAR(50) CHECK (genero IN ('MASCULINO', 'FEMININO', 'OUTRO')),
+    escolaridade VARCHAR(100),
+    ocupacao VARCHAR(100),
+    renda DECIMAL(10,2) CHECK (renda >= 0),
+    cor_raca VARCHAR(50),
+    estado_civil VARCHAR(50),
+    profissao VARCHAR(100),
+    nome_mae VARCHAR(255),
+    nome_pai VARCHAR(255),
+    telefone1 VARCHAR(20),
+    telefone2 VARCHAR(20),
+    email VARCHAR(255),
+    foto_url TEXT,
+    status VARCHAR(50) NOT NULL CHECK (status IN ('ATIVO', 'INATIVO', 'PENDENTE')),
+    data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_chefe_cpf ON chefe_da_familia(cpf);
+CREATE INDEX idx_chefe_nis ON chefe_da_familia(nis);
+CREATE INDEX idx_chefe_nome ON chefe_da_familia(nome);
+CREATE INDEX idx_chefe_status ON chefe_da_familia(status);
+```
+
+##### Migration 002: Criar tabela `nucleo_familiar`
+
+```sql
+CREATE TABLE nucleo_familiar (
+    id UUID PRIMARY KEY,
+    regiao_ficha VARCHAR(255),
+    video_responsavel VARCHAR(255),
+    tempo_construcao INT CHECK (tempo_construcao >= 0),
+    tipo_construcao VARCHAR(100),
+    tempo_terreno INT CHECK (tempo_terreno >= 0),
+    uso_imovel VARCHAR(100),
+    renda_familiar DECIMAL(10,2) CHECK (renda_familiar >= 0),
+    cadastro_completo BOOLEAN DEFAULT FALSE,
+    data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    chefe_familia_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_chefe_familia
+        FOREIGN KEY (chefe_familia_id)
+        REFERENCES chefe_da_familia(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_nucleo_chefe ON nucleo_familiar(chefe_familia_id);
+CREATE INDEX idx_nucleo_regiao ON nucleo_familiar(regiao_ficha);
+CREATE INDEX idx_nucleo_data ON nucleo_familiar(data_registro);
+```
+
+##### Migration 003: Criar tabela `vulnerabilidade`
+
+```sql
+CREATE TABLE vulnerabilidade (
+    id UUID PRIMARY KEY,
+    doenca_idoso BOOLEAN DEFAULT FALSE,
+    doenca_crianca BOOLEAN DEFAULT FALSE,
+    doenca_cronica BOOLEAN DEFAULT FALSE,
+    gestante BOOLEAN DEFAULT FALSE,
+    lactante BOOLEAN DEFAULT FALSE,
+    pcd BOOLEAN DEFAULT FALSE,
+    deficiencia BOOLEAN DEFAULT FALSE,
+    restrito BOOLEAN DEFAULT FALSE,
+    nucleo_familiar_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_vulnerabilidade_nucleo
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_vulnerabilidade_nucleo ON vulnerabilidade(nucleo_familiar_id);
+```
+
+##### Migration 004: Criar tabela `setor_risco`
+
+```sql
+CREATE TABLE setor_risco (
+    id UUID PRIMARY KEY,
+    codigo VARCHAR(50) UNIQUE NOT NULL,
+    nivel_risco VARCHAR(50) NOT NULL CHECK (nivel_risco IN ('BAIXO', 'MEDIO', 'ALTO'))
+);
+
+CREATE INDEX idx_setor_codigo ON setor_risco(codigo);
+CREATE INDEX idx_setor_nivel ON setor_risco(nivel_risco);
+```
+
+##### Migration 005: Criar tabela `localizacao`
+
+```sql
+CREATE TABLE localizacao (
+    id UUID PRIMARY KEY,
+    latitude DECIMAL(10,7) NOT NULL CHECK (latitude >= -90 AND latitude <= 90),
+    longitude DECIMAL(10,7) NOT NULL CHECK (longitude >= -180 AND longitude <= 180),
+    setor_risco_id UUID,
+    logradouro VARCHAR(255) NOT NULL,
+    numero VARCHAR(20),
+    complemento VARCHAR(255),
+    bairro VARCHAR(100) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    cep VARCHAR(20),
+    referencia VARCHAR(255),
+    nucleo_familiar_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_localizacao_setor
+        FOREIGN KEY (setor_risco_id)
+        REFERENCES setor_risco(id) ON DELETE SET NULL,
+    CONSTRAINT fk_localizacao_nucleo
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_localizacao_nucleo ON localizacao(nucleo_familiar_id);
+CREATE INDEX idx_localizacao_setor ON localizacao(setor_risco_id);
+CREATE INDEX idx_localizacao_coordenadas ON localizacao(latitude, longitude);
+CREATE INDEX idx_localizacao_bairro ON localizacao(bairro);
+CREATE INDEX idx_localizacao_cidade ON localizacao(cidade);
+```
+
+##### Migration 006: Criar tabela `membro_nucleo`
+
+```sql
+CREATE TABLE membro_nucleo (
+    individuo_id UUID NOT NULL,
+    nucleo_familiar_id UUID NOT NULL,
+    vinculo_familiar VARCHAR(100),
+    grau_parentesco VARCHAR(100),
+    escolaridade VARCHAR(100),
+    ocupacao VARCHAR(100),
+    renda DECIMAL(10,2),
+    PRIMARY KEY (individuo_id, nucleo_familiar_id),
+    CONSTRAINT fk_membro_individuo
+        FOREIGN KEY (individuo_id)
+        REFERENCES chefe_da_familia(id) ON DELETE RESTRICT,
+    CONSTRAINT fk_membro_nucleo
+        FOREIGN KEY (nucleo_familiar_id)
+        REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_membro_nucleo ON membro_nucleo(nucleo_familiar_id);
+CREATE INDEX idx_membro_individuo ON membro_nucleo(individuo_id);
+```
+
+#### Constraints e Regras de Integridade Aplicadas
+
+| Constraint | Tabela | Descrição |
+|---|---|---|
+| **PRIMARY KEY (UUID)** | Todas | Identificação única universal de cada registro |
+| **FOREIGN KEY** | nucleo_familiar → chefe_da_familia | Garante vínculo obrigatório com chefe de família |
+| **FOREIGN KEY** | vulnerabilidade → nucleo_familiar | Garante que cada vulnerabilidade pertence a um núcleo |
+| **FOREIGN KEY** | localizacao → nucleo_familiar | Garante que cada localização está vinculada a um núcleo |
+| **FOREIGN KEY** | localizacao → setor_risco | Vincula localização a setor de risco (opcional) |
+| **FOREIGN KEY** | membro_nucleo → chefe_da_familia | Vincula membro ao indivíduo |
+| **FOREIGN KEY** | membro_nucleo → nucleo_familiar | Vincula membro ao núcleo familiar |
+| **UNIQUE** | chefe_da_familia | CPF, NIS e RG não podem se repetir |
+| **UNIQUE** | nucleo_familiar | Chefe de família vinculado a apenas um núcleo |
+| **UNIQUE** | vulnerabilidade | Um perfil de vulnerabilidade por núcleo |
+| **UNIQUE** | localizacao | Uma localização por núcleo |
+| **UNIQUE** | setor_risco | Código de setor não pode se repetir |
+| **NOT NULL** | chefe_da_familia | Nome é obrigatório |
+| **NOT NULL** | localizacao | Logradouro, bairro, cidade, coordenadas obrigatórios |
+| **NOT NULL** | nucleo_familiar | Chefe de família obrigatório |
+| **CHECK** | localizacao | Latitude deve estar entre -90 e 90 |
+| **CHECK** | localizacao | Longitude deve estar entre -180 e 180 |
+| **ON DELETE RESTRICT** | vulnerabilidade, localizacao, membro_nucleo | Impede exclusão de registros que possuem dependências vinculadas |
+| **ON DELETE RESTRICT** | nucleo_familiar | Impede exclusão de chefe sem remover núcleo |
+
+#### Modelo Relacional
+
+A imagem a seguir mostra as entidades principais (`chefe_da_familia`, `nucleo_familiar`, `vulnerabilidade`, `setor_risco`, `localizacao` e `membro_nucleo`), seus atributos e como elas se relacionam. A tabela `nucleo_familiar` é a entidade central que agrega informações da família, e `localizacao` é a ponte de ligação entre a família e sua posição geográfica em um setor de risco.
+
+<div align="center">
+  <p>Figura 07: Modelo Relacional</p>
+  <img src="../assets/modelo_relacional.png" width="800">
+  <p>Fonte: Material produzido pelos autores com Supabase (2026)</p>
+</div>
+
+**Observações sobre o modelo:**
+
+1. **Identificadores UUID**: Utiliza UUIDs ao invés de inteiros para melhor escalabilidade e portabilidade de dados.
+2. **Integridade Referencial**: As constraints `ON DELETE RESTRICT` impedem a exclusão acidental de chefes de família sem remover primeiro o núcleo vinculado. As relações utilizam ON DELETE RESTRICT para impedir exclusões acidentais e preservar o histórico de dados, conforme solicitado pela Defesa Civil.
+3. **Índices de Busca**: Criados nas colunas mais consultadas (CPF, NIS, nome, coordenadas geográficas) para otimizar o desempenho conforme RNF de capacidade.
+4. **Separação de Responsabilidades**: A tabela `vulnerabilidade` segrega dados sensíveis de vulnerabilidade em entidade dedicada, facilitando consultas focadas em perfis de risco.
+5. **Geolocalização**: A tabela `localizacao` armazena coordenadas com validação de intervalos (latitude -90 a 90, longitude -180 a 180) e índices compostos para buscas por proximidade.
+6. **Tabela de Associação**: `membro_nucleo` permite registrar múltiplos indivíduos em um núcleo familiar com informações de parentesco e vinculação.
+7. **Timestamps**: Campo `data_registro` em cada tabela rastreia quando o registro foi criado, facilitando auditoria e análises temporais.
+
 
 ### 3.6.4. Consultas SQL e lógica proposicional (sprint 2)
 
