@@ -772,11 +772,11 @@ classDiagram
         +NivelRiscoEnum nivel_risco
     }
 
-    NucleoFamiliar "1" *-- "1" Vulnerabilidade : tem vulnerabilidades
-    NucleoFamiliar "1" -- "*" MembroNucleo : possui membros
-    ChefeDaFamilia "*" -- "*" MembroNucleo : compõe núcleo
-    NucleoFamiliar "1" *-- "1" Localizacao : localizado em
-    Localizacao "*" o-- "0..1" SetorRisco : classifica
+    NucleoFamiliar "1" *-- "1" Vulnerabilidade
+    NucleoFamiliar "1" -- "*" MembroNucleo
+    ChefeDaFamilia "*" -- "*" MembroNucleo
+    NucleoFamiliar "1" *-- "1" Localizacao
+    Localizacao "*" o-- "0..1" SetorRisco
 ```
 
 ---
