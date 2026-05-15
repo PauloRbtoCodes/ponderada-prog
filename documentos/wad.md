@@ -1505,6 +1505,91 @@ A imagem a seguir mostra as entidades principais (`chefe_da_familia`, `nucleo_fa
 
 *posicione aqui uma lista de consultas SQL compostas, realizadas pelo back-end da aplicação web, com sua respectiva lógica proposicional, descrita conforme template abaixo. Lembre-se que para usar LaTeX em markdown, basta você colocar as expressões entre $ ou $$*
 
+## Consultas SQL Compostas e Lógica Proposicional
+
+As consultas SQL compostas representam operações realizadas pelo back-end da aplicação para recuperar informações estratégicas do banco de dados a partir do relacionamento entre múltiplas tabelas. Essas consultas utilizam comandos como `JOIN`, `WHERE`, `AND` e `OR` para combinar dados de diferentes entidades e aplicar filtros específicos conforme as regras de negócio do sistema.
+
+Além da implementação em SQL, é possível representar a lógica dessas consultas utilizando lógica proposicional, permitindo descrever matematicamente as condições utilizadas nos filtros. Essa abordagem facilita a compreensão formal das regras aplicadas pelo sistema, especialmente em cenários de priorização de famílias vulneráveis, análise de risco e monitoramento territorial.
+
+---
+
+### Consulta 1 — Famílias em Área de Alto Risco com Vulnerabilidade Social
+
+#### Objetivo
+
+Identificar famílias localizadas em setores classificados como alto risco e que possuam algum tipo de vulnerabilidade social relevante, como doença crônica ou pessoa com deficiência (PCD).
+
+#### Consulta SQL
+
+```sql
+SELECT
+    cf.nome,
+    sr.nivel_risco,
+    v.doenca_cronica,
+    v.pcd
+FROM chefe_da_familia cf
+JOIN nucleo_familiar nf
+    ON nf.chefe_familia_id = cf.id
+JOIN vulnerabilidade v
+    ON v.nucleo_familiar_id = nf.id
+JOIN localizacao l
+    ON l.nucleo_familiar_id = nf.id
+JOIN setor_risco sr
+    ON sr.id = l.setor_risco_id
+WHERE
+    sr.nivel_risco = 'ALTO'
+    AND (
+        v.doenca_cronica = TRUE
+        OR v.pcd = TRUE
+    );
+```
+
+---
+
+### Consulta 2 — Famílias com Cadastro Incompleto
+
+#### Objetivo
+
+Listar núcleos familiares cujo cadastro ainda não foi concluído no sistema.
+
+#### Consulta SQL
+
+```sql
+SELECT
+    nf.id,
+    cf.nome,
+    nf.data_registro
+FROM nucleo_familiar nf
+JOIN chefe_da_familia cf
+    ON cf.id = nf.chefe_familia_id
+WHERE
+    nf.cadastro_completo = FALSE;
+```
+---
+
+### Consulta 3 — Famílias de Baixa Renda em Determinado Bairro
+
+#### Objetivo
+
+Identificar famílias localizadas em um bairro específico cuja renda familiar esteja abaixo de um determinado valor.
+
+#### Consulta SQL
+
+```sql
+SELECT
+    cf.nome,
+    nf.renda_familiar,
+    l.bairro
+FROM chefe_da_familia cf
+JOIN nucleo_familiar nf
+    ON nf.chefe_familia_id = cf.id
+JOIN localizacao l
+    ON l.nucleo_familiar_id = nf.id
+WHERE
+    l.bairro = 'Centro'
+    AND nf.renda_familiar < 2000;
+```
+
 *Template de SQL + lógica proposicional*
 #1 | ---
 --- | ---
