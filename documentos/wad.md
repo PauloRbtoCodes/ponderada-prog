@@ -1246,10 +1246,11 @@ Este wireframe representa a tela de cadastro individual utilizada pela Defesa Ci
 Os campos foram organizados de forma simples e objetiva, facilitando o preenchimento e a leitura das informações pelos agentes responsáveis. O formulário também utiliza botões de seleção para opções de gênero, tornando a interação mais rápida e intuitiva. O objetivo da tela é centralizar os dados pessoais dos indivíduos de maneira padronizada, garantindo maior organização e eficiência no processo de atendimento e registro.
 <div align="center">
   <p>Figura 09: Wireframe tela formulario</p>
-  <img src="../assets/wireframes/figura7-Wireframe tela formulário individuo.png" width="800">
+  <img src="../assets/wireframes/figura7-Wireframe tela formulário individuo.png" width="400">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
-https://www.figma.com/design/Wg7CrKpquQ0VpU4AA1cbeq/Sem-t%C3%ADtulo?node-id=0-1&t=leIgBMRUSbY59ivP-1
+
+[Link para documento do wireframe](https://www.figma.com/design/Wg7CrKpquQ0VpU4AA1cbeq/Sem-t%C3%ADtulo?node-id=0-1&t=leIgBMRUSbY59ivP-1)
 
 Este wireframe representa a tela de cadastro de residências utilizada pela Defesa Civil de Santo André para registrar informações sobre imóveis atendidos. A interface contém campos relacionados ao endereço da residência, como endereço, número, complemento e CEP, além de uma área destinada ao envio da foto da fachada do imóvel.
 
@@ -1260,12 +1261,31 @@ Na área de detalhes, são exibidas labels de identificação rápida, utilizada
 A estrutura da tela foi desenvolvida de forma objetiva e intuitiva, permitindo um preenchimento rápido e organizado das informações durante as visitas e análises realizadas pela equipe.
 <div align="center">
   <p>Figura 09: Wireframe tela formulario</p>
-  <img src="../assets/wireframes/figura8-Wireframe tela formulário residência.png" width="800">
+  <img src="../assets/wireframes/figura8-Wireframe tela formulário residência.png" width="400">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
-https://www.figma.com/design/XQZO9HgFYfftgw9yK0Nglk/Wireframe-Formul%C3%A1rio-Defesa-Civil-de-Santo-Andr%C3%A9---Im%C3%B3vel?t=DgiyQuYk4kA0qCt1-0
+
+[Link para documento do wireframe](https://www.figma.com/design/XQZO9HgFYfftgw9yK0Nglk/Wireframe-Formul%C3%A1rio-Defesa-Civil-de-Santo-Andr%C3%A9---Im%C3%B3vel?t=DgiyQuYk4kA0qCt1-0)
+
 
 ### 3.3.2 Wireframes da Tela de Visualização de Dados
+
+O wireframe do painel principal de Análise de Dados (Desktop) foi estruturado utilizando um sistema de grids em layout de colunas e blocos, com o objetivo de otimizar a leitura rápida de dados críticos pela gestão da Defesa Civil. 
+
+Na parte superior, o cabeçalho apresenta a identificação do sistema e introduz um menu de navegação global com botões para as áreas de "Dados" e "Cadastro", além de uma barra de "Pesquisar", resolvendo a jornada do usuário ao permitir uma transição fluida entre a visualização estratégica e a consulta de registros específicos. 
+
+À esquerda, a barra lateral de filtros traz opções específicas e alinhadas diretamente ao modelo de banco de dados — como Gênero, Bairro, Construção, Uso do Imóvel, Cor/Raça e Idade —, demonstrando na prática como as métricas serão cruzadas para isolar cenários de vulnerabilidade. 
+
+No corpo central da interface, os Indicadores de Desempenho (KPIs) ganham destaque no topo com três blocos numéricos de tipografia ampliada (Famílias Cadastradas, Pessoas em Risco Extremo e Total de Pessoas Cadastradas), aplicando conceitos de estatística descritiva para que os dados mais urgentes sejam o primeiro ponto de contato visual. 
+
+Logo abaixo, a maior área da tela é dedicada ao Mapa de Risco, reafirmando o foco geoespacial da solução, ladeado por espaços destinados a gráficos que exibirão distribuições complementares. Por fim, a seção inferior apresenta uma tabela de "Últimos Cadastros", que atua como um registro em tempo real para que a coordenação possa acompanhar o fluxo de trabalho dos agentes de campo e ter acesso imediato às ocorrências mais recentes.
+
+<div align="center">
+    <p></p>
+    <img src="../assets/wireframes/WireframeTelaDados.png" width="800">
+    <p></p>
+
+    
   
 
 ## 3.4. Guia de estilos (sprint 3)
