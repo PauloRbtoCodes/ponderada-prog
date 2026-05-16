@@ -1051,7 +1051,7 @@ O diagrama ilustra o fluxo técnico de geração de inteligência estratégica p
 
 ## 3.3. Wireframes
 
-Os wireframes são representações visuais de baixa fidelidade que atuam como o "esqueleto" ou a planta baixa de um sistema de software. Eles abdicam de elementos estéticos finais (como cores e imagens ricas) para focar estritamente na arquitetura da informação, usabilidade e fluxo de navegação.
+
 
 ### 3.3.1. Wireframes da Tela de Cadastro
 
@@ -1060,7 +1060,7 @@ Este wireframe representa a tela de cadastro individual utilizada pela Defesa Ci
 Os campos foram organizados de forma simples e objetiva, facilitando o preenchimento e a leitura das informações pelos agentes responsáveis. O formulário também utiliza botões de seleção para opções de gênero, tornando a interação mais rápida e intuitiva. O objetivo da tela é centralizar os dados pessoais dos indivíduos de maneira padronizada, garantindo maior organização e eficiência no processo de atendimento e registro.
 <div align="center">
   <p>Figura 12: Wireframe tela formulario</p>
-  <img src="../assets/wireframes/figura7-Wireframe tela formulário individuo.png" width="800">
+  <img src="../assets/wireframes/figura10-WireframeIndividuo.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
@@ -1077,7 +1077,7 @@ Na área de detalhes, são exibidas labels de identificação rápida, utilizada
 A estrutura da tela foi desenvolvida de forma objetiva e intuitiva, permitindo um preenchimento rápido e organizado das informações durante as visitas e análises realizadas pela equipe.
 <div align="center">
   <p>Figura 13: Wireframe tela formulario</p>
-  <img src="../assets/wireframes/figura8-Wireframe tela formulário residência.png" width="800">
+  <img src="../assets/wireframes/figura11-WireframeImóvel.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
