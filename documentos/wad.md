@@ -1281,10 +1281,27 @@ No corpo central da interface, os Indicadores de Desempenho (KPIs) ganham destaq
 Logo abaixo, a maior área da tela é dedicada ao Mapa de Risco, reafirmando o foco geoespacial da solução, ladeado por espaços destinados a gráficos que exibirão distribuições complementares. Por fim, a seção inferior apresenta uma tabela de "Últimos Cadastros", que atua como um registro em tempo real para que a coordenação possa acompanhar o fluxo de trabalho dos agentes de campo e ter acesso imediato às ocorrências mais recentes.
 
 <div align="center">
-    <p></p>
+    <p>Figura</p>
     <img src="../assets/wireframes/WireframeTelaDados.png" width="800">
-    <p></p>
+    <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
 
+---
+
+O wireframe referente à tela de resultados de pesquisa mantém a consistência estrutural do painel principal, preservando o cabeçalho de navegação e a barra lateral de filtros (como Gênero, Bairro e Uso do Imóvel) para garantir que a gestão não perca o contexto de sua análise.
+
+O grande diferencial desta interface está na área de conteúdo central, que substitui os dashboards visuais por uma visualização focada em dados brutos, indicada pelo cabeçalho "Exibindo resultados para: pesquisa".
+
+Os blocos empilhados horizontalmente representam os registros detalhados das famílias, indivíduos ou áreas de risco que atendem aos critérios buscados, oferecendo uma leitura linear e organizada das informações do banco de dados.
+Por fim, no canto inferior direito, a inclusão do botão "Exportar dados" destaca o cumprimento de um requisito funcional essencial para a operação da Defesa Civil, permitindo que a coordenação faça o download das informações filtradas (como em formato CSV ou PDF) para a elaboração de relatórios, prestação de contas ou planejamento logístico de contingência com outras secretarias.
+
+<div align="center">
+    <p>Figura</p>
+    <img src="../assets/wireframes/WireframeTelaPesquisa.png" width="800">
+    <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+---
     
   
 
