@@ -231,7 +231,7 @@ No caso das oportunidades, aquelas com alta probabilidade e alto impacto são pr
 
 <div align="center">
   <p>Figura 04: Persona - Josias</p>
-  <img src="../assets/personas/josias_agente_campo.png" width="200">
+  <img src="../assets/personas/josias_agente_campo.png" width="600">
   <p>Fonte: Imagem criada via IA (2026)</p>
 </div>
 
@@ -257,7 +257,7 @@ Uma interface web focada na usabilidade móvel que possibilita que os cadastros 
 
 <div align="center">
   <p>Figura 05: Persona - Cláudia</p>
-  <img src="../assets/personas/claudia_gestora_adm.png" width="200">
+  <img src="../assets/personas/claudia_gestora_adm.png" width="600">
   <p>Fonte: Imagem criada via IA (2026)</p>
 </div>
 
