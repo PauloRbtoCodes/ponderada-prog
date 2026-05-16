@@ -694,24 +694,24 @@ classDiagram
     class ChefeDaFamilia {
         +UUID id
         +String nome
-        +String cpf {unique}
-        +String nis {unique}
+        +String cpf
+        +String nis
         +String rg
         +Date dataNascimento
         +String localNascimento
         +String genero
-        +CorRacaEnum corRaca {restrito}
+        +CorRacaEnum corRaca
         +EstadoCivilEnum estadoCivil
         +String profissao
-        +String nomeMae {restrito}
-        +String nomePai {restrito}
+        +String nomeMae
+        +String nomePai
         +String telefone1
         +String telefone2
         +String email
         +EscolaridadeEnum escolaridade
         +SitOcupEnum ocupacao
-        +Decimal renda {restrito}
-        +String fotoUrl {restrito}
+        +Decimal renda
+        +String fotoUrl
         +StatusIndEnum status
         +DateTime dataRegistro
     }
@@ -724,28 +724,28 @@ classDiagram
         +TipoConstrEnum tipo_construcao
         +INT tempo_terreno
         +UsoImovelEnum uso_imovel
-        +Decimal renda_familiar {restrito}
+        +Decimal renda_familiar
         +Boolean cadastro_completo
         +DateTime data_registro
     }
 
     class MembroNucleo {
-        +UUID individuo_id FK
-        +UUID nucleo_familiar_id FK
+        +UUID individuo_id
+        +UUID nucleo_familiar_id
         +String vinculo_familiar
         +String grau_parentesco
         +EscolaridadeEnum escolaridade
         +SitOcupEnum ocupacao
-        +Decimal renda {restrito}
+        +Decimal renda
     }
 
     class Vulnerabilidade {
-        +UUID nucleo_familiar_id FK
+        +UUID nucleo_familiar_id
         +Boolean doenca_idoso
         +Boolean doenca_crianca
         +Boolean doenca_cronica
-        +Boolean gestante {restrito}
-        +Boolean lactante {restrito}
+        +Boolean gestante
+        +Boolean lactante
         +Boolean pcd
         +Boolean deficiencia
         +Boolean restrito
@@ -755,7 +755,7 @@ classDiagram
         +UUID id
         +Decimal latitude
         +Decimal longitude
-        +UUID setor_risco_id FK
+        +UUID setor_risco_id
         +String logradouro
         +String numero
         +String complemento
@@ -763,20 +763,24 @@ classDiagram
         +String cidade
         +String cep
         +String referencia
-        +UUID nucleo_familiar_id FK
+        +UUID nucleo_familiar_id
     }
 
     class SetorRisco {
         +UUID id
-        +String codigo {unique}
+        +String codigo
         +NivelRiscoEnum nivel_risco
     }
 
-    NucleoFamiliar "1" *-- "1" Vulnerabilidade
+    ChefeDaFamilia "1" -- "*" NucleoFamiliar
+
     NucleoFamiliar "1" -- "*" MembroNucleo
-    ChefeDaFamilia "*" -- "*" MembroNucleo
+
+    NucleoFamiliar "1" *-- "1" Vulnerabilidade
+
     NucleoFamiliar "1" *-- "1" Localizacao
-    Localizacao "*" o-- "0..1" SetorRisco
+
+    SetorRisco "0..1" <-- "*" Localizacao
 ```
 
 ---
