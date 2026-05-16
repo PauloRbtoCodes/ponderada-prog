@@ -1252,6 +1252,8 @@ Os campos foram organizados de forma simples e objetiva, facilitando o preenchim
 
 [Link para documento do wireframe](https://www.figma.com/design/Wg7CrKpquQ0VpU4AA1cbeq/Sem-t%C3%ADtulo?node-id=0-1&t=leIgBMRUSbY59ivP-1)
 
+---
+
 Este wireframe representa a tela de cadastro de residências utilizada pela Defesa Civil de Santo André para registrar informações sobre imóveis atendidos. A interface contém campos relacionados ao endereço da residência, como endereço, número, complemento e CEP, além de uma área destinada ao envio da foto da fachada do imóvel.
 
 O formulário também possui seções para classificação do tipo de construção (madeira, alvenaria ou mista), finalidade do imóvel (residencial, comercial ou misto) e nível de risco da construção (R1, R2 ou R3).
@@ -1288,6 +1290,7 @@ Logo abaixo, a maior área da tela é dedicada ao Mapa de Risco, reafirmando o f
 
 ---
 
+
 O wireframe referente à tela de resultados de pesquisa mantém a consistência estrutural do painel principal, preservando o cabeçalho de navegação e a barra lateral de filtros (como Gênero, Bairro e Uso do Imóvel) para garantir que a gestão não perca o contexto de sua análise.
 
 O grande diferencial desta interface está na área de conteúdo central, que substitui os dashboards visuais por uma visualização focada em dados brutos, indicada pelo cabeçalho "Exibindo resultados para: pesquisa".
@@ -1302,8 +1305,21 @@ Por fim, no canto inferior direito, a inclusão do botão "Exportar dados" desta
 </div>
 
 ---
+
+O wireframe de Visualização Expandida do Mapa de Risco demonstra um nível aprofundado de interação no sistema da Defesa Civil. Mantendo a consistência de navegação, a interface preserva o cabeçalho superior e a barra lateral de filtros refinados (Gênero, Bairro, Construção, etc.) fixos na tela.
+
+O grande diferencial desta visualização é a maximização do componente "Mapa de Risco", que passa a ocupar a totalidade da área central, suprimindo temporariamente os KPIs numéricos e gráficos complementares.
+
+Essa decisão de design atende a um requisito crucial da gestão de desastres: o foco geoespacial detalhado. Ao ampliar o mapa, a coordenação (Gestora) ganha uma área de trabalho limpa para focar exclusivamente na topografia e na distribuição territorial das vulnerabilidades.
+
+Isso permite cruzar os dados dos filtros laterais diretamente com o mapa em tela cheia, facilitando a identificação precisa de ruas em área de deslizamento/enchente, rotas de evacuação e o raio de alcance dos abrigos mais próximos, sem a distração visual de outros painéis.
+
+<div align="center">
+    <p>Figura</p>
+    <img src="../assets/wireframes/WireframeMapaRisco.png" width="800">
+    <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
     
-  
 
 ## 3.4. Guia de estilos (sprint 3)
 
