@@ -142,16 +142,6 @@ O Canvas de Proposta de Valor é um modelo amplamente utilizado para conectar as
 Abaixo, está apresentado o Canvas desenvolvido para o Departamento de Proteção e Defesa Civil de Santo André, representando como o GeoRisco Santo André se propõe a resolver os desafios de gestão de risco, acolhimento emergencial e logística humanitária. Em seguida, cada componente é descrito em detalhes.
 
 <div align="center">
-<<<<<<< HEAD
-<sub>Figura 03 - Value Proposition Canvas</sub>
-<img src="../assets/figura3-Canvas-proposta-valor.png" width="100%">
-<sup>Fonte: Material produzido pelos autores (2026)</sup>
-</div>
-
-#### PERFIL DO CLIENTE
-
-##### Trabalhos do Cliente
-=======
   <p>Figura 03: Value Proposition Canvas</p>
   <img src="../assets/figura3-Canvas-proposta-valor.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
@@ -160,29 +150,18 @@ Abaixo, está apresentado o Canvas desenvolvido para o Departamento de Proteçã
 ### PERFIL DO CLIENTE
 
 #### Trabalhos do Cliente
->>>>>>> de360c06bad8d39d835b92378c7eb65cb4754b5b
 
 Gerir emergências: Coordenar toda a resposta a desastres naturais e tecnológicos no município de Santo André, acionando protocolos de evacuação, abrigo e assistência humanitária de forma ágil e organizada.
 
 Cadastrar famílias: Registrar moradores de áreas de risco com dados socioestruturais completos, composição familiar, perfil de vulnerabilidade, doenças crônicas, animais de estimação e localização exata do imóvel.
 
-<<<<<<< HEAD
-Coordenar abrigos: Controlar a entrada, permanência e saída de desabrigados nos centros de acolhimento emergencial, garantindo triagem de saúde, preenchimento do prontuário SUAS e gestão de vagas em tempo real.
-
-##### Dores
-=======
 #### Dores
->>>>>>> de360c06bad8d39d835b92378c7eb65cb4754b5b
 
 Dados fragmentados: As informações de cadastro, abrigo e logística existem em papéis, planilhas e sistemas separados, sem integração. Isso torna impossível cruzar dados de geolocalização com perfis de vulnerabilidade no momento crítico da evacuação.
 
 Sem visão em tempo real: A ausência de uma interface única impede que gestores vejam o cenário de crise consolidado, dificultando o planejamento preventivo e a tomada de decisão durante eventos extremos.
 
-<<<<<<< HEAD
-##### Ganhos
-=======
 #### Ganhos
->>>>>>> de360c06bad8d39d835b92378c7eb65cb4754b5b
 
 Priorização de evacuação: Com dados cruzados de geolocalização e perfil de vulnerabilidade, a Defesa Civil consegue identificar imediatamente quais famílias: Idosos, crianças, gestantes, PCDs devem ser atendidas primeiro nos protocolos de evacuação.
 
