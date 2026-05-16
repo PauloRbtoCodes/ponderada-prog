@@ -1331,7 +1331,13 @@ A imagem a seguir mostra as entidades principais (`chefe_da_familia`, `nucleo_fa
 
 ## Consultas SQL Compostas e Lógica Proposicional
 
-As consultas SQL compostas representam operações realizadas pelo back-end da aplicação para recuperar informações estratégicas do banco de dados a partir do relacionamento entre múltiplas tabelas. Essas consultas utilizam comandos como `JOIN`, `WHERE`, `AND` e `OR` para combinar dados de diferentes entidades e aplicar filtros específicos conforme as regras de negócio do sistema.
+**O que são Consultas SQL Compostas?**
+
+Uma consulta SQL composta é uma operação de recuperação de dados que envolve múltiplas tabelas do banco de dados relacionadas entre si. Diferentemente de consultas simples (que consultam apenas uma tabela), as consultas compostas utilizam **JOINs** para conectar e combinar dados de diferentes tabelas, permitindo recuperar informações estratégicas que estão distribuídas no modelo de dados. Os **JOINs** são comandos SQL que servem para relacionar tabelas do banco de dados, estabelecendo correspondências entre registros baseadas em chaves estrangeiras (foreign keys) ou outras condições de associação.
+
+Essas consultas compostas realizam operações executadas pelo back-end da aplicação para extrair informações do banco de dados, combinando dados de entidades diferentes através de JOINs e aplicando filtros específicos (via cláusulas `WHERE`, `AND` e `OR`) conforme as regras de negócio do sistema.
+
+**Representação em Lógica Proposicional**
 
 Além da implementação em SQL, é possível representar a lógica dessas consultas utilizando lógica proposicional, permitindo descrever matematicamente as condições utilizadas nos filtros. Essa abordagem facilita a compreensão formal das regras aplicadas pelo sistema, especialmente em cenários de priorização de famílias vulneráveis, análise de risco e monitoramento territorial.
 
@@ -1368,13 +1374,23 @@ WHERE
     );
 ```
 
+#### Explicação dos JOINs
+
+A consulta relaciona cinco tabelas do banco de dados através de JOINs sucessivos:
+1. **chefe_da_familia** ↔ **nucleo_familiar**: Vincula o responsável ao seu núcleo
+2. **nucleo_familiar** ↔ **vulnerabilidade**: Obtém os dados de vulnerabilidade do núcleo
+3. **nucleo_familiar** ↔ **localizacao**: Recupera a localização do domicílio
+4. **localizacao** ↔ **setor_risco**: Identifica em qual setor de risco a família está localizada
+
+Essa cadeia de JOINs permite combinar dados distribuídos em diferentes tabelas e aplicar filtros na cláusula `WHERE` para encontrar apenas as famílias que atendem aos critérios de risco alto e vulnerabilidade social.
+
 ---
 
 ### Consulta 2 — Famílias com Cadastro Incompleto
 
 #### Objetivo
 
-Listar núcleos familiares cujo cadastro ainda não foi concluído no sistema.
+Listar núcleos familiares cujo cadastro ainda não foi concluído no sistema. O campo `cadastro_completo = FALSE` indica explicitamente que o registro está **incompleto**, ou seja, faltam campos obrigatórios para finalizar o cadastro (conforme RN011).
 
 #### Consulta SQL
 
@@ -1389,6 +1405,11 @@ JOIN chefe_da_familia cf
 WHERE
     nf.cadastro_completo = FALSE;
 ```
+
+#### Explicação dos JOINs
+
+A consulta utiliza um **JOIN** entre `nucleo_familiar` e `chefe_da_familia` para relacionar as duas tabelas: cada núcleo familiar está vinculado a um chefe de família através da chave estrangeira `chefe_familia_id`. Isso permite recuperar simultaneamente o identificador do núcleo (`nf.id`), o nome do responsável (`cf.nome`) e a data em que o registro foi criado (`nf.data_registro`).
+
 ---
 
 ### Consulta 3 — Famílias de Baixa Renda em Determinado Bairro
@@ -1413,6 +1434,14 @@ WHERE
     l.bairro = 'Centro'
     AND nf.renda_familiar < 2000;
 ```
+
+#### Explicação dos JOINs
+
+A consulta relaciona três tabelas através de JOINs:
+1. **chefe_da_familia** ↔ **nucleo_familiar**: Vincula o responsável ao seu núcleo familiar
+2. **nucleo_familiar** ↔ **localizacao**: Obtém a localização e dados do domicílio
+
+Esses JOINs permitem combinar dados de identificação pessoal (`cf.nome`), informações econômicas (`nf.renda_familiar`) e dados geográficos (`l.bairro`) em uma única consulta, aplicando filtros simultâneos de localidade e faixa de renda.
 
 *Template de SQL + lógica proposicional*
 #1 | ---
