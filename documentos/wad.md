@@ -71,30 +71,11 @@ Dessa forma, a análise das cinco forças contribui para identificar oportunidad
  A ameaça de produtos ou serviços substitutos é considerada moderada, pois, embora não existam substitutos diretos para a atuação da Defesa Civil, algumas ferramentas e práticas podem desempenhar funções complementares ou parciais (PORTER, 2008). Entre elas, destacam-se sistemas privados de monitoramento climático, plataformas de geolocalização e ferramentas digitais de gestão de dados. No entanto, tais soluções não possuem a capacidade institucional, legal e operacional para coordenar ações emergenciais, acolhimento de famílias e articulação intersetorial. Assim, apesar de contribuírem para a gestão de riscos, esses substitutos não eliminam a necessidade da atuação da Defesa Civil, mantendo a ameaça em nível moderado (Prefeitura de Santo André, 2026; PORTER, 2008).
 
  #### Análise da Rivalidade entre Concorrentes
-
- A rivalidade entre concorrentes é considerada baixa no contexto tradicional de Porter, uma vez que a Defesa Civil não atua em um mercado competitivo, mas sim como órgão público com atribuição legal e responsabilidade exclusiva no âmbito municipal (PORTER, 2008). Não existem entidades privadas que disputem diretamente sua função institucional de coordenação de proteção e defesa civil.
- 
- É importante ressaltar, porém, que por ser um órgão público que trabalha integrado com outros setores municipais, há uma forma indireta de rivalidade com outros órgãos governamentais que atuam em situações emergenciais, como o SAMU (Serviço de Atendimento Móvel de Urgência) que responde por emergências médicas, e a Polícia Militar que atua na segurança pública. Esses órgãos compartilham o mesmo espaço operacional durante crises e desastres, exigindo uma articulação clara de papéis e responsabilidades. Porém, essa "rivalidade" é apenas indireta e operacional, não competitiva, pois cada órgão possui funções complementares e bem definidas no protocolo de gestão de emergências.
- 
- Adicionalmente, pode-se observar competição indireta com soluções tecnológicas privadas de monitoramento climático e geolocalização, bem como com sistemas desenvolvidos por outros municípios que implementam suas próprias abordagens para gestão de riscos. Ainda assim, essa concorrência é limitada, pois nenhuma solução privada ou externa substitui a autoridade legal, a responsabilidade institucional e a legitimidade operacional que a Defesa Civil possui. Dessa forma, reconhecendo a natureza pública e essencial da instituição, a análise de rivalidade reforça a necessidade de inovação interna e modernização dos processos, em vez de competição tradicional (Prefeitura de Santo André, 2026; PORTER, 2008).
-
-#### Análise do Poder de Barganha dos Clientes
-
-O poder de barganha dos clientes é considerado **alto**, porém com características distintas daquelas encontradas em mercados competitivos tradicionais (PORTER, 2008). No contexto público, o "cliente" é a própria Prefeitura de Santo André, por meio da Defesa Civil, que financia e utiliza a solução.
-
-Essa dinâmica diferenciada decorre de alguns fatores: primeiro, não há fornecedor alternativo de um sistema de gestão integrada especificamente desenvolvido para a Defesa Civil de Santo André, concedendo ao cliente uma posição de influência direta sobre as funcionalidades, prazos e ajustes do projeto. Segundo, como representante do setor público, a instituição tem autoridade para definir mudanças de requisitos e prioridades conforme sua operação evolui. Terceiro, o projeto é desenvolvido especificamente sob demanda do cliente, resultando em alta customização e dependência de seu feedback para validação contínua.
-
-Por outro lado, essa barganha não é predatória, pois a Defesa Civil está comprometida com o sucesso da solução e reconhece a importância da qualidade técnica e da sustentabilidade do projeto. Dessa forma, o alto poder de barganha é exercido de forma colaborativa e estratégica, visando a qualidade final da plataforma que serve ao interesse público de proteção à população.
-
+ A rivalidade entre concorrentes é considerada baixa, uma vez que a Defesa Civil não atua em um mercado competitivo tradicional, mas sim como órgão público com atribuição legal específica (PORTER, 2008). Não há concorrentes diretos que disputem sua função institucional, pois sua atuação é exclusiva no âmbito municipal. Entretanto, pode-se observar uma forma indireta de rivalidade com soluções tecnológicas privadas ou sistemas desenvolvidos por outros municípios, que oferecem abordagens alternativas para a gestão de riscos. Ainda assim, essa concorrência é limitada, pois tais soluções não substituem a autoridade e a responsabilidade da Defesa Civil. Dessa forma, a baixa rivalidade reforça a necessidade de inovação interna e modernização dos processos, em vez de competição direta (Prefeitura de Santo André, 2026; PORTER, 2008).
+ #### Análise do Poder de Barganha dos Clientes
+O poder de barganha dos clientes é considerado baixo, pois as principais ações da Defesa Civil são destinadas à população e realizadas em conjunto com outros órgãos públicos, os quais não possuem influência direta sobre a prestação do serviço, uma vez que este constitui uma responsabilidade obrigatória do município (PORTER, 2008). Além disso, a atuação da Defesa Civil está vinculada à proteção da população e à gestão de riscos, não sendo baseada em relações comerciais. Embora existam demandas da sociedade por maior eficiência e rapidez, os usuários não podem substituir ou negociar o serviço prestado. Dessa forma, o poder de barganha dos clientes é reduzido, ainda que a satisfação da população seja relevante para a melhoria contínua das operações (PREFEITURA DE SANTO ANDRÉ, 2026; PORTER, 2008).
 #### Análise do Poder de Barganha dos Fornecedores
-
-O poder de barganha dos fornecedores é considerado **moderado a baixo**, com particularidades importantes decorrentes da natureza pública e tecnológica do projeto (PORTER, 2008).
-
-Os principais fornecedores do projeto são provedores de serviços tecnológicos e infraestrutura, destacando-se plataformas de computação em nuvem (Amazon Web Services, Google Cloud, Microsoft Azure), fornecedores de banco de dados, APIs de georreferenciamento e ferramentas de desenvolvimento de software. A existência de múltiplas opções no mercado em cada uma dessas categorias reduz significativamente a dependência de um único fornecedor, concedendo à equipe de desenvolvimento maior liberdade de escolha e negociação.
-
-Por outro lado, à medida que o projeto avança e adota tecnologias mais específicas ou implementa integrações complexas com sistemas municipais, a dependência técnica de determinados fornecedores pode aumentar, elevando seu poder de barganha. Além disso, há considerar que como projeto público com orçamento limitado, há restrições quanto à adoção de soluções proprietárias caras, criando preferência por tecnologias open-source e soluções de baixo custo, o que amplia as opções disponíveis e mantém o poder dos fornecedores controlado.
-
-Em resumo, a natureza modular e a disponibilidade de alternativas tecnológicas no mercado mantêm o poder dos fornecedores em nível moderado, permitindo à Defesa Civil preservar flexibilidade arquitetural e evitar lock-in tecnológico em sua solução de gestão de riscos.
+O poder de barganha dos fornecedores é considerado moderado, pois a Defesa Civil depende de fornecedores de tecnologia, equipamentos, sistemas de monitoramento, comunicação e de outros órgãos para apoiar suas operações (PORTER, 2008). Empresas responsáveis por softwares, serviços em nuvem, sensores climáticos e plataformas digitais possuem certa influência, especialmente quando oferecem soluções especializadas. Entretanto, como os órgãos públicos geralmente possuem a possibilidade de contratar diferentes fornecedores, esse poder é parcialmente limitado. Assim, embora exista dependência tecnológica em alguns recursos específicos, o poder de barganha dos fornecedores permanece em nível moderado (PREFEITURA DE SANTO ANDRÉ, 2026; PORTER, 2008).
 
 ### 2.1.2. Análise SWOT da Instituição Parceira
 
@@ -1005,7 +986,41 @@ Campos exibidos com prioridade visual na tela de atendimento:
 
 ### 3.2.4. Diagrama de Sequência UML (sprint 3)
 
-*Ao menos um fluxo prioritário, mostrando a interação entre as camadas Controller → Service → Repository → Banco. Linhas de vida verticais, ativação correta, mensagens síncronas e assíncronas diferenciadas, retornos tracejados.*
+Um diagrama de sequência é um tipo de diagrama comportamental da UML (Unified Modeling Language) focado em demonstrar como e em que ordem os componentes de um sistema interagem entre si ao longo do tempo para realizar uma tarefa específica.
+
+<div align="center">
+  <p><strong>Figura 09: Diagrama de Sequência para o Caso de Uso 1</strong></p>
+    <a href="../assets/figura7-Diagrama-de-sequencia-UC1.png" target="_blank">
+      <img src="../assets/figura7-Diagrama-de-sequencia-UC1.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 1" width="800">
+    </a>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+O diagrama ilustra o fluxo técnico de Cadastro de Família via aplicativo móvel para a Defesa Civil. O processo inicia com a normalização dos dados e validações rigorosas, como o bloqueio de datas futuras e a checagem matemática do CPF/NIS. Qualquer inconsistência interrompe o fluxo imediatamente, alertando o agente. Com os dados corretos, o sistema consulta o banco para evitar duplicidade de registros. A seguir, a vulnerabilidade da família é calculada e as coordenadas de GPS são capturadas automaticamente de forma assíncrona. Por fim, o cadastro é salvo no Banco Central (online) ou no cache local (offline), garantindo total resiliência da operação.
+
+---
+
+<div align="center">
+  <p><strong>Figura 10: Diagrama de Sequência para o Caso de Uso 2</strong></p>
+    <a href="../assets/figura8-Diagrama-de-sequencia-UC2.png" target="_blank">
+      <img src="../assets/figura8-Diagrama-de-sequencia-UC2.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 2" width="800">
+    </a>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+O diagrama ilustra o fluxo técnico de Cadastro de Área de Risco Socioestrutural via aplicativo móvel para a Defesa Civil. O processo inicia com a validação das permissões do agente, interrompendo o fluxo imediatamente caso ele não tenha autorização para editar o mapa. Com o acesso liberado, o sistema aciona a captura automática e assíncrona das coordenadas via satélite (GPS). Em seguida, essas coordenadas são enviadas a uma API de geolocalização secundária para a conversão reversa, transformando latitude e longitude em dados de endereço. Após processar a anexação opcional de fotos da ocorrência, o registro da área de risco é estruturado e salvo garantindo total resiliência da operação: no Banco Central (online) ou no cache local como pendente (offline).
+
+---
+
+<div align="center">
+  <p><strong>Figura 11: Diagrama de Sequência para o Caso de Uso 3</strong></p>
+    <a href="../assets/figura9-Diagrama-de-sequencia-UC3.png" target="_blank">
+      <img src="../assets/figura9-Diagrama-de-sequencia-UC3.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 3" width="800">
+    </a>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+O diagrama ilustra o fluxo técnico de geração de inteligência estratégica para a Defesa Civil através do relatório de vulnerabilidade e logística. O processo inicia-se com a aplicação de filtros obrigatórios, como período e região, sendo o fluxo imediatamente interrompido caso os critérios mínimos não sejam preenchidos. Após a validação, o sistema consulta a base de dados central para extrair informações sobre população e áreas de risco, submetendo-as a um processamento lógico que transforma dados brutos em indicadores de apoio à decisão. O resultado é consolidado numa entidade de relatório e exibido num dashboard interativo para consulta imediata. Para garantir total versatilidade operacional, o fluxo prevê uma extensão opcional que permite ao gestor acionar um controlador de exportação para converter os resultados em ficheiros externos, como PDF ou Excel, assegurando a portabilidade e a utilidade da informação fora do sistema central.
 
 ### 3.2.5. Diagrama de Atividades ou Estados (sprint 3)
 
@@ -1019,9 +1034,34 @@ Campos exibidos com prioridade visual na tela de atendimento:
 
 *Documente os design patterns utilizados (Repository, Strategy, Factory, DTO etc.) e quais princípios SOLID se aplicam. Justifique a adoção de cada padrão com base em uma necessidade real do projeto.*
 
-## 3.3. Wireframes (sprint 2)
+## 3.3. Wireframes
 
-*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
+Este wireframe representa a tela de cadastro individual utilizada pela Defesa Civil de Santo André para registrar informações pessoais dos moradores atendidos. A interface possui campos para identificação civil, como nome, CPF, RG, NIS, data e local de nascimento, além de informações complementares como gênero, estado civil, profissão, nome dos pais e cor/raça.
+
+Os campos foram organizados de forma simples e objetiva, facilitando o preenchimento e a leitura das informações pelos agentes responsáveis. O formulário também utiliza botões de seleção para opções de gênero, tornando a interação mais rápida e intuitiva. O objetivo da tela é centralizar os dados pessoais dos indivíduos de maneira padronizada, garantindo maior organização e eficiência no processo de atendimento e registro.
+<div align="center">
+  <p>Figura 12: Wireframe tela formulario</p>
+  <img src="../assets/figura7-Wireframe tela formulário individuo.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+https://www.figma.com/design/Wg7CrKpquQ0VpU4AA1cbeq/Sem-t%C3%ADtulo?node-id=0-1&t=leIgBMRUSbY59ivP-1
+
+Este wireframe representa a tela de cadastro de residências utilizada pela Defesa Civil de Santo André para registrar informações sobre imóveis atendidos. A interface contém campos relacionados ao endereço da residência, como endereço, número, complemento e CEP, além de uma área destinada ao envio da foto da fachada do imóvel.
+
+O formulário também possui seções para classificação do tipo de construção (madeira, alvenaria ou mista), finalidade do imóvel (residencial, comercial ou misto) e nível de risco da construção (R1, R2 ou R3).
+
+Na área de detalhes, são exibidas labels de identificação rápida, utilizadas para destacar características importantes da residência ou dos moradores, como presença de pessoas PCD, idosos, cadeirantes, animais, entre outros. Essas informações auxiliam a Defesa Civil na priorização e organização dos atendimentos.
+
+A estrutura da tela foi desenvolvida de forma objetiva e intuitiva, permitindo um preenchimento rápido e organizado das informações durante as visitas e análises realizadas pela equipe.
+<div align="center">
+  <p>Figura 13: Wireframe tela formulario</p>
+  <img src="../assets/figura8-Wireframe tela formulário residência.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+https://www.figma.com/design/XQZO9HgFYfftgw9yK0Nglk/Wireframe-Formul%C3%A1rio-Defesa-Civil-de-Santo-Andr%C3%A9---Im%C3%B3vel?t=DgiyQuYk4kA0qCt1-0
+
+
+  
 
 ## 3.4. Guia de estilos (sprint 3)
 
@@ -1049,23 +1089,330 @@ Campos exibidos com prioridade visual na tela de atendimento:
 
 ### 3.6.1. Modelo Entidade-Relacionamento (ER) (sprint 2)
 
-*Apresente o modelo ER conceitual com entidades, atributos e relacionamentos. Use notação consistente (Chen ou Crow's Foot — não misture).*
+&ensp;Para organizar as informações que a plataforma vai armazenar, foi desenvolvido o Modelo Entidade-Relacionamento do sistema. Ele representa visualmente como os dados se conectam entre si, desde o cadastro de uma família até a identificação do setor de risco em que ela está localizada. Esse modelo foi construído com base nas necessidades reais da Defesa Civil de Santo André, levando em conta como os agentes de campo coletam informações e como os gestores precisam consultá-las no dia a dia.
+
+<div align="center">
+  <p>Figura 14: Modelo Entidade Relacionamento </p>
+  <img src="../assets/figura7-Modelo-ER.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+ 
+ &ensp;O modelo reflete a lógica de funcionamento do sistema: uma família é composta por indivíduos, cada um com seu perfil, e está associada a uma localização dentro de um setor de risco específico. Além disso, cada núcleo familiar possui um registro de vulnerabilidade que permite identificar quais famílias precisam de atendimento prioritário em situações de emergência. Essa estrutura garante que os dados coletados em campo sejam organizados de forma clara e acessível para a tomada de decisão da Defesa Civil.
+
+
 
 ### 3.6.2. Diagrama Entidade-Relacionamento (DER) (sprint 2)
 
 <div align="center">
-  <p>Figura 09: Diagrama Entidade-Relacionamento (DER) </p>
+  <p>Figura 15: Diagrama Entidade-Relacionamento (DER) </p>
   <img src="../assets/figura7-DiagramaEntidadeRelacionamento.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
 ### 3.6.3. Modelo Relacional e Modelo Físico (sprints 2 e 4)
 
-*Posicione aqui os diagramas de modelos relacionais do banco de dados, apresentando todos os esquemas de tabelas e suas relações. Inclua as migrations DDL numeradas e reproduzíveis (`CREATE TABLE`, `CREATE INDEX`, constraints `NOT NULL`, `UNIQUE`, `FOREIGN KEY`, `CHECK`). Utilize texto para complementar suas explicações quando necessário.*
+#### Visão Geral do Modelo Relacional
+
+O modelo relacional da solução é composto por seis entidades principais que formam o núcleo do sistema de cadastro socioestrutural e gestão de riscos:
+
+- **chefe_da_familia**: Armazena dados biográficos e socioeconômicos do chefe de família, incluindo identificação (CPF, NIS, RG), dados pessoais, contato e renda.
+- **nucleo_familiar**: Representa o núcleo familiar como agrupador de indivíduos, vinculado a um chefe de família e contendo dados estruturais da habitação.
+- **vulnerabilidade**: Armazena informações sobre vulnerabilidades específicas do núcleo familiar (doenças, gestação, PCD, etc.).
+- **setor_risco**: Define os setores de risco geográficos com classificação de nível de risco.
+- **localizacao**: Armazena informações geográficas e de endereço, incluindo coordenadas GPS e vinculação a setores de risco.
+- **membro_nucleo**: Tabela de associação que vincula indivíduos ao núcleo familiar com informações de vínculo e parentesco.
+
+Os relacionamentos estabelecem que:
+- Um **chefe_da_familia** vincula-se a **um nucleo_familiar** (1:1)
+- Um **nucleo_familiar** pode ter **múltiplos membro_nucleo** (1:N)
+- Um **nucleo_familiar** tem **uma vulnerabilidade** associada (1:1)
+- Um **nucleo_familiar** tem **uma localizacao** associada (1:1)
+- Uma **localizacao** pode estar em **um setor_risco** (N:1)
+
+#### Migrations DDL Numeradas e Reproduzíveis
+
+##### Migration 001: Criar tabela `chefe_da_familia`
+
+```sql
+CREATE TABLE chefe_da_familia (
+    id UUID PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cpf VARCHAR(14) UNIQUE,
+    nis VARCHAR(20) UNIQUE,
+    rg VARCHAR(20) UNIQUE,
+    data_nascimento DATE NOT NULL CHECK (data_nascimento <= CURRENT_DATE),
+    local_nascimento VARCHAR(255),
+    genero VARCHAR(50) CHECK (genero IN ('MASCULINO', 'FEMININO', 'OUTRO')),
+    escolaridade VARCHAR(100),
+    ocupacao VARCHAR(100),
+    renda DECIMAL(10,2) CHECK (renda >= 0),
+    cor_raca VARCHAR(50),
+    estado_civil VARCHAR(50),
+    profissao VARCHAR(100),
+    nome_mae VARCHAR(255),
+    nome_pai VARCHAR(255),
+    telefone1 VARCHAR(20),
+    telefone2 VARCHAR(20),
+    email VARCHAR(255),
+    foto_url TEXT,
+    status VARCHAR(50) NOT NULL CHECK (status IN ('ATIVO', 'INATIVO', 'PENDENTE')),
+    data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_chefe_cpf ON chefe_da_familia(cpf);
+CREATE INDEX idx_chefe_nis ON chefe_da_familia(nis);
+CREATE INDEX idx_chefe_nome ON chefe_da_familia(nome);
+CREATE INDEX idx_chefe_status ON chefe_da_familia(status);
+```
+
+##### Migration 002: Criar tabela `nucleo_familiar`
+
+```sql
+CREATE TABLE nucleo_familiar (
+    id UUID PRIMARY KEY,
+    regiao_ficha VARCHAR(255),
+    video_responsavel VARCHAR(255),
+    tempo_construcao INT CHECK (tempo_construcao >= 0),
+    tipo_construcao VARCHAR(100),
+    tempo_terreno INT CHECK (tempo_terreno >= 0),
+    uso_imovel VARCHAR(100),
+    renda_familiar DECIMAL(10,2) CHECK (renda_familiar >= 0),
+    cadastro_completo BOOLEAN DEFAULT FALSE,
+    data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    chefe_familia_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_chefe_familia
+        FOREIGN KEY (chefe_familia_id)
+        REFERENCES chefe_da_familia(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_nucleo_chefe ON nucleo_familiar(chefe_familia_id);
+CREATE INDEX idx_nucleo_regiao ON nucleo_familiar(regiao_ficha);
+CREATE INDEX idx_nucleo_data ON nucleo_familiar(data_registro);
+```
+
+##### Migration 003: Criar tabela `vulnerabilidade`
+
+```sql
+CREATE TABLE vulnerabilidade (
+    id UUID PRIMARY KEY,
+    doenca_idoso BOOLEAN DEFAULT FALSE,
+    doenca_crianca BOOLEAN DEFAULT FALSE,
+    doenca_cronica BOOLEAN DEFAULT FALSE,
+    gestante BOOLEAN DEFAULT FALSE,
+    lactante BOOLEAN DEFAULT FALSE,
+    pcd BOOLEAN DEFAULT FALSE,
+    deficiencia BOOLEAN DEFAULT FALSE,
+    restrito BOOLEAN DEFAULT FALSE,
+    nucleo_familiar_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_vulnerabilidade_nucleo
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_vulnerabilidade_nucleo ON vulnerabilidade(nucleo_familiar_id);
+```
+
+##### Migration 004: Criar tabela `setor_risco`
+
+```sql
+CREATE TABLE setor_risco (
+    id UUID PRIMARY KEY,
+    codigo VARCHAR(50) UNIQUE NOT NULL,
+    nivel_risco VARCHAR(50) NOT NULL CHECK (nivel_risco IN ('BAIXO', 'MEDIO', 'ALTO'))
+);
+
+CREATE INDEX idx_setor_codigo ON setor_risco(codigo);
+CREATE INDEX idx_setor_nivel ON setor_risco(nivel_risco);
+```
+
+##### Migration 005: Criar tabela `localizacao`
+
+```sql
+CREATE TABLE localizacao (
+    id UUID PRIMARY KEY,
+    latitude DECIMAL(10,7) NOT NULL CHECK (latitude >= -90 AND latitude <= 90),
+    longitude DECIMAL(10,7) NOT NULL CHECK (longitude >= -180 AND longitude <= 180),
+    setor_risco_id UUID,
+    logradouro VARCHAR(255) NOT NULL,
+    numero VARCHAR(20),
+    complemento VARCHAR(255),
+    bairro VARCHAR(100) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    cep VARCHAR(20),
+    referencia VARCHAR(255),
+    nucleo_familiar_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_localizacao_setor
+        FOREIGN KEY (setor_risco_id)
+        REFERENCES setor_risco(id) ON DELETE SET NULL,
+    CONSTRAINT fk_localizacao_nucleo
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_localizacao_nucleo ON localizacao(nucleo_familiar_id);
+CREATE INDEX idx_localizacao_setor ON localizacao(setor_risco_id);
+CREATE INDEX idx_localizacao_coordenadas ON localizacao(latitude, longitude);
+CREATE INDEX idx_localizacao_bairro ON localizacao(bairro);
+CREATE INDEX idx_localizacao_cidade ON localizacao(cidade);
+```
+
+##### Migration 006: Criar tabela `membro_nucleo`
+
+```sql
+CREATE TABLE membro_nucleo (
+    individuo_id UUID NOT NULL,
+    nucleo_familiar_id UUID NOT NULL,
+    vinculo_familiar VARCHAR(100),
+    grau_parentesco VARCHAR(100),
+    escolaridade VARCHAR(100),
+    ocupacao VARCHAR(100),
+    renda DECIMAL(10,2),
+    PRIMARY KEY (individuo_id, nucleo_familiar_id),
+    CONSTRAINT fk_membro_individuo
+        FOREIGN KEY (individuo_id)
+        REFERENCES chefe_da_familia(id) ON DELETE RESTRICT,
+    CONSTRAINT fk_membro_nucleo
+        FOREIGN KEY (nucleo_familiar_id)
+        REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_membro_nucleo ON membro_nucleo(nucleo_familiar_id);
+CREATE INDEX idx_membro_individuo ON membro_nucleo(individuo_id);
+```
+
+#### Constraints e Regras de Integridade Aplicadas
+
+| Constraint | Tabela | Descrição |
+|---|---|---|
+| **PRIMARY KEY (UUID)** | Todas | Identificação única universal de cada registro |
+| **FOREIGN KEY** | nucleo_familiar → chefe_da_familia | Garante vínculo obrigatório com chefe de família |
+| **FOREIGN KEY** | vulnerabilidade → nucleo_familiar | Garante que cada vulnerabilidade pertence a um núcleo |
+| **FOREIGN KEY** | localizacao → nucleo_familiar | Garante que cada localização está vinculada a um núcleo |
+| **FOREIGN KEY** | localizacao → setor_risco | Vincula localização a setor de risco (opcional) |
+| **FOREIGN KEY** | membro_nucleo → chefe_da_familia | Vincula membro ao indivíduo |
+| **FOREIGN KEY** | membro_nucleo → nucleo_familiar | Vincula membro ao núcleo familiar |
+| **UNIQUE** | chefe_da_familia | CPF, NIS e RG não podem se repetir |
+| **UNIQUE** | nucleo_familiar | Chefe de família vinculado a apenas um núcleo |
+| **UNIQUE** | vulnerabilidade | Um perfil de vulnerabilidade por núcleo |
+| **UNIQUE** | localizacao | Uma localização por núcleo |
+| **UNIQUE** | setor_risco | Código de setor não pode se repetir |
+| **NOT NULL** | chefe_da_familia | Nome é obrigatório |
+| **NOT NULL** | localizacao | Logradouro, bairro, cidade, coordenadas obrigatórios |
+| **NOT NULL** | nucleo_familiar | Chefe de família obrigatório |
+| **CHECK** | localizacao | Latitude deve estar entre -90 e 90 |
+| **CHECK** | localizacao | Longitude deve estar entre -180 e 180 |
+| **ON DELETE RESTRICT** | vulnerabilidade, localizacao, membro_nucleo | Impede exclusão de registros que possuem dependências vinculadas |
+| **ON DELETE RESTRICT** | nucleo_familiar | Impede exclusão de chefe sem remover núcleo |
+
+#### Modelo Relacional
+
+A imagem a seguir mostra as entidades principais (`chefe_da_familia`, `nucleo_familiar`, `vulnerabilidade`, `setor_risco`, `localizacao` e `membro_nucleo`), seus atributos e como elas se relacionam. A tabela `nucleo_familiar` é a entidade central que agrega informações da família, e `localizacao` é a ponte de ligação entre a família e sua posição geográfica em um setor de risco.
+
+<div align="center">
+  <p>Figura 16: Modelo Relacional</p>
+  <img src="../assets/modelo_relacional.png" width="800">
+  <p>Fonte: Material produzido pelos autores com Supabase (2026)</p>
+</div>
+
+**Observações sobre o modelo:**
+
+1. **Identificadores UUID**: Utiliza UUIDs ao invés de inteiros para melhor escalabilidade e portabilidade de dados.
+2. **Integridade Referencial**: As constraints `ON DELETE RESTRICT` impedem a exclusão acidental de chefes de família sem remover primeiro o núcleo vinculado. As relações utilizam ON DELETE RESTRICT para impedir exclusões acidentais e preservar o histórico de dados, conforme solicitado pela Defesa Civil.
+3. **Índices de Busca**: Criados nas colunas mais consultadas (CPF, NIS, nome, coordenadas geográficas) para otimizar o desempenho conforme RNF de capacidade.
+4. **Separação de Responsabilidades**: A tabela `vulnerabilidade` segrega dados sensíveis de vulnerabilidade em entidade dedicada, facilitando consultas focadas em perfis de risco.
+5. **Geolocalização**: A tabela `localizacao` armazena coordenadas com validação de intervalos (latitude -90 a 90, longitude -180 a 180) e índices compostos para buscas por proximidade.
+6. **Tabela de Associação**: `membro_nucleo` permite registrar múltiplos indivíduos em um núcleo familiar com informações de parentesco e vinculação.
+7. **Timestamps**: Campo `data_registro` em cada tabela rastreia quando o registro foi criado, facilitando auditoria e análises temporais.
+
 
 ### 3.6.4. Consultas SQL e lógica proposicional (sprint 2)
 
 *posicione aqui uma lista de consultas SQL compostas, realizadas pelo back-end da aplicação web, com sua respectiva lógica proposicional, descrita conforme template abaixo. Lembre-se que para usar LaTeX em markdown, basta você colocar as expressões entre $ ou $$*
+
+## Consultas SQL Compostas e Lógica Proposicional
+
+As consultas SQL compostas representam operações realizadas pelo back-end da aplicação para recuperar informações estratégicas do banco de dados a partir do relacionamento entre múltiplas tabelas. Essas consultas utilizam comandos como `JOIN`, `WHERE`, `AND` e `OR` para combinar dados de diferentes entidades e aplicar filtros específicos conforme as regras de negócio do sistema.
+
+Além da implementação em SQL, é possível representar a lógica dessas consultas utilizando lógica proposicional, permitindo descrever matematicamente as condições utilizadas nos filtros. Essa abordagem facilita a compreensão formal das regras aplicadas pelo sistema, especialmente em cenários de priorização de famílias vulneráveis, análise de risco e monitoramento territorial.
+
+---
+
+### Consulta 1 — Famílias em Área de Alto Risco com Vulnerabilidade Social
+
+#### Objetivo
+
+Identificar famílias localizadas em setores classificados como alto risco e que possuam algum tipo de vulnerabilidade social relevante, como doença crônica ou pessoa com deficiência (PCD).
+
+#### Consulta SQL
+
+```sql
+SELECT
+    cf.nome,
+    sr.nivel_risco,
+    v.doenca_cronica,
+    v.pcd
+FROM chefe_da_familia cf
+JOIN nucleo_familiar nf
+    ON nf.chefe_familia_id = cf.id
+JOIN vulnerabilidade v
+    ON v.nucleo_familiar_id = nf.id
+JOIN localizacao l
+    ON l.nucleo_familiar_id = nf.id
+JOIN setor_risco sr
+    ON sr.id = l.setor_risco_id
+WHERE
+    sr.nivel_risco = 'ALTO'
+    AND (
+        v.doenca_cronica = TRUE
+        OR v.pcd = TRUE
+    );
+```
+
+---
+
+### Consulta 2 — Famílias com Cadastro Incompleto
+
+#### Objetivo
+
+Listar núcleos familiares cujo cadastro ainda não foi concluído no sistema.
+
+#### Consulta SQL
+
+```sql
+SELECT
+    nf.id,
+    cf.nome,
+    nf.data_registro
+FROM nucleo_familiar nf
+JOIN chefe_da_familia cf
+    ON cf.id = nf.chefe_familia_id
+WHERE
+    nf.cadastro_completo = FALSE;
+```
+---
+
+### Consulta 3 — Famílias de Baixa Renda em Determinado Bairro
+
+#### Objetivo
+
+Identificar famílias localizadas em um bairro específico cuja renda familiar esteja abaixo de um determinado valor.
+
+#### Consulta SQL
+
+```sql
+SELECT
+    cf.nome,
+    nf.renda_familiar,
+    l.bairro
+FROM chefe_da_familia cf
+JOIN nucleo_familiar nf
+    ON nf.chefe_familia_id = cf.id
+JOIN localizacao l
+    ON l.nucleo_familiar_id = nf.id
+WHERE
+    l.bairro = 'Centro'
+    AND nf.renda_familiar < 2000;
+```
 
 *Template de SQL + lógica proposicional*
 #1 | ---
