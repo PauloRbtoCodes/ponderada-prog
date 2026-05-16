@@ -256,7 +256,7 @@ Uma interface web focada na usabilidade móvel que possibilita que os cadastros 
 **Info Demográfica:** Cláudia, 41 anos
 
 <div align="center">
-  <p>Figura 04: Persona - Cláudia</p>
+  <p>Figura 05: Persona - Cláudia</p>
   <img src="../assets/personas/claudia_gestora_adm.png" width="200">
   <p>Fonte: Imagem criada via IA (2026)</p>
 </div>
@@ -561,7 +561,7 @@ Este caso de uso é o alicerce do mapeamento socioestrutural.
 
 
 <div align="center">
-  <p>Figura 05: Diagrama do Caso de Uso 1</p>
+  <p>Figura 06: Diagrama do Caso de Uso 1</p>
   <img src="../assets/figura4-Diagrama-casosdeuso1.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -585,7 +585,7 @@ Este caso de uso é o coração do sistema, permitindo que a Defesa Civil alimen
   - << extend >>: Anexar Fotos da Ocorrência (opcional, ocorre conforme a disponibilidade de mídia).
 
 <div align="center">
-  <p>Figura 06: Diagrama do Caso de Uso 2</p>
+  <p>Figura 07: Diagrama do Caso de Uso 2</p>
   <img src="../assets/figura5-Diagrama-casosdeuso2.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -608,7 +608,7 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
   - << extend >>: Exportar para PDF/Excel (opcional, caso o gestor precise do documento fora do sistema).
 
 <div align="center">
-  <p>Figura 07: Diagrama do Caso de Uso 3</p>
+  <p>Figura 08: Diagrama do Caso de Uso 3</p>
   <img src="../assets/figura6-Diagrama-casosdeuso3.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -1190,7 +1190,7 @@ Campos exibidos com prioridade visual na tela de atendimento de ocorrência:
 Um diagrama de sequência é um tipo de diagrama comportamental da UML (Unified Modeling Language) focado em demonstrar como e em que ordem os componentes de um sistema interagem entre si ao longo do tempo para realizar uma tarefa específica.
 
 <div align="center">
-  <p><strong>Figura 07: Diagrama de Sequência para o Caso de Uso 1</strong></p>
+  <p><strong>Figura 09: Diagrama de Sequência para o Caso de Uso 1</strong></p>
     <a href="../assets/figura7-Diagrama-de-sequencia-UC1.png" target="_blank">
       <img src="../assets/figura7-Diagrama-de-sequencia-UC1.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 1" width="800">
     </a>
@@ -1202,7 +1202,7 @@ O diagrama ilustra o fluxo técnico de Cadastro de Família via aplicativo móve
 ---
 
 <div align="center">
-  <p><strong>Figura 08: Diagrama de Sequência para o Caso de Uso 2</strong></p>
+  <p><strong>Figura 10: Diagrama de Sequência para o Caso de Uso 2</strong></p>
     <a href="../assets/figura8-Diagrama-de-sequencia-UC2.png" target="_blank">
       <img src="../assets/figura8-Diagrama-de-sequencia-UC2.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 2" width="800">
     </a>
@@ -1214,7 +1214,7 @@ O diagrama ilustra o fluxo técnico de Cadastro de Área de Risco Socioestrutura
 ---
 
 <div align="center">
-  <p><strong>Figura 09: Diagrama de Sequência para o Caso de Uso 3</strong></p>
+  <p><strong>Figura 11: Diagrama de Sequência para o Caso de Uso 3</strong></p>
     <a href="../assets/figura9-Diagrama-de-sequencia-UC3.png" target="_blank">
       <img src="../assets/figura9-Diagrama-de-sequencia-UC3.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 3" width="800">
     </a>
@@ -1241,7 +1241,7 @@ Este wireframe representa a tela de cadastro individual utilizada pela Defesa Ci
 
 Os campos foram organizados de forma simples e objetiva, facilitando o preenchimento e a leitura das informações pelos agentes responsáveis. O formulário também utiliza botões de seleção para opções de gênero, tornando a interação mais rápida e intuitiva. O objetivo da tela é centralizar os dados pessoais dos indivíduos de maneira padronizada, garantindo maior organização e eficiência no processo de atendimento e registro.
 <div align="center">
-  <p>Figura 09: Wireframe tela formulario</p>
+  <p>Figura 12: Wireframe tela formulario</p>
   <img src="../assets/figura7-Wireframe tela formulário individuo.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -1255,7 +1255,7 @@ Na área de detalhes, são exibidas labels de identificação rápida, utilizada
 
 A estrutura da tela foi desenvolvida de forma objetiva e intuitiva, permitindo um preenchimento rápido e organizado das informações durante as visitas e análises realizadas pela equipe.
 <div align="center">
-  <p>Figura 09: Wireframe tela formulario</p>
+  <p>Figura 13: Wireframe tela formulario</p>
   <img src="../assets/figura8-Wireframe tela formulário residência.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -1290,11 +1290,25 @@ https://www.figma.com/design/XQZO9HgFYfftgw9yK0Nglk/Wireframe-Formul%C3%A1rio-De
 
 ### 3.6.1. Modelo Entidade-Relacionamento (ER) (sprint 2)
 
-*Apresente o modelo ER conceitual com entidades, atributos e relacionamentos. Use notação consistente (Chen ou Crow's Foot — não misture).*
+&ensp;Para organizar as informações que a plataforma vai armazenar, foi desenvolvido o Modelo Entidade-Relacionamento do sistema. Ele representa visualmente como os dados se conectam entre si, desde o cadastro de uma família até a identificação do setor de risco em que ela está localizada. Esse modelo foi construído com base nas necessidades reais da Defesa Civil de Santo André, levando em conta como os agentes de campo coletam informações e como os gestores precisam consultá-las no dia a dia.
+
+<div align="center">
+  <p>Figura 14: Modelo Entidade Relacionamento </p>
+  <img src="../assets/figura7-Modelo-ER.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+ 
+ &ensp;O modelo reflete a lógica de funcionamento do sistema: uma família é composta por indivíduos, cada um com seu perfil, e está associada a uma localização dentro de um setor de risco específico. Além disso, cada núcleo familiar possui um registro de vulnerabilidade que permite identificar quais famílias precisam de atendimento prioritário em situações de emergência. Essa estrutura garante que os dados coletados em campo sejam organizados de forma clara e acessível para a tomada de decisão da Defesa Civil.
+
+
 
 ### 3.6.2. Diagrama Entidade-Relacionamento (DER) (sprint 2)
 
-*Posicione aqui o DER com cardinalidades explícitas em ambos os lados de cada relação e identificação de PK/FK. O DER deve ser coerente com o diagrama de classes (3.2.3).*
+<div align="center">
+  <p>Figura 15: Diagrama Entidade-Relacionamento (DER) </p>
+  <img src="../assets/figura7-DiagramaEntidadeRelacionamento.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
 
 ### 3.6.3. Modelo Relacional e Modelo Físico (sprints 2 e 4)
 
@@ -1496,7 +1510,7 @@ CREATE INDEX idx_membro_individuo ON membro_nucleo(individuo_id);
 A imagem a seguir mostra as entidades principais (`chefe_da_familia`, `nucleo_familiar`, `vulnerabilidade`, `setor_risco`, `localizacao` e `membro_nucleo`), seus atributos e como elas se relacionam. A tabela `nucleo_familiar` é a entidade central que agrega informações da família, e `localizacao` é a ponte de ligação entre a família e sua posição geográfica em um setor de risco.
 
 <div align="center">
-  <p>Figura 07: Modelo Relacional</p>
+  <p>Figura 16: Modelo Relacional</p>
   <img src="../assets/modelo_relacional.png" width="800">
   <p>Fonte: Material produzido pelos autores com Supabase (2026)</p>
 </div>
