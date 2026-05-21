@@ -71,30 +71,11 @@ Dessa forma, a análise das cinco forças contribui para identificar oportunidad
  A ameaça de produtos ou serviços substitutos é considerada moderada, pois, embora não existam substitutos diretos para a atuação da Defesa Civil, algumas ferramentas e práticas podem desempenhar funções complementares ou parciais (PORTER, 2008). Entre elas, destacam-se sistemas privados de monitoramento climático, plataformas de geolocalização e ferramentas digitais de gestão de dados. No entanto, tais soluções não possuem a capacidade institucional, legal e operacional para coordenar ações emergenciais, acolhimento de famílias e articulação intersetorial. Assim, apesar de contribuírem para a gestão de riscos, esses substitutos não eliminam a necessidade da atuação da Defesa Civil, mantendo a ameaça em nível moderado (Prefeitura de Santo André, 2026; PORTER, 2008).
 
  #### Análise da Rivalidade entre Concorrentes
-
- A rivalidade entre concorrentes é considerada baixa no contexto tradicional de Porter, uma vez que a Defesa Civil não atua em um mercado competitivo, mas sim como órgão público com atribuição legal e responsabilidade exclusiva no âmbito municipal (PORTER, 2008). Não existem entidades privadas que disputem diretamente sua função institucional de coordenação de proteção e defesa civil.
- 
- É importante ressaltar, porém, que por ser um órgão público que trabalha integrado com outros setores municipais, há uma forma indireta de rivalidade com outros órgãos governamentais que atuam em situações emergenciais, como o SAMU (Serviço de Atendimento Móvel de Urgência) que responde por emergências médicas, e a Polícia Militar que atua na segurança pública. Esses órgãos compartilham o mesmo espaço operacional durante crises e desastres, exigindo uma articulação clara de papéis e responsabilidades. Porém, essa "rivalidade" é apenas indireta e operacional, não competitiva, pois cada órgão possui funções complementares e bem definidas no protocolo de gestão de emergências.
- 
- Adicionalmente, pode-se observar competição indireta com soluções tecnológicas privadas de monitoramento climático e geolocalização, bem como com sistemas desenvolvidos por outros municípios que implementam suas próprias abordagens para gestão de riscos. Ainda assim, essa concorrência é limitada, pois nenhuma solução privada ou externa substitui a autoridade legal, a responsabilidade institucional e a legitimidade operacional que a Defesa Civil possui. Dessa forma, reconhecendo a natureza pública e essencial da instituição, a análise de rivalidade reforça a necessidade de inovação interna e modernização dos processos, em vez de competição tradicional (Prefeitura de Santo André, 2026; PORTER, 2008).
-
-#### Análise do Poder de Barganha dos Clientes
-
-O poder de barganha dos clientes é considerado **alto**, porém com características distintas daquelas encontradas em mercados competitivos tradicionais (PORTER, 2008). No contexto público, o "cliente" é a própria Prefeitura de Santo André, por meio da Defesa Civil, que financia e utiliza a solução.
-
-Essa dinâmica diferenciada decorre de alguns fatores: primeiro, não há fornecedor alternativo de um sistema de gestão integrada especificamente desenvolvido para a Defesa Civil de Santo André, concedendo ao cliente uma posição de influência direta sobre as funcionalidades, prazos e ajustes do projeto. Segundo, como representante do setor público, a instituição tem autoridade para definir mudanças de requisitos e prioridades conforme sua operação evolui. Terceiro, o projeto é desenvolvido especificamente sob demanda do cliente, resultando em alta customização e dependência de seu feedback para validação contínua.
-
-Por outro lado, essa barganha não é predatória, pois a Defesa Civil está comprometida com o sucesso da solução e reconhece a importância da qualidade técnica e da sustentabilidade do projeto. Dessa forma, o alto poder de barganha é exercido de forma colaborativa e estratégica, visando a qualidade final da plataforma que serve ao interesse público de proteção à população.
-
+ A rivalidade entre concorrentes é considerada baixa, uma vez que a Defesa Civil não atua em um mercado competitivo tradicional, mas sim como órgão público com atribuição legal específica (PORTER, 2008). Não há concorrentes diretos que disputem sua função institucional, pois sua atuação é exclusiva no âmbito municipal. Entretanto, pode-se observar uma forma indireta de rivalidade com soluções tecnológicas privadas ou sistemas desenvolvidos por outros municípios, que oferecem abordagens alternativas para a gestão de riscos. Ainda assim, essa concorrência é limitada, pois tais soluções não substituem a autoridade e a responsabilidade da Defesa Civil. Dessa forma, a baixa rivalidade reforça a necessidade de inovação interna e modernização dos processos, em vez de competição direta (Prefeitura de Santo André, 2026; PORTER, 2008).
+ #### Análise do Poder de Barganha dos Clientes
+O poder de barganha dos clientes é considerado baixo, pois as principais ações da Defesa Civil são destinadas à população e realizadas em conjunto com outros órgãos públicos, os quais não possuem influência direta sobre a prestação do serviço, uma vez que este constitui uma responsabilidade obrigatória do município (PORTER, 2008). Além disso, a atuação da Defesa Civil está vinculada à proteção da população e à gestão de riscos, não sendo baseada em relações comerciais. Embora existam demandas da sociedade por maior eficiência e rapidez, os usuários não podem substituir ou negociar o serviço prestado. Dessa forma, o poder de barganha dos clientes é reduzido, ainda que a satisfação da população seja relevante para a melhoria contínua das operações (PREFEITURA DE SANTO ANDRÉ, 2026; PORTER, 2008).
 #### Análise do Poder de Barganha dos Fornecedores
-
-O poder de barganha dos fornecedores é considerado **moderado a baixo**, com particularidades importantes decorrentes da natureza pública e tecnológica do projeto (PORTER, 2008).
-
-Os principais fornecedores do projeto são provedores de serviços tecnológicos e infraestrutura, destacando-se plataformas de computação em nuvem (Amazon Web Services, Google Cloud, Microsoft Azure), fornecedores de banco de dados, APIs de georreferenciamento e ferramentas de desenvolvimento de software. A existência de múltiplas opções no mercado em cada uma dessas categorias reduz significativamente a dependência de um único fornecedor, concedendo à equipe de desenvolvimento maior liberdade de escolha e negociação.
-
-Por outro lado, à medida que o projeto avança e adota tecnologias mais específicas ou implementa integrações complexas com sistemas municipais, a dependência técnica de determinados fornecedores pode aumentar, elevando seu poder de barganha. Além disso, há considerar que como projeto público com orçamento limitado, há restrições quanto à adoção de soluções proprietárias caras, criando preferência por tecnologias open-source e soluções de baixo custo, o que amplia as opções disponíveis e mantém o poder dos fornecedores controlado.
-
-Em resumo, a natureza modular e a disponibilidade de alternativas tecnológicas no mercado mantêm o poder dos fornecedores em nível moderado, permitindo à Defesa Civil preservar flexibilidade arquitetural e evitar lock-in tecnológico em sua solução de gestão de riscos.
+O poder de barganha dos fornecedores é considerado moderado, pois a Defesa Civil depende de fornecedores de tecnologia, equipamentos, sistemas de monitoramento, comunicação e de outros órgãos para apoiar suas operações (PORTER, 2008). Empresas responsáveis por softwares, serviços em nuvem, sensores climáticos e plataformas digitais possuem certa influência, especialmente quando oferecem soluções especializadas. Entretanto, como os órgãos públicos geralmente possuem a possibilidade de contratar diferentes fornecedores, esse poder é parcialmente limitado. Assim, embora exista dependência tecnológica em alguns recursos específicos, o poder de barganha dos fornecedores permanece em nível moderado (PREFEITURA DE SANTO ANDRÉ, 2026; PORTER, 2008).
 
 ### 2.1.2. Análise SWOT da Instituição Parceira
 
@@ -142,6 +123,16 @@ O Canvas de Proposta de Valor é um modelo amplamente utilizado para conectar as
 Abaixo, está apresentado o Canvas desenvolvido para o Departamento de Proteção e Defesa Civil de Santo André, representando como o GeoRisco Santo André se propõe a resolver os desafios de gestão de risco, acolhimento emergencial e logística humanitária. Em seguida, cada componente é descrito em detalhes.
 
 <div align="center">
+<<<<<<< HEAD
+<sub>Figura 03 - Value Proposition Canvas</sub>
+<img src="../assets/figura3-Canvas-proposta-valor.png" width="100%">
+<sup>Fonte: Material produzido pelos autores (2026)</sup>
+</div>
+
+#### PERFIL DO CLIENTE
+
+##### Trabalhos do Cliente
+=======
   <p>Figura 03: Value Proposition Canvas</p>
   <img src="../assets/figura3-Canvas-proposta-valor.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
@@ -150,18 +141,29 @@ Abaixo, está apresentado o Canvas desenvolvido para o Departamento de Proteçã
 ### PERFIL DO CLIENTE
 
 #### Trabalhos do Cliente
+>>>>>>> de360c06bad8d39d835b92378c7eb65cb4754b5b
 
 Gerir emergências: Coordenar toda a resposta a desastres naturais e tecnológicos no município de Santo André, acionando protocolos de evacuação, abrigo e assistência humanitária de forma ágil e organizada.
 
 Cadastrar famílias: Registrar moradores de áreas de risco com dados socioestruturais completos, composição familiar, perfil de vulnerabilidade, doenças crônicas, animais de estimação e localização exata do imóvel.
 
+<<<<<<< HEAD
+Coordenar abrigos: Controlar a entrada, permanência e saída de desabrigados nos centros de acolhimento emergencial, garantindo triagem de saúde, preenchimento do prontuário SUAS e gestão de vagas em tempo real.
+
+##### Dores
+=======
 #### Dores
+>>>>>>> de360c06bad8d39d835b92378c7eb65cb4754b5b
 
 Dados fragmentados: As informações de cadastro, abrigo e logística existem em papéis, planilhas e sistemas separados, sem integração. Isso torna impossível cruzar dados de geolocalização com perfis de vulnerabilidade no momento crítico da evacuação.
 
 Sem visão em tempo real: A ausência de uma interface única impede que gestores vejam o cenário de crise consolidado, dificultando o planejamento preventivo e a tomada de decisão durante eventos extremos.
 
+<<<<<<< HEAD
+##### Ganhos
+=======
 #### Ganhos
+>>>>>>> de360c06bad8d39d835b92378c7eb65cb4754b5b
 
 Priorização de evacuação: Com dados cruzados de geolocalização e perfil de vulnerabilidade, a Defesa Civil consegue identificar imediatamente quais famílias: Idosos, crianças, gestantes, PCDs devem ser atendidas primeiro nos protocolos de evacuação.
 
@@ -250,7 +252,7 @@ No caso das oportunidades, aquelas com alta probabilidade e alto impacto são pr
 
 <div align="center">
   <p>Figura 04: Persona - Josias</p>
-  <img src="../assets/personas/josias_agente_campo.png" width="200">
+  <img src="../assets/personas/josias_agente_campo.png" width="600">
   <p>Fonte: Imagem criada via IA (2026)</p>
 </div>
 
@@ -275,8 +277,8 @@ Uma interface web focada na usabilidade móvel que possibilita que os cadastros 
 **Info Demográfica:** Cláudia, 41 anos
 
 <div align="center">
-  <p>Figura 04: Persona - Cláudia</p>
-  <img src="../assets/personas/claudia_gestora_adm.png" width="200">
+  <p>Figura 05: Persona - Cláudia</p>
+  <img src="../assets/personas/claudia_gestora_adm.png" width="600">
   <p>Fonte: Imagem criada via IA (2026)</p>
 </div>
 
@@ -466,23 +468,23 @@ Para garantir a qualidade, as histórias deste documento foram validadas utiliza
 
 ### 3.1.1. Requisitos Funcionais (sprint 1, refinar até sprint 5)
 
-| ID    | Descrição | Prioridade | Status       |
-|-------|-----------|------------|--------------|
-| RF001 | **Cadastro de Indivíduos:** Permitir o registro de pessoas com campos biográficos e socioeconômicos. | Alta | Planejado |
-| RF002 | **Verificação de Duplicidade:** Impedir registros duplicados via back-end comparando chaves únicas (ex: CPF ou NIS). | Alta | Planejado |
-| RF003 | **Atualização de Dados:** Permitir a edição de informações de um cadastro já existente via ID único. | Alta | Planejado |
-| RF004 | **Visualização Detalhada:** Retornar todos os dados e metadados vinculados a um registro selecionado. | Alta | Planejado |
-| RF005 | **Busca e Filtros:** Localizar registros por meio de filtros como nome, documento ou status de vulnerabilidade. | Alta | Planejado |
-| RF006 | **Inativação (Soft Delete):** Desativar um cadastro (flag active: false) sem removê-lo fisicamente do banco de dados. | Média | Planejado |
-| RF007 | **Exclusão Definitiva (Hard Delete):** Remoção física e permanente de registros para conformidade estrita com a LGPD. | Média | Planejado |
-| RF008 | **Auditoria (Logs):** Registrar quem criou, editou ou visualizou cada dado, com timestamp e ID do operador | Alta | Planejado |
-| RF009 | **Anonimização de Dados:** Gerar bases de dados sem identificação nominal para criação de dashboards e estatísticas. | Média | Planejado |
-| RF010 | **Controle de Acesso (RBAC):** Restringir o acesso a endpoints e campos sensíveis com base no perfil do usuário logado. | Alta | Planejado |
-| RF011 | **Sanitização/Padronização:** Normalizar inputs (remover máscaras de telefone, CPF, etc.) antes da persistência no banco. | Média | Planejado |
-| RF012 | **Gestão de Completude:** Permitir salvar cadastros parciais, sinalizando registros com campos obrigatórios pendentes. | Média | Planejado |
-| RF013 | **Vínculo Familiar:** Agrupar diferentes registros de indivíduos sob um mesmo código ou UUID de núcleo familiar. | Alta | Planejado |
-| RF014 | **Gestão de Documentos:** Permitir o upload e vinculação de arquivos (fotos/PDFs/comprovantes) ao registro do indivíduo. | Média | Planejado |
-| RF015 | **Busca por Semelhança (Fuzzy):** Tratar acentuação e caracteres especiais nas buscas para garantir o retorno de nomes similares. | Baixa | Planejado |
+| ID    | Nome | Descrição | Entrada | Processamento | Saída | Validação | Prioridade | US | RN | Endpoint |
+|-------|------|-----------|---------|---------------|-------|-----------|------------|-----|-----|----------|
+| RF001 | Cadastro de Indivíduos | Sistema recebe dados biográficos e socioeconômicos (nome, CPF, data nascimento, renda, etc.) via formulário, valida cada campo (CPF correto, data não futura, nome não vazio), armazena com UUID único no banco, retorna ID do novo registro e confirmação de sucesso | Formulário com campos: nome, CPF, NIS, RG, data nascimento, localização nascimento, gênero, estado civil, profissão, contatos (telefones, email), escolaridade, ocupação, renda, foto | Validação de CPF (dígito verificador), validação de data (não futura), normalização de strings (CAIXA ALTA, sem acentos), persistência em chefe_da_familia com hash UUID | ID gerado (UUID), confirmação com timestamp de criação, dados persistidos | CR: CPF inválido → erro bloqueante; Data futura → erro bloqueante; Nome vazio → erro bloqueante; CPF duplicado → verificar RN001 | Alta | US01 | RN017, RN020 | POST `/cadastros` |
+| RF002 | Verificação de Duplicidade | Sistema recebe CPF ou NIS para validação, consulta tabela chefe_da_familia filtrando registros ATIVO com mesma chave, retorna "duplicado" ou "disponível" | CPF ou NIS formatado ou não formatado | Normalização (remover máscaras), query com filtro status='ATIVO', comparação exata | JSON: `{duplicado: boolean, mensagem: string}` | Status HTTP 200 OK (ambos casos); dados sensibilizados em logs | Alta | US02 | RN001, RN017, RN009 | POST `/cadastros/verificar-duplicidade` |
+| RF003 | Atualização de Dados | Sistema recebe ID e novos valores, valida permissão do usuário (RBAC), valida dados (CPF/NIS não duplicam com outros registros), atualiza registro exceto campos imutáveis (ID, data_registro), retorna novo objeto e log de auditoria | ID (UUID) + objeto com campos a atualizar (nome, renda, status, etc.) | Validação RBAC, validação de duplicidade antes de atualizar, UPDATE no banco, registro em tabela de auditoria | Objeto atualizado em JSON + `{updated: true, audit_id: UUID, timestamp}` | Sem permissão → HTTP 403; ID inválido → HTTP 404; Dados inválidos → HTTP 422 | Alta | US03 | RN015, RN008, RN009, RN005 | PUT `/cadastros/:id` |
+| RF004 | Visualização com Controle de Acesso | Sistema recebe ID de registro, verifica permissão do usuário autenticado, retorna dados filtrados por perfil (oculta renda/saúde se perfil insuficiente), registra em log de auditoria | ID do registro (UUID) + token de autenticação | Validação de permissão (RBAC), seleção de campos visíveis conforme perfil, busca em chefe_da_familia + joinrelacionados (núcleo, vulnerabilidade, localização), logging | JSON com dados visíveis + `{audit_id: UUID, acesso_timestamp}` | Sem autenticação → HTTP 401; Sem permissão → HTTP 403; Acesso a sensível → log obrigatório | Alta | US08 | RN005, RN019, RN013 | GET `/cadastros/:id` |
+| RF005 | Busca Multi-Critério | Sistema recebe filtros (nome, CPF, bairro, setor_risco, vulnerabilidade), normaliza inputs, constrói query dinâmica com JOINs, executa em até 5 segundos (p95), retorna lista paginada com total de registros | Filtros: `{nome?, cpf?, nis?, bairro?, setor_risco_id?, vulnerabilidade_flags?, page?, limit?}` | Sanitização de strings, normalização de CPF/NIS, construção de prepared statements com AND/OR lógicos, paginação (offset/limit), ordenação por data_registro DESC | Array JSON com registros + metadados: `{total: int, page: int, limit: int, resultados: [...]}` | Filtro vazio → retorna todos (com paginação); Query complexa → timeout > 5s = erro; Permissões de dados sensíveis verificadas | Alta | US07 | RN016, RN018, RN005 | GET `/cadastros/busca` |
+| RF006 | Inativação com Rastreamento | Sistema recebe ID e motivo (opcional), valida permissão, marca registro com flag `active=false` e registra em auditoria quem desativou e quando, não remove dados físicos | ID do registro + motivo (string, opcional) + token | Validação RBAC, UPDATE no banco com status INATIVO ou active=false, inserção em tabela de auditoria com informação de quem/quando | HTTP 204 No Content ou `{inativado: true, audit_id: UUID}` | Sem permissão → 403; ID não encontrado → 404; Já inativo → 409 Conflict | Média | US06 | RN007, RN003 | PATCH `/cadastros/:id/inativar` |
+| RF007 | Exclusão Definitiva | Sistema recebe ID + justificativa + senha de supervisor, valida senha, valida justificativa (não vazia, > 20 caracteres), remove registro completamente do banco, registra em log imutável (sem soft delete) | ID + justificativa (text) + senha_supervisor (string) | Validação de senha com hash, validação de justificativa, DELETE CASCATA (remover relacionados com cuidado), inserção em log_exclusoes (imutável) | HTTP 204 ou `{deletado: true, log_id: UUID}` | Sem permissão → 403; Senha incorreta → 401; Justificativa vazia → 422; Supervisora ≠ autorizado → 403 | Média | - | RN010, RN003 | DELETE `/cadastros/:id` |
+| RF008 | Auditoria com Rastreamento | Sistema registra automaticamente em cada ação: criação de registro (quem criou, quando, dados iniciais), edição (quem editou, quando, valores anteriores vs novos), visualização de dados sensíveis (quem visualizou, quando, qual campo) | Qualquer ação (CREATE, UPDATE, GET) + contexto de autenticação | Interceptação de requisições (middleware), extração de ID de usuário, timestamp, IP, operação realizada, dados afetados, persistência em tabela audit_logs com index em user_id + action_date | Logs estruturados em BD (imutáveis): `{audit_id, user_id, action, resource_id, timestamp, ip_origem, dados_anteriores?, dados_novos?}` | Logs não editáveis (somente INSERT); Retenção mínima 5 anos (RN013); Visualização restrita a admins | Alta | - | RN003, RN013, RN019 | GET `/logs` |
+| RF009 | Anonimização Irreversível | Sistema cria cópia de dados para exportação estatística, substitui nomes por hashes SHA-256, remove CPF/NIS/RG, mantém dados estruturados (idade, renda, vulnerabilidade), gera arquivo ou visualização anonimizada | Query com filtros (período, região, setor) | SELECT ... FROM chefe_da_familia JOIN ..., geração de UUID hash para cada registro, mapeamento hash-UUID armazenado separadamente (inacessível), agregação de dados | Arquivo CSV/JSON com colunas: hash_id, idade (calculada), renda_faixa, vulnerabilidades (flags), dados anonimizados | Hash irreversível → verificação SHA-256; Sem possibilidade de reverter; Conformidade LGPD | Média | - | RN014, RN005 | GET `/cadastros/exportar/anonimizado` |
+| RF010 | Controle de Acesso RBAC | Sistema valida token JWT ou sessão, identifica perfil (admin, gestor, agente), verifica permissão em cada endpoint antes de executar lógica, nega acesso com HTTP 401/403, registra tentativas de acesso negado | Token + ID de recurso solicitado | Middleware RBAC: extração de token, validação de assinatura, lookup em matriz de permissões (role × endpoint × campos), aplicação de filtros de dados visíveis | HTTP 200 com dados filtrados (se permitido) OU HTTP 401/403 (acesso negado) | Sem token → 401; Token inválido → 401; Perfil sem permissão → 403; Tentativas registradas em auditoria | Alta | US08 | RN005 | GET `/auth/perfil` |
+| RF011 | Sanitização/Padronização de Inputs | Sistema recebe dados em qualquer formato (CPF com pontos, nomes com acentos, telefones com parênteses), normaliza: CPF/NIS removendo máscaras (apenas dígitos), nomes em CAIXA ALTA sem acentos, telefones com apenas dígitos, persiste normalizado | Qualquer campo de entrada (formulário, API, importação) | Regex para remover máscaras, `toUpperCase()` para strings, `normalize().replace()` para acentos, persistência em formato normalizado | Dados armazenados em formato padrão; retorna ao usuário em formato legível | Validação CPF antes de normalizar; preservar formato original? Decidir com parceiro | Média | - | RN008, RN009 | POST `/cadastros/sanitizar` |
+| RF012 | Gestão de Completude | Sistema permite salvar cadastro com apenas campos mínimos (nome, data nascimento), marca `cadastro_completo=false`, permite recuperação do rascunho, agrega lista de campos pendentes, permite conclusão posterior | Dados parciais preenchidos | Validação de campos mínimos apenas, INSERT com status "incompleto", armazenamento em localStorage + BD, auto-save a cada 30s | Confirmação: `{salvo: true, status: 'incompleto', campos_pendentes: [...], resumo_id: UUID}` | Sem campos mínimos → erro; Incompleto > 30 dias → aviso de limpeza (LGPD) | Média | US06 | RN011 | PATCH `/cadastros/:id/rascunho` |
+| RF013 | Vínculo Familiar Único | Sistema agrupa registros de indivíduos em um núcleo familiar (tabela nucleo_familiar), valida que responsável tem 18+ anos (RN002), impede que mesmo indivíduo pertença a 2 núcleos (chave única em membro_nucleo), permite consultar todos os membros de um núcleo | ID do chefe (ChefeDaFamilia) + dados do núcleo (renda, tipo construção) | Validação de idade do chefe (data_nascimento), INSERT em nucleo_familiar, INSERT em membro_nucleo com chave composta (individuo_id, nucleo_familiar_id), validação de unicidade | Núcleo criado com UUID, lista de membros retornada | Chefe < 18 anos → erro; Mesmo indivíduo em 2 núcleos → erro 409; Núcleo sem chefe → erro | Alta | US01, US04 | RN002, RN012, RN007 | POST `/nucleos-familiares` |
+| RF014 | Gestão de Documentos | Sistema aceita upload de imagens (JPG, PNG) e PDFs, valida tipo MIME, valida tamanho (máx 5MB), vincula arquivo ao registro de indivíduo, armazena em storage (disco/S3), gera URL de acesso com token temporário | Arquivo (multipart/form-data) + ID do cadastro + tipo_documento (foto, comprovante, etc.) | Validação MIME (whitelist: image/jpeg, image/png, application/pdf), validação de tamanho < 5MB, upload para storage, INSERT em tabela documentos com referência ao cadastro, geração de URL com TTL | URL de acesso + metadados: `{documento_id: UUID, tipo: string, tamanho: int, url_acesso: string, expira_em: timestamp}` | Tipo inválido → 422; Tamanho > 5MB → 413; Max 10 arquivos por cadastro; Links expiram em 24h | Média | - | RN004, RN006 | POST `/cadastros/:id/documentos` |
+| RF015 | Busca Fonética/Fuzzy | Sistema recebe termo de busca, normaliza (remove acentos, maiúsculas), executa busca com algoritmo de semelhança (ex: Levenshtein distance), retorna nomes similares com score de relevância, ordena por score DESC | String de busca (nome parcial ou completo) | Normalização de entrada, aplicação de algoritmo fonético (ex: Metaphone ou Soundex), busca em índice full-text ou comparação em memória, cálculo de Levenshtein distance | Array de registros com score: `[{id, nome, score: 0.95}, {id, nome, score: 0.87}]` | Semelhança mínima > 70% para incluir no resultado; Busca acionada acima de 3 caracteres | Baixa | US07 | RN018 | GET `/cadastros/busca/fuzzy` |
 
 ### 3.1.2. Regras de Negócio (sprint 1, refinar até sprint 5)
 
@@ -509,49 +511,64 @@ Para garantir a qualidade, as histórias deste documento foram validadas utiliza
 | RN019 | **Alerta de Acesso:** Gerar log de alerta sempre que um usuário comum visualizar dados socioeconômicos restritos. | Média | RF004, RF008 |
 | RN020 | **Validação Cronológica:** O sistema deve impedir o registro de datas de nascimento futuras em relação à data atual. | Alta | RF001 |
 
-### 3.1.3. Requisitos Não Funcionais — 8 Eixos ISO/IEC 25010 (sprints 1 a 5)
+### 3.1.3. Requisitos Não Funcionais (sprints 1 a 5)
 
-| Eixo                     | Requisito | Métrica / Critério | Como atendido |
-|--------------------------|-----------|--------------------|---------------|
-| **USAB — Usabilidade** | O formulário de cadastro em campo deve ser operável com uma mão, em tela de no mínimo 5 polegadas, sem necessidade de scroll excessivo. | Máximo de 5 campos por tela; botões com altura mínima de 48px. | Interface mobile-first com stepper por etapas, campos agrupados por tema (dados pessoais, saúde, imóvel). |
-| **USAB — Usabilidade** | O sistema deve fornecer feedback visual imediato para erros de validação nos formulários. | Mensagem de erro exibida em menos de 500ms após submissão inválida. | Validação client-side com highlight no campo inválido e mensagem descritiva abaixo do input. |
-| **CONF — Confiabilidade** | O sistema deve manter os dados inseridos em campo mesmo em caso de perda de conexão. | Zero perda de dados em sessões com queda de rede; sincronização automática ao reconectar. | Armazenamento local temporário (localStorage ou IndexedDB) com fila de sincronização ao restabelecer conexão. |
-| **CONF — Confiabilidade** | Cadastros parciais (RF012) devem ser recuperáveis após fechamento acidental do navegador. | Rascunho salvo automaticamente a cada 30 segundos. | Auto-save periódico vinculado ao ID da sessão, com indicador visual de "salvo". |
-| **DES — Desempenho** | O carregamento inicial do formulário de campo deve ser rápido mesmo em redes 3G. | p95 < 5s em conexão simulada de 3G (1,6 Mbps). | Assets otimizados (lazy loading, compressão de imagens), bundle JS minificado. |
-| **DES — Desempenho** | O mapa de calor deve renderizar os pontos georreferenciados sem travar a interface. | p95 < 5s para renderização de até 1.000 pontos simultâneos no mapa. | Clustering de marcadores no front-end (ex: Leaflet.markercluster); paginação de dados na API. |
-| **SUP — Suportabilidade** | O sistema deve funcionar nos navegadores mais utilizados pelos agentes e gestores. | Compatível com Chrome 110+, Firefox 110+ e Safari 15+ em desktop e mobile. | Testes manuais de compatibilidade cross-browser nas sprints de entrega; evitar APIs experimentais. |
-| **SUP — Suportabilidade** | O código deve estar documentado para facilitar manutenção futura pela Defesa Civil ou outro time. | README completo com instruções de instalação, variáveis de ambiente e arquitetura; comentários em funções críticas. | Documentação mantida no repositório Git; diagrama ER do banco de dados incluído. |
-| **SEG — Segurança** | Dados pessoais sensíveis (CPF, saúde, composição familiar) devem trafegar de forma criptografada. | 100% das requisições via HTTPS; sem dados sensíveis expostos em URLs ou logs. | Certificado SSL ativo no servidor; dados sensíveis enviados apenas no corpo da requisição (POST/PUT), nunca em query params. |
-| **SEG — Segurança** | O acesso a endpoints sensíveis deve ser restrito por perfil (RF010 — RBAC). | Requisições sem token válido ou com perfil insuficiente retornam HTTP 401/403. | Middleware de autenticação e autorização aplicado nas rotas do back-end antes de qualquer lógica de negócio. |
-| **SEG — Segurança** | Logs de auditoria (RF008) devem ser imutáveis após criação. | Nenhum endpoint permite edição ou exclusão de registros de log. | Tabela de auditoria com permissão somente de INSERT no banco; sem rota de DELETE exposta. |
-| **CAP — Capacidade** | O sistema deve suportar o volume estimado de cadastros do município de Santo André. | Suportar até 10.000 registros de famílias sem degradação de performance nas buscas. | Índices no banco de dados nas colunas de busca frequente (CPF, setor de risco, bairro); queries otimizadas. |
-| **CAP — Capacidade** | O upload de documentos e fotos (RF014) deve ter limite definido para evitar sobrecarga. | Máximo de 5MB por arquivo; máximo de 10 arquivos por cadastro. | Validação de tamanho e tipo de arquivo no front-end e no back-end antes do armazenamento. |
-| **REST — Restrições Design** | A interface deve comunicar claramente o nível de urgência/prioridade de cada família cadastrada. | Famílias com perfil de alta vulnerabilidade (idosos, PCDs, gestantes) devem ter indicador visual distinto em todas as listagens. | Badges coloridos por nível de prioridade (vermelho/amarelo/verde) baseados nas regras de negócio do TAPI. |
-| **REST — Restrições Design** | O dashboard e o mapa devem ser legíveis em ambientes com alta luminosidade (uso externo). | Contraste mínimo de 4.5:1 entre texto e fundo (WCAG AA). | Paleta de cores validada com ferramenta de contraste; evitar uso exclusivo de cor para transmitir informação crítica. |
-| **ORG — Organizacionais** | O sistema não deve depender de serviços externos pagos para seu funcionamento básico. | Zero dependências de APIs externas pagas no fluxo crítico (cadastro, busca, mapa). | Uso de bibliotecas open-source (Leaflet para mapas, PostgreSQL para banco); tiles de mapa via OpenStreetMap. |
-| **ORG — Organizacionais** | O projeto deve estar em conformidade com a LGPD durante todo o desenvolvimento. | Dados reais de munícipes não utilizados em ambiente de desenvolvimento ou repositório público; dados de teste sempre fictícios ou anonimizados. | Uso exclusivo de dados fictícios nos seeds do banco; variáveis de ambiente para credenciais; repositório privado durante o projeto. |
+| Eixo                     | ID | Requisito | Métrica / Critério | Justificativa | Como atendido |
+|--------------------------|----|-----------|-------------------|--------------|----------------|
+| **USAB — Usabilidade** | RNF001 | O formulário de cadastro em campo deve ser operável com uma mão, em tela de no mínimo 5 polegadas, sem necessidade de scroll excessivo. | Máximo de 5 campos por tela; botões com altura mínima de 48px; campo touch sem precisão excessiva. | Agentes em campo trabalham em condições adversas (chuva, movimento, mobilidade reduzida); interface mobile-first reduz erros. | Interface mobile-first com stepper por etapas, campos agrupados por tema (dados pessoais, saúde, imóvel), botões adaptados. |
+| **USAB — Usabilidade** | RNF002 | O sistema deve fornecer feedback visual imediato para erros de validação nos formulários. | Mensagem de erro exibida em menos de 500ms após submissão inválida; destaque colorido no campo (vermelho WCAG AA). | Feedback rápido reduz ansiedade e retrabalho em campo com conexão intermitente. | Validação client-side com highlight no campo inválido e mensagem descritiva abaixo do input. |
+| **USAB — Usabilidade** | RNF003 | O sistema deve indicar claramente quais campos são obrigatórios vs. opcionais. | 100% dos campos com label explícita: asterisco (*) para obrigatórios, "(opcional)" para opcionais; testado em testes de usabilidade. | Ambiguidade causa retrabalho e aumenta tempo de cadastro em campo; clareza melhora completude dos registros (RF012). | Labels com asteriscos, tooltips explicativos, indicadores visuais distintos. |
+| **CONF — Confiabilidade** | RNF004 | O sistema deve manter os dados inseridos em campo mesmo em caso de perda de conexão. | Zero perda de dados em sessões com queda de rede; sincronização automática ao reconectar em até 60s; validação de integridade. | Agentes trabalham em áreas de conectividade intermitente (encostas, favelas); perda de dados compromete missão. | Armazenamento local temporário (localStorage ou IndexedDB) com fila de sincronização, checksums para validar integridade. |
+| **CONF — Confiabilidade** | RNF005 | Cadastros parciais (RF012) devem ser recuperáveis após fechamento acidental do navegador. | Rascunho salvo automaticamente a cada 30 segundos de inatividade; persistência mínima 7 dias; indicador visual de "salvo". | Agentes podem fechar navegador acidentalmente em campo; perda compromete jornada de trabalho. | Auto-save periódico vinculado ao ID da sessão, com indicador visual de "salvo", recuperação ao reiniciar. |
+| **CONF — Confiabilidade** | RNF006 | O sistema deve ter disponibilidade mínima de 99% durante jornadas de trabalho (horário comercial). | Uptime 99% medido mensalmente; tempo de resposta p99 < 2s em operações críticas; RTO 1 hora, RPO 15 min. | Sistema governamental social: falhas impedem atendimento a população em risco; confiabilidade é crítica para legitimidade. | Infraestrutura redundante, health checks, alertas automáticos, backup incremental a cada 15 minutos. |
+| **DES — Desempenho** | RNF007 | O carregamento inicial do formulário de cadastro deve ser rápido mesmo em redes 3G. | p95 < 5 segundos em conexão simulada de 3G (1,6 Mbps); p50 < 2s em 4G (10 Mbps). | Agentes em campo podem ter apenas 3G; formulário pesado causa abandono e perda de produtividade. | Assets otimizados (lazy loading, compressão de imagens WebP), bundle JS minificado (< 200KB gzipped). |
+| **DES — Desempenho** | RNF008 | A interface deve responder a interações do usuário em tempo real sem travamentos. | Tempo de resposta < 300ms para cliques e inputs; atualização de UI em 60 FPS; sem bloqueios de thread principal. | Interface travada prejudica experiência do agente em campo e afeta tomada de decisão em crise. | Debouncing em inputs, virtualização de listas longas, Web Workers para processamento pesado. |
+| **DES — Desempenho** | RNF009 | Buscas multi-filtro devem retornar resultados em até 5 segundos mesmo com 10.000+ registros. | p95 < 5 segundos; índices em colunas de busca frequente (CPF, bairro, setor); prepared statements para evitar N+1. | Gestora (Cláudia) precisa filtrar em tempo real durante crise; busca lenta impacta decisão crítica. | Índices no banco de dados (CPF, NIS, bairro, setor_risco, data_registro); query optimization; result caching 5 min. |
+| **SUP — Suportabilidade** | RNF010 | O sistema deve funcionar nos navegadores mais utilizados pelos agentes e gestores. | Compatível com Chrome 110+, Firefox 110+ e Safari 15+ em desktop e mobile; suporte a iOS 14+ e Android 10+. | Defesa Civil usa dispositivos variados; compatibilidade garante inclusão de todos os agentes sem exclusão. | Testes manuais de compatibilidade cross-browser nas sprints; progressive enhancement; polyfills para APIs antigas. |
+| **SUP — Suportabilidade** | RNF011 | O código deve estar documentado para facilitar manutenção futura pela Defesa Civil ou outro time. | README completo com instruções de instalação, variáveis de ambiente e arquitetura; comentários em funções críticas; API OpenAPI/Swagger. | Projeto acadêmico: após conclusão, Defesa Civil deve conseguir manter código sem desenvolvedores originais. | Documentação no repositório Git, diagrama ER, API Swagger gerada automaticamente, exemplos de uso. |
+| **SUP — Suportabilidade** | RNF012 | Funcionalidades novas devem ser integradas sem interromper serviço (zero downtime deployments). | Deploy em hot-standby; rollback automático se health check falha; testes de smoke suite rodarem pré-deploy. | Sistema de gestão de crise: indisponibilidade durante downtime prejudica resposta operacional. | Blue-green deployment, feature flags para rollout gradual, health checks contínuos. |
+| **SEG — Segurança** | RNF013 | Todas as requisições HTTP devem usar HTTPS com TLS 1.2+. | 100% HTTPS; certificado válido e renovado automaticamente; redireção de HTTP → HTTPS; HSTS header ativo. | Dados sensíveis (CPF, saúde, renda) podem ser interceptados em rede aberta; conformidade com LGPD. | Certificado SSL letsencrypt com renovação automática, strict HSTS policy (1 ano), cipher suites modernas. |
+| **SEG — Segurança** | RNF014 | Dados sensíveis (CPF, saúde, renda) nunca devem aparecer em URLs, query params ou logs não-cifrados. | Validação 100% em POST/PUT body; logs mascarados (CPF: ****1234); auditoria de violações. | Dados podem ser capturados em logs de proxy/balanceador; requisições GET são logadas mais frequentemente. | Dados sensíveis apenas em body (POST/PUT), middleware para mascarar logs, validação em pre-request hook. |
+| **SEG — Segurança** | RNF015 | Controle de acesso (RBAC) deve ser aplicado antes de qualquer lógica de negócio em endpoints sensíveis. | Middleware de autenticação/autorização rodando primeiro; requisições sem permissão retornam 403 ANTES de tocar dados. | Frontend pode ser bypassado; segurança deve estar no backend; data exposure por autorização fraca causa vazamento de dados sensíveis. | Middleware RBAC em Express/NestJS antes de controllers, matriz de permissões explícita, testes de acesso negado. |
+| **SEG — Segurança** | RNF016 | Senhas de usuários devem ser criptografadas com hash bcrypt cost ≥ 12 ou Argon2. | Nunca salvar senha em texto plano; bcrypt cost=12 (≈260ms por hash); Argon2id (memory=65535, time=2). | Banco de dados comprometido: senhas fracas resultam em contas tomadas; hash forte desestimula força bruta. | Hash bcrypt com cost dinâmico, nunca session cookie com senha, JWT com TTL 15 min + refresh token 7 dias. |
+| **SEG — Segurança** | RNF017 | Logs de visualização de dados sensíveis (renda, saúde, CPF) devem ser auditados e retidos por 5 anos mínimo. | Tabela audit_logs imutável (somente INSERT); logs incluem user_id, timestamp, IP origem, campo acessado, ação; retenção 5+ anos. | LGPD artigo 5 II: Defesa Civil deve rastrear acesso a dados sensíveis; auditoria serve como comprovação de conformidade. | Tabela separada audit_logs com constraint UNIQUE na combinação (user_id, resource_id, action, timestamp), backup diário. |
+| **SEG — Segurança** | RNF018 | Exclusão de dados (RF007) deve ser justificada, autenticada com senha de supervisor e registrada como evento imutável. | Hard delete exige: justificativa > 20 caracteres + senha válida de supervisor; ação registrada em log_exclusoes (sem soft delete possível). | LGPD permite exclusão (direito ao esquecimento); mas deve haver trilha auditável; supervisor autoriza/valida legitimidade. | Endpoint DELETE requer justificativa textual, senha supervisora hash, registro em tabela log_exclusoes separada e imutável. |
+| **SEG — Segurança** | RNF019 | Tokens de sessão/JWT devem ter TTL (time-to-live) bem definido e usar refresh tokens para sessões longas. | Access token: 15 minutos; Refresh token: 7 dias com rotate-on-use; sessão: max 8 horas mesmo com refresh ativo. | Tokens roubados com TTL longo = conta comprometida por horas; refresh token permite sessão sem manter tokens longevos em memória. | JWT com sub, iat, exp; middleware verifica exp antes de aceitar; refresh token endpoint requer identidade validada novamente. |
+| **SEG — Segurança** | RNF020 | Arquivo com dados sensíveis exportados (RF009) devem ser anonimizados de forma irreversível com hash SHA-256. | Cada registro recebe UUID hash único; CPF/NIS/RG removidos; mapeamento hash→ID armazenado separadamente; sem possibilidade reversa. | Auditor pode pedir cópia dos dados; anonimização irreversível garante LGPD; hash SHA-256 é criptograficamente seguro. | SHA-256 em Node.js `crypto.createHash()`, mapeamento armazenado cifrado com chave separada, nunca exportado junto. |
+| **SEG — Segurança** | RNF021 | Falhas de autenticação (login inválido, token expirado, RBAC denied) devem ser registradas com IP, user agent, tentativa. | Log de falha: IP origem, user_agent, endpoint tentado, motivo (invalid_password, expired_token, insufficient_scope); alerta em >5 falhas/min/IP. | Prevenção contra força bruta; detecção de ataques; conformidade com log de auditoria. | Middleware de logging de falhas, CloudFlare Rate Limiting ou similar, alertas em Grafana/Datadog. |
+| **SEG — Segurança** | RNF022 | Dados em repouso no banco de dados devem ser criptografados com AES-256 para campos sensíveis. | Criptografia AES-256 para: CPF, NIS, renda, dados de saúde; chave mestra armazenada em secret manager (Vault, AWS Secrets Manager). | Banco de dados físico comprometido: dados sensíveis não são legíveis sem chave mestra. | PostgreSQL pgcrypto extension ou application-level encryption (NestJS/TypeORM hooks). |
+| **SEC — Segurança** | RNF023 | Backup do banco de dados deve ser feito automaticamente a cada 15 minutos, criptografado e armazenado offline. | Backup incremental a cada 15 min; backup full diário; armazenamento offline (S3 cross-region ou tape archive); RPO = 15 min, RTO = 1 hora. | Perda de dados de população vulnerável = prejuízo social; conformidade com LGPD (direito à informação íntegra). | AWS RDS automated backups + S3 replication, PostgreSQL WAL archiving, testes de restore mensais. |
+| **CAP — Capacidade** | RNF024 | O sistema deve suportar o volume estimado de cadastros do município de Santo André sem degradação de performance. | Suportar até 10.000 núcleos familiares (40.000 indivíduos); buscas em p95 < 5s em 10k registros simultâneos. | Santo André: ~70.000 habitantes em áreas de risco; 1-2 indivíduos por núcleo estimado = 10-20k registros; segurança de escala. | Índices no banco de dados, sharding se necessário, cache em Redis, CDN para assets estáticos. |
+| **CAP — Capacidade** | RNF025 | Upload de documentos (RF014) deve suportar até 10 arquivos por cadastro, máximo 5MB cada, máximo 500MB por usuário. | Limite: 10 arquivos/cadastro, 5MB/arquivo, 500MB/usuário/mês; validação no front-end e back-end; quota tracking. | Armazenamento em nuvem é finito; limites protegem contra abuso e garantem sustentabilidade operacional. | Validação multipart form-data, middleware de tamanho, AWS S3 with lifecycle policies, quota tracking em BD. |
+| **REST — Restrições Design** | RNF026 | A interface deve comunicar claramente o nível de urgência/prioridade de cada família cadastrada. | Famílias com perfil de alta vulnerabilidade (idosos, PCDs, gestantes) devem ter indicador visual distinto (cores/ícones) em todas as listagens. | Defesa Civil prioriza por vulnerabilidade; interface clara = decisão rápida em emergência. | Badges coloridos por nível de prioridade (vermelho=MUITO_ALTO, amarelo=ALTO, verde=MÉDIO), ícones supplementais. |
+| **REST — Restrições Design** | RNF027 | O dashboard deve ser legível em ambientes com alta luminosidade (uso externo). | Contraste mínimo 4.5:1 entre texto e fundo (WCAG AA nível); fontes sem serif, tamanho mínimo 16px em mobile; sem uso exclusivo de cor. | Agentes em campo sob sol forte; baixo contraste = informação ilegível = erro operacional. | Paleta de cores validada com Webaim Contrast Checker, fontes San Francisco/Roboto, testes de legibilidade em brightness > 500 lux. |
+| **ORG — Organizacionais** | RNF028 | O sistema não deve depender de serviços externos pagos para funcionamento crítico. | Zero dependências de APIs externas pagas em: cadastro, busca, autenticação, armazenamento de dados estruturados. | Orçamento público limitado; APIs pagas = custo operacional permanente; open-source garante sustentabilidade. | PostgreSQL (BD), JWT (auth), open-source stack. |
+| **ORG — Organizacionais** | RNF029 | O projeto deve estar em conformidade com a LGPD durante todo o desenvolvimento e após lançamento. | Dados reais de munícipes não utilizados em desenvolvimento/repositório público; dados de teste sempre fictícios ou anonimizados; conformidade verificada em sprint 5. | LGPD é lei federal brasileira; não-conformidade = multa até 2% do faturamento; Defesa Civil pode ser responsabilizada. | Dados fictícios nos seeds do banco, variáveis de ambiente para produção, repositório privado, DPA (Data Processing Agreement), PIA (Privacy Impact Assessment). |
+| **ORG — Organizacionais** | RNF030 | A solução deve ser mantível pela Defesa Civil ou por terceiros sem depender de time original. | Código documentado, arquitetura clara, ausência de débito técnico crítico, CI/CD setup, runbooks para operação. | Projeto acadêmico: após conclusão, Defesa Civil não pode depender de estudantes; sustentabilidade operacional é obrigatória. | Documentação completa, testes automatizados, infrastructure-as-code, runbooks para troubleshooting, handover com sprint 5. |
 
-### 3.1.4. Matriz RF → RN → Endpoint (sprints 3 a 5)
+### 3.1.4. Matriz de Rastreabilidade Completa: RF ↔ US ↔ RN ↔ Endpoint (sprints 1 a 5)
 
-Matriz de cobertura mostrando quais RN e endpoints implementam cada RF.
+**Objetivo:** Demonstrar que cada Requisito Funcional (RF) está rastreado até User Stories (US), ligado a Regras de Negócio (RN) e mapeado para Endpoints da API, garantindo cobertura completa e evitar lacunas.
 
-| RF | RN Associadas | Endpoint | Método |
-|---|---|---|---|
-| RF001 | RN017, RN020 | `/cadastros` | POST |
-| RF002 | RN001, RN017 | `/cadastros/verificar-duplicidade` | POST |
-| RF003 | RN015, RN008, RN009 | `/cadastros/:id` | PUT |
-| RF004 | RN005, RN019 | `/cadastros/:id` | GET |
-| RF005 | RN016, RN018 | `/cadastros/busca` | GET |
-| RF006 | RN007 | `/cadastros/:id/inativar` | PATCH |
-| RF007 | RN010 | `/cadastros/:id` | DELETE |
-| RF008 | RN003, RN013, RN019 | `/logs` | GET |
-| RF009 | RN014 | `/cadastros/exportar/anonimizado` | GET |
-| RF010 | RN005 | `/auth/perfil` | GET |
-| RF011 | RN008, RN009 | `/cadastros/sanitizar` | POST |
-| RF012 | RN011 | `/cadastros/:id/rascunho` | PATCH |
-| RF013 | RN002, RN012, RN007 | `/nucleos-familiares` | POST |
-| RF014 | RN004, RN006 | `/cadastros/:id/documentos` | POST |
-| RF015 | RN018 | `/cadastros/busca/fuzzy` | GET |
+| RF | US Associada | RN Associadas | Endpoint | Método | Status | Observação |
+|----|----|----|----|----|----|-----|
+| RF001 | US01 | RN017, RN020 | `/cadastros` | POST | Planejado | Validação de CPF (RN017) + data não-futura (RN020) obrigatória no endpoint |
+| RF002 | US02 | RN001, RN017, RN009 | `/cadastros/verificar-duplicidade` | POST | Planejado | Verifica unicidade de CPF/NIS (RN001) com normalização (RN009) |
+| RF003 | US03 | RN015, RN008, RN009, RN005 | `/cadastros/:id` | PUT | Planejado | Pode ser bloqueado se em auditoria (RN015), normaliza strings (RN008/RN009), controle de acesso (RN005) |
+| RF004 | US08 | RN005, RN019, RN013 | `/cadastros/:id` | GET | Planejado | Filtra campos sensíveis por perfil (RN005), registra visualização de dados sensíveis (RN019), retenção 5 anos (RN013) |
+| RF005 | US07 | RN016, RN018, RN005 | `/cadastros/busca` | GET | Planejado | Considera vulnerabilidade (RN016), busca fonética (RN018), retorna apenas dados permitidos (RN005) |
+| RF006 | US06 | RN007, RN003 | `/cadastros/:id/inativar` | PATCH | Planejado | Inativação por óbito (RN007) registrada em logs imutáveis (RN003) |
+| RF007 | - | RN010, RN003 | `/cadastros/:id` | DELETE | Planejado | Requer justificativa + senha supervisor (RN010), registra em log_exclusoes imutável (RN003) |
+| RF008 | - | RN003, RN013, RN019 | `/logs` | GET | Planejado | Logs imutáveis (RN003), retenção 5 anos (RN013), alerta de acesso sensível (RN019) |
+| RF009 | - | RN014, RN005 | `/cadastros/exportar/anonimizado` | GET | Planejado | Anonimização irreversível com hash SHA-256 (RN014), sem exposição de dados sensíveis (RN005) |
+| RF010 | US08 | RN005 | `/auth/perfil` | GET | Planejado | RBAC valida permissão em cada acesso (RN005) |
+| RF011 | - | RN008, RN009 | `/cadastros/sanitizar` | POST | Planejado | Normaliza strings (RN008) e remove máscaras de documentos (RN009) |
+| RF012 | US06 | RN011 | `/cadastros/:id/rascunho` | PATCH | Planejado | Auto-save de cadastros incompletos (RN011), marca status como "incompleto" |
+| RF013 | US01, US04 | RN002, RN012, RN007 | `/nucleos-familiares` | POST | Planejado | Valida maioridade do responsável (RN002), garante vínculo único (RN012), trata óbito (RN007) |
+| RF014 | - | RN004, RN006 | `/cadastros/:id/documentos` | POST | Planejado | Valida apenas PDF, JPG, PNG (RN004), máximo 5MB por arquivo (RN006) |
+| RF015 | US07 | RN018 | `/cadastros/busca/fuzzy` | GET | Planejado | Busca fonética com Levenshtein distance (RN018), retorna nomes similares com score |
+
+---
 
 ## 3.2. Arquitetura (sprints 1 a 5)
 
@@ -580,7 +597,7 @@ Este caso de uso é o alicerce do mapeamento socioestrutural.
 
 
 <div align="center">
-  <p>Figura 05: Diagrama do Caso de Uso 1</p>
+  <p>Figura 06: Diagrama do Caso de Uso 1</p>
   <img src="../assets/figura4-Diagrama-casosdeuso1.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -604,7 +621,7 @@ Este caso de uso é o coração do sistema, permitindo que a Defesa Civil alimen
   - << extend >>: Anexar Fotos da Ocorrência (opcional, ocorre conforme a disponibilidade de mídia).
 
 <div align="center">
-  <p>Figura 06: Diagrama do Caso de Uso 2</p>
+  <p>Figura 07: Diagrama do Caso de Uso 2</p>
   <img src="../assets/figura5-Diagrama-casosdeuso2.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
@@ -627,18 +644,419 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
   - << extend >>: Exportar para PDF/Excel (opcional, caso o gestor precise do documento fora do sistema).
 
 <div align="center">
-  <p>Figura 07: Diagrama do Caso de Uso 3</p>
+  <p>Figura 08: Diagrama do Caso de Uso 3</p>
   <img src="../assets/figura6-Diagrama-casosdeuso3.png" width="800">
   <p>Fonte: Material produzido pelos autores (2026)</p>
 </div>
 
-### 3.2.3. Diagrama de Classes do Domínio (sprint 2)
+### 3.2.3. Diagrama de Classes do Domínio
 
-*Diagrama UML de classes com entidades, atributos, relacionamentos e responsabilidades. Diferencie **associação**, **agregação** (losango vazio), **composição** (losango cheio) e **herança** (triângulo vazio). Multiplicidade explícita em toda associação.*
+### Introdução
+
+Este documento descreve o modelo de domínio do sistema de cadastro de campo da Defesa Civil, organizado em torno das entidades que representam famílias, indivíduos, localização geográfica e setores de risco. O diagrama de classes captura as estruturas de dados, seus relacionamentos e as regras de negócio que governam o cadastro e o acompanhamento de núcleos familiares em situação de vulnerabilidade.
+
+O modelo é composto por sete entidades principais: **ChefeDaFamilia** (pessoa física responsável ou membro do núcleo), **NucleoFamiliar** (domicílio e grupo familiar), **MembroNucleo** (classe de associação entre ChefeDaFamilia e NucleoFamiliar), **Vulnerabilidade** (composição de NucleoFamiliar), **Localizacao** (ponto georreferenciado do domicílio, composição de NucleoFamiliar), **SetorRisco** (entidade administrativa pré-cadastrada pela Defesa Civil), **Agente** (servidor que realiza cadastros) e **Equipe** (grupo operacional de agentes).
+
+Campos marcados com `{restrito}` estão sujeitos a controle de acesso por perfil (RN005) e envolvem dados sensíveis sob a LGPD. Campos marcados com `{unique}` possuem restrição de unicidade no banco de dados (RN001). Campos marcados com `[0..1]` são opcionais, permitindo cadastro parcial (RF012, RN011).
+
+---
+
+### Legenda de Notação
+
+**Relacionamentos UML:**
+
+- `*--` Composição (losango cheio): a parte não existe sem o todo
+- `o--` Agregação (losango vazio): a parte existe independentemente do todo
+- `-->` Associação direta: vínculo com navegabilidade entre classes
+- `..` Classe de associação (linha tracejada): registra atributos do próprio vínculo
+- `..>` Dependência: uso de tipo enumerado
+- `<|--` Herança (triângulo vazio): a subclasse é um tipo da superclasse — **não utilizada neste modelo** (ver seção Decisões de Modelagem)
+
+**Marcações nos atributos:**
+
+- `{restrito}` — acesso restrito a perfil autorizado (RN005)
+- `{unique}` — unicidade garantida no banco de dados (RN001)
+- `[0..1]` — campo opcional
+- `FK` — chave estrangeira
+
+---
+
+### Diagrama UML de Classes
+
+```mermaid
+classDiagram
+    direction TB
+
+    class ChefeDaFamilia {
+        +UUID id
+        +String nome
+        +String cpf
+        +String nis
+        +String rg
+        +Date dataNascimento
+        +String localNascimento
+        +String genero
+        +CorRacaEnum corRaca
+        +EstadoCivilEnum estadoCivil
+        +String profissao
+        +String nomeMae
+        +String nomePai
+        +String telefone1
+        +String telefone2
+        +String email
+        +EscolaridadeEnum escolaridade
+        +SitOcupEnum ocupacao
+        +Decimal renda
+        +String fotoUrl
+        +StatusIndEnum status
+        +DateTime dataRegistro
+    }
+
+    class NucleoFamiliar {
+        +UUID id
+        +String regiao_ficha
+        +String video_responsavel
+        +INT tempo_construcao
+        +TipoConstrEnum tipo_construcao
+        +INT tempo_terreno
+        +UsoImovelEnum uso_imovel
+        +Decimal renda_familiar
+        +Boolean cadastro_completo
+        +DateTime data_registro
+    }
+
+    class MembroNucleo {
+        +UUID individuo_id
+        +UUID nucleo_familiar_id
+        +String vinculo_familiar
+        +String grau_parentesco
+        +EscolaridadeEnum escolaridade
+        +SitOcupEnum ocupacao
+        +Decimal renda
+    }
+
+    class Vulnerabilidade {
+        +UUID nucleo_familiar_id
+        +Boolean doenca_idoso
+        +Boolean doenca_crianca
+        +Boolean doenca_cronica
+        +Boolean gestante
+        +Boolean lactante
+        +Boolean pcd
+        +Boolean deficiencia
+        +Boolean restrito
+    }
+
+    class Localizacao {
+        +UUID id
+        +Decimal latitude
+        +Decimal longitude
+        +UUID setor_risco_id
+        +String logradouro
+        +String numero
+        +String complemento
+        +String bairro
+        +String cidade
+        +String cep
+        +String referencia
+        +UUID nucleo_familiar_id
+    }
+
+    class SetorRisco {
+        +UUID id
+        +String codigo
+        +NivelRiscoEnum nivel_risco
+    }
+
+    ChefeDaFamilia "1" -- "*" NucleoFamiliar
+
+    NucleoFamiliar "1" -- "*" MembroNucleo
+
+    NucleoFamiliar "1" *-- "1" Vulnerabilidade
+
+    NucleoFamiliar "1" *-- "1" Localizacao
+
+    SetorRisco "0..1" <-- "*" Localizacao
+```
+
+---
+
+### Alternativa com Herança — Por Que Foi Descartada
+
+Durante a modelagem, avaliou-se o uso de herança para distinguir o responsável do núcleo dos demais membros. O diagrama abaixo ilustra como seria essa estrutura:
+
+```mermaid
+classDiagram
+    direction TB
+
+    class Pessoa {
+        +UUID id
+        +String nome
+        +Date dataNascimento
+        +String cpf
+        +StatusIndEnum status
+    }
+
+    class Responsavel {
+        +String cargo
+    }
+
+    class Membro {
+        +String grauParentesco
+        +EscolaridadeEnum escolaridade
+    }
+
+    Pessoa <|-- Responsavel : herda
+    Pessoa <|-- Membro : herda
+```
+
+Essa abordagem foi descartada por três razões:
+
+**1. Responsável e membro não são tipos distintos de pessoas.** Em UML, herança representa uma relação "é um tipo de": a subclasse herda todos os atributos da superclasse e adiciona os seus próprios. `Responsavel` e `Membro` compartilham exatamente os mesmos atributos de identificação civil — não há nenhum atributo exclusivo que justifique criar tipos distintos.
+
+**2. O papel é contextual, não permanente.** A mesma pessoa pode ser responsável em um núcleo e membro dependente em outro contexto futuro. Herança fixa um tipo para a entidade, o que não reflete essa flexibilidade operacional.
+
+**3. Subclasses vazias geram tabelas desnecessárias no banco.** Criar duas tabelas com estrutura idêntica apenas para representar um papel violaria o princípio de responsabilidade única e complicaria consultas e migrações.
+
+**A solução adotada** foi manter uma única classe `ChefeDaFamilia` (que representa qualquer pessoa cadastrada no núcleo) e usar a classe de associação `MembroNucleo` para registrar o papel e os atributos específicos do vínculo de cada pessoa com o núcleo. O campo de responsável em `NucleoFamiliar` é apenas uma referência com restrição de maioridade (RN002), não um tipo diferente de entidade.
+
+---
+
+### Decisões de Modelagem e Justificativas
+
+**Classe de associação MembroNucleo**
+
+Em UML, uma classe de associação existe quando o vínculo entre duas entidades possui atributos próprios que não pertencem a nenhuma das duas classes isoladas. `MembroNucleo` representa exatamente isso: `grau_parentesco`, `escolaridade`, `ocupacao` e `renda` descrevem a relação de uma pessoa com um núcleo específico, não características permanentes dela. A chave composta `individuo_id + nucleo_familiar_id` garante unicidade do par e implementa RN012, que impede que um indivíduo pertença a dois núcleos simultaneamente. O campo `vinculo_familiar` foi adicionado no DER v2 para registrar o tipo de vínculo (filho, cônjuge etc.) de forma separada do grau de parentesco formal.
+
+**Composição de Vulnerabilidade em NucleoFamiliar**
+
+`Vulnerabilidade` é modelada como composição de `NucleoFamiliar` (losango cheio). A composição expressa dependência total de ciclo de vida: a parte não existe sem o todo. Os flags de vulnerabilidade descrevem condições do núcleo familiar como unidade de cadastro — se o núcleo for removido, sua vulnerabilidade deixa de existir. Isso difere do modelo anterior, em que `Vulnerabilidade` era composição de `Individuo`; a mudança reflete que o registro de triagem é feito por núcleo, não por pessoa individualmente.
+
+**Composição de Localizacao em NucleoFamiliar**
+
+`Localizacao` é composição de `NucleoFamiliar` (losango cheio). O ponto georreferenciado identifica o domicílio como unidade do cadastro de campo e não possui significado operacional fora desse contexto. Como cada domicílio tem exatamente um ponto georreferenciado vinculado ao núcleo e esse ponto não é compartilhado com outros núcleos, a composição é o relacionamento correto. O campo `cidade` foi adicionado no DER v2.
+
+**Agregação de SetorRisco em Localizacao**
+
+`SetorRisco` é modelado como agregação (losango vazio) de `Localizacao`. Setores de risco são entidades pré-cadastradas pela Defesa Civil com existência própria: um setor pode existir sem nenhum domicílio associado, e um domicílio pode não estar classificado em nenhum setor (campo opcional). A composição seria incorreta aqui porque excluir uma localização não deve excluir o setor de risco correspondente.
+
+**Agregação de Agente em Equipe**
+
+Agentes existem independentemente de equipes (agregação, losango vazio). Um agente pode ser desvinculado de uma equipe e permanecer ativo no sistema, pois tem histórico de cadastros vinculados individualmente (RF008). A restrição de que um agente não pode estar em mais de uma equipe ativa simultaneamente é garantida por regra de negócio, não por composição.
+
+**Campos opcionais e cadastro parcial**
+
+A quantidade de campos opcionais reflete a realidade operacional do trabalho em campo com conectividade limitada. RF012 determina que o sistema aceita cadastros incompletos. Os campos mínimos obrigatórios são `nome` e `dataNascimento` em `ChefeDaFamilia`, e `latitude` e `longitude` em `Localizacao`. O campo `cadastro_completo` em `NucleoFamiliar` sinaliza ao sistema quando um registro aguarda complementação (RN011).
+
+**video_responsavel e tempo_terreno**
+
+Dois campos adicionados no DER v2 que não estavam no modelo anterior. `video_responsavel` permite registrar um vídeo de identificação do responsável, útil para validação posterior. `tempo_terreno` complementa `tempo_construcao` ao registrar há quanto tempo o terreno é ocupado, independentemente da construção existente — dado relevante para avaliação de risco.
+
+**Controle de acesso**
+
+Os campos marcados com `{restrito}` envolvem dados sensíveis sob o artigo 5, inciso II da LGPD: cor e raça, filiação, renda, condição de gestante ou lactante e tipo de deficiência. Todos os identificadores primários são UUIDs gerados automaticamente para evitar colisões em sincronizações offline.
+
+---
+
+### Dicionário de Dados
+
+### ChefeDaFamilia
+
+Pessoa física cadastrada — responsável ou membro do núcleo familiar.
+
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|---|---|---|---|---|
+| id | UUID | Sim | Gerado automaticamente | Chave primária |
+| nome | String | Sim | Texto livre, máx. 200 | Campo mínimo para cadastro parcial (RF012) |
+| cpf | String | Não | 11 dígitos numéricos | `{unique}` quando presente (RN001) |
+| nis | String | Não | 11 dígitos numéricos | `{unique}` quando presente (RN001) |
+| rg | String | Não | Texto livre + UF emissora | |
+| dataNascimento | Date | Sim | ISO 8601 | Campo mínimo; base para flags de vulnerabilidade |
+| localNascimento | String | Não | Texto livre | |
+| genero | String | Não | Texto livre | |
+| corRaca | CorRacaEnum | Não | BRANCA, PRETA, PARDA, AMARELA, INDIGENA | `{restrito}` dado sensível art. 5 II LGPD, categorias IBGE |
+| estadoCivil | EstadoCivilEnum | Não | SOLTEIRO, CASADO, UNIAO_ESTAVEL, DIVORCIADO, VIUVO | |
+| profissao | String | Não | Texto livre | |
+| nomeMae | String | Não | Texto livre, máx. 200 | `{restrito}` finalidade: antiduplicidade quando CPF ausente |
+| nomePai | String | Não | Texto livre, máx. 200 | `{restrito}` finalidade: antiduplicidade quando CPF ausente |
+| telefone1 | String | Não | Formato livre, máx. 20 | Exibido em destaque na ocorrência |
+| telefone2 | String | Não | Formato livre, máx. 20 | Contato secundário |
+| email | String | Não | Formato e-mail | |
+| escolaridade | EscolaridadeEnum | Não | SEM_INSTRUCAO até SUPERIOR | |
+| ocupacao | SitOcupEnum | Não | EMPREGADO até SEM_RENDA | |
+| renda | Decimal | Não | Valor em R$ | `{restrito}` LGPD |
+| fotoUrl | String | Não | URL interna | `{restrito}` consentimento registrado no ato (LGPD) |
+| status | StatusIndEnum | Sim | ATIVO, INATIVO, OBITO | Padrão ATIVO |
+| dataRegistro | DateTime | Sim | Gerado automaticamente | |
+
+Campos mínimos para cadastro parcial (RF012, RN011): `nome` e `dataNascimento`. Antiduplicidade: CPF resolve sozinho quando presente; quando ausente, usa-se alerta de similaridade (online) e foto sugerida.
+
+---
+
+### Vulnerabilidade
+
+Composição de NucleoFamiliar — não existe sem ele. Todos os flags verdadeiros são exibidos como alertas visuais na ficha de atendimento, indicando prioridade de triagem.
+
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|---|---|---|---|---|
+| doenca_idoso | Boolean | Sim | true / false | Condição relacionada a idoso no núcleo |
+| doenca_crianca | Boolean | Sim | true / false | Condição relacionada a criança no núcleo |
+| doenca_cronica | Boolean | Sim | true / false | Presença de doença crônica no núcleo |
+| gestante | Boolean | Sim | true / false | `{restrito}` dado sensível LGPD |
+| lactante | Boolean | Sim | true / false | `{restrito}` dado sensível LGPD |
+| pcd | Boolean | Sim | true / false | Pessoa com deficiência no núcleo |
+| deficiencia | Boolean | Sim | true / false | Flag complementar de deficiência |
+| restrito | Boolean | Sim | true / false | Indica se o registro contém dados de acesso restrito |
+| nucleo_familiar_id | UUID | Sim | FK para NucleoFamiliar | Chave estrangeira de composição |
+
+---
+
+### NucleoFamiliar
+
+Domicílio e grupo familiar — unidade central de cadastro de campo.
+
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|---|---|---|---|---|
+| id | UUID | Sim | Gerado automaticamente | Chave primária |
+| regiao_ficha | String | Sim | Gerado pelo sistema | Referência para ficha física SDUH |
+| video_responsavel | String | Não | URL interna | Vídeo de identificação do responsável |
+| tempo_construcao | INT | Não | Anos (inteiro) | Tempo de existência da construção |
+| tipo_construcao | TipoConstrEnum | Não | MADEIRA, ALVENARIA, MISTO | |
+| tempo_terreno | INT | Não | Anos (inteiro) | Tempo de ocupação do terreno, independente da construção |
+| uso_imovel | UsoImovelEnum | Não | RESIDENCIAL, COMERCIAL, MISTO | |
+| renda_familiar | Decimal | Não | Valor em R$ | `{restrito}` LGPD |
+| cadastro_completo | Boolean | Sim | true / false | `false` quando campos obrigatórios ausentes (RN011) |
+| data_registro | DateTime | Sim | Gerado automaticamente | |
+
+**Observação**: O responsável do núcleo é identificado através da classe de associação MembroNucleo, não por um campo direto em NucleoFamiliar (RN002).
+
+RN002: o ChefeDaFamilia vinculado como responsável deve ser maior de 18 anos. RN012: um indivíduo não pode pertencer a dois núcleos simultaneamente.
+
+---
+
+### MembroNucleo
+
+Classe de associação entre ChefeDaFamilia e NucleoFamiliar. Registra os atributos específicos do vínculo de cada pessoa com o núcleo — dados que não pertencem nem à pessoa nem ao núcleo isoladamente. **Chave primária composta**: (individuo_id, nucleo_familiar_id).
+
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|---|---|---|---|---|
+| individuo_id | UUID | Sim | FK para ChefeDaFamilia | Parte da PK composta |
+| nucleo_familiar_id | UUID | Sim | FK para NucleoFamiliar | Parte da PK composta |
+| vinculo_familiar | String | Não | Texto livre | Tipo de vínculo (ex.: filho, cônjuge, agregado) |
+| grau_parentesco | String | Não | Texto livre | Relativo ao responsável, conforme ficha SDUH |
+| escolaridade | EscolaridadeEnum | Não | SEM_INSTRUCAO até SUPERIOR | |
+| ocupacao | SitOcupEnum | Não | EMPREGADO até SEM_RENDA | Enum a ser validado com parceiro |
+| renda | Decimal | Não | Valor em R$ | `{restrito}` LGPD |
+
+**Restrição de unicidade**: a combinação (individuo_id, nucleo_familiar_id) é única, garantindo que um indivíduo pertence a no máximo um núcleo familiar (RN012).
+
+---
+
+### Localizacao
+
+Composição de NucleoFamiliar — ponto georreferenciado do domicílio.
+
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|---|---|---|---|---|
+| id | UUID | Sim | Gerado automaticamente | Chave primária |
+| latitude | Decimal | Sim | Graus decimais WGS84 | Captura via GPS, campo mínimo (RF012) |
+| longitude | Decimal | Sim | Graus decimais WGS84 | Captura via GPS, campo mínimo (RF012) |
+| setor_risco_id | UUID | Não | FK para SetorRisco | Lista oficial a ser fornecida pela Defesa Civil |
+| logradouro | String | Não | Texto livre | Endereço formal |
+| numero | String | Não | Texto livre | |
+| complemento | String | Não | Texto livre | |
+| bairro | String | Não | Texto livre | |
+| cidade | String | Não | Texto livre | |
+| cep | String | Não | 8 dígitos | |
+| referencia | String | Não | Texto livre | Ponto de referência descritivo para uso em campo |
+| nucleo_familiar_id | UUID | Sim | FK para NucleoFamiliar | Chave estrangeira de composição |
+
+Campos mínimos para cadastro parcial (RF012): `latitude` e `longitude`.
+
+---
+
+### SetorRisco
+
+Entidade geográfica administrativa pré-cadastrada pela Defesa Civil. A lista oficial de setores deve ser fornecida pelo parceiro antes de popular esta classe.
+
+| Atributo | Tipo | Obrig. | Domínio / Valores | Observações |
+|---|---|---|---|---|
+| id | UUID | Sim | Gerado automaticamente | Chave primária |
+| codigo | String | Sim | Texto livre | `{unique}` identificador oficial |
+| nivel_risco | NivelRiscoEnum | Sim | BAIXO, MEDIO, ALTO, MUITO_ALTO | |
+
+---
+
+### Regras de Negócio Referenciadas
+
+| Regra | Descrição | Classes afetadas |
+|---|---|---|
+| RN001 | CPF e NIS são únicos no banco quando presentes | ChefeDaFamilia |
+| RN002 | Responsável pelo núcleo deve ser maior de 18 anos | NucleoFamiliar |
+| RN003 | Registros de auditoria não podem ser editados ou excluídos | Agente |
+| RN005 | Campos de saúde e renda restritos a perfis autorizados | ChefeDaFamilia, Vulnerabilidade, NucleoFamiliar, MembroNucleo |
+| RN011 | Cadastro parcial permitido com campos mínimos: nome, dataNascimento, latitude e longitude | ChefeDaFamilia, Localizacao |
+| RN012 | Um indivíduo não pode pertencer a dois núcleos simultaneamente | MembroNucleo (chave composta) |
+| RF008 | Sistema rastreia qual agente realizou cada cadastro, somente criação | Agente, NucleoFamiliar |
+| RF012 | Sistema deve aceitar cadastros incompletos | ChefeDaFamilia, NucleoFamiliar, Localizacao |
+| RF013 | Sistema deve permitir vínculo familiar entre membros e núcleo | MembroNucleo |
+| RN-NF01 | Pendente (P-06): regra sobre núcleo em múltiplas ocorrências ativas ainda não decidida | NucleoFamiliar |
+
+---
+
+### Campos em Destaque na Ocorrência
+
+Campos exibidos com prioridade visual na tela de atendimento:
+
+| Campo | Classe | Motivo |
+|---|---|---|
+| nome | ChefeDaFamilia | Identificação imediata |
+| Idade calculada de dataNascimento | ChefeDaFamilia | Triagem de vulnerabilidade |
+| telefone1 | ChefeDaFamilia | Contato de emergência |
+| status | ChefeDaFamilia | Situação atual |
+| doenca_idoso, doenca_crianca, pcd, gestante, lactante | Vulnerabilidade | Prioridade de atendimento |
+| latitude e longitude | Localizacao | Localização para deslocamento |
+| tipoDesastre | Ocorrencia | Contexto imediato do evento |
+| status | Ocorrencia | Estado operacional atual |
+| dataHoraRegistro | Ocorrencia | Cronologia do evento |
 
 ### 3.2.4. Diagrama de Sequência UML (sprint 3)
 
-*Ao menos um fluxo prioritário, mostrando a interação entre as camadas Controller → Service → Repository → Banco. Linhas de vida verticais, ativação correta, mensagens síncronas e assíncronas diferenciadas, retornos tracejados.*
+Um diagrama de sequência é um tipo de diagrama comportamental da UML (Unified Modeling Language) focado em demonstrar como e em que ordem os componentes de um sistema interagem entre si ao longo do tempo para realizar uma tarefa específica.
+
+<div align="center">
+  <p><strong>Figura 09: Diagrama de Sequência para o Caso de Uso 1</strong></p>
+    <a href="../assets/figura7-Diagrama-de-sequencia-UC1.png" target="_blank">
+      <img src="../assets/figura7-Diagrama-de-sequencia-UC1.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 1" width="800">
+    </a>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+O diagrama ilustra o fluxo técnico de Cadastro de Família via aplicativo móvel para a Defesa Civil. O processo inicia com a normalização dos dados e validações rigorosas, como o bloqueio de datas futuras e a checagem matemática do CPF/NIS. Qualquer inconsistência interrompe o fluxo imediatamente, alertando o agente. Com os dados corretos, o sistema consulta o banco para evitar duplicidade de registros. A seguir, a vulnerabilidade da família é calculada e as coordenadas de GPS são capturadas automaticamente de forma assíncrona. Por fim, o cadastro é salvo no Banco Central (online) ou no cache local (offline), garantindo total resiliência da operação.
+
+---
+
+<div align="center">
+  <p><strong>Figura 10: Diagrama de Sequência para o Caso de Uso 2</strong></p>
+    <a href="../assets/figura8-Diagrama-de-sequencia-UC2.png" target="_blank">
+      <img src="../assets/figura8-Diagrama-de-sequencia-UC2.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 2" width="800">
+    </a>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+O diagrama ilustra o fluxo técnico de Cadastro de Área de Risco Socioestrutural via aplicativo móvel para a Defesa Civil. O processo inicia com a validação das permissões do agente, interrompendo o fluxo imediatamente caso ele não tenha autorização para editar o mapa. Com o acesso liberado, o sistema aciona a captura automática e assíncrona das coordenadas via satélite (GPS). Em seguida, essas coordenadas são enviadas a uma API de geolocalização secundária para a conversão reversa, transformando latitude e longitude em dados de endereço. Após processar a anexação opcional de fotos da ocorrência, o registro da área de risco é estruturado e salvo garantindo total resiliência da operação: no Banco Central (online) ou no cache local como pendente (offline).
+
+---
+
+<div align="center">
+  <p><strong>Figura 11: Diagrama de Sequência para o Caso de Uso 3</strong></p>
+    <a href="../assets/figura9-Diagrama-de-sequencia-UC3.png" target="_blank">
+      <img src="../assets/figura9-Diagrama-de-sequencia-UC3.png" alt="Clique para ampliar o Diagrama de Sequência do Caso de Uso 3" width="800">
+    </a>
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+O diagrama ilustra o fluxo técnico de geração de inteligência estratégica para a Defesa Civil através do relatório de vulnerabilidade e logística. O processo inicia-se com a aplicação de filtros obrigatórios, como período e região, sendo o fluxo imediatamente interrompido caso os critérios mínimos não sejam preenchidos. Após a validação, o sistema consulta a base de dados central para extrair informações sobre população e áreas de risco, submetendo-as a um processamento lógico que transforma dados brutos em indicadores de apoio à decisão. O resultado é consolidado numa entidade de relatório e exibido num dashboard interativo para consulta imediata. Para garantir total versatilidade operacional, o fluxo prevê uma extensão opcional que permite ao gestor acionar um controlador de exportação para converter os resultados em ficheiros externos, como PDF ou Excel, assegurando a portabilidade e a utilidade da informação fora do sistema central.
 
 ### 3.2.5. Diagrama de Atividades ou Estados (sprint 3)
 
@@ -652,9 +1070,91 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 *Documente os design patterns utilizados (Repository, Strategy, Factory, DTO etc.) e quais princípios SOLID se aplicam. Justifique a adoção de cada padrão com base em uma necessidade real do projeto.*
 
-## 3.3. Wireframes (sprint 2)
+## 3.3. Wireframes
 
-*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
+
+
+### 3.3.1. Wireframes da Tela de Cadastro
+
+Este wireframe representa a tela de cadastro individual utilizada pela Defesa Civil de Santo André para registrar informações pessoais dos moradores atendidos. A interface possui campos para identificação civil, como nome, CPF, RG, NIS, data e local de nascimento, além de informações complementares como gênero, estado civil, profissão, nome dos pais e cor/raça.
+
+Os campos foram organizados de forma simples e objetiva, facilitando o preenchimento e a leitura das informações pelos agentes responsáveis. O formulário também utiliza botões de seleção para opções de gênero, tornando a interação mais rápida e intuitiva. O objetivo da tela é centralizar os dados pessoais dos indivíduos de maneira padronizada, garantindo maior organização e eficiência no processo de atendimento e registro.
+<div align="center">
+  <p>Figura 12: Wireframe tela formulario</p>
+  <img src="../assets/wireframes/figura10-WireframeIndividuo.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+[Link para documento do wireframe](https://www.figma.com/design/Wg7CrKpquQ0VpU4AA1cbeq/Sem-t%C3%ADtulo?node-id=0-1&t=leIgBMRUSbY59ivP-1)
+
+---
+
+Este wireframe representa a tela de cadastro de residências utilizada pela Defesa Civil de Santo André para registrar informações sobre imóveis atendidos. A interface contém campos relacionados ao endereço da residência, como endereço, número, complemento e CEP, além de uma área destinada ao envio da foto da fachada do imóvel.
+
+O formulário também possui seções para classificação do tipo de construção (madeira, alvenaria ou mista), finalidade do imóvel (residencial, comercial ou misto) e nível de risco da construção (R1, R2 ou R3).
+
+Na área de detalhes, são exibidas labels de identificação rápida, utilizadas para destacar características importantes da residência ou dos moradores, como presença de pessoas PCD, idosos, cadeirantes, animais, entre outros. Essas informações auxiliam a Defesa Civil na priorização e organização dos atendimentos.
+
+A estrutura da tela foi desenvolvida de forma objetiva e intuitiva, permitindo um preenchimento rápido e organizado das informações durante as visitas e análises realizadas pela equipe.
+<div align="center">
+  <p>Figura 13: Wireframe tela formulario</p>
+  <img src="../assets/wireframes/figura11-WireframeImóvel.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+[Link para documento do wireframe](https://www.figma.com/design/XQZO9HgFYfftgw9yK0Nglk/Wireframe-Formul%C3%A1rio-Defesa-Civil-de-Santo-Andr%C3%A9---Im%C3%B3vel?t=DgiyQuYk4kA0qCt1-0)
+
+
+### 3.3.2 Wireframes da Tela de Visualização de Dados
+
+O wireframe do painel principal de Análise de Dados (Desktop) foi estruturado utilizando um sistema de grids em layout de colunas e blocos, com o objetivo de otimizar a leitura rápida de dados críticos pela gestão da Defesa Civil. 
+
+Na parte superior, o cabeçalho apresenta a identificação do sistema e introduz um menu de navegação global com botões para as áreas de "Dados" e "Cadastro", além de uma barra de "Pesquisar", resolvendo a jornada do usuário ao permitir uma transição fluida entre a visualização estratégica e a consulta de registros específicos. 
+
+À esquerda, a barra lateral de filtros traz opções específicas e alinhadas diretamente ao modelo de banco de dados — como Gênero, Bairro, Construção, Uso do Imóvel, Cor/Raça e Idade —, demonstrando na prática como as métricas serão cruzadas para isolar cenários de vulnerabilidade. 
+
+No corpo central da interface, os Indicadores de Desempenho (KPIs) ganham destaque no topo com três blocos numéricos de tipografia ampliada (Famílias Cadastradas, Pessoas em Risco Extremo e Total de Pessoas Cadastradas), aplicando conceitos de estatística descritiva para que os dados mais urgentes sejam o primeiro ponto de contato visual. 
+
+Logo abaixo, a maior área da tela é dedicada ao Mapa de Risco, reafirmando o foco geoespacial da solução, ladeado por espaços destinados a gráficos que exibirão distribuições complementares. Por fim, a seção inferior apresenta uma tabela de "Últimos Cadastros", que atua como um registro em tempo real para que a coordenação possa acompanhar o fluxo de trabalho dos agentes de campo e ter acesso imediato às ocorrências mais recentes.
+
+<div align="center">
+    <p>Figura</p>
+    <img src="../assets/wireframes/WireframeTelaDados.png" width="800">
+    <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+---
+
+
+O wireframe referente à tela de resultados de pesquisa mantém a consistência estrutural do painel principal, preservando o cabeçalho de navegação e a barra lateral de filtros (como Gênero, Bairro e Uso do Imóvel) para garantir que a gestão não perca o contexto de sua análise.
+
+O grande diferencial desta interface está na área de conteúdo central, que substitui os dashboards visuais por uma visualização focada em dados brutos, indicada pelo cabeçalho "Exibindo resultados para: pesquisa".
+
+Os blocos empilhados horizontalmente representam os registros detalhados das famílias, indivíduos ou áreas de risco que atendem aos critérios buscados, oferecendo uma leitura linear e organizada das informações do banco de dados.
+Por fim, no canto inferior direito, a inclusão do botão "Exportar dados" destaca o cumprimento de um requisito funcional essencial para a operação da Defesa Civil, permitindo que a coordenação faça o download das informações filtradas (como em formato CSV ou PDF) para a elaboração de relatórios, prestação de contas ou planejamento logístico de contingência com outras secretarias.
+
+<div align="center">
+    <p>Figura</p>
+    <img src="../assets/wireframes/WireframeTelaPesquisa.png" width="800">
+    <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+
+---
+
+O wireframe de Visualização Expandida do Mapa de Risco demonstra um nível aprofundado de interação no sistema da Defesa Civil. Mantendo a consistência de navegação, a interface preserva o cabeçalho superior e a barra lateral de filtros refinados (Gênero, Bairro, Construção, etc.) fixos na tela.
+
+O grande diferencial desta visualização é a maximização do componente "Mapa de Risco", que passa a ocupar a totalidade da área central, suprimindo temporariamente os KPIs numéricos e gráficos complementares.
+
+Essa decisão de design atende a um requisito crucial da gestão de desastres: o foco geoespacial detalhado. Ao ampliar o mapa, a coordenação (Gestora) ganha uma área de trabalho limpa para focar exclusivamente na topografia e na distribuição territorial das vulnerabilidades.
+
+Isso permite cruzar os dados dos filtros laterais diretamente com o mapa em tela cheia, facilitando a identificação precisa de ruas em área de deslizamento/enchente, rotas de evacuação e o raio de alcance dos abrigos mais próximos, sem a distração visual de outros painéis.
+
+<div align="center">
+    <p>Figura</p>
+    <img src="../assets/wireframes/WireframeMapaRisco.png" width="800">
+    <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+    
 
 ## 3.4. Guia de estilos (sprint 3)
 
@@ -682,19 +1182,359 @@ Este caso de uso transforma os dados brutos em inteligência estratégica para a
 
 ### 3.6.1. Modelo Entidade-Relacionamento (ER) (sprint 2)
 
-*Apresente o modelo ER conceitual com entidades, atributos e relacionamentos. Use notação consistente (Chen ou Crow's Foot — não misture).*
+&ensp;Para organizar as informações que a plataforma vai armazenar, foi desenvolvido o Modelo Entidade-Relacionamento do sistema. Ele representa visualmente como os dados se conectam entre si, desde o cadastro de uma família até a identificação do setor de risco em que ela está localizada. Esse modelo foi construído com base nas necessidades reais da Defesa Civil de Santo André, levando em conta como os agentes de campo coletam informações e como os gestores precisam consultá-las no dia a dia.
+
+<div align="center">
+  <p>Figura 14: Modelo Entidade Relacionamento </p>
+  <img src="../assets/figura7-Modelo-ER.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
+ 
+ &ensp;O modelo reflete a lógica de funcionamento do sistema: uma família é composta por indivíduos, cada um com seu perfil, e está associada a uma localização dentro de um setor de risco específico. Além disso, cada núcleo familiar possui um registro de vulnerabilidade que permite identificar quais famílias precisam de atendimento prioritário em situações de emergência. Essa estrutura garante que os dados coletados em campo sejam organizados de forma clara e acessível para a tomada de decisão da Defesa Civil.
+
+
 
 ### 3.6.2. Diagrama Entidade-Relacionamento (DER) (sprint 2)
 
-*Posicione aqui o DER com cardinalidades explícitas em ambos os lados de cada relação e identificação de PK/FK. O DER deve ser coerente com o diagrama de classes (3.2.3).*
+<div align="center">
+  <p>Figura 15: Diagrama Entidade-Relacionamento (DER) </p>
+  <img src="../assets/figura7-DiagramaEntidadeRelacionamento.png" width="800">
+  <p>Fonte: Material produzido pelos autores (2026)</p>
+</div>
 
 ### 3.6.3. Modelo Relacional e Modelo Físico (sprints 2 e 4)
 
-*Posicione aqui os diagramas de modelos relacionais do banco de dados, apresentando todos os esquemas de tabelas e suas relações. Inclua as migrations DDL numeradas e reproduzíveis (`CREATE TABLE`, `CREATE INDEX`, constraints `NOT NULL`, `UNIQUE`, `FOREIGN KEY`, `CHECK`). Utilize texto para complementar suas explicações quando necessário.*
+#### Visão Geral do Modelo Relacional
+
+O modelo relacional da solução é composto por seis entidades principais que formam o núcleo do sistema de cadastro socioestrutural e gestão de riscos:
+
+- **chefe_da_familia**: Armazena dados biográficos e socioeconômicos do chefe de família, incluindo identificação (CPF, NIS, RG), dados pessoais, contato e renda.
+- **nucleo_familiar**: Representa o núcleo familiar como agrupador de indivíduos, vinculado a um chefe de família e contendo dados estruturais da habitação.
+- **vulnerabilidade**: Armazena informações sobre vulnerabilidades específicas do núcleo familiar (doenças, gestação, PCD, etc.).
+- **setor_risco**: Define os setores de risco geográficos com classificação de nível de risco.
+- **localizacao**: Armazena informações geográficas e de endereço, incluindo coordenadas GPS e vinculação a setores de risco.
+- **membro_nucleo**: Tabela de associação que vincula indivíduos ao núcleo familiar com informações de vínculo e parentesco.
+
+Os relacionamentos estabelecem que:
+- Um **chefe_da_familia** vincula-se a **um nucleo_familiar** (1:1)
+- Um **nucleo_familiar** pode ter **múltiplos membro_nucleo** (1:N)
+- Um **nucleo_familiar** tem **uma vulnerabilidade** associada (1:1)
+- Um **nucleo_familiar** tem **uma localizacao** associada (1:1)
+- Uma **localizacao** pode estar em **um setor_risco** (N:1)
+
+#### Migrations DDL Numeradas e Reproduzíveis
+
+##### Migration 001: Criar tabela `chefe_da_familia`
+
+```sql
+CREATE TABLE chefe_da_familia (
+    id UUID PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cpf VARCHAR(14) UNIQUE,
+    nis VARCHAR(20) UNIQUE,
+    rg VARCHAR(20) UNIQUE,
+    data_nascimento DATE NOT NULL CHECK (data_nascimento <= CURRENT_DATE),
+    local_nascimento VARCHAR(255),
+    genero VARCHAR(50) CHECK (genero IN ('MASCULINO', 'FEMININO', 'OUTRO')),
+    escolaridade VARCHAR(100),
+    ocupacao VARCHAR(100),
+    renda DECIMAL(10,2) CHECK (renda >= 0),
+    cor_raca VARCHAR(50),
+    estado_civil VARCHAR(50),
+    profissao VARCHAR(100),
+    nome_mae VARCHAR(255),
+    nome_pai VARCHAR(255),
+    telefone1 VARCHAR(20),
+    telefone2 VARCHAR(20),
+    email VARCHAR(255),
+    foto_url TEXT,
+    status VARCHAR(50) NOT NULL CHECK (status IN ('ATIVO', 'INATIVO', 'PENDENTE')),
+    data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_chefe_cpf ON chefe_da_familia(cpf);
+CREATE INDEX idx_chefe_nis ON chefe_da_familia(nis);
+CREATE INDEX idx_chefe_nome ON chefe_da_familia(nome);
+CREATE INDEX idx_chefe_status ON chefe_da_familia(status);
+```
+
+##### Migration 002: Criar tabela `nucleo_familiar`
+
+```sql
+CREATE TABLE nucleo_familiar (
+    id UUID PRIMARY KEY,
+    regiao_ficha VARCHAR(255),
+    video_responsavel VARCHAR(255),
+    tempo_construcao INT CHECK (tempo_construcao >= 0),
+    tipo_construcao VARCHAR(100),
+    tempo_terreno INT CHECK (tempo_terreno >= 0),
+    uso_imovel VARCHAR(100),
+    renda_familiar DECIMAL(10,2) CHECK (renda_familiar >= 0),
+    cadastro_completo BOOLEAN DEFAULT FALSE,
+    data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    chefe_familia_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_chefe_familia
+        FOREIGN KEY (chefe_familia_id)
+        REFERENCES chefe_da_familia(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_nucleo_chefe ON nucleo_familiar(chefe_familia_id);
+CREATE INDEX idx_nucleo_regiao ON nucleo_familiar(regiao_ficha);
+CREATE INDEX idx_nucleo_data ON nucleo_familiar(data_registro);
+```
+
+##### Migration 003: Criar tabela `vulnerabilidade`
+
+```sql
+CREATE TABLE vulnerabilidade (
+    id UUID PRIMARY KEY,
+    doenca_idoso BOOLEAN DEFAULT FALSE,
+    doenca_crianca BOOLEAN DEFAULT FALSE,
+    doenca_cronica BOOLEAN DEFAULT FALSE,
+    gestante BOOLEAN DEFAULT FALSE,
+    lactante BOOLEAN DEFAULT FALSE,
+    pcd BOOLEAN DEFAULT FALSE,
+    deficiencia BOOLEAN DEFAULT FALSE,
+    restrito BOOLEAN DEFAULT FALSE,
+    nucleo_familiar_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_vulnerabilidade_nucleo
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_vulnerabilidade_nucleo ON vulnerabilidade(nucleo_familiar_id);
+```
+
+##### Migration 004: Criar tabela `setor_risco`
+
+```sql
+CREATE TABLE setor_risco (
+    id UUID PRIMARY KEY,
+    codigo VARCHAR(50) UNIQUE NOT NULL,
+    nivel_risco VARCHAR(50) NOT NULL CHECK (nivel_risco IN ('BAIXO', 'MEDIO', 'ALTO'))
+);
+
+CREATE INDEX idx_setor_codigo ON setor_risco(codigo);
+CREATE INDEX idx_setor_nivel ON setor_risco(nivel_risco);
+```
+
+##### Migration 005: Criar tabela `localizacao`
+
+```sql
+CREATE TABLE localizacao (
+    id UUID PRIMARY KEY,
+    latitude DECIMAL(10,7) NOT NULL CHECK (latitude >= -90 AND latitude <= 90),
+    longitude DECIMAL(10,7) NOT NULL CHECK (longitude >= -180 AND longitude <= 180),
+    setor_risco_id UUID,
+    logradouro VARCHAR(255) NOT NULL,
+    numero VARCHAR(20),
+    complemento VARCHAR(255),
+    bairro VARCHAR(100) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    cep VARCHAR(20),
+    referencia VARCHAR(255),
+    nucleo_familiar_id UUID UNIQUE NOT NULL,
+    CONSTRAINT fk_localizacao_setor
+        FOREIGN KEY (setor_risco_id)
+        REFERENCES setor_risco(id) ON DELETE SET NULL,
+    CONSTRAINT fk_localizacao_nucleo
+    FOREIGN KEY (nucleo_familiar_id)
+    REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_localizacao_nucleo ON localizacao(nucleo_familiar_id);
+CREATE INDEX idx_localizacao_setor ON localizacao(setor_risco_id);
+CREATE INDEX idx_localizacao_coordenadas ON localizacao(latitude, longitude);
+CREATE INDEX idx_localizacao_bairro ON localizacao(bairro);
+CREATE INDEX idx_localizacao_cidade ON localizacao(cidade);
+```
+
+##### Migration 006: Criar tabela `membro_nucleo`
+
+```sql
+CREATE TABLE membro_nucleo (
+    individuo_id UUID NOT NULL,
+    nucleo_familiar_id UUID NOT NULL,
+    vinculo_familiar VARCHAR(100),
+    grau_parentesco VARCHAR(100),
+    escolaridade VARCHAR(100),
+    ocupacao VARCHAR(100),
+    renda DECIMAL(10,2),
+    PRIMARY KEY (individuo_id, nucleo_familiar_id),
+    CONSTRAINT fk_membro_individuo
+        FOREIGN KEY (individuo_id)
+        REFERENCES chefe_da_familia(id) ON DELETE RESTRICT,
+    CONSTRAINT fk_membro_nucleo
+        FOREIGN KEY (nucleo_familiar_id)
+        REFERENCES nucleo_familiar(id) ON DELETE RESTRICT
+);
+
+CREATE INDEX idx_membro_nucleo ON membro_nucleo(nucleo_familiar_id);
+CREATE INDEX idx_membro_individuo ON membro_nucleo(individuo_id);
+```
+
+#### Constraints e Regras de Integridade Aplicadas
+
+| Constraint | Tabela | Descrição |
+|---|---|---|
+| **PRIMARY KEY (UUID)** | Todas | Identificação única universal de cada registro |
+| **FOREIGN KEY** | nucleo_familiar → chefe_da_familia | Garante vínculo obrigatório com chefe de família |
+| **FOREIGN KEY** | vulnerabilidade → nucleo_familiar | Garante que cada vulnerabilidade pertence a um núcleo |
+| **FOREIGN KEY** | localizacao → nucleo_familiar | Garante que cada localização está vinculada a um núcleo |
+| **FOREIGN KEY** | localizacao → setor_risco | Vincula localização a setor de risco (opcional) |
+| **FOREIGN KEY** | membro_nucleo → chefe_da_familia | Vincula membro ao indivíduo |
+| **FOREIGN KEY** | membro_nucleo → nucleo_familiar | Vincula membro ao núcleo familiar |
+| **UNIQUE** | chefe_da_familia | CPF, NIS e RG não podem se repetir |
+| **UNIQUE** | nucleo_familiar | Chefe de família vinculado a apenas um núcleo |
+| **UNIQUE** | vulnerabilidade | Um perfil de vulnerabilidade por núcleo |
+| **UNIQUE** | localizacao | Uma localização por núcleo |
+| **UNIQUE** | setor_risco | Código de setor não pode se repetir |
+| **NOT NULL** | chefe_da_familia | Nome é obrigatório |
+| **NOT NULL** | localizacao | Logradouro, bairro, cidade, coordenadas obrigatórios |
+| **NOT NULL** | nucleo_familiar | Chefe de família obrigatório |
+| **CHECK** | localizacao | Latitude deve estar entre -90 e 90 |
+| **CHECK** | localizacao | Longitude deve estar entre -180 e 180 |
+| **ON DELETE RESTRICT** | vulnerabilidade, localizacao, membro_nucleo | Impede exclusão de registros que possuem dependências vinculadas |
+| **ON DELETE RESTRICT** | nucleo_familiar | Impede exclusão de chefe sem remover núcleo |
+
+#### Modelo Relacional
+
+A imagem a seguir mostra as entidades principais (`chefe_da_familia`, `nucleo_familiar`, `vulnerabilidade`, `setor_risco`, `localizacao` e `membro_nucleo`), seus atributos e como elas se relacionam. A tabela `nucleo_familiar` é a entidade central que agrega informações da família, e `localizacao` é a ponte de ligação entre a família e sua posição geográfica em um setor de risco.
+
+<div align="center">
+  <p>Figura 16: Modelo Relacional</p>
+  <img src="../assets/modelo_relacional.png" width="800">
+  <p>Fonte: Material produzido pelos autores com Supabase (2026)</p>
+</div>
+
+**Observações sobre o modelo:**
+
+1. **Identificadores UUID**: Utiliza UUIDs ao invés de inteiros para melhor escalabilidade e portabilidade de dados.
+2. **Integridade Referencial**: As constraints `ON DELETE RESTRICT` impedem a exclusão acidental de chefes de família sem remover primeiro o núcleo vinculado. As relações utilizam ON DELETE RESTRICT para impedir exclusões acidentais e preservar o histórico de dados, conforme solicitado pela Defesa Civil.
+3. **Índices de Busca**: Criados nas colunas mais consultadas (CPF, NIS, nome, coordenadas geográficas) para otimizar o desempenho conforme RNF de capacidade.
+4. **Separação de Responsabilidades**: A tabela `vulnerabilidade` segrega dados sensíveis de vulnerabilidade em entidade dedicada, facilitando consultas focadas em perfis de risco.
+5. **Geolocalização**: A tabela `localizacao` armazena coordenadas com validação de intervalos (latitude -90 a 90, longitude -180 a 180) e índices compostos para buscas por proximidade.
+6. **Tabela de Associação**: `membro_nucleo` permite registrar múltiplos indivíduos em um núcleo familiar com informações de parentesco e vinculação.
+7. **Timestamps**: Campo `data_registro` em cada tabela rastreia quando o registro foi criado, facilitando auditoria e análises temporais.
+
 
 ### 3.6.4. Consultas SQL e lógica proposicional (sprint 2)
 
 *posicione aqui uma lista de consultas SQL compostas, realizadas pelo back-end da aplicação web, com sua respectiva lógica proposicional, descrita conforme template abaixo. Lembre-se que para usar LaTeX em markdown, basta você colocar as expressões entre $ ou $$*
+
+## Consultas SQL Compostas e Lógica Proposicional
+
+**O que são Consultas SQL Compostas?**
+
+Uma consulta SQL composta é uma operação de recuperação de dados que envolve múltiplas tabelas do banco de dados relacionadas entre si. Diferentemente de consultas simples (que consultam apenas uma tabela), as consultas compostas utilizam **JOINs** para conectar e combinar dados de diferentes tabelas, permitindo recuperar informações estratégicas que estão distribuídas no modelo de dados. Os **JOINs** são comandos SQL que servem para relacionar tabelas do banco de dados, estabelecendo correspondências entre registros baseadas em chaves estrangeiras (foreign keys) ou outras condições de associação.
+
+Essas consultas compostas realizam operações executadas pelo back-end da aplicação para extrair informações do banco de dados, combinando dados de entidades diferentes através de JOINs e aplicando filtros específicos (via cláusulas `WHERE`, `AND` e `OR`) conforme as regras de negócio do sistema.
+
+**Representação em Lógica Proposicional**
+
+Além da implementação em SQL, é possível representar a lógica dessas consultas utilizando lógica proposicional, permitindo descrever matematicamente as condições utilizadas nos filtros. Essa abordagem facilita a compreensão formal das regras aplicadas pelo sistema, especialmente em cenários de priorização de famílias vulneráveis, análise de risco e monitoramento territorial.
+
+---
+
+### Consulta 1 — Famílias em Área de Alto Risco com Vulnerabilidade Social
+
+#### Objetivo
+
+Identificar famílias localizadas em setores classificados como alto risco e que possuam algum tipo de vulnerabilidade social relevante, como doença crônica ou pessoa com deficiência (PCD).
+
+#### Consulta SQL
+
+```sql
+SELECT
+    cf.nome,
+    sr.nivel_risco,
+    v.doenca_cronica,
+    v.pcd
+FROM chefe_da_familia cf
+JOIN nucleo_familiar nf
+    ON nf.chefe_familia_id = cf.id
+JOIN vulnerabilidade v
+    ON v.nucleo_familiar_id = nf.id
+JOIN localizacao l
+    ON l.nucleo_familiar_id = nf.id
+JOIN setor_risco sr
+    ON sr.id = l.setor_risco_id
+WHERE
+    sr.nivel_risco = 'ALTO'
+    AND (
+        v.doenca_cronica = TRUE
+        OR v.pcd = TRUE
+    );
+```
+
+#### Explicação dos JOINs
+
+A consulta relaciona cinco tabelas do banco de dados através de JOINs sucessivos:
+1. **chefe_da_familia** ↔ **nucleo_familiar**: Vincula o responsável ao seu núcleo
+2. **nucleo_familiar** ↔ **vulnerabilidade**: Obtém os dados de vulnerabilidade do núcleo
+3. **nucleo_familiar** ↔ **localizacao**: Recupera a localização do domicílio
+4. **localizacao** ↔ **setor_risco**: Identifica em qual setor de risco a família está localizada
+
+Essa cadeia de JOINs permite combinar dados distribuídos em diferentes tabelas e aplicar filtros na cláusula `WHERE` para encontrar apenas as famílias que atendem aos critérios de risco alto e vulnerabilidade social.
+
+---
+
+### Consulta 2 — Famílias com Cadastro Incompleto
+
+#### Objetivo
+
+Listar núcleos familiares cujo cadastro ainda não foi concluído no sistema. O campo `cadastro_completo = FALSE` indica explicitamente que o registro está **incompleto**, ou seja, faltam campos obrigatórios para finalizar o cadastro (conforme RN011).
+
+#### Consulta SQL
+
+```sql
+SELECT
+    nf.id,
+    cf.nome,
+    nf.data_registro
+FROM nucleo_familiar nf
+JOIN chefe_da_familia cf
+    ON cf.id = nf.chefe_familia_id
+WHERE
+    nf.cadastro_completo = FALSE;
+```
+
+#### Explicação dos JOINs
+
+A consulta utiliza um **JOIN** entre `nucleo_familiar` e `chefe_da_familia` para relacionar as duas tabelas: cada núcleo familiar está vinculado a um chefe de família através da chave estrangeira `chefe_familia_id`. Isso permite recuperar simultaneamente o identificador do núcleo (`nf.id`), o nome do responsável (`cf.nome`) e a data em que o registro foi criado (`nf.data_registro`).
+
+---
+
+### Consulta 3 — Famílias de Baixa Renda em Determinado Bairro
+
+#### Objetivo
+
+Identificar famílias localizadas em um bairro específico cuja renda familiar esteja abaixo de um determinado valor.
+
+#### Consulta SQL
+
+```sql
+SELECT
+    cf.nome,
+    nf.renda_familiar,
+    l.bairro
+FROM chefe_da_familia cf
+JOIN nucleo_familiar nf
+    ON nf.chefe_familia_id = cf.id
+JOIN localizacao l
+    ON l.nucleo_familiar_id = nf.id
+WHERE
+    l.bairro = 'Centro'
+    AND nf.renda_familiar < 2000;
+```
+
+#### Explicação dos JOINs
+
+A consulta relaciona três tabelas através de JOINs:
+1. **chefe_da_familia** ↔ **nucleo_familiar**: Vincula o responsável ao seu núcleo familiar
+2. **nucleo_familiar** ↔ **localizacao**: Obtém a localização e dados do domicílio
+
+Esses JOINs permitem combinar dados de identificação pessoal (`cf.nome`), informações econômicas (`nf.renda_familiar`) e dados geográficos (`l.bairro`) em uma única consulta, aplicando filtros simultâneos de localidade e faixa de renda.
 
 *Template de SQL + lógica proposicional*
 #1 | ---

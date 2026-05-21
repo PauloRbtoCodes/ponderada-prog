@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /mnt/c/Users/Inteli/Documents/inteli/Modulo-2/g04 log --oneline --all)",
+      "Bash(git -C /mnt/c/Users/Inteli/Documents/inteli/Modulo-2/g04 show 14414ea --stat)",
+      "Bash(git -C /mnt/c/Users/Inteli/Documents/inteli/Modulo-2/g04 show 14414ea --format=\"%an %ae\")",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(pg_isready)",
+      "Read(//usr/bin/**)",
+      "Read(//usr/lib/**)",
+      "Read(//etc/**)",
+      "Bash(dpkg -l)",
+      "Bash(apt list *)",
+      "Bash(sudo apt-get install -y postgresql postgresql-client)",
+      "Bash(docker --version)",
+      "Bash(docker info *)",
+      "Bash(node *)",
+      "Bash(ip route *)",
+      "Bash(sudo -n apt-get install -y postgresql postgresql-client)"
+    ]
+  }
+}
